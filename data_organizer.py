@@ -1,4 +1,5 @@
 import json
+import compress_json
 import csv
 from collections import OrderedDict
 from copy import deepcopy
@@ -159,8 +160,11 @@ class DataOrganizer:
             self.chile["regiones"][region]["recuperados"] = current["confirmados"] - current["activos"] - current["fallecidos"]
             self.chile["regiones"][region]["previous"]["recuperados"] = previous["confirmados"] - previous["activos"] - previous["fallecidos"]
 
-    def save_data(self, minify=True):
-        with open("chile.json", "w") as outfile:
+    def save_data(self, compress=False):
+        if compress:
+            compress_json.dump(self.chile, "./data/chile.json.gz")
+            return
+        with open("./data/chile.json", "w") as outfile:
             if minify:
                 json.dump(self.chile, outfile)
             else:
@@ -173,4 +177,4 @@ organizer.fill_chile_data()
 organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
-organizer.save_data(minify=True)
+organizer.save_data(compress=True)
