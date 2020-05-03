@@ -18,17 +18,17 @@ class InformeParser:
 
     def load_input(self):
         # Load comunas names (es, en, extra)
-        with open("./input/comunas_en.json") as json_file:
+        with open("../names/comunas_en.json") as json_file:
             self.comunas_en = json.load(json_file)
-        with open("./input/comunas_es.json") as json_file:
+        with open("../names/comunas_es.json") as json_file:
             self.comunas_es = json.load(json_file)
-        with open("./input/comunas_extra.json") as json_file:
+        with open("../names/comunas_extra.json") as json_file:
             self.comunas_extra = json.load(json_file)
         self.all_comunas = {*self.comunas_es, *self.comunas_en, *self.comunas_extra}
         # Load fixed comunas names
-        with open("./input/fixed_comunas.json") as json_file:
+        with open("../names/fixed_comunas.json") as json_file:
             self.fixed_comunas = json.load(json_file)
-        with open("./input/fixed_comunas_extra.json") as json_file:
+        with open("../names/fixed_comunas_extra.json") as json_file:
             self.fixed_comunas.update(json.load(json_file))
 
     def parse_tables(self):
