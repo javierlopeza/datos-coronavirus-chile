@@ -7,6 +7,7 @@ from copy import deepcopy
 CHILEAN_POPULATION = 19458310
 BASE_PLACE = {
     "poblacion": None,
+    "tasa_activos": {"date": None, "value": None},
     "confirmados": {"date": None, "value": None},
     "activos": {"date": None, "value": None},
     "recuperados": {"date": None, "value": None},
@@ -93,6 +94,11 @@ class DataOrganizer:
             self.chile["series"][data_label] = data_values
             self.chile[data_label] = data_values[-1]
             self.chile["previous"][data_label] = data_values[-2]
+        # Tasa activos
+        self.chile["tasa_activos"] = {
+            "date": self.chile["activos"]["date"],
+            "value": (self.chile["activos"]["value"] / self.chile["poblacion"]) * 100000,
+        }
 
     def fill_regiones_data(self):
         self.chile["regiones"] = {
@@ -146,12 +152,26 @@ class DataOrganizer:
                 self.chile["regiones"][region]["comunas"][comuna]["series"]["activos"] = data_values
                 self.chile["regiones"][region]["comunas"][comuna]["activos"] = data_values[-1]
                 self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"]  = data_values[-2]
+                # Tasa activos - Comuna
+                activos = self.chile["regiones"][region]["comunas"][comuna]["activos"]
+                poblacion = self.chile["regiones"][region]["comunas"][comuna]["poblacion"]
+                self.chile["regiones"][region]["comunas"][comuna]["tasa_activos"] = {
+                    "date": activos["date"],
+                    "value": (activos["value"] / poblacion) * 100000,
+                }
             # Activos - Region
             elif row["Comuna"] == "Total":
                 self.chile["regiones"][region]["poblacion"] = poblacion
                 self.chile["regiones"][region]["series"]["activos"] = data_values
                 self.chile["regiones"][region]["activos"] = data_values[-1]
                 self.chile["regiones"][region]["previous"]["activos"]  = data_values[-2]
+                # Tasa activos - Region
+                activos = self.chile["regiones"][region]["activos"]
+                poblacion = self.chile["regiones"][region]["poblacion"]
+                self.chile["regiones"][region]["tasa_activos"] = {
+                    "date": activos["date"],
+                    "value": (activos["value"] / poblacion) * 100000,
+                }
 
     def calculate_recuperados_regiones(self):
         for region in self.chile["regiones"]:
