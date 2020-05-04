@@ -7,15 +7,15 @@ from copy import deepcopy
 CHILEAN_POPULATION = 19458310
 BASE_PLACE = {
     "poblacion": None,
-    "confirmados": None,
-    "activos": None,
-    "recuperados": None,
-    "fallecidos": None,
+    "confirmados": {"date": None, "value": None},
+    "activos": {"date": None, "value": None},
+    "recuperados": {"date": None, "value": None},
+    "fallecidos": {"date": None, "value": None},
     "previous": {
-        "confirmados": None,
-        "activos": None,
-        "recuperados": None,
-        "fallecidos": None,
+        "confirmados": {"date": None, "value": None},
+        "activos": {"date": None, "value": None},
+        "recuperados": {"date": None, "value": None},
+        "fallecidos": {"date": None, "value": None},
     },
     "series": {
         "nuevos_con_sintomas": [],
@@ -91,8 +91,8 @@ class DataOrganizer:
                 for date, value in row.items() if date != "Fecha"
             ]
             self.chile["series"][data_label] = data_values
-            self.chile[data_label] = data_values[-1]["value"]
-            self.chile["previous"][data_label] = data_values[-2]["value"]
+            self.chile[data_label] = data_values[-1]
+            self.chile["previous"][data_label] = data_values[-2]
 
     def fill_regiones_data(self):
         self.chile["regiones"] = {
@@ -110,8 +110,8 @@ class DataOrganizer:
                     for date, value in row.items() if date != "Region"
                 ]
                 self.chile["regiones"][region]["series"]["confirmados"] = data_values
-                self.chile["regiones"][region]["confirmados"] = data_values[-1]["value"]
-                self.chile["regiones"][region]["previous"]["confirmados"] = data_values[-2]["value"]
+                self.chile["regiones"][region]["confirmados"] = data_values[-1]
+                self.chile["regiones"][region]["previous"]["confirmados"] = data_values[-2]
         # Fallecidos
         fallecidos_cumulativo = csv.DictReader(
             open("./minciencia_data/FallecidosCumulativo.csv"))
@@ -123,8 +123,8 @@ class DataOrganizer:
                     for date, value in row.items() if date != "Region"
                 ]
                 self.chile["regiones"][region]["series"]["fallecidos"] = data_values
-                self.chile["regiones"][region]["fallecidos"] = data_values[-1]["value"]
-                self.chile["regiones"][region]["previous"]["fallecidos"] = data_values[-2]["value"]
+                self.chile["regiones"][region]["fallecidos"] = data_values[-1]
+                self.chile["regiones"][region]["previous"]["fallecidos"] = data_values[-2]
 
     def fill_comunas_data(self):
         for comuna in self.comunas_es:
@@ -144,23 +144,29 @@ class DataOrganizer:
                 comuna = self.fix_comuna(row["Comuna"])
                 self.chile["regiones"][region]["comunas"][comuna]["poblacion"] = poblacion
                 self.chile["regiones"][region]["comunas"][comuna]["series"]["activos"] = data_values
-                self.chile["regiones"][region]["comunas"][comuna]["activos"] = data_values[-1]["value"]
-                self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"]  = data_values[-2]["value"]
+                self.chile["regiones"][region]["comunas"][comuna]["activos"] = data_values[-1]
+                self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"]  = data_values[-2]
             # Activos - Region
             elif row["Comuna"] == "Total":
                 self.chile["regiones"][region]["poblacion"] = poblacion
                 self.chile["regiones"][region]["series"]["activos"] = data_values
-                self.chile["regiones"][region]["activos"] = data_values[-1]["value"]
-                self.chile["regiones"][region]["previous"]["activos"]  = data_values[-2]["value"]
+                self.chile["regiones"][region]["activos"] = data_values[-1]
+                self.chile["regiones"][region]["previous"]["activos"]  = data_values[-2]
 
     def calculate_recuperados_regiones(self):
         for region in self.chile["regiones"]:
             current = self.chile["regiones"][region]
             previous = self.chile["regiones"][region]["previous"]
-            self.chile["regiones"][region]["recuperados"] = current["confirmados"] - current["activos"] - current["fallecidos"]
-            self.chile["regiones"][region]["previous"]["recuperados"] = previous["confirmados"] - previous["activos"] - previous["fallecidos"]
+            self.chile["regiones"][region]["recuperados"] = {
+                "date": current["confirmados"]["date"],
+                "value": current["confirmados"]["value"] - current["activos"]["value"] - current["fallecidos"]["value"]
+            }
+            self.chile["regiones"][region]["previous"]["recuperados"] = {
+                "date": previous["confirmados"]["date"],
+                "value": previous["confirmados"]["value"] - previous["activos"]["value"] - previous["fallecidos"]["value"]
+            }
 
-    def save_data(self, compress=False):
+    def save_data(self, compress=False, minify=False):
         if compress:
             compress_json.dump(self.chile, "./data/chile.json.gz")
             return
@@ -177,4 +183,4 @@ organizer.fill_chile_data()
 organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
-organizer.save_data(compress=True)
+organizer.save_data(compress=False, minify=True)
