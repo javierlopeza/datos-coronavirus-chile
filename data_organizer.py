@@ -41,11 +41,6 @@ def load_json(file_name):
 class DataOrganizer:
     def __init__(self):
         self.chile = deepcopy(BASE_PLACE)
-        self.regiones_es = []
-        self.regiones_extra = []
-        self.fixed_regiones = {}
-        self.fixed_comunas = {}
-        self.regiones_comunas = []
 
     def load_input(self):
         # Load regiones names
@@ -54,6 +49,8 @@ class DataOrganizer:
         self.all_regiones = {*self.regiones_es, *self.regiones_extra}
         # Load fixed regiones names
         self.fixed_regiones = load_json("./names/fixed_regiones.json")
+        # Load regiones complete names
+        self.complete_regiones = load_json("./names/complete_regiones.json")
         # Load comunas names
         self.comunas_es = load_json("./names/comunas_es.json")
         self.comunas_en = load_json("./names/comunas_en.json")
@@ -185,6 +182,10 @@ class DataOrganizer:
                 "date": previous["confirmados"]["date"],
                 "value": previous["confirmados"]["value"] - previous["activos"]["value"] - previous["fallecidos"]["value"]
             }
+    
+    def add_regiones_complete_names(self):
+        for region in self.chile["regiones"]:
+            self.chile["regiones"][region]["complete_name"] = self.complete_regiones[region]
 
     def save_data(self, compress=False, minify=False):
         if compress:
@@ -203,4 +204,5 @@ organizer.fill_chile_data()
 organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
+organizer.add_regiones_complete_names()
 organizer.save_data(compress=False, minify=True)
