@@ -6,6 +6,11 @@ from collections import OrderedDict
 INPUT_DATE = "20200501"
 
 
+def load_json(file_name):
+    with open(file_name) as json_file:
+        return json.load(json_file)
+
+
 class InformeParser:
     def __init__(self):
         self.comunas_es = []
@@ -18,18 +23,15 @@ class InformeParser:
 
     def load_input(self):
         # Load comunas names (es, en, extra)
-        with open("../names/comunas_en.json") as json_file:
-            self.comunas_en = json.load(json_file)
-        with open("../names/comunas_es.json") as json_file:
-            self.comunas_es = json.load(json_file)
-        with open("../names/comunas_extra.json") as json_file:
-            self.comunas_extra = json.load(json_file)
+        self.comunas_en = load_json("../names/comunas_en.json")
+        self.comunas_es = load_json("../names/comunas_es.json")
+        self.comunas_extra = load_json("../names/comunas_extra.json")
         self.all_comunas = {*self.comunas_es, *self.comunas_en, *self.comunas_extra}
         # Load fixed comunas names
-        with open("../names/fixed_comunas.json") as json_file:
-            self.fixed_comunas = json.load(json_file)
-        with open("../names/fixed_comunas_extra.json") as json_file:
-            self.fixed_comunas.update(json.load(json_file))
+        self.fixed_comunas = {
+            **load_json("../names/fixed_comunas.json"),
+            **load_json("../names/fixed_comunas_extra.json")
+        }
 
     def parse_tables(self):
         self.tables = camelot.read_pdf(
@@ -55,7 +57,7 @@ class InformeParser:
 
     def save_activos_por_comuna(self):
         activos_por_comuna_data = [
-            {"comuna": comuna, "activos": activos} 
+            {"comuna": comuna, "activos": activos}
             for comuna, activos in self.activos_por_comuna.items()
         ]
         with open("./output/activos_por_comuna_{}.csv".format(INPUT_DATE), "w") as csvfile:
