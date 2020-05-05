@@ -4,6 +4,9 @@ import bs4 as bs
 from copy import deepcopy
 import csv
 import pendulum
+import dateparser
+from dateparser.search import search_dates
+import re
 
 MINSAL_URL = "https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/"
 
@@ -43,10 +46,34 @@ class ReporteParser:
     def fix_region(self, region):
         return self.fixed_regiones.get(region, region)
 
+    def is_new_report(self, soup_minsal):
+        try:
+            # Get actual report date
+            report_date_text_node = soup_minsal.find(string=re.compile("Informe corresponde al"))
+            report_date_text = str(report_date_text_node).strip()
+            self.report_date = search_dates(report_date_text, languages=["es"])[0][1].strftime('%Y-%m-%d')
+            # Get last scrapped report date
+            with open("../minciencia_data/TotalesNacionales.csv", 'r') as csv_file:
+                reader = csv.reader(csv_file)
+                header = next(reader)
+            last_report_date = header[-1]
+            # Compare dates
+            if self.report_date > last_report_date:
+                print("Action: Proceed to parse report.")
+                return True
+            print("No Action: Report already retrieved.")
+        except Exception as error:
+            print(error)
+        return False
+
     def scrap_minsal(self):
         # Fetch MINSAL site
         source_minsal = requests.get(MINSAL_URL, timeout=10)
         soup_minsal = bs.BeautifulSoup(source_minsal.content, features="html.parser")
+
+        # Check if it is a new report
+        if not self.is_new_report(soup_minsal):
+            return
 
         # Scrap regiones
         for region_minsal in self.regiones_minsal:
@@ -75,6 +102,9 @@ class ReporteParser:
         # Calculate activos Chile
         self.chile["activos"] =\
             self.chile["confirmados"] - self.chile["recuperados"] - self.chile["fallecidos"]
+
+        # Save results
+        parser.save_new_values()
 
     def parse_numbers(self):
         for region, metrics in self.regiones.items():
@@ -134,10 +164,3 @@ class ReporteParser:
 parser = ReporteParser()
 parser.load_input()
 parser.scrap_minsal()
-parser.save_new_values()
-
-# for region, metrics in parser.regiones.items():
-#     print(region, metrics)
-
-# print(parser.chile)
-
