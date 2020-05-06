@@ -27,6 +27,7 @@ BASE_PLACE = {
         "recuperados": [],
         "fallecidos": [],
     },
+    "cuarentenas": [],
 }
 
 
@@ -65,6 +66,8 @@ class DataOrganizer:
             **load_json("./names/fixed_comunas.json"),
             **load_json("./names/fixed_comunas_extra.json"),
         }
+        # Load comunas codes
+        self.comunas_codes = load_json("./names/comunas_codes.json")
         # Load {comuna: region} associations
         self.regiones_comunas = load_json("./names/regiones_comunas.json")
 
@@ -187,6 +190,23 @@ class DataOrganizer:
         for region in self.chile["regiones"]:
             self.chile["regiones"][region]["complete_name"] = self.complete_regiones[region]
 
+    def add_cuarentenas_to_comunas(self):
+        cuarentenas_activas = csv.DictReader(
+            open("./minciencia_data/Cuarentenas-Activas.csv"))
+        for row in cuarentenas_activas:
+            comuna_code = row["Código CUT Comuna"]
+            comuna = self.fix_comuna(self.comunas_codes[comuna_code])
+            region = self.regiones_comunas[comuna]
+            # Add cuarentena info to comuna
+            self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"].append({
+                "sector": row["Nombre"],
+                "estado": row["Estado"],
+                "comuna_completa": row["Alcance"] == "Comuna completa",
+                "fecha_inicio": row["Fecha de Inicio"],
+                "fecha_termino": row["Fecha de Término"],
+                "detalle": row["Detalle"],
+            })
+
     def save_data(self, compress=False, minify=False):
         if compress:
             compress_json.dump(self.chile, "./data/chile.json.gz")
@@ -205,4 +225,5 @@ organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
 organizer.add_regiones_complete_names()
+organizer.add_cuarentenas_to_comunas()
 organizer.save_data(compress=False, minify=True)
