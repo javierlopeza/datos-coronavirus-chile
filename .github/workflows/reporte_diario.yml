@@ -34,7 +34,6 @@ jobs:
         with:
           base: master
           branch: reporte-diario-update
-          branch-suffix: timestamp
           commit-message: 'feat: update data from reporte diario'
           committer: Javier López <javierlopez@uc.cl>
           title: 'New reporte diario data update'
