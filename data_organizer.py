@@ -192,19 +192,15 @@ class DataOrganizer:
 
     def add_cuarentenas_to_comunas(self):
         cuarentenas_activas = csv.DictReader(
-            open("./minciencia_data/Cuarentenas-Activas.csv"))
+            open("./minciencia_data/CuarentenasActivas.csv"))
         for row in cuarentenas_activas:
-            comuna_code = row["Código CUT Comuna"]
-            comuna = self.fix_comuna(self.comunas_codes[comuna_code])
-            region = self.regiones_comunas[comuna]
+            region = self.fix_region(row["region"])
+            comuna = self.fix_comuna(row["comuna"])
             # Add cuarentena info to comuna
             self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"].append({
-                "sector": row["Nombre"],
-                "estado": row["Estado"],
-                "comuna_completa": row["Alcance"] == "Comuna completa",
-                "fecha_inicio": row["Fecha de Inicio"],
-                "fecha_termino": row["Fecha de Término"],
-                "detalle": row["Detalle"],
+                "detalle": row["detalle"] if len(row["detalle"]) else None,
+                "fecha_inicio": row["fecha_inicio"],
+                "fecha_termino": row["fecha_termino"],
             })
 
     def save_data(self, minify=False):
