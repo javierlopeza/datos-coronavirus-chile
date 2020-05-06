@@ -3,6 +3,7 @@ import compress_json
 import csv
 from collections import OrderedDict
 from copy import deepcopy
+import pendulum
 
 CHILEAN_POPULATION = 19458310
 BASE_PLACE = {
@@ -193,14 +194,21 @@ class DataOrganizer:
     def add_cuarentenas_to_comunas(self):
         cuarentenas_activas = csv.DictReader(
             open("./minciencia_data/CuarentenasActivas.csv"))
+        now = pendulum.now("America/Santiago").format("YYYY-MM-DD HH:mm")
         for row in cuarentenas_activas:
             region = self.fix_region(row["region"])
             comuna = self.fix_comuna(row["comuna"])
+            fecha_inicio = row["fecha_inicio"]
+            fecha_termino = row["fecha_termino"]
+            is_activa = fecha_inicio < now < fecha_termino
+            is_futura = now < fecha_inicio
             # Add cuarentena info to comuna
             self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"].append({
+                "is_activa": is_activa,
+                "is_futura": is_futura,
                 "detalle": row["detalle"] if len(row["detalle"]) else None,
-                "fecha_inicio": row["fecha_inicio"],
-                "fecha_termino": row["fecha_termino"],
+                "fecha_inicio": fecha_inicio,
+                "fecha_termino": fecha_termino,
             })
 
     def save_data(self, minify=False):
