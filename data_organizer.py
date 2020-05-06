@@ -211,12 +211,11 @@ class DataOrganizer:
                 "fecha_termino": fecha_termino,
             })
 
-    def save_data(self, minify=False):
+    def save_data(self):
         with open("./data/chile.json", "w") as outfile:
-            if minify:
-                json.dump(self.chile, outfile)
-            else:
-                json.dump(self.chile, outfile, indent=4)
+            json.dump(self.chile, outfile, indent=4)
+        with open("./data/chile-minified.json", "w") as outfile:
+            json.dump(self.chile, outfile)
 
 
 organizer = DataOrganizer()
@@ -227,4 +226,4 @@ organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
 organizer.add_regiones_complete_names()
 organizer.add_cuarentenas_to_comunas()
-organizer.save_data(minify=True)
+organizer.save_data()
