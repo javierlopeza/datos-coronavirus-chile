@@ -12,15 +12,6 @@ def load_json(file_name):
 
 
 class InformeParser:
-    def __init__(self):
-        self.comunas_es = []
-        self.comunas_en = []
-        self.comunas_extra = []
-        self.all_comunas = set()
-        self.activos_por_comuna = OrderedDict()
-        self.tables = []
-        self.fixed_comunas = {}
-
     def load_input(self):
         # Load comunas names (es, en, extra)
         self.comunas_en = load_json("../names/comunas_en.json")
@@ -66,9 +57,36 @@ class InformeParser:
             for data in activos_por_comuna_data:
                 writer.writerow(data)
 
+    def merge(self):
+        last_data_path = "../minciencia_data/CasosActivosPorComuna.csv"
+        with open(last_data_path, 'r') as csv_file:
+            reader = iter(list(csv.reader(csv_file)))
+        with open(last_data_path, 'w') as csv_file:
+            writer = csv.writer(csv_file, lineterminator='\n')
+            # Add new informe's date header
+            new_rows = []
+            header = next(reader)
+            header.append(INPUT_DATE)
+            new_rows.append(header)
+            # Add comunas' new activos
+            region_activos = 0
+            for row in reader:
+                if row[2] != "Total":
+                    comuna = self.fix_comuna(row[2])
+                    comuna_activos = int(self.activos_por_comuna[comuna]) if self.activos_por_comuna[comuna] else 0
+                    row.append(comuna_activos)
+                    region_activos += comuna_activos
+                else:
+                    row.append(region_activos)
+                    region_activos = 0
+                new_rows.append(row)
+            # Write new rows
+            writer.writerows(new_rows)
+
 
 parser = InformeParser()
 parser.load_input()
 parser.parse_tables()
 parser.scrap_activos_por_comuna()
 parser.save_activos_por_comuna()
+parser.merge()
