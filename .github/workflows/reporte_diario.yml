@@ -26,8 +26,6 @@ jobs:
         run: |
           cd reporte_parser
           python reporte_parser.py
-          cd ..
-          python data_organizer.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
