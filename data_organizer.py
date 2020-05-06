@@ -207,10 +207,7 @@ class DataOrganizer:
                 "detalle": row["Detalle"],
             })
 
-    def save_data(self, compress=False, minify=False):
-        if compress:
-            compress_json.dump(self.chile, "./data/chile.json.gz")
-            return
+    def save_data(self, minify=False):
         with open("./data/chile.json", "w") as outfile:
             if minify:
                 json.dump(self.chile, outfile)
@@ -226,4 +223,4 @@ organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
 organizer.add_regiones_complete_names()
 organizer.add_cuarentenas_to_comunas()
-organizer.save_data(compress=False, minify=True)
+organizer.save_data(minify=True)
