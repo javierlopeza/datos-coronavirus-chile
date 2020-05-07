@@ -28,8 +28,10 @@ BASE_PLACE = {
         "recuperados": [],
         "fallecidos": [],
     },
-    "cuarentenas": [],
-    "en_cuarentena": False,
+    "quarantine": {
+        "text": None,
+        "is_active": False,
+    },
 }
 
 
@@ -192,29 +194,17 @@ class DataOrganizer:
         for region in self.chile["regiones"]:
             self.chile["regiones"][region]["complete_name"] = self.complete_regiones[region]
 
-    def add_cuarentenas_to_comunas(self):
-        cuarentenas_activas = csv.DictReader(
-            open("./minciencia_data/CuarentenasActivas.csv"))
-        now = pendulum.now("America/Santiago").format("YYYY-MM-DD HH:mm")
-        for row in cuarentenas_activas:
+    def add_quarantines_to_communes(self):
+        quarantines = csv.DictReader(
+            open("./minciencia_data/Quarantines.csv"))
+        for row in quarantines:
             region = self.fix_region(row["region"])
-            comuna = self.fix_comuna(row["comuna"])
-            fecha_inicio = row["fecha_inicio"]
-            fecha_termino = row["fecha_termino"]
-            is_activa = fecha_inicio < now < fecha_termino
-            is_futura = now < fecha_inicio
-            # Add cuarentena info to comuna
-            cuarentenas =  self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"]
-            cuarentenas.append({
-                "is_activa": is_activa,
-                "is_futura": is_futura,
-                "detalle": row["detalle"] if len(row["detalle"]) else None,
-                "fecha_inicio": fecha_inicio,
-                "fecha_termino": fecha_termino,
-            })
-            # Update is_in_cuarentena flag
-            self.chile["regiones"][region]["comunas"][comuna]["en_cuarentena"] =\
-                any(c["is_activa"] for c in cuarentenas)
+            commune = self.fix_comuna(row["commune"])
+            # Add quarantine info to commune
+            self.chile["regiones"][region]["comunas"][commune]["quarantine"] = {
+                "is_active": row["is_active"] == "TRUE",
+                "text": row["text"],
+            }
 
     def save_data(self):
         with open("./data/chile.json", "w") as outfile:
@@ -230,5 +220,5 @@ organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.calculate_recuperados_regiones()
 organizer.add_regiones_complete_names()
-organizer.add_cuarentenas_to_comunas()
+organizer.add_quarantines_to_communes()
 organizer.save_data()
