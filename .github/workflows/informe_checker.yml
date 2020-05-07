@@ -26,7 +26,8 @@ jobs:
         id: informe_check
         run: |
           cd informe_checker
-          curl "https://www.gob.cl/coronavirus/cifrasoficiales/" | python informe_checker.py
+          curl "https://www.gob.cl/coronavirus/cifrasoficiales/"
+          python informe_checker.py
         continue-on-error: true
 
       - name: Create Issue
