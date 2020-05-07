@@ -1,4 +1,4 @@
-name: Check for new informe epidemilogico
+name: Check for new informe epidemiologico
 
 on:
   schedule:
