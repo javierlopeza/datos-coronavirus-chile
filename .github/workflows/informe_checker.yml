@@ -6,7 +6,7 @@ on:
 
 jobs:
   main:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout current repository
@@ -26,7 +26,6 @@ jobs:
         id: informe_check
         run: |
           cd informe_checker
-          curl "https://www.gob.cl/coronavirus/cifrasoficiales/"
           python informe_checker.py
         continue-on-error: true
 
