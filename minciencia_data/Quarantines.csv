@@ -1,5 +1,5 @@
-region,commune,text,is_active
-Arica y Parinacota,Arica,Arica está en cuarentena total.,TRUE
+region,commune,text,active
+Arica y Parinacota,Arica,Arica está en cuarentena total hasta el 14 de mayo.,TRUE
 Antofagasta,Antofagasta,Antofagasta está en cuarentena total.,TRUE
 Antofagasta,Mejillones,Mejillones está en cuarentena total.,TRUE
 Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
@@ -18,16 +18,16 @@ Metropolitana,Macul,Macul entrará en cuarentena total el viernes 8 de mayo.,FAL
 Metropolitana,Ñuñoa,"Ñuñoa, al norte de Av. Grecia, está en cuarentena hasta el 7 de mayo.",TRUE
 Metropolitana,Pedro Aguirre Cerda,Pedro Aguirre Cerda está en cuarentena total.,TRUE
 Metropolitana,Peñalolén,Peñalolén entrará en cuarentena total el viernes 8 de mayo.,FALSE
-Metropolitana,Puente Alto,"Puente Alto, al poniente desde Vicuña Mackenna / Av. Concha y Toro, está en cuarentena. Desde el viernes 8 de mayo la comuna completa.",TRUE
-Metropolitana,Quilicura,Quilicura está en cuarentena total.,TRUE
+Metropolitana,Puente Alto,"Puente Alto, al poniente desde Vicuña Mackenna / Av. Concha y Toro, está en cuarentena. A partir del 8 de mayo el límite aumenta hasta el borde del Canal San Carlos y camino San José de Maipo.",TRUE
+Metropolitana,Quilicura,"Quilicura, desde la línea férrea hacia el poniente, está en cuarentena.",TRUE
 Metropolitana,Quinta Normal,Quinta Normal está en cuarentena total.,TRUE
 Metropolitana,Recoleta,Recoleta está en cuarentena total.,TRUE
 Metropolitana,Renca,Renca entrará en cuarentena total el viernes 8 de mayo.,FALSE
-Metropolitana,San Bernardo,"San Bernardo, desde Autopista Central al sur hasta Av. Colón; y desde Av. Colón hacia el norte, está en cuarentena.",TRUE
+Metropolitana,San Bernardo,"San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Colón y desde la Av. Colón hacia el Norte, está en cuarentena. El viernes 8 de mayo aumenta la zona en cuarentena desde Av. San José al norte.",TRUE
 Metropolitana,San Joaquín,San Joaquín entrará en cuarentena total el viernes 8 de mayo.,FALSE
 Metropolitana,San Miguel,San Miguel entrará en cuarentena total el viernes 8 de mayo.,FALSE
 Metropolitana,San Ramón,"San Ramón, partiendo en Vespucio hacia el Sur, está en cuarentena. Desde el viernes 8 de mayo la comuna completa.",TRUE
 Metropolitana,Santiago,Santiago está en cuarentena total.,TRUE
-Araucanía,Angol,Angol está en cuarentena total.,TRUE
-Araucanía,Victoria,Victoria está en cuarentena total.,TRUE
+Araucanía,Angol,Angol está en cuarentena total hasta el 14 de mayo.,TRUE
+Araucanía,Victoria,Victoria está en cuarentena total hasta el 14 de mayo.,TRUE
 Magallanes,Punta Arenas,Punta Arenas está en cuarentena total hasta el 7 de mayo.,TRUE
