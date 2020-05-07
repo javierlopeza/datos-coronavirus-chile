@@ -1886,8 +1886,10 @@
             }
         ]
     },
-    "cuarentenas": [],
-    "en_cuarentena": false,
+    "quarantine": {
+        "text": null,
+        "is_active": false
+    },
     "nuevos_con_sintomas": {
         "date": "2020-05-06",
         "value": 893
@@ -2429,8 +2431,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Alhu\u00e9": {
                     "poblacion": 7405,
@@ -2514,8 +2518,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Buin": {
                     "poblacion": 109641,
@@ -2599,8 +2605,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Calera de Tango": {
                     "poblacion": 28525,
@@ -2684,8 +2692,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cerrillos": {
                     "poblacion": 88956,
@@ -2769,16 +2779,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Cerrillos est\u00e1 en cuarentena total."
+                    }
                 },
                 "Cerro Navia": {
                     "poblacion": 142465,
@@ -2862,8 +2866,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Cerro Navia entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Colina": {
                     "poblacion": 180353,
@@ -2947,8 +2953,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Conchal\u00ed": {
                     "poblacion": 139195,
@@ -3032,8 +3040,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Conchal\u00ed entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Curacav\u00ed": {
                     "poblacion": 36430,
@@ -3117,8 +3127,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "El Bosque": {
                     "poblacion": 172000,
@@ -3202,16 +3214,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "El Bosque est\u00e1 en cuarentena total."
+                    }
                 },
                 "El Monte": {
                     "poblacion": 40014,
@@ -3295,8 +3301,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Estaci\u00f3n Central": {
                     "poblacion": 206792,
@@ -3380,16 +3388,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Estaci\u00f3n Central est\u00e1 en cuarentena total."
+                    }
                 },
                 "Huechuraba": {
                     "poblacion": 112528,
@@ -3473,8 +3475,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Independencia": {
                     "poblacion": 142065,
@@ -3558,16 +3562,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Independencia est\u00e1 en cuarentena total."
+                    }
                 },
                 "Isla de Maipo": {
                     "poblacion": 40171,
@@ -3651,8 +3649,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Cisterna": {
                     "poblacion": 100434,
@@ -3736,8 +3736,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "La Cisterna entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "La Florida": {
                     "poblacion": 402433,
@@ -3821,8 +3823,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "La Florida entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "La Granja": {
                     "poblacion": 122557,
@@ -3906,8 +3910,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "La Granja entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "La Pintana": {
                     "poblacion": 189335,
@@ -3991,16 +3997,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": "desde la calle Observatorio hacia el norte",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "La Pintana, a partir de la calle Observatorio hacia el norte, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                    }
                 },
                 "La Reina": {
                     "poblacion": 100252,
@@ -4084,8 +4084,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lampa": {
                     "poblacion": 126898,
@@ -4169,8 +4171,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Las Condes": {
                     "poblacion": 330759,
@@ -4254,8 +4258,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lo Barnechea": {
                     "poblacion": 124076,
@@ -4339,8 +4345,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lo Espejo": {
                     "poblacion": 103865,
@@ -4424,8 +4432,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Lo Espejo entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Lo Prado": {
                     "poblacion": 104403,
@@ -4509,8 +4519,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Lo Prado entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Macul": {
                     "poblacion": 134635,
@@ -4594,8 +4606,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Macul entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Maip\u00fa": {
                     "poblacion": 578605,
@@ -4679,8 +4693,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mar\u00eda Pinto": {
                     "poblacion": 14926,
@@ -4764,8 +4780,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Melipilla": {
                     "poblacion": 141612,
@@ -4849,8 +4867,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "\u00d1u\u00f1oa": {
                     "poblacion": 250192,
@@ -4934,16 +4954,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": "al norte de Av. Grecia",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "\u00d1u\u00f1oa, al norte de Av. Grecia, est\u00e1 en cuarentena hasta el 8 de mayo."
+                    }
                 },
                 "Padre Hurtado": {
                     "poblacion": 74188,
@@ -5027,8 +5041,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Paine": {
                     "poblacion": 82766,
@@ -5112,8 +5128,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pedro Aguirre Cerda": {
                     "poblacion": 107803,
@@ -5197,16 +5215,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Pedro Aguirre Cerda est\u00e1 en cuarentena total."
+                    }
                 },
                 "Pe\u00f1aflor": {
                     "poblacion": 101058,
@@ -5290,8 +5302,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pe\u00f1alol\u00e9n": {
                     "poblacion": 266798,
@@ -5375,8 +5389,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Pe\u00f1alol\u00e9n entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "Pirque": {
                     "poblacion": 30433,
@@ -5460,8 +5476,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Providencia": {
                     "poblacion": 157749,
@@ -5545,8 +5563,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pudahuel": {
                     "poblacion": 253139,
@@ -5630,8 +5650,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puente Alto": {
                     "poblacion": 645909,
@@ -5715,16 +5737,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": "al poniente desde Vicu\u00f1a Mackenna / Av. Concha y Toro",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Puente Alto, al poniente desde Vicu\u00f1a Mackenna / Av. Concha y Toro, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                    }
                 },
                 "Quilicura": {
                     "poblacion": 254694,
@@ -5808,16 +5824,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Quilicura est\u00e1 en cuarentena total."
+                    }
                 },
                 "Quinta Normal": {
                     "poblacion": 136368,
@@ -5901,16 +5911,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Quinta Normal est\u00e1 en cuarentena total."
+                    }
                 },
                 "Recoleta": {
                     "poblacion": 190075,
@@ -5994,16 +5998,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Recoleta est\u00e1 en cuarentena total."
+                    }
                 },
                 "Renca": {
                     "poblacion": 160847,
@@ -6087,8 +6085,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "Renca entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "San Bernardo": {
                     "poblacion": 334836,
@@ -6172,16 +6172,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": "desde Autopista Central al sur hasta Av. Col\u00f3n; y desde Av. Col\u00f3n hacia el norte",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "San Bernardo, desde Autopista Central al sur hasta Av. Col\u00f3n; y desde Av. Col\u00f3n hacia el norte, est\u00e1 en cuarentena."
+                    }
                 },
                 "San Joaqu\u00edn": {
                     "poblacion": 103485,
@@ -6265,8 +6259,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "San Joaqu\u00edn entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "San Jos\u00e9 de Maipo": {
                     "poblacion": 18644,
@@ -6350,8 +6346,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Miguel": {
                     "poblacion": 133059,
@@ -6435,8 +6433,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "is_active": false,
+                        "text": "San Miguel entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                    }
                 },
                 "San Pedro": {
                     "poblacion": 11953,
@@ -6520,8 +6520,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Ram\u00f3n": {
                     "poblacion": 86510,
@@ -6605,16 +6607,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": "desde Vespucio hacia el Sur",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "San Ram\u00f3n, partiendo en Vespucio hacia el Sur, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                    }
                 },
                 "Santiago": {
                     "poblacion": 503147,
@@ -6698,23 +6694,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": false,
-                            "is_futura": false,
-                            "detalle": "al norte de Av. Matta / Blanco Encalada",
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-05 22:00"
-                        },
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Santiago est\u00e1 en cuarentena total."
+                    }
                 },
                 "Talagante": {
                     "poblacion": 81838,
@@ -6798,8 +6781,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tiltil": {
                     "poblacion": 21477,
@@ -6883,8 +6868,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Vitacura": {
                     "poblacion": 96774,
@@ -6968,8 +6955,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n Metropolitana"
@@ -7502,8 +7491,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Arica": {
                     "poblacion": 247552,
@@ -7587,16 +7578,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Arica est\u00e1 en cuarentena total."
+                    }
                 },
                 "Camarones": {
                     "poblacion": 1233,
@@ -7680,8 +7665,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "General Lagos": {
                     "poblacion": 810,
@@ -7765,8 +7752,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Putre": {
                     "poblacion": 2515,
@@ -7850,8 +7839,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Arica y Parinacota"
@@ -8384,8 +8375,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Alto Hospicio": {
                     "poblacion": 129999,
@@ -8469,8 +8462,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cami\u00f1a": {
                     "poblacion": 1375,
@@ -8554,8 +8549,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Colchane": {
                     "poblacion": 1583,
@@ -8639,8 +8636,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Huara": {
                     "poblacion": 3000,
@@ -8724,8 +8723,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Iquique": {
                     "poblacion": 223463,
@@ -8809,8 +8810,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pica": {
                     "poblacion": 5958,
@@ -8894,8 +8897,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pozo Almonte": {
                     "poblacion": 17395,
@@ -8979,8 +8984,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Tarapac\u00e1"
@@ -9513,8 +9520,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Antofagasta": {
                     "poblacion": 425725,
@@ -9598,16 +9607,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Antofagasta est\u00e1 en cuarentena total."
+                    }
                 },
                 "Calama": {
                     "poblacion": 190336,
@@ -9691,8 +9694,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mar\u00eda Elena": {
                     "poblacion": 6814,
@@ -9776,8 +9781,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mejillones": {
                     "poblacion": 14776,
@@ -9861,16 +9868,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-05-05 22:00",
-                            "fecha_termino": "2020-05-12 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Mejillones est\u00e1 en cuarentena total."
+                    }
                 },
                 "Ollag\u00fce": {
                     "poblacion": 287,
@@ -9954,8 +9955,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Pedro de Atacama": {
                     "poblacion": 10434,
@@ -10039,8 +10042,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Sierra Gorda": {
                     "poblacion": 1746,
@@ -10124,8 +10129,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Taltal": {
                     "poblacion": 13657,
@@ -10209,8 +10216,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tocopilla": {
                     "poblacion": 28079,
@@ -10294,8 +10303,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Antofagasta"
@@ -10828,8 +10839,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Alto del Carmen": {
                     "poblacion": 5729,
@@ -10913,8 +10926,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Caldera": {
                     "poblacion": 19426,
@@ -10998,8 +11013,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cha\u00f1aral": {
                     "poblacion": 13164,
@@ -11083,8 +11100,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Copiap\u00f3": {
                     "poblacion": 171766,
@@ -11168,8 +11187,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Diego de Almagro": {
                     "poblacion": 14358,
@@ -11253,8 +11274,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Freirina": {
                     "poblacion": 7681,
@@ -11338,8 +11361,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Huasco": {
                     "poblacion": 11264,
@@ -11423,8 +11448,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tierra Amarilla": {
                     "poblacion": 14312,
@@ -11508,8 +11535,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Vallenar": {
                     "poblacion": 57009,
@@ -11593,8 +11622,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Atacama"
@@ -12127,8 +12158,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Andacollo": {
                     "poblacion": 11791,
@@ -12212,8 +12245,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Canela": {
                     "poblacion": 9546,
@@ -12297,8 +12332,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Combarbal\u00e1": {
                     "poblacion": 13884,
@@ -12382,8 +12419,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coquimbo": {
                     "poblacion": 256735,
@@ -12467,8 +12506,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Illapel": {
                     "poblacion": 32801,
@@ -12552,8 +12593,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Higuera": {
                     "poblacion": 4450,
@@ -12637,8 +12680,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Serena": {
                     "poblacion": 249656,
@@ -12722,8 +12767,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los Vilos": {
                     "poblacion": 23374,
@@ -12807,8 +12854,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Monte Patria": {
                     "poblacion": 32527,
@@ -12892,8 +12941,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Ovalle": {
                     "poblacion": 121269,
@@ -12977,8 +13028,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Paiguano": {
                     "poblacion": 4675,
@@ -13062,8 +13115,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Punitaqui": {
                     "poblacion": 12165,
@@ -13147,8 +13202,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00edo Hurtado": {
                     "poblacion": 4372,
@@ -13232,8 +13289,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Salamanca": {
                     "poblacion": 29110,
@@ -13317,8 +13376,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Vicu\u00f1a": {
                     "poblacion": 29741,
@@ -13402,8 +13463,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Coquimbo"
@@ -13936,8 +13999,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Algarrobo": {
                     "poblacion": 15174,
@@ -14021,8 +14086,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cabildo": {
                     "poblacion": 20663,
@@ -14106,8 +14173,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Calera": {
                     "poblacion": 53591,
@@ -14191,8 +14260,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Calle Larga": {
                     "poblacion": 16482,
@@ -14276,8 +14347,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cartagena": {
                     "poblacion": 25357,
@@ -14361,8 +14434,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Casablanca": {
                     "poblacion": 29170,
@@ -14446,8 +14521,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Catemu": {
                     "poblacion": 15213,
@@ -14531,8 +14608,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Conc\u00f3n": {
                     "poblacion": 45889,
@@ -14616,8 +14695,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "El Quisco": {
                     "poblacion": 17742,
@@ -14701,8 +14782,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "El Tabo": {
                     "poblacion": 14338,
@@ -14786,8 +14869,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Hijuelas": {
                     "poblacion": 19099,
@@ -14871,8 +14956,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Isla de Pascua": {
                     "poblacion": 8277,
@@ -14956,8 +15043,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Juan Fern\u00e1ndez": {
                     "poblacion": 1033,
@@ -15041,8 +15130,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Cruz": {
                     "poblacion": 25321,
@@ -15126,8 +15217,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Ligua": {
                     "poblacion": 37739,
@@ -15211,8 +15304,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Limache": {
                     "poblacion": 49931,
@@ -15296,8 +15391,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Llaillay": {
                     "poblacion": 26533,
@@ -15381,8 +15478,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los Andes": {
                     "poblacion": 68093,
@@ -15466,8 +15565,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Nogales": {
                     "poblacion": 23490,
@@ -15551,8 +15652,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Olmu\u00e9": {
                     "poblacion": 19266,
@@ -15636,8 +15739,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Panquehue": {
                     "poblacion": 7633,
@@ -15721,8 +15826,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Papudo": {
                     "poblacion": 6201,
@@ -15806,8 +15913,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Petorca": {
                     "poblacion": 10558,
@@ -15891,8 +16000,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puchuncav\u00ed": {
                     "poblacion": 20071,
@@ -15976,8 +16087,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Putaendo": {
                     "poblacion": 17645,
@@ -16061,8 +16174,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quillota": {
                     "poblacion": 97572,
@@ -16146,8 +16261,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quilpu\u00e9": {
                     "poblacion": 167085,
@@ -16231,8 +16348,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quintero": {
                     "poblacion": 36135,
@@ -16316,8 +16435,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Rinconada": {
                     "poblacion": 11263,
@@ -16401,8 +16522,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Antonio": {
                     "poblacion": 96761,
@@ -16486,8 +16609,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Esteban": {
                     "poblacion": 20643,
@@ -16571,8 +16696,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Felipe": {
                     "poblacion": 83494,
@@ -16656,8 +16783,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Santa Mar\u00eda": {
                     "poblacion": 16367,
@@ -16741,8 +16870,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Santo Domingo": {
                     "poblacion": 11934,
@@ -16826,8 +16957,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Valpara\u00edso": {
                     "poblacion": 315732,
@@ -16911,8 +17044,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Villa Alemana": {
                     "poblacion": 139310,
@@ -16996,8 +17131,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Vi\u00f1a del Mar": {
                     "poblacion": 361371,
@@ -17081,8 +17218,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Zapallar": {
                     "poblacion": 7994,
@@ -17166,8 +17305,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Valpara\u00edso"
@@ -17700,8 +17841,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Ch\u00e9pica": {
                     "poblacion": 15925,
@@ -17785,8 +17928,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chimbarongo": {
                     "poblacion": 37696,
@@ -17870,8 +18015,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Codegua": {
                     "poblacion": 14096,
@@ -17955,8 +18102,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coinco": {
                     "poblacion": 7831,
@@ -18040,8 +18189,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coltauco": {
                     "poblacion": 21263,
@@ -18125,8 +18276,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Do\u00f1ihue": {
                     "poblacion": 22700,
@@ -18210,8 +18363,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Graneros": {
                     "poblacion": 36504,
@@ -18295,8 +18450,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Estrella": {
                     "poblacion": 3114,
@@ -18380,8 +18537,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Las Cabras": {
                     "poblacion": 26749,
@@ -18465,8 +18624,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Litueche": {
                     "poblacion": 6765,
@@ -18550,8 +18711,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lolol": {
                     "poblacion": 7289,
@@ -18635,8 +18798,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Machal\u00ed": {
                     "poblacion": 59913,
@@ -18720,8 +18885,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Malloa": {
                     "poblacion": 14163,
@@ -18805,8 +18972,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Marchihue": {
                     "poblacion": 7632,
@@ -18890,8 +19059,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mostazal": {
                     "poblacion": 27462,
@@ -18975,8 +19146,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Nancagua": {
                     "poblacion": 19141,
@@ -19060,8 +19233,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Navidad": {
                     "poblacion": 6904,
@@ -19145,8 +19320,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Olivar": {
                     "poblacion": 14624,
@@ -19230,8 +19407,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Palmilla": {
                     "poblacion": 13299,
@@ -19315,8 +19494,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Paredones": {
                     "poblacion": 6349,
@@ -19400,8 +19581,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Peralillo": {
                     "poblacion": 11848,
@@ -19485,8 +19668,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Peumo": {
                     "poblacion": 14952,
@@ -19570,8 +19755,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pichidegua": {
                     "poblacion": 20743,
@@ -19655,8 +19842,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pichilemu": {
                     "poblacion": 17882,
@@ -19740,8 +19929,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Placilla": {
                     "poblacion": 9164,
@@ -19825,8 +20016,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pumanque": {
                     "poblacion": 3531,
@@ -19910,8 +20103,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quinta de Tilcoco": {
                     "poblacion": 13877,
@@ -19995,8 +20190,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Rancagua": {
                     "poblacion": 265211,
@@ -20080,8 +20277,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Rengo": {
                     "poblacion": 63710,
@@ -20165,8 +20364,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Requ\u00ednoa": {
                     "poblacion": 30371,
@@ -20250,8 +20451,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Fernando": {
                     "poblacion": 78642,
@@ -20335,8 +20538,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Vicente": {
                     "poblacion": 50617,
@@ -20420,8 +20625,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Santa Cruz": {
                     "poblacion": 41096,
@@ -20505,8 +20712,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de O'Higgins"
@@ -21039,8 +21248,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Cauquenes": {
                     "poblacion": 44143,
@@ -21124,8 +21335,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chanco": {
                     "poblacion": 9331,
@@ -21209,8 +21422,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Colb\u00fan": {
                     "poblacion": 22565,
@@ -21294,8 +21509,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Constituci\u00f3n": {
                     "poblacion": 50348,
@@ -21379,8 +21596,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curepto": {
                     "poblacion": 9426,
@@ -21464,8 +21683,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curic\u00f3": {
                     "poblacion": 163626,
@@ -21549,8 +21770,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Empedrado": {
                     "poblacion": 4206,
@@ -21634,8 +21857,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Huala\u00f1\u00e9": {
                     "poblacion": 10222,
@@ -21719,8 +21944,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Licant\u00e9n": {
                     "poblacion": 6989,
@@ -21804,8 +22031,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Linares": {
                     "poblacion": 101073,
@@ -21889,8 +22118,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Longav\u00ed": {
                     "poblacion": 32810,
@@ -21974,8 +22205,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Maule": {
                     "poblacion": 60000,
@@ -22059,8 +22292,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Molina": {
                     "poblacion": 49800,
@@ -22144,8 +22379,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Parral": {
                     "poblacion": 44544,
@@ -22229,8 +22466,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pelarco": {
                     "poblacion": 9083,
@@ -22314,8 +22553,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pelluhue": {
                     "poblacion": 8092,
@@ -22399,8 +22640,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pencahue": {
                     "poblacion": 8601,
@@ -22484,8 +22727,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Rauco": {
                     "poblacion": 11248,
@@ -22569,8 +22814,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Retiro": {
                     "poblacion": 21071,
@@ -22654,8 +22901,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00edo Claro": {
                     "poblacion": 14753,
@@ -22739,8 +22988,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Romeral": {
                     "poblacion": 16170,
@@ -22824,8 +23075,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Sagrada Familia": {
                     "poblacion": 19469,
@@ -22909,8 +23162,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Clemente": {
                     "poblacion": 46292,
@@ -22994,8 +23249,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Javier": {
                     "poblacion": 49451,
@@ -23079,8 +23336,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Rafael": {
                     "poblacion": 9959,
@@ -23164,8 +23423,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Talca": {
                     "poblacion": 236724,
@@ -23249,8 +23510,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Teno": {
                     "poblacion": 30850,
@@ -23334,8 +23597,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Vichuqu\u00e9n": {
                     "poblacion": 4381,
@@ -23419,8 +23684,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Villa Alegre": {
                     "poblacion": 17512,
@@ -23504,8 +23771,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Yerbas Buenas": {
                     "poblacion": 19200,
@@ -23589,8 +23858,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n del Maule"
@@ -24123,8 +24394,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Bulnes": {
                     "poblacion": 22607,
@@ -24208,8 +24481,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chill\u00e1n": {
                     "poblacion": 198624,
@@ -24293,8 +24568,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chill\u00e1n Viejo": {
                     "poblacion": 33827,
@@ -24378,8 +24655,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cobquecura": {
                     "poblacion": 5275,
@@ -24463,8 +24742,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coelemu": {
                     "poblacion": 16845,
@@ -24548,8 +24829,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coihueco": {
                     "poblacion": 28375,
@@ -24633,8 +24916,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "El Carmen": {
                     "poblacion": 12334,
@@ -24718,8 +25003,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Ninhue": {
                     "poblacion": 5414,
@@ -24803,8 +25090,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "\u00d1iqu\u00e9n": {
                     "poblacion": 11567,
@@ -24888,8 +25177,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pemuco": {
                     "poblacion": 8639,
@@ -24973,8 +25264,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pinto": {
                     "poblacion": 11880,
@@ -25058,8 +25351,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Portezuelo": {
                     "poblacion": 4940,
@@ -25143,8 +25438,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quill\u00f3n": {
                     "poblacion": 18777,
@@ -25228,8 +25525,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quirihue": {
                     "poblacion": 12192,
@@ -25313,8 +25612,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00e1nquil": {
                     "poblacion": 6261,
@@ -25398,8 +25699,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Carlos": {
                     "poblacion": 56252,
@@ -25483,8 +25786,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Fabi\u00e1n": {
                     "poblacion": 4654,
@@ -25568,8 +25873,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Ignacio": {
                     "poblacion": 16624,
@@ -25653,8 +25960,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Nicol\u00e1s": {
                     "poblacion": 12172,
@@ -25738,8 +26047,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Treguaco": {
                     "poblacion": 5696,
@@ -25823,8 +26134,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Yungay": {
                     "poblacion": 18596,
@@ -25908,8 +26221,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de \u00d1uble"
@@ -26442,8 +26757,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Alto Biob\u00edo": {
                     "poblacion": 6775,
@@ -26527,8 +26844,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Antuco": {
                     "poblacion": 4306,
@@ -26612,8 +26931,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Arauco": {
                     "poblacion": 38679,
@@ -26697,8 +27018,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cabrero": {
                     "poblacion": 30725,
@@ -26782,8 +27105,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Ca\u00f1ete": {
                     "poblacion": 37003,
@@ -26867,8 +27192,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chiguayante": {
                     "poblacion": 91180,
@@ -26952,8 +27279,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Concepci\u00f3n": {
                     "poblacion": 238092,
@@ -27037,8 +27366,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Contulmo": {
                     "poblacion": 6330,
@@ -27122,8 +27453,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coronel": {
                     "poblacion": 125829,
@@ -27207,8 +27540,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curanilahue": {
                     "poblacion": 33892,
@@ -27292,8 +27627,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Florida": {
                     "poblacion": 11841,
@@ -27377,8 +27714,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Hualp\u00e9n": {
                     "poblacion": 97273,
@@ -27462,8 +27801,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Hualqui": {
                     "poblacion": 26201,
@@ -27547,8 +27888,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Laja": {
                     "poblacion": 23873,
@@ -27632,8 +27975,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lebu": {
                     "poblacion": 27100,
@@ -27717,8 +28062,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los \u00c1lamos": {
                     "poblacion": 22524,
@@ -27802,8 +28149,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los \u00c1ngeles": {
                     "poblacion": 218515,
@@ -27887,8 +28236,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lota": {
                     "poblacion": 45750,
@@ -27972,8 +28323,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mulch\u00e9n": {
                     "poblacion": 31041,
@@ -28057,8 +28410,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Nacimiento": {
                     "poblacion": 27944,
@@ -28142,8 +28497,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Negrete": {
                     "poblacion": 10429,
@@ -28227,8 +28584,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Penco": {
                     "poblacion": 49865,
@@ -28312,8 +28671,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quilaco": {
                     "poblacion": 4179,
@@ -28397,8 +28758,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quilleco": {
                     "poblacion": 10032,
@@ -28482,8 +28845,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Pedro de la Paz": {
                     "poblacion": 145906,
@@ -28567,8 +28932,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Rosendo": {
                     "poblacion": 3611,
@@ -28652,8 +29019,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Santa B\u00e1rbara": {
                     "poblacion": 14592,
@@ -28737,8 +29106,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Santa Juana": {
                     "poblacion": 14779,
@@ -28822,8 +29193,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Talcahuano": {
                     "poblacion": 158345,
@@ -28907,8 +29280,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tir\u00faa": {
                     "poblacion": 11019,
@@ -28992,8 +29367,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tom\u00e9": {
                     "poblacion": 58729,
@@ -29077,8 +29454,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tucapel": {
                     "poblacion": 15205,
@@ -29162,8 +29541,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Yumbel": {
                     "poblacion": 22132,
@@ -29247,8 +29628,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n del Biob\u00edo"
@@ -29781,8 +30164,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Angol": {
                     "poblacion": 56058,
@@ -29866,16 +30251,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Angol est\u00e1 en cuarentena total."
+                    }
                 },
                 "Carahue": {
                     "poblacion": 25486,
@@ -29959,8 +30338,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cholchol": {
                     "poblacion": 12341,
@@ -30044,8 +30425,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Collipulli": {
                     "poblacion": 26148,
@@ -30129,8 +30512,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cunco": {
                     "poblacion": 18055,
@@ -30214,8 +30599,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curacaut\u00edn": {
                     "poblacion": 18178,
@@ -30299,8 +30686,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curarrehue": {
                     "poblacion": 7802,
@@ -30384,8 +30773,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Ercilla": {
                     "poblacion": 8458,
@@ -30469,8 +30860,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Freire": {
                     "poblacion": 25446,
@@ -30554,8 +30947,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Galvarino": {
                     "poblacion": 12633,
@@ -30639,8 +31034,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Gorbea": {
                     "poblacion": 15148,
@@ -30724,8 +31121,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lautaro": {
                     "poblacion": 40746,
@@ -30809,8 +31208,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Loncoche": {
                     "poblacion": 24739,
@@ -30894,8 +31295,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lonquimay": {
                     "poblacion": 11049,
@@ -30979,8 +31382,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los Sauces": {
                     "poblacion": 7517,
@@ -31064,8 +31469,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lumaco": {
                     "poblacion": 10050,
@@ -31149,8 +31556,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Melipeuco": {
                     "poblacion": 6265,
@@ -31234,8 +31643,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Nueva Imperial": {
                     "poblacion": 33777,
@@ -31319,8 +31730,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Padre Las Casas": {
                     "poblacion": 82110,
@@ -31404,8 +31817,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Perquenco": {
                     "poblacion": 7223,
@@ -31489,8 +31904,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pitrufqu\u00e9n": {
                     "poblacion": 26096,
@@ -31574,8 +31991,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puc\u00f3n": {
                     "poblacion": 29782,
@@ -31659,8 +32078,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Pur\u00e9n": {
                     "poblacion": 12188,
@@ -31744,8 +32165,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Renaico": {
                     "poblacion": 10833,
@@ -31829,8 +32252,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Saavedra": {
                     "poblacion": 12793,
@@ -31914,8 +32339,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Temuco": {
                     "poblacion": 302931,
@@ -31999,8 +32426,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Teodoro Schmidt": {
                     "poblacion": 15786,
@@ -32084,8 +32513,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tolt\u00e9n": {
                     "poblacion": 10055,
@@ -32169,8 +32600,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Traigu\u00e9n": {
                     "poblacion": 19314,
@@ -32254,8 +32687,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Victoria": {
                     "poblacion": 35467,
@@ -32339,16 +32774,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Victoria est\u00e1 en cuarentena total."
+                    }
                 },
                 "Vilc\u00fan": {
                     "poblacion": 30766,
@@ -32432,8 +32861,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Villarrica": {
                     "poblacion": 59103,
@@ -32517,8 +32948,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de La Araucan\u00eda"
@@ -33051,8 +33484,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Corral": {
                     "poblacion": 5447,
@@ -33136,8 +33571,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Futrono": {
                     "poblacion": 15261,
@@ -33221,8 +33658,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "La Uni\u00f3n": {
                     "poblacion": 39538,
@@ -33306,8 +33745,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lago Ranco": {
                     "poblacion": 10292,
@@ -33391,8 +33832,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lanco": {
                     "poblacion": 17652,
@@ -33476,8 +33919,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los Lagos": {
                     "poblacion": 20518,
@@ -33561,8 +34006,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "M\u00e1fil": {
                     "poblacion": 7389,
@@ -33646,8 +34093,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Mariquina": {
                     "poblacion": 23250,
@@ -33731,8 +34180,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Paillaco": {
                     "poblacion": 20798,
@@ -33816,8 +34267,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Panguipulli": {
                     "poblacion": 35991,
@@ -33901,8 +34354,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00edo Bueno": {
                     "poblacion": 32925,
@@ -33986,8 +34441,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Valdivia": {
                     "poblacion": 176774,
@@ -34071,8 +34528,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Los R\u00edos"
@@ -34605,8 +35064,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Ancud": {
                     "poblacion": 42458,
@@ -34690,8 +35151,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Calbuco": {
                     "poblacion": 36744,
@@ -34775,8 +35238,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Castro": {
                     "poblacion": 47607,
@@ -34860,8 +35325,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chait\u00e9n": {
                     "poblacion": 5020,
@@ -34945,8 +35412,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chonchi": {
                     "poblacion": 16013,
@@ -35030,8 +35499,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cocham\u00f3": {
                     "poblacion": 4006,
@@ -35115,8 +35586,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Curaco de V\u00e9lez": {
                     "poblacion": 4066,
@@ -35200,8 +35673,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Dalcahue": {
                     "poblacion": 15069,
@@ -35285,8 +35760,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Fresia": {
                     "poblacion": 12656,
@@ -35370,8 +35847,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Frutillar": {
                     "poblacion": 20223,
@@ -35455,8 +35934,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Futaleuf\u00fa": {
                     "poblacion": 2806,
@@ -35540,8 +36021,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Hualaihu\u00e9": {
                     "poblacion": 9525,
@@ -35625,8 +36108,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Llanquihue": {
                     "poblacion": 18621,
@@ -35710,8 +36195,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Los Muermos": {
                     "poblacion": 17817,
@@ -35795,8 +36282,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Maull\u00edn": {
                     "poblacion": 14894,
@@ -35880,8 +36369,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Osorno": {
                     "poblacion": 173410,
@@ -35965,8 +36456,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Palena": {
                     "poblacion": 1827,
@@ -36050,8 +36543,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puerto Montt": {
                     "poblacion": 269398,
@@ -36135,8 +36630,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puerto Octay": {
                     "poblacion": 9192,
@@ -36220,8 +36717,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puerto Varas": {
                     "poblacion": 48620,
@@ -36305,8 +36804,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puqueld\u00f3n": {
                     "poblacion": 4201,
@@ -36390,8 +36891,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Purranque": {
                     "poblacion": 21080,
@@ -36475,8 +36978,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Puyehue": {
                     "poblacion": 11787,
@@ -36560,8 +37065,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Queil\u00e9n": {
                     "poblacion": 5543,
@@ -36645,8 +37152,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quell\u00f3n": {
                     "poblacion": 29309,
@@ -36730,8 +37239,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quemchi": {
                     "poblacion": 8783,
@@ -36815,8 +37326,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Quinchao": {
                     "poblacion": 8298,
@@ -36900,8 +37413,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00edo Negro": {
                     "poblacion": 14275,
@@ -36985,8 +37500,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Juan de la Costa": {
                     "poblacion": 7639,
@@ -37070,8 +37587,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Pablo": {
                     "poblacion": 10553,
@@ -37155,8 +37674,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Los Lagos"
@@ -37689,8 +38210,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Ais\u00e9n": {
                     "poblacion": 25002,
@@ -37774,8 +38297,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Chile Chico": {
                     "poblacion": 5121,
@@ -37859,8 +38384,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cisnes": {
                     "poblacion": 5828,
@@ -37944,8 +38471,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cochrane": {
                     "poblacion": 3685,
@@ -38029,8 +38558,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Coyhaique": {
                     "poblacion": 61210,
@@ -38114,8 +38645,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Guaitecas": {
                     "poblacion": 1599,
@@ -38199,8 +38732,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Lago Verde": {
                     "poblacion": 920,
@@ -38284,8 +38819,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "O'Higgins": {
                     "poblacion": 661,
@@ -38369,8 +38906,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "R\u00edo Ib\u00e1\u00f1ez": {
                     "poblacion": 2699,
@@ -38454,8 +38993,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Tortel": {
                     "poblacion": 572,
@@ -38539,8 +39080,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Ays\u00e9n"
@@ -39073,8 +39616,10 @@
                     }
                 ]
             },
-            "cuarentenas": [],
-            "en_cuarentena": false,
+            "quarantine": {
+                "text": null,
+                "is_active": false
+            },
             "comunas": {
                 "Ant\u00e1rtica": {
                     "poblacion": 137,
@@ -39158,8 +39703,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Cabo de Hornos": {
                     "poblacion": 1983,
@@ -39243,8 +39790,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Laguna Blanca": {
                     "poblacion": 264,
@@ -39328,8 +39877,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Natales": {
                     "poblacion": 23782,
@@ -39413,8 +39964,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Porvenir": {
                     "poblacion": 7323,
@@ -39498,8 +40051,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Primavera": {
                     "poblacion": 694,
@@ -39583,8 +40138,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Punta Arenas": {
                     "poblacion": 141984,
@@ -39668,16 +40225,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [
-                        {
-                            "is_activa": true,
-                            "is_futura": false,
-                            "detalle": null,
-                            "fecha_inicio": "2020-04-30 22:00",
-                            "fecha_termino": "2020-05-07 22:00"
-                        }
-                    ],
-                    "en_cuarentena": true
+                    "quarantine": {
+                        "is_active": true,
+                        "text": "Punta Arenas est\u00e1 en cuarentena total hasta el 8 de mayo."
+                    }
                 },
                 "R\u00edo Verde": {
                     "poblacion": 211,
@@ -39761,8 +40312,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "San Gregorio": {
                     "poblacion": 681,
@@ -39846,8 +40399,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Timaukel": {
                     "poblacion": 282,
@@ -39931,8 +40486,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 },
                 "Torres del Paine": {
                     "poblacion": 1021,
@@ -40016,8 +40573,10 @@
                         "recuperados": [],
                         "fallecidos": []
                     },
-                    "cuarentenas": [],
-                    "en_cuarentena": false
+                    "quarantine": {
+                        "text": null,
+                        "is_active": false
+                    }
                 }
             },
             "complete_name": "Regi\u00f3n de Magallanes y la Ant\u00e1rtica"
