@@ -29,6 +29,7 @@ BASE_PLACE = {
         "fallecidos": [],
     },
     "cuarentenas": [],
+    "en_cuarentena": False,
 }
 
 
@@ -203,13 +204,17 @@ class DataOrganizer:
             is_activa = fecha_inicio < now < fecha_termino
             is_futura = now < fecha_inicio
             # Add cuarentena info to comuna
-            self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"].append({
+            cuarentenas =  self.chile["regiones"][region]["comunas"][comuna]["cuarentenas"]
+            cuarentenas.append({
                 "is_activa": is_activa,
                 "is_futura": is_futura,
                 "detalle": row["detalle"] if len(row["detalle"]) else None,
                 "fecha_inicio": fecha_inicio,
                 "fecha_termino": fecha_termino,
             })
+            # Update is_in_cuarentena flag
+            self.chile["regiones"][region]["comunas"][comuna]["en_cuarentena"] =\
+                any(c["is_activa"] for c in cuarentenas)
 
     def save_data(self):
         with open("./data/chile.json", "w") as outfile:
