@@ -1,31 +1,12 @@
 import bs4 as bs
-import pycurl
-from io import BytesIO
 import dateparser
 import pendulum
 import sys, os
 
-GOV_URL = "https://www.gob.cl/coronavirus/cifrasoficiales/"
+source = ""
+for line in sys.stdin:
+    source += line
 
-
-def curl(url):
-    b_obj = BytesIO()
-    crl = pycurl.Curl()
-    # Set URL value
-    crl.setopt(crl.URL, GOV_URL)
-    # Write bytes that are utf-8 encoded
-    crl.setopt(crl.WRITEDATA, b_obj)
-    # Perform a file transfer
-    crl.perform()
-    # End curl session
-    crl.close()
-    # Get the content stored in the BytesIO object (in byte characters)
-    get_body = b_obj.getvalue()
-    # Decode the bytes stored in get_body to HTML and return the result
-    return get_body.decode('utf8')
-
-
-source = curl(GOV_URL)
 soup = bs.BeautifulSoup(source, features="html.parser")
 
 informes_table = soup.find(id="informes").find("table")
