@@ -20,6 +20,8 @@ last_informe_date = dateparser.parse(last_informe_date_str, languages=[
                                      'es']).strftime('%Y-%m-%d')
 
 if os.path.isfile("../informe_parser/input/tablas_informe_{}.pdf".format(last_informe_date)):
+    print("No Action: last informe already exists.")
     sys.exit(1)
 else:
+    print("Action: a new informe was published, let's create an issue for that.")
     sys.exit(0)
