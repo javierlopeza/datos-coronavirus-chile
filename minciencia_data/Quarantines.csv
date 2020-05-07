@@ -1,4 +1,4 @@
-region,commune,text,active
+region,commune,text,is_active
 Arica y Parinacota,Arica,Arica está en cuarentena total hasta el 14 de mayo.,TRUE
 Antofagasta,Antofagasta,Antofagasta está en cuarentena total.,TRUE
 Antofagasta,Mejillones,Mejillones está en cuarentena total.,TRUE
