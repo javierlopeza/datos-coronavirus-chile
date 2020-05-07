@@ -5775,7 +5775,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Puente Alto, al poniente desde Vicu\u00f1a Mackenna / Av. Concha y Toro, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                        "text": "Puente Alto, al poniente desde Vicu\u00f1a Mackenna / Av. Concha y Toro, est\u00e1 en cuarentena. A partir del 8 de mayo el l\u00edmite aumenta hasta el borde del Canal San Carlos y camino San Jos\u00e9 de Maipo."
                     }
                 },
                 "Quilicura": {
@@ -5862,7 +5862,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Quilicura est\u00e1 en cuarentena total."
+                        "text": "Quilicura, desde la l\u00ednea f\u00e9rrea hacia el poniente, est\u00e1 en cuarentena."
                     }
                 },
                 "Quinta Normal": {
@@ -6210,7 +6210,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "San Bernardo, desde Autopista Central al sur hasta Av. Col\u00f3n; y desde Av. Col\u00f3n hacia el norte, est\u00e1 en cuarentena."
+                        "text": "San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Col\u00f3n y desde la Av. Col\u00f3n hacia el Norte, est\u00e1 en cuarentena. El viernes 8 de mayo aumenta la zona en cuarentena desde Av. San Jos\u00e9 al norte."
                     }
                 },
                 "San Joaqu\u00edn": {
@@ -7624,7 +7624,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Arica est\u00e1 en cuarentena total."
+                        "text": "Arica est\u00e1 en cuarentena total hasta el 14 de mayo."
                     }
                 },
                 "Camarones": {
@@ -30377,7 +30377,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Angol est\u00e1 en cuarentena total."
+                        "text": "Angol est\u00e1 en cuarentena total hasta el 14 de mayo."
                     }
                 },
                 "Carahue": {
@@ -32900,7 +32900,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Victoria est\u00e1 en cuarentena total."
+                        "text": "Victoria est\u00e1 en cuarentena total hasta el 14 de mayo."
                     }
                 },
                 "Vilc\u00fan": {
