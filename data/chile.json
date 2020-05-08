@@ -2903,8 +2903,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Cerro Navia entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Cerro Navia est\u00e1 en cuarentena total."
                     }
                 },
                 "Colina": {
@@ -3077,8 +3077,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Conchal\u00ed entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Conchal\u00ed est\u00e1 en cuarentena total."
                     }
                 },
                 "Curacav\u00ed": {
@@ -3773,8 +3773,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "La Cisterna entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "La Cisterna est\u00e1 en cuarentena total."
                     }
                 },
                 "La Florida": {
@@ -3860,8 +3860,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "La Florida entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "La Florida est\u00e1 en cuarentena total."
                     }
                 },
                 "La Granja": {
@@ -3947,8 +3947,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "La Granja entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "La Granja est\u00e1 en cuarentena total."
                     }
                 },
                 "La Pintana": {
@@ -4035,7 +4035,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "La Pintana, a partir de la calle Observatorio hacia el norte, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                        "text": "La Pintana est\u00e1 en cuarentena total."
                     }
                 },
                 "La Reina": {
@@ -4469,8 +4469,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Lo Espejo entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Lo Espejo est\u00e1 en cuarentena total."
                     }
                 },
                 "Lo Prado": {
@@ -4556,8 +4556,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Lo Prado entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Lo Prado est\u00e1 en cuarentena total."
                     }
                 },
                 "Macul": {
@@ -4643,8 +4643,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Macul entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Macul est\u00e1 en cuarentena total."
                     }
                 },
                 "Maip\u00fa": {
@@ -4991,8 +4991,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "\u00d1u\u00f1oa, al norte de Av. Grecia, est\u00e1 en cuarentena hasta el 7 de mayo."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Padre Hurtado": {
@@ -5426,8 +5426,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Pe\u00f1alol\u00e9n entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Pe\u00f1alol\u00e9n est\u00e1 en cuarentena total."
                     }
                 },
                 "Pirque": {
@@ -5775,7 +5775,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Puente Alto, al poniente desde Vicu\u00f1a Mackenna / Av. Concha y Toro, est\u00e1 en cuarentena. A partir del 8 de mayo el l\u00edmite aumenta hasta el borde del Canal San Carlos y camino San Jos\u00e9 de Maipo."
+                        "text": "Puente Alto, al poniente desde el borde del Canal San Carlos y camino San Jos\u00e9 de Maipo, est\u00e1 en cuarentena"
                     }
                 },
                 "Quilicura": {
@@ -6122,8 +6122,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Renca entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "Renca est\u00e1 en cuarentena total."
                     }
                 },
                 "San Bernardo": {
@@ -6210,7 +6210,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Col\u00f3n y desde la Av. Col\u00f3n hacia el Norte, est\u00e1 en cuarentena. El viernes 8 de mayo aumenta la zona en cuarentena desde Av. San Jos\u00e9 al norte."
+                        "text": "San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Col\u00f3n y desde Av. San Jos\u00e9 al norte, est\u00e1 en cuarentena."
                     }
                 },
                 "San Joaqu\u00edn": {
@@ -6296,8 +6296,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "San Joaqu\u00edn entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "San Joaqu\u00edn est\u00e1 en cuarentena total."
                     }
                 },
                 "San Jos\u00e9 de Maipo": {
@@ -6470,8 +6470,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "San Miguel entrar\u00e1 en cuarentena total el viernes 8 de mayo."
+                        "is_active": true,
+                        "text": "San Miguel est\u00e1 en cuarentena total."
                     }
                 },
                 "San Pedro": {
@@ -6645,7 +6645,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "San Ram\u00f3n, partiendo en Vespucio hacia el Sur, est\u00e1 en cuarentena. Desde el viernes 8 de mayo la comuna completa."
+                        "text": "San Ram\u00f3n est\u00e1 en cuarentena total."
                     }
                 },
                 "Santiago": {
@@ -40382,8 +40382,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Punta Arenas est\u00e1 en cuarentena total hasta el 7 de mayo."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "R\u00edo Verde": {
