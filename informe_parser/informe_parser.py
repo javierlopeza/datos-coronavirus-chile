@@ -3,7 +3,7 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-05-04"
+INPUT_DATE = "2020-05-08"
 
 
 def load_json(file_name):
