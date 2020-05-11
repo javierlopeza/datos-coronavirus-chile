@@ -1,8 +1,8 @@
 region,commune,text,is_active
 Arica y Parinacota,Arica,Arica está en cuarentena total hasta el 14 de mayo.,TRUE
-Antofagasta,Antofagasta,Antofagasta está en cuarentena total.,TRUE
-Antofagasta,Mejillones,Mejillones está en cuarentena total.,TRUE
-Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
+Antofagasta,Antofagasta,Antofagasta está en cuarentena total hasta el 19 de mayo.,TRUE
+Antofagasta,Mejillones,Mejillones está en cuarentena total hasta el 19 de mayo.,TRUE
+Metropolitana,Cerrillos,Cerrillos está en cuarentena total hasta el 19 de mayo.,TRUE
 Metropolitana,Cerro Navia,Cerro Navia está en cuarentena total.,TRUE
 Metropolitana,Conchalí,Conchalí está en cuarentena total.,TRUE
 Metropolitana,El Bosque,El Bosque está en cuarentena total.,TRUE
@@ -18,14 +18,14 @@ Metropolitana,Macul,Macul está en cuarentena total.,TRUE
 Metropolitana,Pedro Aguirre Cerda,Pedro Aguirre Cerda está en cuarentena total.,TRUE
 Metropolitana,Peñalolén,Peñalolén está en cuarentena total.,TRUE
 Metropolitana,Puente Alto,"Puente Alto, al poniente desde el borde del Canal San Carlos y camino San José de Maipo, está en cuarentena",TRUE
-Metropolitana,Quilicura,"Quilicura, desde la línea férrea hacia el poniente, está en cuarentena.",TRUE
+Metropolitana,Quilicura,"Quilicura, desde la línea férrea hacia el poniente, está en cuarentena hasta el 19 de mayo.",TRUE
 Metropolitana,Quinta Normal,Quinta Normal está en cuarentena total.,TRUE
-Metropolitana,Recoleta,Recoleta está en cuarentena total.,TRUE
+Metropolitana,Recoleta,Recoleta está en cuarentena total hasta el 19 de mayo.,TRUE
 Metropolitana,Renca,Renca está en cuarentena total.,TRUE
 Metropolitana,San Bernardo,"San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Colón y desde Av. San José al norte, está en cuarentena.",TRUE
 Metropolitana,San Joaquín,San Joaquín está en cuarentena total.,TRUE
 Metropolitana,San Miguel,San Miguel está en cuarentena total.,TRUE
 Metropolitana,San Ramón,San Ramón está en cuarentena total.,TRUE
-Metropolitana,Santiago,Santiago está en cuarentena total.,TRUE
+Metropolitana,Santiago,Santiago está en cuarentena total hasta el 19 de mayo.,TRUE
 Araucanía,Angol,Angol está en cuarentena total hasta el 14 de mayo.,TRUE
 Araucanía,Victoria,Victoria está en cuarentena total hasta el 14 de mayo.,TRUE
