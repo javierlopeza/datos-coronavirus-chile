@@ -1,4 +1,4 @@
-name: Check for new reporte diario
+name: Check for new reporte diario on MINSAL website
 
 on:
   schedule:
@@ -22,10 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Get last reporte diario data
+      - name: Get last reporte diario data from MINSAL
         run: |
           cd reporte_parser
-          python reporte_parser.py
+          python reporte_scrapper.py
           cd ..
           python data_organizer.py
 
@@ -37,5 +37,5 @@ jobs:
           commit-message: 'feat: update data from reporte diario'
           committer: Javier López <javierlopez@uc.cl>
           title: 'New reporte diario data update'
-          body: A new reporte diario was published. Therefore, we update our data.
+          body: A new reporte diario was published on MINSAL website. Therefore, we update our data.
           author: Javier López <javierlopez@uc.cl>

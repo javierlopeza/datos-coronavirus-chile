@@ -30,7 +30,7 @@ def parse_number(number):
         return int(number.replace(".", ""))
 
 
-class ReporteParser:
+class ReporteScrapper:
     def load_input(self):
         # Load regiones
         self.regiones_minsal = load_json("../names/regiones_minsal.json")
@@ -59,7 +59,7 @@ class ReporteParser:
             last_report_date = header[-1]
             # Compare dates
             if self.report_date > last_report_date:
-                print("Action: Proceed to parse report.")
+                print("Action: Proceed to scrap report.")
                 return True
             print("No Action: Report already retrieved.")
         except Exception as error:
@@ -104,7 +104,7 @@ class ReporteParser:
             self.chile["confirmados"] - self.chile["recuperados"] - self.chile["fallecidos"]
 
         # Save results
-        parser.save_new_values()
+        self.save_new_values()
 
     def parse_numbers(self):
         for region, metrics in self.regiones.items():
@@ -161,6 +161,6 @@ class ReporteParser:
         self.save_new_regions_metrics("../minciencia_data/FallecidosCumulativo.csv", "fallecidos")
         self.save_new_chile_metrics()
 
-parser = ReporteParser()
-parser.load_input()
-parser.scrap_minsal()
+scrapper = ReporteScrapper()
+scrapper.load_input()
+scrapper.scrap_minsal()
