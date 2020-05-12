@@ -179,15 +179,26 @@ class DataOrganizer:
 
     def calculate_recuperados_regiones(self):
         for region in self.chile["regiones"]:
-            current = self.chile["regiones"][region]
-            previous = self.chile["regiones"][region]["previous"]
+            series = self.chile["regiones"][region]["series"]
+            # We use last updated activos date to calculate recuperados
+            curr_date = series["activos"][-1]["date"]
+            curr_confirmados = next(dp["value"] for dp in series["confirmados"] if dp["date"] == curr_date)
+            curr_activos = series["activos"][-1]["value"]
+            curr_fallecidos = next(dp["value"] for dp in series["fallecidos"] if dp["date"] == curr_date)
+            curr_recuperados = curr_confirmados - curr_activos - curr_fallecidos
+            # Same to calculate previous recuperados
+            prev_date = series["activos"][-2]["date"]
+            prev_confirmados = next(dp["value"] for dp in series["confirmados"] if dp["date"] == prev_date)
+            prev_activos = series["activos"][-2]["value"]
+            prev_fallecidos = next(dp["value"] for dp in series["fallecidos"] if dp["date"] == prev_date)
+            prev_recuperados = prev_confirmados - prev_activos - prev_fallecidos
             self.chile["regiones"][region]["recuperados"] = {
-                "date": current["confirmados"]["date"],
-                "value": current["confirmados"]["value"] - current["activos"]["value"] - current["fallecidos"]["value"]
+                "date": curr_date,
+                "value": curr_recuperados
             }
             self.chile["regiones"][region]["previous"]["recuperados"] = {
-                "date": previous["confirmados"]["date"],
-                "value": previous["confirmados"]["value"] - previous["activos"]["value"] - previous["fallecidos"]["value"]
+                "date": prev_date,
+                "value": prev_recuperados
             }
     
     def add_regiones_complete_names(self):
