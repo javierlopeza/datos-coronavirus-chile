@@ -1,0 +1,10 @@
+{
+    "confirmados": 2,
+    "activos": 3,
+    "recuperados": 4,
+    "fallecidos": 5,
+    "nuevos": 6,
+    "nuevos_con_sintomas": 8,
+    "nuevos_sin_sintomas": 9
+  }
+  
