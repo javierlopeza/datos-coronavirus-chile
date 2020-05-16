@@ -1,11 +1,8 @@
 region,commune,text,is_active
-Arica y Parinacota,Arica,Arica está en cuarentena total hasta el 15 de mayo.,TRUE
 Antofagasta,Antofagasta,Antofagasta está en cuarentena total hasta el 19 de mayo.,TRUE
 Antofagasta,Mejillones,Mejillones está en cuarentena total hasta el 19 de mayo.,TRUE
-Tarapacá,Alto Hospicio,Alto Hospicio estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Tarapacá,Iquique,Iquique estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Araucanía,Angol,Angol está en cuarentena total hasta el 15 de mayo.,TRUE
-Araucanía,Victoria,Victoria está en cuarentena total hasta el 15 de mayo.,TRUE
+Tarapacá,Alto Hospicio,Alto Hospicio está en cuarentena total.,TRUE
+Tarapacá,Iquique,Iquique está en cuarentena total.,TRUE
 Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
 Metropolitana,Cerro Navia,Cerro Navia está en cuarentena total.,TRUE
 Metropolitana,Conchalí,Conchalí está en cuarentena total.,TRUE
@@ -21,26 +18,26 @@ Metropolitana,Lo Prado,Lo Prado está en cuarentena total.,TRUE
 Metropolitana,Macul,Macul está en cuarentena total.,TRUE
 Metropolitana,Pedro Aguirre Cerda,Pedro Aguirre Cerda está en cuarentena total.,TRUE
 Metropolitana,Peñalolén,Peñalolén está en cuarentena total.,TRUE
-Metropolitana,Puente Alto,"Puente Alto, al poniente desde el borde del Canal San Carlos y camino San José de Maipo, está en cuarentena. Desde el viernes 15 de mayo toda la comuna.",TRUE
-Metropolitana,Quilicura,"Quilicura, desde la línea férrea hacia el poniente, está en cuarentena. Desde el viernes 15 de mayo toda la comuna.",TRUE
+Metropolitana,Puente Alto,Puente Alto está en cuarentena total.,TRUE
+Metropolitana,Quilicura,Quilicura está en cuarentena total.,TRUE
 Metropolitana,Quinta Normal,Quinta Normal está en cuarentena total.,TRUE
 Metropolitana,Recoleta,Recoleta está en cuarentena total.,TRUE
 Metropolitana,Renca,Renca está en cuarentena total.,TRUE
-Metropolitana,San Bernardo,"San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Colón y desde Av. San José al norte, está en cuarentena. Desde el viernes 15 de mayo toda la comuna.",TRUE
+Metropolitana,San Bernardo,San Bernardo está en cuarentena total.,TRUE
 Metropolitana,San Joaquín,San Joaquín está en cuarentena total.,TRUE
 Metropolitana,San Miguel,San Miguel está en cuarentena total.,TRUE
 Metropolitana,San Ramón,San Ramón está en cuarentena total.,TRUE
 Metropolitana,Santiago,Santiago está en cuarentena total.,TRUE
-Metropolitana,Vitacura,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Pudahuel,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Providencia,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Ñuñoa,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Maipú,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Lo Barnechea,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Las Condes,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,La Reina,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Huechuraba,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Padre Hurtado,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Buin,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Colina,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
-Metropolitana,Lampa,Estará en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs.,FALSE
+Metropolitana,Vitacura,Vitacura está en cuarentena total.,TRUE
+Metropolitana,Pudahuel,Pudahuel está en cuarentena total.,TRUE
+Metropolitana,Providencia,Providencia está en cuarentena total.,TRUE
+Metropolitana,Ñuñoa,Ñuñoa está en cuarentena total.,TRUE
+Metropolitana,Maipú,Maipú está en cuarentena total.,TRUE
+Metropolitana,Lo Barnechea,Lo Barnechea está en cuarentena total.,TRUE
+Metropolitana,Las Condes,Las Condes está en cuarentena total.,TRUE
+Metropolitana,La Reina,La Reina está en cuarentena total.,TRUE
+Metropolitana,Huechuraba,Huechuraba está en cuarentena total.,TRUE
+Metropolitana,Padre Hurtado,Padre Hurtado está en cuarentena total.,TRUE
+Metropolitana,Buin,Buin está en cuarentena total.,TRUE
+Metropolitana,Colina,Colina está en cuarentena total.,TRUE
+Metropolitana,Lampa,Lampa está en cuarentena total.,TRUE

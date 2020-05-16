@@ -2954,8 +2954,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Buin est\u00e1 en cuarentena total."
                     }
                 },
                 "Calera de Tango": {
@@ -3334,8 +3334,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Colina est\u00e1 en cuarentena total."
                     }
                 },
                 "Conchal\u00ed": {
@@ -3904,8 +3904,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Huechuraba est\u00e1 en cuarentena total."
                     }
                 },
                 "Independencia": {
@@ -4569,8 +4569,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "La Reina est\u00e1 en cuarentena total."
                     }
                 },
                 "Lampa": {
@@ -4664,8 +4664,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Lampa est\u00e1 en cuarentena total."
                     }
                 },
                 "Las Condes": {
@@ -4759,8 +4759,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Las Condes est\u00e1 en cuarentena total."
                     }
                 },
                 "Lo Barnechea": {
@@ -4854,8 +4854,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Lo Barnechea est\u00e1 en cuarentena total."
                     }
                 },
                 "Lo Espejo": {
@@ -5234,8 +5234,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Maip\u00fa est\u00e1 en cuarentena total."
                     }
                 },
                 "Mar\u00eda Pinto": {
@@ -5519,8 +5519,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "\u00d1u\u00f1oa est\u00e1 en cuarentena total."
                     }
                 },
                 "Padre Hurtado": {
@@ -5614,8 +5614,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Padre Hurtado est\u00e1 en cuarentena total."
                     }
                 },
                 "Paine": {
@@ -6184,8 +6184,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Providencia est\u00e1 en cuarentena total."
                     }
                 },
                 "Pudahuel": {
@@ -6279,8 +6279,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Pudahuel est\u00e1 en cuarentena total."
                     }
                 },
                 "Puente Alto": {
@@ -6375,7 +6375,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Puente Alto, al poniente desde el borde del Canal San Carlos y camino San Jos\u00e9 de Maipo, est\u00e1 en cuarentena. Desde el viernes 15 de mayo toda la comuna."
+                        "text": "Puente Alto est\u00e1 en cuarentena total."
                     }
                 },
                 "Quilicura": {
@@ -6470,7 +6470,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Quilicura, desde la l\u00ednea f\u00e9rrea hacia el poniente, est\u00e1 en cuarentena. Desde el viernes 15 de mayo toda la comuna."
+                        "text": "Quilicura est\u00e1 en cuarentena total."
                     }
                 },
                 "Quinta Normal": {
@@ -6850,7 +6850,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "San Bernardo, desde la Autopista Central hacia el sur, hasta la Av. Col\u00f3n y desde Av. San Jos\u00e9 al norte, est\u00e1 en cuarentena. Desde el viernes 15 de mayo toda la comuna."
+                        "text": "San Bernardo est\u00e1 en cuarentena total."
                     }
                 },
                 "San Joaqu\u00edn": {
@@ -7704,8 +7704,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Vitacura est\u00e1 en cuarentena total."
                     }
                 }
             },
@@ -8415,8 +8415,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Arica est\u00e1 en cuarentena total hasta el 15 de mayo."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Camarones": {
@@ -9411,8 +9411,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Alto Hospicio estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Alto Hospicio est\u00e1 en cuarentena total."
                     }
                 },
                 "Cami\u00f1a": {
@@ -9791,8 +9791,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Iquique estar\u00e1 en cuarentena total desde el viernes 15 de mayo a las 22:00 hrs."
+                        "is_active": true,
+                        "text": "Iquique est\u00e1 en cuarentena total."
                     }
                 },
                 "Pica": {
@@ -33480,8 +33480,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Angol est\u00e1 en cuarentena total hasta el 15 de mayo."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Carahue": {
@@ -36235,8 +36235,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Victoria est\u00e1 en cuarentena total hasta el 15 de mayo."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Vilc\u00fan": {
