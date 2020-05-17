@@ -4,8 +4,6 @@ from copy import deepcopy
 import csv
 import pendulum
 
-INPUT_DATE = "2020-05-16"
-
 BASE_PLACE = {
     "confirmados": None,
     "nuevos": None,
@@ -39,8 +37,9 @@ class ReporteParser:
         self.chile_metrics_columns_indexes = load_json("../minsal_keys/chile_metrics_columns_indexes.json")
 
     def parse_tables(self):
+        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
         tables = camelot.read_pdf(
-            "./input/tablas_reporte_{}.pdf".format(INPUT_DATE),
+            "./input/tablas_reporte_{}.pdf".format(today),
             pages="all",
             flavor="stream",
         )
@@ -65,7 +64,9 @@ class ReporteParser:
 
     def scrap_table_nacional(self):
         self.chile = deepcopy(BASE_PLACE)
-        total_row = list(self.table_nacional.df.itertuples(index=True, name="Pandas"))[-1]
+        today = pendulum.now("America/Santiago").format("DD-MM-YYYY")
+        rows = list(self.table_nacional.df.itertuples(index=True, name="Pandas"))
+        total_row = list(filter(lambda row: row[1] == today, rows))[0]
         for metric, index in self.chile_metrics_columns_indexes.items():
             self.chile[metric] = total_row[index]
 
