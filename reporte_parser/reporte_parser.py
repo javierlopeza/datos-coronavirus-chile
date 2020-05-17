@@ -4,7 +4,7 @@ from copy import deepcopy
 import csv
 import pendulum
 
-INPUT_DATE = "2020-05-15"
+INPUT_DATE = "2020-05-16"
 
 BASE_PLACE = {
     "confirmados": None,
