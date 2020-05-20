@@ -1,8 +1,9 @@
 region,commune,text,is_active
-Antofagasta,Antofagasta,Antofagasta está en cuarentena total hasta el 19 de mayo.,TRUE
-Antofagasta,Mejillones,Mejillones está en cuarentena total hasta el 19 de mayo.,TRUE
+Antofagasta,Antofagasta,Antofagasta está en cuarentena total.,TRUE
+Antofagasta,Mejillones,Mejillones está en cuarentena total.,TRUE
 Tarapacá,Alto Hospicio,Alto Hospicio está en cuarentena total.,TRUE
 Tarapacá,Iquique,Iquique está en cuarentena total.,TRUE
+La Araucanía,Lonquimay,Lonquimay estará en cuarentena desde el viernes 22 de mayo a las 22:00 horas.,FALSE
 Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
 Metropolitana,Cerro Navia,Cerro Navia está en cuarentena total.,TRUE
 Metropolitana,Conchalí,Conchalí está en cuarentena total.,TRUE

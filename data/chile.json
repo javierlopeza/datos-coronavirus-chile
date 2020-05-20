@@ -11537,7 +11537,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Antofagasta est\u00e1 en cuarentena total hasta el 19 de mayo."
+                        "text": "Antofagasta est\u00e1 en cuarentena total."
                     }
                 },
                 "Calama": {
@@ -11846,7 +11846,7 @@
                     },
                     "quarantine": {
                         "is_active": true,
-                        "text": "Mejillones est\u00e1 en cuarentena total hasta el 19 de mayo."
+                        "text": "Mejillones est\u00e1 en cuarentena total."
                     }
                 },
                 "Ollag\u00fce": {
@@ -37551,8 +37551,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": false,
+                        "text": "Lonquimay estar\u00e1 en cuarentena desde el viernes 22 de mayo a las 22:00 horas."
                     }
                 },
                 "Los Sauces": {
