@@ -30,7 +30,7 @@ def parse_number(number):
         return int(number.replace(".", ""))
 
 
-class ReporteScrapper:
+class ReporteScraper:
     def load_input(self):
         # Load regiones
         self.regiones_minsal = load_json("../names/regiones_minsal.json")
@@ -52,7 +52,7 @@ class ReporteScrapper:
             report_date_text_node = soup_minsal.find(string=re.compile("Informe corresponde al"))
             report_date_text = str(report_date_text_node).strip()
             self.report_date = search_dates(report_date_text, languages=["es"])[0][1].strftime('%Y-%m-%d')
-            # Get last scrapped report date
+            # Get last scraped report date
             with open("../minciencia_data/TotalesNacionales.csv", 'r') as csv_file:
                 reader = csv.reader(csv_file)
                 header = next(reader)
@@ -96,7 +96,7 @@ class ReporteScrapper:
         recuperados = recuperados_text_td.find_next("td").string
         self.chile["recuperados"] = recuperados
         
-        # Parse all scrapped numbers
+        # Parse all scraped numbers
         self.parse_numbers()
 
         # Calculate activos Chile
@@ -161,6 +161,6 @@ class ReporteScrapper:
         self.save_new_regions_metrics("../minciencia_data/FallecidosCumulativo.csv", "fallecidos")
         self.save_new_chile_metrics()
 
-scrapper = ReporteScrapper()
-scrapper.load_input()
-scrapper.scrap_minsal()
+scraper = ReporteScraper()
+scraper.load_input()
+scraper.scrap_minsal()
