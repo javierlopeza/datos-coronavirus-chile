@@ -4,6 +4,14 @@ This repository is used to process data from different sources to feed [COVID-19
 
 It started using data uploaded to [MinCiencia/Datos-COVID19](https://github.com/MinCiencia/Datos-COVID19) but it was changed to a process where official PDF reports are parsed to get all required data.
 
+## Using this repo as data source
+
+We strongly recommend using the **production** branch of this repo for data fetching purposes. That branch will always be available in a reliable state.
+
+If you want to fetch raw JSON data, you should always be fetching the following URL:
+
+```https://raw.githubusercontent.com/javierlopeza/datos-coronavirus-chile/production/data/chile.json```
+
 ## `data_organizer.py` - Data Organizer
 
 It is in charge of collecting all the information spread across CSV files to generate a single `/data/chile.json` file that is served to [COVID-19 en tu comuna](https://covid19entucomuna.cl).
@@ -26,15 +34,15 @@ _NOTE_: as of May 20, we are not using this scraper, we are using Reporte Diario
 
 ## JSON Data
 
-The main output of this repo is [`chile.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/master/data/chile.json). It contains all relevant information to feed [COVID-19 en tu comuna](https://covid19entucomuna.cl). It is also structured in a way is easy for programmers to navigate.
+The main output of this repo is [`chile.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/production/data/chile.json). It contains all relevant information to feed [COVID-19 en tu comuna](https://covid19entucomuna.cl). It is also structured in a way is easy for programmers to navigate.
 
 `country > regions > communes`
 
-A minified version of this file is also published along with it: [`chile-minified.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/master/data/chile-minified.json).
+A minified version of this file is also published along with it: [`chile-minified.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/production/data/chile-minified.json).
 
 ## CSV Data
 
-These are the files that keep all records and that are used to build [`chile.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/master/data/chile.json). File names are kept the same as [Datos-COVID19](https://github.com/MinCiencia/Datos-COVID19).
+These are the files that keep all records and that are used to build [`chile.json`](https://github.com/javierlopeza/datos-coronavirus-chile/blob/production/data/chile.json). File names are kept the same as [Datos-COVID19](https://github.com/MinCiencia/Datos-COVID19).
 
 * `CasosTotalesCumulativo.csv`: cummulative confirmed cases by region.
 
