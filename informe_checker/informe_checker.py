@@ -13,11 +13,9 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36
 source = requests.get(GOV_URL, timeout=10, headers=headers)
 soup = bs.BeautifulSoup(source.content, features="html.parser")
 
-informes_table = soup.find(id="informes").find("table")
-last_informe_date_str = informes_table.find(
-    "tbody").find("tr").find("td").string
-last_informe_date = dateparser.parse(last_informe_date_str, languages=[
-                                     'es']).strftime('%Y-%m-%d')
+informes_table = soup.find(id="informes")
+last_informe_date_str = informes_table.find("a").text.strip()
+last_informe_date = dateparser.parse(last_informe_date_str, languages=['es']).strftime('%Y-%m-%d')
 
 if os.path.isfile("../informe_parser/input/tablas_informe_{}.pdf".format(last_informe_date)):
     print("No Action: last informe already exists.")
