@@ -40,7 +40,7 @@ class ReporteParser:
         today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
         tables = camelot.read_pdf(
             "./input/tablas_reporte_{}.pdf".format(today),
-            pages="all",
+            pages="2,4",
             flavor="stream",
         )
         self.table_regiones, self.table_nacional = tables
