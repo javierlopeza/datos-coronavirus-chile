@@ -52,17 +52,19 @@ class ReporteParser:
         soup = bs.BeautifulSoup(source.content, features="html.parser")
 
         last_reporte_anchor = soup.find(id="reportes").find("a")
-        last_reporte_url = last_reporte_anchor["href"]
+        last_reporte_date_str = last_reporte_anchor.text.strip()
+        self.last_reporte_date = dateparser.parse(last_reporte_date_str, languages=['es']).strftime('%Y-%m-%d')
+        if os.path.isfile("./input/tablas_reporte_{}.pdf".format(self.last_reporte_date)):
+            print("No Action: last reporte already exists.")
 
+        last_reporte_url = last_reporte_anchor["href"]
         response = requests.get(last_reporte_url, stream=True)
-        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
-        with open('./input/tablas_reporte_{}.pdf'.format(today), 'wb') as f:
+        with open('./input/tablas_reporte_{}.pdf'.format(self.last_reporte_date), 'wb') as f:
             f.write(response.content)
 
     def parse_tables(self):
-        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
         tables = camelot.read_pdf(
-            "./input/tablas_reporte_{}.pdf".format(today),
+            "./input/tablas_reporte_{}.pdf".format(self.last_reporte_date),
             pages="all",
             flavor="stream",
         )
@@ -96,9 +98,9 @@ class ReporteParser:
 
     def scrap_table_nacional(self):
         self.chile = deepcopy(BASE_PLACE)
-        today = pendulum.now("America/Santiago").format("DD-MM-YYYY")
         rows = list(self.table_nacional.df.itertuples(index=True, name="Pandas"))
-        total_row = list(filter(lambda row: row[1] == today, rows))[0]
+        formatted_reporte_date = dateparser.parse(self.last_reporte_date).strftime('%d-%m-%Y')
+        total_row = list(filter(lambda row: row[1] == formatted_reporte_date, rows))[0]
         for metric, index in self.chile_metrics_columns_indexes.items():
             self.chile[metric] = total_row[index]
 
@@ -115,15 +117,14 @@ class ReporteParser:
         # Check if we need to update anything
         row = next(reader)
         last_data_date = row[-1]
-        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
-        if last_data_date >= today:
+        if last_data_date >= self.last_reporte_date:
             print("No Action: data already obtained.")
             return
         with open(path, 'w') as csv_file:
             writer = csv.writer(csv_file, lineterminator='\n')
-            # Add today's date header
+            # Add last reporte date header
             new_rows = []
-            row.append(today)
+            row.append(self.last_reporte_date)
             new_rows.append(row)
             # Add metric's values for each region
             for row in reader:
@@ -143,15 +144,14 @@ class ReporteParser:
         # Check if we need to update anything
         row = next(reader)
         last_data_date = row[-1]
-        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
-        if last_data_date >= today:
+        if last_data_date >= self.last_reporte_date:
             print("No Action: data already obtained.")
             return
         with open(path, 'w') as csv_file:
             writer = csv.writer(csv_file, lineterminator='\n')
-            # Add today's date header
+            # Add last reporte date header
             new_rows = []
-            row.append(today)
+            row.append(self.last_reporte_date)
             new_rows.append(row)
             # Add metric's values
             totales_nacionales_keys = load_json("../minciencia_keys/TotalesNacionales.json")
