@@ -39031,8 +39031,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": false,
-                        "text": "Lonquimay estar\u00e1 en cuarentena desde el viernes 22 de mayo a las 22:00 horas."
+                        "is_active": true,
+                        "text": "Lonquimay est\u00e1 en cuarentena total."
                     }
                 },
                 "Los Sauces": {
