@@ -63,10 +63,19 @@ class ReporteParser:
         today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
         tables = camelot.read_pdf(
             "./input/tablas_reporte_{}.pdf".format(today),
-            pages="2,4",
+            pages="all",
             flavor="stream",
         )
-        self.table_regiones, self.table_nacional = tables
+        self.find_tables(tables)
+
+    def find_tables(self, tables):
+        for table in tables:
+            for row in table.df.itertuples(index=True, name="Pandas"):
+                for element in row:
+                    if type(element) is str and "Casos confirmados de Coronavirus a nivel nacional" in element:
+                        self.table_regiones = table
+                    if type(element) is str and "Casos confirmados totales, casos recuperados, casos activos y fallecidos" in element:
+                        self.table_nacional = table
 
     def fix_region(self, region):
         if region in self.fixed_regiones:
