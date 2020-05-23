@@ -4,6 +4,13 @@ from copy import deepcopy
 import csv
 import pendulum
 
+import bs4 as bs
+import dateparser
+import sys
+import os
+import os.path
+import requests
+
 BASE_PLACE = {
     "confirmados": None,
     "nuevos": None,
@@ -35,6 +42,22 @@ class ReporteParser:
         # Load metrics columns indexes
         self.regiones_metrics_columns_indexes = load_json("../minsal_keys/regiones_metrics_columns_indexes.json")
         self.chile_metrics_columns_indexes = load_json("../minsal_keys/chile_metrics_columns_indexes.json")
+
+    def download_reporte(self):
+        GOV_URL = "https://www.gob.cl/coronavirus/cifrasoficiales/"
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36', "Upgrade-Insecure-Requests": "1",
+                "DNT": "1", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate"}
+
+        source = requests.get(GOV_URL, timeout=10, headers=headers)
+        soup = bs.BeautifulSoup(source.content, features="html.parser")
+
+        last_reporte_anchor = soup.find(id="reportes").find("a")
+        last_reporte_url = last_reporte_anchor["href"]
+
+        response = requests.get(last_reporte_url, stream=True)
+        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
+        with open('./input/tablas_reporte_{}.pdf'.format(today), 'wb') as f:
+            f.write(response.content)
 
     def parse_tables(self):
         today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
@@ -80,12 +103,17 @@ class ReporteParser:
     def save_new_regions_metrics(self, path, metric):
         with open(path, 'r') as csv_file:
             reader = iter(list(csv.reader(csv_file)))
+        # Check if we need to update anything
+        row = next(reader)
+        last_data_date = row[-1]
+        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
+        if last_data_date >= today:
+            print("No Action: data already obtained.")
+            return
         with open(path, 'w') as csv_file:
             writer = csv.writer(csv_file, lineterminator='\n')
             # Add today's date header
             new_rows = []
-            row = next(reader)
-            today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
             row.append(today)
             new_rows.append(row)
             # Add metric's values for each region
@@ -103,12 +131,17 @@ class ReporteParser:
         path = "../minciencia_data/TotalesNacionales.csv"
         with open(path, 'r') as csv_file:
             reader = iter(list(csv.reader(csv_file)))
+        # Check if we need to update anything
+        row = next(reader)
+        last_data_date = row[-1]
+        today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
+        if last_data_date >= today:
+            print("No Action: data already obtained.")
+            return
         with open(path, 'w') as csv_file:
             writer = csv.writer(csv_file, lineterminator='\n')
             # Add today's date header
             new_rows = []
-            row = next(reader)
-            today = pendulum.now("America/Santiago").format("YYYY-MM-DD")
             row.append(today)
             new_rows.append(row)
             # Add metric's values
@@ -127,6 +160,7 @@ class ReporteParser:
 
     
 parser = ReporteParser()
+parser.download_reporte()
 parser.load_input()
 parser.parse_tables()
 parser.scrap_table_regiones()
