@@ -1,6 +1,6 @@
 # Datos Coronavirus Chile
 
-![Check for new reporte diario](https://github.com/javierlopeza/datos-coronavirus-chile/workflows/Check%20for%20new%20reporte%20diario/badge.svg)
+![Parse last published reporte diario](https://github.com/javierlopeza/datos-coronavirus-chile/workflows/Parse%20last%20published%20reporte%20diario/badge.svg)
 
 ![Check for new informe epidemiologico](https://github.com/javierlopeza/datos-coronavirus-chile/workflows/Check%20for%20new%20informe%20epidemiologico/badge.svg)
 
