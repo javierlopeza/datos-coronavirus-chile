@@ -12228,8 +12228,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Antofagasta est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Calama": {
@@ -12549,8 +12549,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Mejillones est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     }
                 },
                 "Ollag\u00fce": {
