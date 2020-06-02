@@ -65,10 +65,10 @@ class ReporteParser:
     def parse_tables(self):
         tables = camelot.read_pdf(
             "./input/tablas_reporte_{}.pdf".format(self.last_reporte_date),
-            pages="2,4",
+            pages="2,3",
             flavor="stream",
         )
-        self.table_regiones, self.table_nacional = tables
+        self.table_regiones, self.table_nacional = tables[:2]
 
     def fix_region(self, region):
         if region in self.fixed_regiones:
