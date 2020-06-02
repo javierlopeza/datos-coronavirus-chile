@@ -202,7 +202,7 @@ class DataOrganizer:
 
     def add_quarantines_to_communes(self):
         quarantines = csv.DictReader(
-            open("./minciencia_data/Quarantines.csv"))
+            open("./minciencia_data/quarantines.csv"))
         for row in quarantines:
             region = self.fix_region(row["region"])
             commune = self.fix_comuna(row["commune"])
