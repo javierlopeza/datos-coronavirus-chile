@@ -3,12 +3,19 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-05-29"
+INPUT_DATE = "2020-06-01"
 
 
 def load_json(file_name):
     with open(file_name) as json_file:
         return json.load(json_file)
+
+
+def parse_activos_number(activos):
+    try:
+        return int(activos)
+    except:
+        return 0
 
 
 class InformeParser:
@@ -73,7 +80,7 @@ class InformeParser:
             for row in reader:
                 if row[2] != "Total":
                     comuna = self.fix_comuna(row[2])
-                    comuna_activos = int(self.activos_por_comuna[comuna]) if self.activos_por_comuna[comuna] else 0
+                    comuna_activos = parse_activos_number(self.activos_por_comuna[comuna])
                     row.append(comuna_activos)
                     region_activos += comuna_activos
                 else:
