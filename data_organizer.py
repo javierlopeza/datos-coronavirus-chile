@@ -20,9 +20,6 @@ BASE_PLACE = {
         "fallecidos": {"date": None, "value": None},
     },
     "series": {
-        "nuevos_con_sintomas": [],
-        "nuevos_sin_sintomas": [],
-        "nuevos": [],
         "confirmados": [],
         "activos": [],
         "recuperados": [],
@@ -86,14 +83,12 @@ class DataOrganizer:
         self.chile["poblacion"] = CHILEAN_POPULATION
         # Cifras totales
         totales_nacionales = csv.DictReader(
-            open("./minciencia_data/TotalesNacionales.csv"))
-        totales_nacionales_keys = json.load(
-            open("./minciencia_keys/TotalesNacionales.json"))
+            open("./minciencia_data/totales_chile.csv"))
         for row in totales_nacionales:
-            data_label = totales_nacionales_keys[row["Fecha"]]
+            data_label = row["data_label"]
             data_values = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items() if date != "Fecha"
+                for date, value in row.items() if date != 'data_label'
             ]
             self.chile["series"][data_label] = data_values
             self.chile[data_label] = data_values[-1]
