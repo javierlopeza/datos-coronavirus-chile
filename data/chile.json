@@ -36,1131 +36,9 @@
         "fallecidos": {
             "date": "2020-06-01",
             "value": 1113
-        },
-        "nuevos_con_sintomas": {
-            "date": "2020-06-01",
-            "value": 5082
-        },
-        "nuevos_sin_sintomas": {
-            "date": "2020-06-01",
-            "value": 389
-        },
-        "nuevos": {
-            "date": "2020-06-01",
-            "value": 5471
         }
     },
     "series": {
-        "nuevos_con_sintomas": [
-            {
-                "date": "2020-03-03",
-                "value": 0
-            },
-            {
-                "date": "2020-03-04",
-                "value": 2
-            },
-            {
-                "date": "2020-03-05",
-                "value": 1
-            },
-            {
-                "date": "2020-03-06",
-                "value": 1
-            },
-            {
-                "date": "2020-03-07",
-                "value": 2
-            },
-            {
-                "date": "2020-03-08",
-                "value": 3
-            },
-            {
-                "date": "2020-03-09",
-                "value": 5
-            },
-            {
-                "date": "2020-03-10",
-                "value": 2
-            },
-            {
-                "date": "2020-03-11",
-                "value": 6
-            },
-            {
-                "date": "2020-03-12",
-                "value": 10
-            },
-            {
-                "date": "2020-03-13",
-                "value": 10
-            },
-            {
-                "date": "2020-03-14",
-                "value": 18
-            },
-            {
-                "date": "2020-03-15",
-                "value": 14
-            },
-            {
-                "date": "2020-03-16",
-                "value": 81
-            },
-            {
-                "date": "2020-03-17",
-                "value": 45
-            },
-            {
-                "date": "2020-03-18",
-                "value": 37
-            },
-            {
-                "date": "2020-03-19",
-                "value": 104
-            },
-            {
-                "date": "2020-03-20",
-                "value": 92
-            },
-            {
-                "date": "2020-03-21",
-                "value": 103
-            },
-            {
-                "date": "2020-03-22",
-                "value": 95
-            },
-            {
-                "date": "2020-03-23",
-                "value": 114
-            },
-            {
-                "date": "2020-03-24",
-                "value": 176
-            },
-            {
-                "date": "2020-03-25",
-                "value": 220
-            },
-            {
-                "date": "2020-03-26",
-                "value": 164
-            },
-            {
-                "date": "2020-03-27",
-                "value": 304
-            },
-            {
-                "date": "2020-03-28",
-                "value": 299
-            },
-            {
-                "date": "2020-03-29",
-                "value": 230
-            },
-            {
-                "date": "2020-03-30",
-                "value": 310
-            },
-            {
-                "date": "2020-03-31",
-                "value": 289
-            },
-            {
-                "date": "2020-04-01",
-                "value": 293
-            },
-            {
-                "date": "2020-04-02",
-                "value": 373
-            },
-            {
-                "date": "2020-04-03",
-                "value": 333
-            },
-            {
-                "date": "2020-04-04",
-                "value": 424
-            },
-            {
-                "date": "2020-04-05",
-                "value": 310
-            },
-            {
-                "date": "2020-04-06",
-                "value": 344
-            },
-            {
-                "date": "2020-04-07",
-                "value": 301
-            },
-            {
-                "date": "2020-04-08",
-                "value": 430
-            },
-            {
-                "date": "2020-04-09",
-                "value": 426
-            },
-            {
-                "date": "2020-04-10",
-                "value": 529
-            },
-            {
-                "date": "2020-04-11",
-                "value": 426
-            },
-            {
-                "date": "2020-04-12",
-                "value": 286
-            },
-            {
-                "date": "2020-04-13",
-                "value": 312
-            },
-            {
-                "date": "2020-04-14",
-                "value": 392
-            },
-            {
-                "date": "2020-04-15",
-                "value": 356
-            },
-            {
-                "date": "2020-04-16",
-                "value": 534
-            },
-            {
-                "date": "2020-04-17",
-                "value": 445
-            },
-            {
-                "date": "2020-04-18",
-                "value": 478
-            },
-            {
-                "date": "2020-04-19",
-                "value": 358
-            },
-            {
-                "date": "2020-04-20",
-                "value": 419
-            },
-            {
-                "date": "2020-04-21",
-                "value": 325
-            },
-            {
-                "date": "2020-04-22",
-                "value": 464
-            },
-            {
-                "date": "2020-04-23",
-                "value": 516
-            },
-            {
-                "date": "2020-04-24",
-                "value": 494
-            },
-            {
-                "date": "2020-04-25",
-                "value": 552
-            },
-            {
-                "date": "2020-04-26",
-                "value": 473
-            },
-            {
-                "date": "2020-04-27",
-                "value": 482
-            },
-            {
-                "date": "2020-04-28",
-                "value": 552
-            },
-            {
-                "date": "2020-04-29",
-                "value": 520
-            },
-            {
-                "date": "2020-04-30",
-                "value": 780
-            },
-            {
-                "date": "2020-05-01",
-                "value": 882
-            },
-            {
-                "date": "2020-05-02",
-                "value": 1246
-            },
-            {
-                "date": "2020-05-03",
-                "value": 1112
-            },
-            {
-                "date": "2020-05-04",
-                "value": 876
-            },
-            {
-                "date": "2020-05-05",
-                "value": 1317
-            },
-            {
-                "date": "2020-05-06",
-                "value": 893
-            },
-            {
-                "date": "2020-05-07",
-                "value": 1343
-            },
-            {
-                "date": "2020-05-08",
-                "value": 1183
-            },
-            {
-                "date": "2020-05-09",
-                "value": 1004
-            },
-            {
-                "date": "2020-05-10",
-                "value": 1406
-            },
-            {
-                "date": "2020-05-11",
-                "value": 975
-            },
-            {
-                "date": "2020-05-12",
-                "value": 1479
-            },
-            {
-                "date": "2020-05-13",
-                "value": 2152
-            },
-            {
-                "date": "2020-05-14",
-                "value": 2301
-            },
-            {
-                "date": "2020-05-15",
-                "value": 2112
-            },
-            {
-                "date": "2020-05-16",
-                "value": 1573
-            },
-            {
-                "date": "2020-05-17",
-                "value": 2024
-            },
-            {
-                "date": "2020-05-18",
-                "value": 2018
-            },
-            {
-                "date": "2020-05-19",
-                "value": 3099
-            },
-            {
-                "date": "2020-05-20",
-                "value": 3647
-            },
-            {
-                "date": "2020-05-21",
-                "value": 3538
-            },
-            {
-                "date": "2020-05-22",
-                "value": 3863
-            },
-            {
-                "date": "2020-05-23",
-                "value": 3237
-            },
-            {
-                "date": "2020-05-24",
-                "value": 3343
-            },
-            {
-                "date": "2020-05-25",
-                "value": 4428
-            },
-            {
-                "date": "2020-05-26",
-                "value": 3618
-            },
-            {
-                "date": "2020-05-27",
-                "value": 3956
-            },
-            {
-                "date": "2020-05-28",
-                "value": 4128
-            },
-            {
-                "date": "2020-05-29",
-                "value": 3355
-            },
-            {
-                "date": "2020-05-30",
-                "value": 3736
-            },
-            {
-                "date": "2020-05-31",
-                "value": 4437
-            },
-            {
-                "date": "2020-06-01",
-                "value": 5082
-            },
-            {
-                "date": "2020-06-02",
-                "value": 3206
-            }
-        ],
-        "nuevos_sin_sintomas": [
-            {
-                "date": "2020-03-03",
-                "value": null
-            },
-            {
-                "date": "2020-03-04",
-                "value": null
-            },
-            {
-                "date": "2020-03-05",
-                "value": null
-            },
-            {
-                "date": "2020-03-06",
-                "value": null
-            },
-            {
-                "date": "2020-03-07",
-                "value": null
-            },
-            {
-                "date": "2020-03-08",
-                "value": null
-            },
-            {
-                "date": "2020-03-09",
-                "value": null
-            },
-            {
-                "date": "2020-03-10",
-                "value": null
-            },
-            {
-                "date": "2020-03-11",
-                "value": null
-            },
-            {
-                "date": "2020-03-12",
-                "value": null
-            },
-            {
-                "date": "2020-03-13",
-                "value": null
-            },
-            {
-                "date": "2020-03-14",
-                "value": null
-            },
-            {
-                "date": "2020-03-15",
-                "value": null
-            },
-            {
-                "date": "2020-03-16",
-                "value": null
-            },
-            {
-                "date": "2020-03-17",
-                "value": null
-            },
-            {
-                "date": "2020-03-18",
-                "value": null
-            },
-            {
-                "date": "2020-03-19",
-                "value": null
-            },
-            {
-                "date": "2020-03-20",
-                "value": null
-            },
-            {
-                "date": "2020-03-21",
-                "value": null
-            },
-            {
-                "date": "2020-03-22",
-                "value": null
-            },
-            {
-                "date": "2020-03-23",
-                "value": null
-            },
-            {
-                "date": "2020-03-24",
-                "value": null
-            },
-            {
-                "date": "2020-03-25",
-                "value": null
-            },
-            {
-                "date": "2020-03-26",
-                "value": null
-            },
-            {
-                "date": "2020-03-27",
-                "value": null
-            },
-            {
-                "date": "2020-03-28",
-                "value": null
-            },
-            {
-                "date": "2020-03-29",
-                "value": null
-            },
-            {
-                "date": "2020-03-30",
-                "value": null
-            },
-            {
-                "date": "2020-03-31",
-                "value": null
-            },
-            {
-                "date": "2020-04-01",
-                "value": null
-            },
-            {
-                "date": "2020-04-02",
-                "value": null
-            },
-            {
-                "date": "2020-04-03",
-                "value": null
-            },
-            {
-                "date": "2020-04-04",
-                "value": null
-            },
-            {
-                "date": "2020-04-05",
-                "value": null
-            },
-            {
-                "date": "2020-04-06",
-                "value": null
-            },
-            {
-                "date": "2020-04-07",
-                "value": null
-            },
-            {
-                "date": "2020-04-08",
-                "value": null
-            },
-            {
-                "date": "2020-04-09",
-                "value": null
-            },
-            {
-                "date": "2020-04-10",
-                "value": null
-            },
-            {
-                "date": "2020-04-11",
-                "value": null
-            },
-            {
-                "date": "2020-04-12",
-                "value": null
-            },
-            {
-                "date": "2020-04-13",
-                "value": null
-            },
-            {
-                "date": "2020-04-14",
-                "value": null
-            },
-            {
-                "date": "2020-04-15",
-                "value": null
-            },
-            {
-                "date": "2020-04-16",
-                "value": null
-            },
-            {
-                "date": "2020-04-17",
-                "value": null
-            },
-            {
-                "date": "2020-04-18",
-                "value": null
-            },
-            {
-                "date": "2020-04-19",
-                "value": null
-            },
-            {
-                "date": "2020-04-20",
-                "value": null
-            },
-            {
-                "date": "2020-04-21",
-                "value": null
-            },
-            {
-                "date": "2020-04-22",
-                "value": null
-            },
-            {
-                "date": "2020-04-23",
-                "value": null
-            },
-            {
-                "date": "2020-04-24",
-                "value": null
-            },
-            {
-                "date": "2020-04-25",
-                "value": null
-            },
-            {
-                "date": "2020-04-26",
-                "value": null
-            },
-            {
-                "date": "2020-04-27",
-                "value": null
-            },
-            {
-                "date": "2020-04-28",
-                "value": null
-            },
-            {
-                "date": "2020-04-29",
-                "value": 250
-            },
-            {
-                "date": "2020-04-30",
-                "value": 108
-            },
-            {
-                "date": "2020-05-01",
-                "value": 103
-            },
-            {
-                "date": "2020-05-02",
-                "value": 181
-            },
-            {
-                "date": "2020-05-03",
-                "value": 116
-            },
-            {
-                "date": "2020-05-04",
-                "value": 104
-            },
-            {
-                "date": "2020-05-05",
-                "value": 56
-            },
-            {
-                "date": "2020-05-06",
-                "value": 139
-            },
-            {
-                "date": "2020-05-07",
-                "value": 190
-            },
-            {
-                "date": "2020-05-08",
-                "value": 208
-            },
-            {
-                "date": "2020-05-09",
-                "value": 243
-            },
-            {
-                "date": "2020-05-10",
-                "value": 241
-            },
-            {
-                "date": "2020-05-11",
-                "value": 222
-            },
-            {
-                "date": "2020-05-12",
-                "value": 179
-            },
-            {
-                "date": "2020-05-13",
-                "value": 508
-            },
-            {
-                "date": "2020-05-14",
-                "value": 358
-            },
-            {
-                "date": "2020-05-15",
-                "value": 390
-            },
-            {
-                "date": "2020-05-16",
-                "value": 313
-            },
-            {
-                "date": "2020-05-17",
-                "value": 329
-            },
-            {
-                "date": "2020-05-18",
-                "value": 260
-            },
-            {
-                "date": "2020-05-19",
-                "value": 421
-            },
-            {
-                "date": "2020-05-20",
-                "value": 391
-            },
-            {
-                "date": "2020-05-21",
-                "value": 426
-            },
-            {
-                "date": "2020-05-22",
-                "value": 413
-            },
-            {
-                "date": "2020-05-23",
-                "value": 299
-            },
-            {
-                "date": "2020-05-24",
-                "value": 366
-            },
-            {
-                "date": "2020-05-25",
-                "value": 467
-            },
-            {
-                "date": "2020-05-26",
-                "value": 346
-            },
-            {
-                "date": "2020-05-27",
-                "value": 372
-            },
-            {
-                "date": "2020-05-28",
-                "value": 526
-            },
-            {
-                "date": "2020-05-29",
-                "value": 340
-            },
-            {
-                "date": "2020-05-30",
-                "value": 484
-            },
-            {
-                "date": "2020-05-31",
-                "value": 393
-            },
-            {
-                "date": "2020-06-01",
-                "value": 389
-            },
-            {
-                "date": "2020-06-02",
-                "value": 321
-            }
-        ],
-        "nuevos": [
-            {
-                "date": "2020-03-03",
-                "value": 0
-            },
-            {
-                "date": "2020-03-04",
-                "value": 2
-            },
-            {
-                "date": "2020-03-05",
-                "value": 1
-            },
-            {
-                "date": "2020-03-06",
-                "value": 1
-            },
-            {
-                "date": "2020-03-07",
-                "value": 2
-            },
-            {
-                "date": "2020-03-08",
-                "value": 3
-            },
-            {
-                "date": "2020-03-09",
-                "value": 5
-            },
-            {
-                "date": "2020-03-10",
-                "value": 2
-            },
-            {
-                "date": "2020-03-11",
-                "value": 6
-            },
-            {
-                "date": "2020-03-12",
-                "value": 10
-            },
-            {
-                "date": "2020-03-13",
-                "value": 10
-            },
-            {
-                "date": "2020-03-14",
-                "value": 18
-            },
-            {
-                "date": "2020-03-15",
-                "value": 14
-            },
-            {
-                "date": "2020-03-16",
-                "value": 81
-            },
-            {
-                "date": "2020-03-17",
-                "value": 45
-            },
-            {
-                "date": "2020-03-18",
-                "value": 37
-            },
-            {
-                "date": "2020-03-19",
-                "value": 104
-            },
-            {
-                "date": "2020-03-20",
-                "value": 92
-            },
-            {
-                "date": "2020-03-21",
-                "value": 103
-            },
-            {
-                "date": "2020-03-22",
-                "value": 95
-            },
-            {
-                "date": "2020-03-23",
-                "value": 114
-            },
-            {
-                "date": "2020-03-24",
-                "value": 176
-            },
-            {
-                "date": "2020-03-25",
-                "value": 220
-            },
-            {
-                "date": "2020-03-26",
-                "value": 164
-            },
-            {
-                "date": "2020-03-27",
-                "value": 304
-            },
-            {
-                "date": "2020-03-28",
-                "value": 299
-            },
-            {
-                "date": "2020-03-29",
-                "value": 230
-            },
-            {
-                "date": "2020-03-30",
-                "value": 310
-            },
-            {
-                "date": "2020-03-31",
-                "value": 289
-            },
-            {
-                "date": "2020-04-01",
-                "value": 293
-            },
-            {
-                "date": "2020-04-02",
-                "value": 373
-            },
-            {
-                "date": "2020-04-03",
-                "value": 333
-            },
-            {
-                "date": "2020-04-04",
-                "value": 424
-            },
-            {
-                "date": "2020-04-05",
-                "value": 310
-            },
-            {
-                "date": "2020-04-06",
-                "value": 344
-            },
-            {
-                "date": "2020-04-07",
-                "value": 301
-            },
-            {
-                "date": "2020-04-08",
-                "value": 430
-            },
-            {
-                "date": "2020-04-09",
-                "value": 426
-            },
-            {
-                "date": "2020-04-10",
-                "value": 529
-            },
-            {
-                "date": "2020-04-11",
-                "value": 426
-            },
-            {
-                "date": "2020-04-12",
-                "value": 286
-            },
-            {
-                "date": "2020-04-13",
-                "value": 312
-            },
-            {
-                "date": "2020-04-14",
-                "value": 392
-            },
-            {
-                "date": "2020-04-15",
-                "value": 356
-            },
-            {
-                "date": "2020-04-16",
-                "value": 534
-            },
-            {
-                "date": "2020-04-17",
-                "value": 445
-            },
-            {
-                "date": "2020-04-18",
-                "value": 478
-            },
-            {
-                "date": "2020-04-19",
-                "value": 358
-            },
-            {
-                "date": "2020-04-20",
-                "value": 419
-            },
-            {
-                "date": "2020-04-21",
-                "value": 325
-            },
-            {
-                "date": "2020-04-22",
-                "value": 464
-            },
-            {
-                "date": "2020-04-23",
-                "value": 516
-            },
-            {
-                "date": "2020-04-24",
-                "value": 494
-            },
-            {
-                "date": "2020-04-25",
-                "value": 552
-            },
-            {
-                "date": "2020-04-26",
-                "value": 473
-            },
-            {
-                "date": "2020-04-27",
-                "value": 482
-            },
-            {
-                "date": "2020-04-28",
-                "value": 552
-            },
-            {
-                "date": "2020-04-29",
-                "value": 770
-            },
-            {
-                "date": "2020-04-30",
-                "value": 888
-            },
-            {
-                "date": "2020-05-01",
-                "value": 985
-            },
-            {
-                "date": "2020-05-02",
-                "value": 1427
-            },
-            {
-                "date": "2020-05-03",
-                "value": 1228
-            },
-            {
-                "date": "2020-05-04",
-                "value": 980
-            },
-            {
-                "date": "2020-05-05",
-                "value": 1373
-            },
-            {
-                "date": "2020-05-06",
-                "value": 1032
-            },
-            {
-                "date": "2020-05-07",
-                "value": 1533
-            },
-            {
-                "date": "2020-05-08",
-                "value": 1391
-            },
-            {
-                "date": "2020-05-09",
-                "value": 1247
-            },
-            {
-                "date": "2020-05-10",
-                "value": 1647
-            },
-            {
-                "date": "2020-05-11",
-                "value": 1197
-            },
-            {
-                "date": "2020-05-12",
-                "value": 1658
-            },
-            {
-                "date": "2020-05-13",
-                "value": 2660
-            },
-            {
-                "date": "2020-05-14",
-                "value": 2659
-            },
-            {
-                "date": "2020-05-15",
-                "value": 2502
-            },
-            {
-                "date": "2020-05-16",
-                "value": 1886
-            },
-            {
-                "date": "2020-05-17",
-                "value": 2353
-            },
-            {
-                "date": "2020-05-18",
-                "value": 2278
-            },
-            {
-                "date": "2020-05-19",
-                "value": 3520
-            },
-            {
-                "date": "2020-05-20",
-                "value": 4038
-            },
-            {
-                "date": "2020-05-21",
-                "value": 3964
-            },
-            {
-                "date": "2020-05-22",
-                "value": 4276
-            },
-            {
-                "date": "2020-05-23",
-                "value": 3536
-            },
-            {
-                "date": "2020-05-24",
-                "value": 3709
-            },
-            {
-                "date": "2020-05-25",
-                "value": 4895
-            },
-            {
-                "date": "2020-05-26",
-                "value": 3964
-            },
-            {
-                "date": "2020-05-27",
-                "value": 4328
-            },
-            {
-                "date": "2020-05-28",
-                "value": 4654
-            },
-            {
-                "date": "2020-05-29",
-                "value": 3695
-            },
-            {
-                "date": "2020-05-30",
-                "value": 4220
-            },
-            {
-                "date": "2020-05-31",
-                "value": 4830
-            },
-            {
-                "date": "2020-06-01",
-                "value": 5471
-            },
-            {
-                "date": "2020-06-02",
-                "value": 3527
-            }
-        ],
         "confirmados": [
             {
                 "date": "2020-03-03",
@@ -2268,7 +1146,7 @@
             },
             {
                 "date": "2020-06-02",
-                "value": null
+                "value": 86173
             }
         ],
         "fallecidos": [
@@ -2646,18 +1524,6 @@
         "text": null,
         "is_active": false
     },
-    "nuevos_con_sintomas": {
-        "date": "2020-06-02",
-        "value": 3206
-    },
-    "nuevos_sin_sintomas": {
-        "date": "2020-06-02",
-        "value": 321
-    },
-    "nuevos": {
-        "date": "2020-06-02",
-        "value": 3527
-    },
     "regiones": {
         "Metropolitana": {
             "poblacion": 8125072,
@@ -2700,9 +1566,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -3481,9 +2344,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -3600,9 +2460,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -3719,9 +2576,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -3838,9 +2692,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -3957,9 +2808,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4076,9 +2924,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4195,9 +3040,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4314,9 +3156,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4433,9 +3272,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4552,9 +3388,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4671,9 +3504,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4790,9 +3620,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -4909,9 +3736,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5028,9 +3852,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5147,9 +3968,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5266,9 +4084,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5385,9 +4200,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5504,9 +4316,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5623,9 +4432,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5742,9 +4548,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5861,9 +4664,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -5980,9 +4780,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6099,9 +4896,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6218,9 +5012,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6337,9 +5128,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6456,9 +5244,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6575,9 +5360,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6694,9 +5476,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6813,9 +5592,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -6932,9 +5708,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7051,9 +5824,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7170,9 +5940,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7289,9 +6056,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7408,9 +6172,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7527,9 +6288,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7646,9 +6404,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7765,9 +6520,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -7884,9 +6636,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8003,9 +6752,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8122,9 +6868,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8241,9 +6984,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8360,9 +7100,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8479,9 +7216,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8598,9 +7332,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8717,9 +7448,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8836,9 +7564,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -8955,9 +7680,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9074,9 +7796,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9193,9 +7912,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9312,9 +8028,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9431,9 +8144,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9550,9 +8260,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -9672,9 +8379,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -10453,9 +9157,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -10572,9 +9273,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -10691,9 +9389,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -10810,9 +9505,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -10932,9 +9624,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -11713,9 +10402,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -11832,9 +10518,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -11951,9 +10634,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -12070,9 +10750,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -12189,9 +10866,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -12308,9 +10982,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -12427,9 +11098,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -12549,9 +11217,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -13330,9 +11995,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -13449,9 +12111,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -13568,9 +12227,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -13687,9 +12343,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -13806,9 +12459,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -13925,9 +12575,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -14044,9 +12691,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -14163,9 +12807,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -14282,9 +12923,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -14404,9 +13042,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -15185,9 +13820,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15304,9 +13936,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15423,9 +14052,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15542,9 +14168,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15661,9 +14284,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15780,9 +14400,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -15899,9 +14516,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -16018,9 +14632,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -16137,9 +14748,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -16259,9 +14867,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -17040,9 +15645,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17159,9 +15761,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17278,9 +15877,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17397,9 +15993,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17516,9 +16109,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17635,9 +16225,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17754,9 +16341,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17873,9 +16457,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -17992,9 +16573,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18111,9 +16689,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18230,9 +16805,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18349,9 +16921,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18468,9 +17037,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18587,9 +17153,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18706,9 +17269,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -18828,9 +17388,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -19609,9 +18166,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -19728,9 +18282,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -19847,9 +18398,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -19966,9 +18514,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20085,9 +18630,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20204,9 +18746,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20323,9 +18862,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20442,9 +18978,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20561,9 +19094,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20680,9 +19210,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20799,9 +19326,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -20918,9 +19442,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21037,9 +19558,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21156,9 +19674,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21275,9 +19790,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21394,9 +19906,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21513,9 +20022,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21632,9 +20138,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21751,9 +20254,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21870,9 +20370,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -21989,9 +20486,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22108,9 +20602,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22227,9 +20718,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22346,9 +20834,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22465,9 +20950,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22584,9 +21066,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22703,9 +21182,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22822,9 +21298,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -22941,9 +21414,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23060,9 +21530,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23179,9 +21646,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23298,9 +21762,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23417,9 +21878,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23536,9 +21994,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23655,9 +22110,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23774,9 +22226,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -23893,9 +22342,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -24012,9 +22458,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -24134,9 +22577,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -24915,9 +23355,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25034,9 +23471,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25153,9 +23587,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25272,9 +23703,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25391,9 +23819,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25510,9 +23935,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25629,9 +24051,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25748,9 +24167,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25867,9 +24283,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -25986,9 +24399,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26105,9 +24515,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26224,9 +24631,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26343,9 +24747,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26462,9 +24863,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26581,9 +24979,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26700,9 +25095,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26819,9 +25211,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -26938,9 +25327,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27057,9 +25443,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27176,9 +25559,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27295,9 +25675,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27414,9 +25791,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27533,9 +25907,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27652,9 +26023,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27771,9 +26139,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -27890,9 +26255,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28009,9 +26371,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28128,9 +26487,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28247,9 +26603,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28366,9 +26719,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28485,9 +26835,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28604,9 +26951,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28723,9 +27067,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -28845,9 +27186,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -29626,9 +27964,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -29745,9 +28080,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -29864,9 +28196,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -29983,9 +28312,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30102,9 +28428,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30221,9 +28544,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30340,9 +28660,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30459,9 +28776,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30578,9 +28892,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30697,9 +29008,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30816,9 +29124,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -30935,9 +29240,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31054,9 +29356,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31173,9 +29472,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31292,9 +29588,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31411,9 +29704,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31530,9 +29820,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31649,9 +29936,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31768,9 +30052,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -31887,9 +30168,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32006,9 +30284,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32125,9 +30400,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32244,9 +30516,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32363,9 +30632,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32482,9 +30748,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32601,9 +30864,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32720,9 +30980,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32839,9 +31096,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -32958,9 +31212,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -33077,9 +31328,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -33199,9 +31447,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -33980,9 +32225,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34099,9 +32341,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34218,9 +32457,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34337,9 +32573,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34456,9 +32689,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34575,9 +32805,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34694,9 +32921,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34813,9 +33037,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -34932,9 +33153,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35051,9 +33269,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35170,9 +33385,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35289,9 +33501,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35408,9 +33617,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35527,9 +33733,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35646,9 +33849,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35765,9 +33965,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -35884,9 +34081,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -36003,9 +34197,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -36122,9 +34313,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -36241,9 +34429,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -36360,9 +34545,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -36482,9 +34664,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -37263,9 +35442,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37382,9 +35558,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37501,9 +35674,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37620,9 +35790,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37739,9 +35906,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37858,9 +36022,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -37977,9 +36138,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38096,9 +36254,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38215,9 +36370,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38334,9 +36486,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38453,9 +36602,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38572,9 +36718,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38691,9 +36834,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38810,9 +36950,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -38929,9 +37066,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39048,9 +37182,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39167,9 +37298,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39286,9 +37414,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39405,9 +37530,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39524,9 +37646,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39643,9 +37762,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39762,9 +37878,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -39881,9 +37994,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40000,9 +38110,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40119,9 +38226,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40238,9 +38342,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40357,9 +38458,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40476,9 +38574,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40595,9 +38690,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40714,9 +38806,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40833,9 +38922,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -40952,9 +39038,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -41071,9 +39154,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -41193,9 +39273,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -41974,9 +40051,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42093,9 +40167,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42212,9 +40283,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42331,9 +40399,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42450,9 +40515,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42569,9 +40631,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42688,9 +40747,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42807,9 +40863,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -42926,9 +40979,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43045,9 +41095,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43164,9 +41211,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43283,9 +41327,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43402,9 +41443,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43521,9 +41559,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43640,9 +41675,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43759,9 +41791,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43878,9 +41907,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -43997,9 +42023,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44116,9 +42139,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44235,9 +42255,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44354,9 +42371,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44473,9 +42487,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44592,9 +42603,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44711,9 +42719,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44830,9 +42835,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -44949,9 +42951,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45068,9 +43067,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45187,9 +43183,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45306,9 +43299,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45425,9 +43415,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45544,9 +43531,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45663,9 +43647,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -45785,9 +43766,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -46566,9 +44544,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -46685,9 +44660,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -46804,9 +44776,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -46923,9 +44892,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47042,9 +45008,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47161,9 +45124,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47280,9 +45240,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47399,9 +45356,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47518,9 +45472,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47637,9 +45588,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47756,9 +45704,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47875,9 +45820,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -47997,9 +45939,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -48778,9 +46717,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -48897,9 +46833,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49016,9 +46949,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49135,9 +47065,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49254,9 +47181,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49373,9 +47297,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49492,9 +47413,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49611,9 +47529,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49730,9 +47645,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49849,9 +47761,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -49968,9 +47877,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50087,9 +47993,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50206,9 +48109,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50325,9 +48225,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50444,9 +48341,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50563,9 +48457,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50682,9 +48573,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50801,9 +48689,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -50920,9 +48805,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51039,9 +48921,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51158,9 +49037,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51277,9 +49153,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51396,9 +49269,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51515,9 +49385,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51634,9 +49501,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51753,9 +49617,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51872,9 +49733,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -51991,9 +49849,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -52110,9 +49965,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -52229,9 +50081,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -52351,9 +50200,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -53132,9 +50978,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53251,9 +51094,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53370,9 +51210,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53489,9 +51326,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53608,9 +51442,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53727,9 +51558,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53846,9 +51674,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -53965,9 +51790,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -54084,9 +51906,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -54203,9 +52022,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -54325,9 +52141,6 @@
                 }
             },
             "series": {
-                "nuevos_con_sintomas": [],
-                "nuevos_sin_sintomas": [],
-                "nuevos": [],
                 "confirmados": [
                     {
                         "date": "2020-03-03",
@@ -55106,9 +52919,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55225,9 +53035,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55344,9 +53151,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55463,9 +53267,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55582,9 +53383,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55701,9 +53499,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55820,9 +53615,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -55939,9 +53731,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -56058,9 +53847,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -56177,9 +53963,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
@@ -56296,9 +54079,6 @@
                         }
                     },
                     "series": {
-                        "nuevos_con_sintomas": [],
-                        "nuevos_sin_sintomas": [],
-                        "nuevos": [],
                         "confirmados": [],
                         "activos": [
                             {
