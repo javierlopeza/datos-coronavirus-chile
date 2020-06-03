@@ -11,7 +11,7 @@
     "activos": {
         "date": "2020-06-02",
         "value": 21325,
-        "is_from_informe_epi": "0"
+        "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
         "date": "2020-06-02",
@@ -25,7 +25,7 @@
         "activos": {
             "date": "2020-06-01",
             "value": 22618,
-            "is_from_informe_epi": "1"
+            "is_from_informe_epi": "TRUE"
         },
         "fallecidos": {
             "date": "2020-06-01",
@@ -701,87 +701,87 @@
             {
                 "date": "2020-04-13",
                 "value": 3067,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-15",
                 "value": 2819,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-17",
                 "value": 3032,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-20",
                 "value": 3284,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-24",
                 "value": 3544,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-27",
                 "value": 4020,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-01",
                 "value": 5319,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-04",
                 "value": 7403,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-08",
                 "value": 9960,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-11",
                 "value": 11329,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-15",
                 "value": 15266,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-18",
                 "value": 16468,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-22",
                 "value": 20609,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-25",
                 "value": 21949,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-29",
                 "value": 21885,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-01",
                 "value": 22618,
-                "is_from_informe_epi": "1"
+                "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-02",
                 "value": 21325,
-                "is_from_informe_epi": "0"
+                "is_from_informe_epi": "FALSE"
             }
         ]
     },
