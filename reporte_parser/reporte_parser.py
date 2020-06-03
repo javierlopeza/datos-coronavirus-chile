@@ -13,11 +13,7 @@ import requests
 
 BASE_PLACE = {
     "confirmados": None,
-    "nuevos": None,
-    "nuevos_con_sintomas": None,
-    "nuevos_sin_sintomas": None,
     "fallecidos": None,
-    "recuperados": None,
     "activos": None,
 }
 
@@ -40,8 +36,8 @@ class ReporteParser:
         # Load fixed regiones names
         self.fixed_regiones = load_json("../names/fixed_regiones.json")
         # Load metrics columns indexes
-        self.regiones_metrics_columns_indexes = load_json("../minsal_keys/regiones_metrics_columns_indexes.json")
-        self.chile_metrics_columns_indexes = load_json("../minsal_keys/chile_metrics_columns_indexes.json")
+        self.regiones_metrics_columns_indexes = load_json("../tables_keys/regiones_metrics_columns_indexes.json")
+        self.chile_metrics_columns_indexes = load_json("../tables_keys/chile_metrics_columns_indexes.json")
 
     def download_reporte(self):
         GOV_URL = "https://www.gob.cl/coronavirus/cifrasoficiales/"
@@ -109,7 +105,7 @@ class ReporteParser:
         row = next(reader)
         last_data_date = row[-1]
         if last_data_date >= self.last_reporte_date:
-            print("No Action: data already obtained.")
+            print("No Action: regiones {} data already obtained.".format(metric))
             return
         with open(path, 'w') as csv_file:
             writer = csv.writer(csv_file, lineterminator='\n')
@@ -119,44 +115,31 @@ class ReporteParser:
             new_rows.append(row)
             # Add metric's values for each region
             for row in reader:
-                if row[0] != "Total":
-                    region = self.fix_region(row[0])
-                    row.append(self.regiones[region][metric])
-                else:
-                    row.append(self.chile[metric])
-                new_rows.append(row)
+                region = self.fix_region(row[0])
+                new_rows.append(row + [self.regiones[region][metric]])
             # Write new rows
             writer.writerows(new_rows)
 
-    def save_new_chile_metrics(self):
-        path = "../minciencia_data/TotalesNacionales.csv"
+    def save_new_chile_metrics(self, path, metric):
         with open(path, 'r') as csv_file:
-            reader = iter(list(csv.reader(csv_file)))
+            rows = list(csv.reader(csv_file))
         # Check if we need to update anything
-        row = next(reader)
-        last_data_date = row[-1]
+        last_data_date = rows[-1][0]
         if last_data_date >= self.last_reporte_date:
-            print("No Action: data already obtained.")
+            print("No Action: Chile {} data already obtained.".format(metric))
             return
-        with open(path, 'w') as csv_file:
-            writer = csv.writer(csv_file, lineterminator='\n')
-            # Add last reporte date header
-            new_rows = []
-            row.append(self.last_reporte_date)
-            new_rows.append(row)
-            # Add metric's values
-            totales_nacionales_keys = load_json("../minciencia_keys/TotalesNacionales.json")
-            for row in reader:
-                metric = totales_nacionales_keys[row[0]]
-                row.append(self.chile[metric])
-                new_rows.append(row)
-            # Write new rows
-            writer.writerows(new_rows)
+        # Write new metric value
+        with open(path, 'a', newline='') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerow([self.last_reporte_date, self.chile[metric]])
 
     def save_new_values(self):
-        self.save_new_regions_metrics("../minciencia_data/CasosTotalesCumulativo.csv", "confirmados")
-        self.save_new_regions_metrics("../minciencia_data/FallecidosCumulativo.csv", "fallecidos")
-        self.save_new_chile_metrics()
+        self.save_new_regions_metrics("../raw_data/regiones/series_confirmados_regiones.csv", "confirmados")
+        self.save_new_regions_metrics("../raw_data/regiones/series_fallecidos_regiones.csv", "fallecidos")
+
+        self.save_new_chile_metrics("../raw_data/chile/serie_confirmados_chile.csv", "confirmados")
+        self.save_new_chile_metrics("../raw_data/chile/serie_fallecidos_chile.csv", "fallecidos")
+        self.save_new_chile_metrics("../raw_data/chile/serie_activos_chile.csv", "activos")
 
     
 parser = ReporteParser()
