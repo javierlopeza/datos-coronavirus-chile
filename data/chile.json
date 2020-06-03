@@ -1,26 +1,26 @@
 {
     "poblacion": 19458310,
     "tasa_activos": {
-        "date": "2020-06-02",
-        "value": 109.59327916967095
+        "date": "2020-06-03",
+        "value": 111.03225305794798
     },
     "confirmados": {
-        "date": "2020-06-02",
-        "value": 108686
+        "date": "2020-06-03",
+        "value": 113628
     },
     "activos": {
-        "date": "2020-06-02",
-        "value": 21325,
-        "is_from_informe_epi": null
+        "date": "2020-06-03",
+        "value": 21605,
+        "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-06-02",
-        "value": 1188
+        "date": "2020-06-03",
+        "value": 1275
     },
     "previous": {
         "confirmados": {
-            "date": "2020-06-01",
-            "value": 105159
+            "date": "2020-06-02",
+            "value": 108686
         },
         "activos": {
             "date": "2020-05-31",
@@ -28,8 +28,8 @@
             "is_from_informe_epi": "TRUE"
         },
         "fallecidos": {
-            "date": "2020-06-01",
-            "value": 1113
+            "date": "2020-06-02",
+            "value": 1188
         }
     },
     "series": {
@@ -401,6 +401,10 @@
             {
                 "date": "2020-06-02",
                 "value": 108686
+            },
+            {
+                "date": "2020-06-03",
+                "value": 113628
             }
         ],
         "fallecidos": [
@@ -695,6 +699,10 @@
             {
                 "date": "2020-06-02",
                 "value": 1188
+            },
+            {
+                "date": "2020-06-03",
+                "value": 1275
             }
         ],
         "activos": [
@@ -779,9 +787,9 @@
                 "is_from_informe_epi": "TRUE"
             },
             {
-                "date": "2020-06-02",
-                "value": 21325,
-                "is_from_informe_epi": null
+                "date": "2020-06-03",
+                "value": 21605,
+                "is_from_informe_epi": "FALSE"
             }
         ]
     },
