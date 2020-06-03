@@ -11,18 +11,15 @@ BASE_PLACE = {
     "tasa_activos": {"date": None, "value": None},
     "confirmados": {"date": None, "value": None},
     "activos": {"date": None, "value": None},
-    "recuperados": {"date": None, "value": None},
     "fallecidos": {"date": None, "value": None},
     "previous": {
         "confirmados": {"date": None, "value": None},
         "activos": {"date": None, "value": None},
-        "recuperados": {"date": None, "value": None},
         "fallecidos": {"date": None, "value": None},
     },
     "series": {
         "confirmados": [],
         "activos": [],
-        "recuperados": [],
         "fallecidos": [],
     },
     "quarantine": {
@@ -33,7 +30,17 @@ BASE_PLACE = {
 
 
 def parse_string_int(s):
-    return int(float(s)) if s != "" else None
+    try:
+        return int(float(s))
+    except:
+        return None
+
+
+def parse_series_values(serie):
+    for e in serie:
+        e["value"] = parse_string_int(e["value"])
+    return serie
+
 
 def load_json(file_name):
     with open(file_name) as json_file:
@@ -81,19 +88,36 @@ class DataOrganizer:
     def fill_chile_data(self):
         # Poblacion
         self.chile["poblacion"] = CHILEAN_POPULATION
-        # Cifras totales
-        totales_nacionales = csv.DictReader(
-            open("./minciencia_data/totales_chile.csv"))
-        for row in totales_nacionales:
-            data_label = row["data_label"]
-            data_values = [
-                {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items() if date != 'data_label'
-            ]
-            self.chile["series"][data_label] = data_values
-            self.chile[data_label] = data_values[-1]
-            self.chile["previous"][data_label] = data_values[-2]
-        # Tasa activos
+
+        # Confirmados
+        serie_confirmados_csv = csv.DictReader(
+            open("./raw_data/chile/serie_confirmados_chile.csv"))
+        serie_confirmados = parse_series_values(list(serie_confirmados_csv))
+        # Fallecidos
+        serie_fallecidos_csv = csv.DictReader(
+            open("./raw_data/chile/serie_fallecidos_chile.csv"))
+        serie_fallecidos = parse_series_values(list(serie_fallecidos_csv))
+        # Activos
+        serie_activos_csv = csv.DictReader(
+            open("./raw_data/chile/serie_activos_chile.csv"))
+        serie_activos = parse_series_values(list(serie_activos_csv))
+
+        # Add all series
+        self.chile["series"] = {
+            "confirmados": serie_confirmados,
+            "fallecidos": serie_fallecidos,
+            "activos": serie_activos,
+        }
+        # Add current values
+        self.chile["confirmados"] = serie_confirmados[-1]
+        self.chile["fallecidos"] = serie_fallecidos[-1]
+        self.chile["activos"] = serie_activos[-1]
+        # Add previous values
+        self.chile["previous"]["confirmados"] = serie_confirmados[-2]
+        self.chile["previous"]["fallecidos"] = serie_fallecidos[-2]
+        self.chile["previous"]["activos"] = next(e for e in reversed(serie_activos[:-1]) if e["value"] is not None)
+        serie_activos[-2]
+        # Add tasa activos
         self.chile["tasa_activos"] = {
             "date": self.chile["activos"]["date"],
             "value": (self.chile["activos"]["value"] / self.chile["poblacion"]) * 100000,
@@ -104,105 +128,107 @@ class DataOrganizer:
             region: {**deepcopy(BASE_PLACE), "comunas": {}}
             for region in self.regiones_es
         }
-        # Confirmados
-        casos_totales_cumulativo = csv.DictReader(
-            open("./minciencia_data/CasosTotalesCumulativo.csv"))
-        for row in casos_totales_cumulativo:
-            if row["Region"] in self.all_regiones:
-                region = self.fix_region(row["Region"])
-                data_values = [
-                    {"date": date, "value": parse_string_int(value)}
-                    for date, value in row.items() if date != "Region"
-                ]
-                self.chile["regiones"][region]["series"]["confirmados"] = data_values
-                self.chile["regiones"][region]["confirmados"] = data_values[-1]
-                self.chile["regiones"][region]["previous"]["confirmados"] = data_values[-2]
-        # Fallecidos
-        fallecidos_cumulativo = csv.DictReader(
-            open("./minciencia_data/FallecidosCumulativo.csv"))
-        for row in fallecidos_cumulativo:
-            if row["Region"] in self.all_regiones:
-                region = self.fix_region(row["Region"])
-                data_values = [
-                    {"date": date, "value": parse_string_int(value)}
-                    for date, value in row.items() if date != "Region"
-                ]
-                self.chile["regiones"][region]["series"]["fallecidos"] = data_values
-                self.chile["regiones"][region]["fallecidos"] = data_values[-1]
-                self.chile["regiones"][region]["previous"]["fallecidos"] = data_values[-2]
+        # Add poblaciones
+        poblaciones_csv = csv.DictReader(open("./raw_data/regiones/poblaciones_regiones.csv"))
+        poblaciones = parse_series_values(list(poblaciones_csv))
+        for row in poblaciones:
+            region = self.fix_region(row["region"])
+            poblacion = parse_string_int(row["value"])
+            self.chile["regiones"][region]["poblacion"] = poblacion
+
+        # Add confirmados
+        series_confirmados_csv = csv.DictReader(open("./raw_data/regiones/series_confirmados_regiones.csv"))
+        for row in series_confirmados_csv:
+            region = self.fix_region(row["region"])
+            serie_confirmados = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items()
+            ]
+            self.chile["regiones"][region]["series"]["confirmados"] = serie_confirmados
+            self.chile["regiones"][region]["confirmados"] = serie_confirmados[-1]
+            self.chile["regiones"][region]["previous"]["confirmados"] = serie_confirmados[-2]
+        # Add fallecidos
+        series_fallecidos_csv = csv.DictReader(open("./raw_data/regiones/series_fallecidos_regiones.csv"))
+        for row in series_fallecidos_csv:
+            region = self.fix_region(row["region"])
+            serie_fallecidos = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items()
+            ]
+            self.chile["regiones"][region]["series"]["fallecidos"] = serie_fallecidos
+            self.chile["regiones"][region]["fallecidos"] = serie_fallecidos[-1]
+            self.chile["regiones"][region]["previous"]["fallecidos"] = serie_fallecidos[-2]
+        # Add activos
+        series_activos_csv = csv.DictReader(open("./raw_data/regiones/series_activos_regiones.csv"))
+        for row in series_activos_csv:
+            region = self.fix_region(row["region"])
+            serie_activos = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items()
+            ]
+            self.chile["regiones"][region]["series"]["activos"] = serie_activos
+            self.chile["regiones"][region]["activos"] = serie_activos[-1]
+            self.chile["regiones"][region]["previous"]["activos"] = serie_activos[-2]
+            # Add tasa activos
+            current_activos = self.chile["regiones"][region]["activos"]
+            poblacion = self.chile["regiones"][region]["poblacion"]
+            self.chile["regiones"][region]["tasa_activos"] = {
+                "date": current_activos["date"],
+                "value": (current_activos["value"]/ poblacion) * 100000,
+            }
 
     def fill_comunas_data(self):
         for comuna in self.comunas_es:
             self.chile["regiones"][self.regiones_comunas[comuna]]["comunas"][comuna] = deepcopy(BASE_PLACE)
-        # Activos
-        casos_activos_por_comuna = csv.DictReader(
-            open("./minciencia_data/CasosActivosPorComuna.csv"))
-        for row in casos_activos_por_comuna:
-            region = self.fix_region(row["Region"])
-            poblacion = parse_string_int(row["Poblacion"])
-            data_values = [
-                {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items() if date.startswith("20")
-            ]
-            # Activos - Comuna
-            if row["Comuna"] in self.all_comunas:
-                comuna = self.fix_comuna(row["Comuna"])
-                self.chile["regiones"][region]["comunas"][comuna]["poblacion"] = poblacion
-                self.chile["regiones"][region]["comunas"][comuna]["series"]["activos"] = data_values
-                self.chile["regiones"][region]["comunas"][comuna]["activos"] = data_values[-1]
-                self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"]  = data_values[-2]
-                # Tasa activos - Comuna
-                activos = self.chile["regiones"][region]["comunas"][comuna]["activos"]
-                poblacion = self.chile["regiones"][region]["comunas"][comuna]["poblacion"]
-                self.chile["regiones"][region]["comunas"][comuna]["tasa_activos"] = {
-                    "date": activos["date"],
-                    "value": (activos["value"] / poblacion) * 100000,
-                }
-            # Activos - Region
-            elif row["Comuna"] == "Total":
-                self.chile["regiones"][region]["poblacion"] = poblacion
-                self.chile["regiones"][region]["series"]["activos"] = data_values
-                self.chile["regiones"][region]["activos"] = data_values[-1]
-                self.chile["regiones"][region]["previous"]["activos"]  = data_values[-2]
-                # Tasa activos - Region
-                activos = self.chile["regiones"][region]["activos"]
-                poblacion = self.chile["regiones"][region]["poblacion"]
-                self.chile["regiones"][region]["tasa_activos"] = {
-                    "date": activos["date"],
-                    "value": (activos["value"] / poblacion) * 100000,
-                }
+        
+        # Add poblaciones
+        poblaciones_csv = csv.DictReader(open("./raw_data/comunas/poblaciones_comunas.csv"))
+        poblaciones = parse_series_values(list(poblaciones_csv))
+        for row in poblaciones:
+            comuna = self.fix_comuna(row["comuna"])
+            region = self.fix_region(self.regiones_comunas[comuna])
+            poblacion = parse_string_int(row["value"])
+            self.chile["regiones"][region]["comunas"][comuna]["poblacion"] = poblacion
 
-    def calculate_recuperados_regiones(self):
-        for region in self.chile["regiones"]:
-            series = self.chile["regiones"][region]["series"]
-            # We use last updated activos date to calculate recuperados
-            curr_date = series["activos"][-1]["date"]
-            curr_confirmados = next(dp["value"] for dp in series["confirmados"] if dp["date"] == curr_date)
-            curr_activos = series["activos"][-1]["value"]
-            curr_fallecidos = next(dp["value"] for dp in series["fallecidos"] if dp["date"] == curr_date)
-            curr_recuperados = curr_confirmados - curr_activos - curr_fallecidos
-            # Same to calculate previous recuperados
-            prev_date = series["activos"][-2]["date"]
-            prev_confirmados = next(dp["value"] for dp in series["confirmados"] if dp["date"] == prev_date)
-            prev_activos = series["activos"][-2]["value"]
-            prev_fallecidos = next(dp["value"] for dp in series["fallecidos"] if dp["date"] == prev_date)
-            prev_recuperados = prev_confirmados - prev_activos - prev_fallecidos
-            self.chile["regiones"][region]["recuperados"] = {
-                "date": curr_date,
-                "value": curr_recuperados
+        # Add confirmados
+        series_confirmados_csv = csv.DictReader(open("./raw_data/comunas/series_confirmados_comunas.csv"))
+        for row in series_confirmados_csv:
+            comuna = self.fix_comuna(row["comuna"])
+            region = self.fix_region(self.regiones_comunas[comuna])
+            serie_confirmados = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items()
+            ]
+            self.chile["regiones"][region]["comunas"][comuna]["series"]["confirmados"] = serie_confirmados
+            self.chile["regiones"][region]["comunas"][comuna]["confirmados"] = serie_confirmados[-1]
+            self.chile["regiones"][region]["comunas"][comuna]["previous"]["confirmados"] = serie_confirmados[-2]
+        # Add activos
+        series_activos_csv = csv.DictReader(open("./raw_data/comunas/series_activos_comunas.csv"))
+        for row in series_activos_csv:
+            comuna = self.fix_comuna(row["comuna"])
+            region = self.fix_region(self.regiones_comunas[comuna])
+            serie_activos = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items()
+            ]
+            self.chile["regiones"][region]["comunas"][comuna]["series"]["activos"] = serie_activos
+            self.chile["regiones"][region]["comunas"][comuna]["activos"] = serie_activos[-1]
+            self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"] = serie_activos[-2]
+            # Add tasa activos
+            current_activos = self.chile["regiones"][region]["comunas"][comuna]["activos"]
+            poblacion = self.chile["regiones"][region]["comunas"][comuna]["poblacion"]
+            self.chile["regiones"][region]["comunas"][comuna]["tasa_activos"] = {
+                "date": current_activos["date"],
+                "value": (current_activos["value"] / poblacion) * 100000,
             }
-            self.chile["regiones"][region]["previous"]["recuperados"] = {
-                "date": prev_date,
-                "value": prev_recuperados
-            }
-    
+
     def add_regiones_complete_names(self):
         for region in self.chile["regiones"]:
             self.chile["regiones"][region]["complete_name"] = self.complete_regiones[region]
 
     def add_quarantines_to_communes(self):
         quarantines = csv.DictReader(
-            open("./minciencia_data/quarantines.csv"))
+            open("./raw_data/quarantines.csv"))
         for row in quarantines:
             region = self.fix_region(row["region"])
             commune = self.fix_comuna(row["commune"])
@@ -224,7 +250,6 @@ organizer.load_input()
 organizer.fill_chile_data()
 organizer.fill_regiones_data()
 organizer.fill_comunas_data()
-organizer.calculate_recuperados_regiones()
 organizer.add_regiones_complete_names()
 organizer.add_quarantines_to_communes()
 organizer.save_data()
