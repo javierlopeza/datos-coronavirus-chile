@@ -142,7 +142,7 @@ class DataOrganizer:
             region = self.fix_region(row["region"])
             serie_confirmados = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items()
+                for date, value in row.items() if date != "region"
             ]
             self.chile["regiones"][region]["series"]["confirmados"] = serie_confirmados
             self.chile["regiones"][region]["confirmados"] = serie_confirmados[-1]
@@ -153,7 +153,7 @@ class DataOrganizer:
             region = self.fix_region(row["region"])
             serie_fallecidos = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items()
+                for date, value in row.items() if date != "region"
             ]
             self.chile["regiones"][region]["series"]["fallecidos"] = serie_fallecidos
             self.chile["regiones"][region]["fallecidos"] = serie_fallecidos[-1]
@@ -164,7 +164,7 @@ class DataOrganizer:
             region = self.fix_region(row["region"])
             serie_activos = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items()
+                for date, value in row.items() if date != "region"
             ]
             self.chile["regiones"][region]["series"]["activos"] = serie_activos
             self.chile["regiones"][region]["activos"] = serie_activos[-1]
@@ -197,7 +197,7 @@ class DataOrganizer:
             region = self.fix_region(self.regiones_comunas[comuna])
             serie_confirmados = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items()
+                for date, value in row.items() if date != "comuna"
             ]
             self.chile["regiones"][region]["comunas"][comuna]["series"]["confirmados"] = serie_confirmados
             self.chile["regiones"][region]["comunas"][comuna]["confirmados"] = serie_confirmados[-1]
@@ -209,7 +209,7 @@ class DataOrganizer:
             region = self.fix_region(self.regiones_comunas[comuna])
             serie_activos = [
                 {"date": date, "value": parse_string_int(value)}
-                for date, value in row.items()
+                for date, value in row.items() if date != "comuna"
             ]
             self.chile["regiones"][region]["comunas"][comuna]["series"]["activos"] = serie_activos
             self.chile["regiones"][region]["comunas"][comuna]["activos"] = serie_activos[-1]
