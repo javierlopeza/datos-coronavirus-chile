@@ -1,26 +1,26 @@
 {
     "poblacion": 19458310,
     "tasa_activos": {
-        "date": "2020-06-03",
-        "value": 111.03225305794798
+        "date": "2020-06-04",
+        "value": 109.4904953205083
     },
     "confirmados": {
-        "date": "2020-06-03",
-        "value": 113628
+        "date": "2020-06-04",
+        "value": 118292
     },
     "activos": {
-        "date": "2020-06-03",
-        "value": 21605,
+        "date": "2020-06-04",
+        "value": 21305,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-06-03",
-        "value": 1275
+        "date": "2020-06-04",
+        "value": 1356
     },
     "previous": {
         "confirmados": {
-            "date": "2020-06-02",
-            "value": 108686
+            "date": "2020-06-03",
+            "value": 113628
         },
         "activos": {
             "date": "2020-05-31",
@@ -28,8 +28,8 @@
             "is_from_informe_epi": "TRUE"
         },
         "fallecidos": {
-            "date": "2020-06-02",
-            "value": 1188
+            "date": "2020-06-03",
+            "value": 1275
         }
     },
     "series": {
@@ -405,6 +405,10 @@
             {
                 "date": "2020-06-03",
                 "value": 113628
+            },
+            {
+                "date": "2020-06-04",
+                "value": 118292
             }
         ],
         "fallecidos": [
@@ -703,6 +707,10 @@
             {
                 "date": "2020-06-03",
                 "value": 1275
+            },
+            {
+                "date": "2020-06-04",
+                "value": 1356
             }
         ],
         "activos": [
@@ -787,8 +795,8 @@
                 "is_from_informe_epi": "TRUE"
             },
             {
-                "date": "2020-06-03",
-                "value": 21605,
+                "date": "2020-06-04",
+                "value": 21305,
                 "is_from_informe_epi": "FALSE"
             }
         ]
