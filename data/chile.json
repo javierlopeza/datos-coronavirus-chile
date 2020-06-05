@@ -1,35 +1,35 @@
 {
     "poblacion": 19458310,
     "tasa_activos": {
-        "date": "2020-06-04",
-        "value": 109.4904953205083
+        "date": "2020-06-05",
+        "value": 111.48450199426362
     },
     "confirmados": {
-        "date": "2020-06-04",
-        "value": 118292
+        "date": "2020-06-05",
+        "value": 122499
     },
     "activos": {
-        "date": "2020-06-04",
-        "value": 21305,
-        "is_from_informe_epi": "FALSE"
+        "date": "2020-06-05",
+        "value": 21693,
+        "is_from_informe_epi": null
     },
     "fallecidos": {
-        "date": "2020-06-04",
-        "value": 1356
+        "date": "2020-06-05",
+        "value": 1448
     },
     "previous": {
         "confirmados": {
-            "date": "2020-06-03",
-            "value": 113628
+            "date": "2020-06-04",
+            "value": 118292
         },
         "activos": {
-            "date": "2020-05-31",
-            "value": 22618,
-            "is_from_informe_epi": "TRUE"
+            "date": "2020-06-04",
+            "value": 21305,
+            "is_from_informe_epi": "FALSE"
         },
         "fallecidos": {
-            "date": "2020-06-03",
-            "value": 1275
+            "date": "2020-06-04",
+            "value": 1356
         }
     },
     "series": {
@@ -409,6 +409,10 @@
             {
                 "date": "2020-06-04",
                 "value": 118292
+            },
+            {
+                "date": "2020-06-05",
+                "value": 122499
             }
         ],
         "fallecidos": [
@@ -711,6 +715,10 @@
             {
                 "date": "2020-06-04",
                 "value": 1356
+            },
+            {
+                "date": "2020-06-05",
+                "value": 1448
             }
         ],
         "activos": [
@@ -798,6 +806,11 @@
                 "date": "2020-06-04",
                 "value": 21305,
                 "is_from_informe_epi": "FALSE"
+            },
+            {
+                "date": "2020-06-05",
+                "value": 21693,
+                "is_from_informe_epi": null
             }
         ]
     },
@@ -813,29 +826,29 @@
                 "value": 219.67805331448142
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 95890
+                "date": "2020-06-05",
+                "value": 99066
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 17849
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 1034
+                "date": "2020-06-05",
+                "value": 1105
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 92191
+                    "date": "2020-06-04",
+                    "value": 95890
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 17521
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 961
+                    "date": "2020-06-04",
+                    "value": 1034
                 }
             },
             "series": {
@@ -1215,6 +1228,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 95890
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 99066
                     }
                 ],
                 "activos": [
@@ -1583,6 +1600,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 1034
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 1105
                     }
                 ]
             },
@@ -11793,28 +11814,28 @@
                 "value": 70.2074491293483
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 736
+                "date": "2020-06-05",
+                "value": 782
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 177
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 8
+                "date": "2020-06-05",
+                "value": 9
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 701
+                    "date": "2020-06-04",
+                    "value": 736
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 163
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 8
                 }
             },
@@ -12195,6 +12216,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 736
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 782
                     }
                 ],
                 "activos": [
@@ -12563,6 +12588,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 8
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 9
                     }
                 ]
             },
@@ -13365,28 +13394,28 @@
                 "value": 235.1263020118974
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 2810
+                "date": "2020-06-05",
+                "value": 2965
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 900
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 28
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 2682
+                    "date": "2020-06-04",
+                    "value": 2810
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 817
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 28
                 }
             },
@@ -13767,6 +13796,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 2810
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 2965
                     }
                 ],
                 "activos": [
@@ -14134,6 +14167,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 28
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 28
                     }
                 ]
@@ -15525,29 +15562,29 @@
                 "value": 52.467717177323536
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 2862
+                "date": "2020-06-05",
+                "value": 2924
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 363
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 38
+                "date": "2020-06-05",
+                "value": 42
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 2716
+                    "date": "2020-06-04",
+                    "value": 2862
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 384
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 36
+                    "date": "2020-06-04",
+                    "value": 38
                 }
             },
             "series": {
@@ -15927,6 +15964,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 2862
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 2924
                     }
                 ],
                 "activos": [
@@ -16295,6 +16336,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 38
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 42
                     }
                 ]
             },
@@ -18077,28 +18122,28 @@
                 "value": 20.654000997747126
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 258
+                "date": "2020-06-05",
+                "value": 269
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 65
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 0
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 242
+                    "date": "2020-06-04",
+                    "value": 258
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 49
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 0
                 }
             },
@@ -18479,6 +18524,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 258
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 269
                     }
                 ],
                 "activos": [
@@ -18846,6 +18895,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 0
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 0
                     }
                 ]
@@ -20629,28 +20682,28 @@
                 "value": 20.81100734843846
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 772
+                "date": "2020-06-05",
+                "value": 832
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 174
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 4
+                "date": "2020-06-05",
+                "value": 5
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 718
+                    "date": "2020-06-04",
+                    "value": 772
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 102
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 4
                 }
             },
@@ -21031,6 +21084,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 772
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 832
                     }
                 ],
                 "activos": [
@@ -21399,6 +21456,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 4
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 5
                     }
                 ]
             },
@@ -24357,29 +24418,29 @@
                 "value": 41.11888254590163
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 4017
+                "date": "2020-06-05",
+                "value": 4266
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 806
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 78
+                "date": "2020-06-05",
+                "value": 88
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 3769
+                    "date": "2020-06-04",
+                    "value": 4017
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 719
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 77
+                    "date": "2020-06-04",
+                    "value": 78
                 }
             },
             "series": {
@@ -24759,6 +24820,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 4017
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 4266
                     }
                 ],
                 "activos": [
@@ -25127,6 +25192,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 78
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 88
                     }
                 ]
             },
@@ -32593,29 +32662,29 @@
                 "value": 15.034362094034384
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 967
+                "date": "2020-06-05",
+                "value": 1016
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 149
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 21
+                "date": "2020-06-05",
+                "value": 22
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 931
+                    "date": "2020-06-04",
+                    "value": 967
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 183
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 20
+                    "date": "2020-06-04",
+                    "value": 21
                 }
             },
             "series": {
@@ -32995,6 +33064,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 967
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 1016
                     }
                 ],
                 "activos": [
@@ -33363,6 +33436,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 21
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 22
                     }
                 ]
             },
@@ -39849,29 +39926,29 @@
                 "value": 46.02721524746475
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 1732
+                "date": "2020-06-05",
+                "value": 1834
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 521
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 21
+                "date": "2020-06-05",
+                "value": 24
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 1595
+                    "date": "2020-06-04",
+                    "value": 1732
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 476
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 19
+                    "date": "2020-06-04",
+                    "value": 21
                 }
             },
             "series": {
@@ -40251,6 +40328,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 1732
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 1834
                     }
                 ],
                 "activos": [
@@ -40619,6 +40700,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 21
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 24
                     }
                 ]
             },
@@ -46517,28 +46602,28 @@
                 "value": 43.397432514060185
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 1372
+                "date": "2020-06-05",
+                "value": 1429
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 222
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 24
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 1329
+                    "date": "2020-06-04",
+                    "value": 1372
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 251
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 24
                 }
             },
@@ -46919,6 +47004,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 1372
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 1429
                     }
                 ],
                 "activos": [
@@ -47286,6 +47375,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 24
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 24
                     }
                 ]
@@ -51421,29 +51514,29 @@
                 "value": 45.02024408305363
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 2301
+                "date": "2020-06-05",
+                "value": 2379
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 749
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 13
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 2215
+                    "date": "2020-06-04",
+                    "value": 2301
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 595
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
-                    "value": 11
+                    "date": "2020-06-04",
+                    "value": 13
                 }
             },
             "series": {
@@ -51823,6 +51916,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 2301
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 2379
                     }
                 ],
                 "activos": [
@@ -52190,6 +52287,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 13
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 13
                     }
                 ]
@@ -58677,28 +58778,28 @@
                 "value": 32.53337381930964
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 2182
+                "date": "2020-06-05",
+                "value": 2288
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 330
             },
             "fallecidos": {
-                "date": "2020-06-04",
-                "value": 47
+                "date": "2020-06-05",
+                "value": 48
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 2173
+                    "date": "2020-06-04",
+                    "value": 2182
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 304
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 47
                 }
             },
@@ -59079,6 +59180,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 2182
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 2288
                     }
                 ],
                 "activos": [
@@ -59447,6 +59552,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 47
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 48
                     }
                 ]
             },
@@ -65737,28 +65846,28 @@
                 "value": 23.408528096393855
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 379
+                "date": "2020-06-05",
+                "value": 390
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 95
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 8
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 372
+                    "date": "2020-06-04",
+                    "value": 379
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 107
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 8
                 }
             },
@@ -66139,6 +66248,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 379
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 390
                     }
                 ],
                 "activos": [
@@ -66506,6 +66619,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 8
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 8
                     }
                 ]
@@ -68877,28 +68994,28 @@
                 "value": 17.499775643902
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 926
+                "date": "2020-06-05",
+                "value": 968
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 156
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 13
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 913
+                    "date": "2020-06-04",
+                    "value": 926
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 136
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 13
                 }
             },
@@ -69279,6 +69396,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 926
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 968
                     }
                 ],
                 "activos": [
@@ -69646,6 +69767,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 13
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 13
                     }
                 ]
@@ -75545,7 +75670,7 @@
                 "value": 7.455940054241964
             },
             "confirmados": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 19
             },
             "activos": {
@@ -75553,20 +75678,20 @@
                 "value": 8
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 0
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 18
+                    "date": "2020-06-04",
+                    "value": 19
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 7
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 0
                 }
             },
@@ -75947,6 +76072,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 19
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 19
                     }
                 ],
                 "activos": [
@@ -76314,6 +76443,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 0
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 0
                     }
                 ]
@@ -78293,28 +78426,28 @@
                 "value": 30.275507114744173
             },
             "confirmados": {
-                "date": "2020-06-04",
-                "value": 1069
+                "date": "2020-06-05",
+                "value": 1072
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 54
             },
             "fallecidos": {
-                "date": "2020-06-04",
+                "date": "2020-06-05",
                 "value": 19
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-03",
-                    "value": 1063
+                    "date": "2020-06-04",
+                    "value": 1069
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 70
                 },
                 "fallecidos": {
-                    "date": "2020-06-03",
+                    "date": "2020-06-04",
                     "value": 19
                 }
             },
@@ -78695,6 +78828,10 @@
                     {
                         "date": "2020-06-04",
                         "value": 1069
+                    },
+                    {
+                        "date": "2020-06-05",
+                        "value": 1072
                     }
                 ],
                 "activos": [
@@ -79062,6 +79199,10 @@
                     },
                     {
                         "date": "2020-06-04",
+                        "value": 19
+                    },
+                    {
+                        "date": "2020-06-05",
                         "value": 19
                     }
                 ]
