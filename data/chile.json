@@ -1814,6 +1814,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Alhu\u00e9",
                     "region": "Metropolitana"
                 },
                 "Buin": {
@@ -2015,6 +2016,7 @@
                         "is_active": true,
                         "text": "Buin est\u00e1 en cuarentena total."
                     },
+                    "name": "Buin",
                     "region": "Metropolitana"
                 },
                 "Calera de Tango": {
@@ -2216,6 +2218,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Calera de Tango",
                     "region": "Metropolitana"
                 },
                 "Cerrillos": {
@@ -2417,6 +2420,7 @@
                         "is_active": true,
                         "text": "Cerrillos est\u00e1 en cuarentena total."
                     },
+                    "name": "Cerrillos",
                     "region": "Metropolitana"
                 },
                 "Cerro Navia": {
@@ -2618,6 +2622,7 @@
                         "is_active": true,
                         "text": "Cerro Navia est\u00e1 en cuarentena total."
                     },
+                    "name": "Cerro Navia",
                     "region": "Metropolitana"
                 },
                 "Colina": {
@@ -2819,6 +2824,7 @@
                         "is_active": true,
                         "text": "Colina est\u00e1 en cuarentena total."
                     },
+                    "name": "Colina",
                     "region": "Metropolitana"
                 },
                 "Conchal\u00ed": {
@@ -3020,6 +3026,7 @@
                         "is_active": true,
                         "text": "Conchal\u00ed est\u00e1 en cuarentena total."
                     },
+                    "name": "Conchal\u00ed",
                     "region": "Metropolitana"
                 },
                 "Curacav\u00ed": {
@@ -3221,6 +3228,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curacav\u00ed",
                     "region": "Metropolitana"
                 },
                 "El Bosque": {
@@ -3422,6 +3430,7 @@
                         "is_active": true,
                         "text": "El Bosque est\u00e1 en cuarentena total."
                     },
+                    "name": "El Bosque",
                     "region": "Metropolitana"
                 },
                 "El Monte": {
@@ -3623,6 +3632,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "El Monte",
                     "region": "Metropolitana"
                 },
                 "Estaci\u00f3n Central": {
@@ -3824,6 +3834,7 @@
                         "is_active": true,
                         "text": "Estaci\u00f3n Central est\u00e1 en cuarentena total."
                     },
+                    "name": "Estaci\u00f3n Central",
                     "region": "Metropolitana"
                 },
                 "Huechuraba": {
@@ -4025,6 +4036,7 @@
                         "is_active": true,
                         "text": "Huechuraba est\u00e1 en cuarentena total."
                     },
+                    "name": "Huechuraba",
                     "region": "Metropolitana"
                 },
                 "Independencia": {
@@ -4226,6 +4238,7 @@
                         "is_active": true,
                         "text": "Independencia est\u00e1 en cuarentena total."
                     },
+                    "name": "Independencia",
                     "region": "Metropolitana"
                 },
                 "Isla de Maipo": {
@@ -4427,6 +4440,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Isla de Maipo",
                     "region": "Metropolitana"
                 },
                 "La Cisterna": {
@@ -4628,6 +4642,7 @@
                         "is_active": true,
                         "text": "La Cisterna est\u00e1 en cuarentena total."
                     },
+                    "name": "La Cisterna",
                     "region": "Metropolitana"
                 },
                 "La Florida": {
@@ -4829,6 +4844,7 @@
                         "is_active": true,
                         "text": "La Florida est\u00e1 en cuarentena total."
                     },
+                    "name": "La Florida",
                     "region": "Metropolitana"
                 },
                 "La Granja": {
@@ -5030,6 +5046,7 @@
                         "is_active": true,
                         "text": "La Granja est\u00e1 en cuarentena total."
                     },
+                    "name": "La Granja",
                     "region": "Metropolitana"
                 },
                 "La Pintana": {
@@ -5231,6 +5248,7 @@
                         "is_active": true,
                         "text": "La Pintana est\u00e1 en cuarentena total."
                     },
+                    "name": "La Pintana",
                     "region": "Metropolitana"
                 },
                 "La Reina": {
@@ -5432,6 +5450,7 @@
                         "is_active": true,
                         "text": "La Reina est\u00e1 en cuarentena total."
                     },
+                    "name": "La Reina",
                     "region": "Metropolitana"
                 },
                 "Lampa": {
@@ -5633,6 +5652,7 @@
                         "is_active": true,
                         "text": "Lampa est\u00e1 en cuarentena total."
                     },
+                    "name": "Lampa",
                     "region": "Metropolitana"
                 },
                 "Las Condes": {
@@ -5834,6 +5854,7 @@
                         "is_active": true,
                         "text": "Las Condes est\u00e1 en cuarentena total."
                     },
+                    "name": "Las Condes",
                     "region": "Metropolitana"
                 },
                 "Lo Barnechea": {
@@ -6035,6 +6056,7 @@
                         "is_active": true,
                         "text": "Lo Barnechea est\u00e1 en cuarentena total."
                     },
+                    "name": "Lo Barnechea",
                     "region": "Metropolitana"
                 },
                 "Lo Espejo": {
@@ -6236,6 +6258,7 @@
                         "is_active": true,
                         "text": "Lo Espejo est\u00e1 en cuarentena total."
                     },
+                    "name": "Lo Espejo",
                     "region": "Metropolitana"
                 },
                 "Lo Prado": {
@@ -6437,6 +6460,7 @@
                         "is_active": true,
                         "text": "Lo Prado est\u00e1 en cuarentena total."
                     },
+                    "name": "Lo Prado",
                     "region": "Metropolitana"
                 },
                 "Macul": {
@@ -6638,6 +6662,7 @@
                         "is_active": true,
                         "text": "Macul est\u00e1 en cuarentena total."
                     },
+                    "name": "Macul",
                     "region": "Metropolitana"
                 },
                 "Maip\u00fa": {
@@ -6839,6 +6864,7 @@
                         "is_active": true,
                         "text": "Maip\u00fa est\u00e1 en cuarentena total."
                     },
+                    "name": "Maip\u00fa",
                     "region": "Metropolitana"
                 },
                 "Mar\u00eda Pinto": {
@@ -7040,6 +7066,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mar\u00eda Pinto",
                     "region": "Metropolitana"
                 },
                 "Melipilla": {
@@ -7241,6 +7268,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Melipilla",
                     "region": "Metropolitana"
                 },
                 "\u00d1u\u00f1oa": {
@@ -7442,6 +7470,7 @@
                         "is_active": true,
                         "text": "\u00d1u\u00f1oa est\u00e1 en cuarentena total."
                     },
+                    "name": "\u00d1u\u00f1oa",
                     "region": "Metropolitana"
                 },
                 "Padre Hurtado": {
@@ -7643,6 +7672,7 @@
                         "is_active": true,
                         "text": "Padre Hurtado est\u00e1 en cuarentena total."
                     },
+                    "name": "Padre Hurtado",
                     "region": "Metropolitana"
                 },
                 "Paine": {
@@ -7844,6 +7874,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Paine",
                     "region": "Metropolitana"
                 },
                 "Pedro Aguirre Cerda": {
@@ -8045,6 +8076,7 @@
                         "is_active": true,
                         "text": "Pedro Aguirre Cerda est\u00e1 en cuarentena total."
                     },
+                    "name": "Pedro Aguirre Cerda",
                     "region": "Metropolitana"
                 },
                 "Pe\u00f1aflor": {
@@ -8246,6 +8278,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pe\u00f1aflor",
                     "region": "Metropolitana"
                 },
                 "Pe\u00f1alol\u00e9n": {
@@ -8447,6 +8480,7 @@
                         "is_active": true,
                         "text": "Pe\u00f1alol\u00e9n est\u00e1 en cuarentena total."
                     },
+                    "name": "Pe\u00f1alol\u00e9n",
                     "region": "Metropolitana"
                 },
                 "Pirque": {
@@ -8648,6 +8682,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pirque",
                     "region": "Metropolitana"
                 },
                 "Providencia": {
@@ -8849,6 +8884,7 @@
                         "is_active": true,
                         "text": "Providencia est\u00e1 en cuarentena total."
                     },
+                    "name": "Providencia",
                     "region": "Metropolitana"
                 },
                 "Pudahuel": {
@@ -9050,6 +9086,7 @@
                         "is_active": true,
                         "text": "Pudahuel est\u00e1 en cuarentena total."
                     },
+                    "name": "Pudahuel",
                     "region": "Metropolitana"
                 },
                 "Puente Alto": {
@@ -9251,6 +9288,7 @@
                         "is_active": true,
                         "text": "Puente Alto est\u00e1 en cuarentena total."
                     },
+                    "name": "Puente Alto",
                     "region": "Metropolitana"
                 },
                 "Quilicura": {
@@ -9452,6 +9490,7 @@
                         "is_active": true,
                         "text": "Quilicura est\u00e1 en cuarentena total."
                     },
+                    "name": "Quilicura",
                     "region": "Metropolitana"
                 },
                 "Quinta Normal": {
@@ -9653,6 +9692,7 @@
                         "is_active": true,
                         "text": "Quinta Normal est\u00e1 en cuarentena total."
                     },
+                    "name": "Quinta Normal",
                     "region": "Metropolitana"
                 },
                 "Recoleta": {
@@ -9854,6 +9894,7 @@
                         "is_active": true,
                         "text": "Recoleta est\u00e1 en cuarentena total."
                     },
+                    "name": "Recoleta",
                     "region": "Metropolitana"
                 },
                 "Renca": {
@@ -10055,6 +10096,7 @@
                         "is_active": true,
                         "text": "Renca est\u00e1 en cuarentena total."
                     },
+                    "name": "Renca",
                     "region": "Metropolitana"
                 },
                 "San Bernardo": {
@@ -10256,6 +10298,7 @@
                         "is_active": true,
                         "text": "San Bernardo est\u00e1 en cuarentena total."
                     },
+                    "name": "San Bernardo",
                     "region": "Metropolitana"
                 },
                 "San Joaqu\u00edn": {
@@ -10457,6 +10500,7 @@
                         "is_active": true,
                         "text": "San Joaqu\u00edn est\u00e1 en cuarentena total."
                     },
+                    "name": "San Joaqu\u00edn",
                     "region": "Metropolitana"
                 },
                 "San Jos\u00e9 de Maipo": {
@@ -10658,6 +10702,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Jos\u00e9 de Maipo",
                     "region": "Metropolitana"
                 },
                 "San Miguel": {
@@ -10859,6 +10904,7 @@
                         "is_active": true,
                         "text": "San Miguel est\u00e1 en cuarentena total."
                     },
+                    "name": "San Miguel",
                     "region": "Metropolitana"
                 },
                 "San Pedro": {
@@ -11060,6 +11106,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Pedro",
                     "region": "Metropolitana"
                 },
                 "San Ram\u00f3n": {
@@ -11261,6 +11308,7 @@
                         "is_active": true,
                         "text": "San Ram\u00f3n est\u00e1 en cuarentena total."
                     },
+                    "name": "San Ram\u00f3n",
                     "region": "Metropolitana"
                 },
                 "Santiago": {
@@ -11462,6 +11510,7 @@
                         "is_active": true,
                         "text": "Santiago est\u00e1 en cuarentena total."
                     },
+                    "name": "Santiago",
                     "region": "Metropolitana"
                 },
                 "Talagante": {
@@ -11663,6 +11712,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Talagante",
                     "region": "Metropolitana"
                 },
                 "Tiltil": {
@@ -11864,6 +11914,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tiltil",
                     "region": "Metropolitana"
                 },
                 "Vitacura": {
@@ -12065,6 +12116,7 @@
                         "is_active": true,
                         "text": "Vitacura est\u00e1 en cuarentena total."
                     },
+                    "name": "Vitacura",
                     "region": "Metropolitana"
                 }
             },
@@ -13066,6 +13118,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Arica",
                     "region": "Arica y Parinacota"
                 },
                 "Camarones": {
@@ -13267,6 +13320,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Camarones",
                     "region": "Arica y Parinacota"
                 },
                 "General Lagos": {
@@ -13468,6 +13522,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "General Lagos",
                     "region": "Arica y Parinacota"
                 },
                 "Putre": {
@@ -13669,6 +13724,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Putre",
                     "region": "Arica y Parinacota"
                 }
             },
@@ -14670,6 +14726,7 @@
                         "is_active": true,
                         "text": "Alto Hospicio est\u00e1 en cuarentena total."
                     },
+                    "name": "Alto Hospicio",
                     "region": "Tarapac\u00e1"
                 },
                 "Cami\u00f1a": {
@@ -14871,6 +14928,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cami\u00f1a",
                     "region": "Tarapac\u00e1"
                 },
                 "Colchane": {
@@ -15072,6 +15130,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Colchane",
                     "region": "Tarapac\u00e1"
                 },
                 "Huara": {
@@ -15273,6 +15332,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Huara",
                     "region": "Tarapac\u00e1"
                 },
                 "Iquique": {
@@ -15474,6 +15534,7 @@
                         "is_active": true,
                         "text": "Iquique est\u00e1 en cuarentena total."
                     },
+                    "name": "Iquique",
                     "region": "Tarapac\u00e1"
                 },
                 "Pica": {
@@ -15675,6 +15736,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pica",
                     "region": "Tarapac\u00e1"
                 },
                 "Pozo Almonte": {
@@ -15876,6 +15938,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pozo Almonte",
                     "region": "Tarapac\u00e1"
                 }
             },
@@ -16877,6 +16940,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Antofagasta",
                     "region": "Antofagasta"
                 },
                 "Calama": {
@@ -17078,6 +17142,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Calama",
                     "region": "Antofagasta"
                 },
                 "Mar\u00eda Elena": {
@@ -17279,6 +17344,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mar\u00eda Elena",
                     "region": "Antofagasta"
                 },
                 "Mejillones": {
@@ -17480,6 +17546,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mejillones",
                     "region": "Antofagasta"
                 },
                 "Ollag\u00fce": {
@@ -17681,6 +17748,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ollag\u00fce",
                     "region": "Antofagasta"
                 },
                 "San Pedro de Atacama": {
@@ -17882,6 +17950,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Pedro de Atacama",
                     "region": "Antofagasta"
                 },
                 "Sierra Gorda": {
@@ -18083,6 +18152,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Sierra Gorda",
                     "region": "Antofagasta"
                 },
                 "Taltal": {
@@ -18284,6 +18354,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Taltal",
                     "region": "Antofagasta"
                 },
                 "Tocopilla": {
@@ -18485,6 +18556,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tocopilla",
                     "region": "Antofagasta"
                 }
             },
@@ -19486,6 +19558,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Alto del Carmen",
                     "region": "Atacama"
                 },
                 "Caldera": {
@@ -19687,6 +19760,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Caldera",
                     "region": "Atacama"
                 },
                 "Cha\u00f1aral": {
@@ -19888,6 +19962,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cha\u00f1aral",
                     "region": "Atacama"
                 },
                 "Copiap\u00f3": {
@@ -20089,6 +20164,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Copiap\u00f3",
                     "region": "Atacama"
                 },
                 "Diego de Almagro": {
@@ -20290,6 +20366,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Diego de Almagro",
                     "region": "Atacama"
                 },
                 "Freirina": {
@@ -20491,6 +20568,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Freirina",
                     "region": "Atacama"
                 },
                 "Huasco": {
@@ -20692,6 +20770,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Huasco",
                     "region": "Atacama"
                 },
                 "Tierra Amarilla": {
@@ -20893,6 +20972,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tierra Amarilla",
                     "region": "Atacama"
                 },
                 "Vallenar": {
@@ -21094,6 +21174,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Vallenar",
                     "region": "Atacama"
                 }
             },
@@ -22095,6 +22176,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Andacollo",
                     "region": "Coquimbo"
                 },
                 "Canela": {
@@ -22296,6 +22378,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Canela",
                     "region": "Coquimbo"
                 },
                 "Combarbal\u00e1": {
@@ -22497,6 +22580,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Combarbal\u00e1",
                     "region": "Coquimbo"
                 },
                 "Coquimbo": {
@@ -22698,6 +22782,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coquimbo",
                     "region": "Coquimbo"
                 },
                 "Illapel": {
@@ -22899,6 +22984,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Illapel",
                     "region": "Coquimbo"
                 },
                 "La Higuera": {
@@ -23100,6 +23186,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Higuera",
                     "region": "Coquimbo"
                 },
                 "La Serena": {
@@ -23301,6 +23388,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Serena",
                     "region": "Coquimbo"
                 },
                 "Los Vilos": {
@@ -23502,6 +23590,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los Vilos",
                     "region": "Coquimbo"
                 },
                 "Monte Patria": {
@@ -23703,6 +23792,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Monte Patria",
                     "region": "Coquimbo"
                 },
                 "Ovalle": {
@@ -23904,6 +23994,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ovalle",
                     "region": "Coquimbo"
                 },
                 "Paiguano": {
@@ -24105,6 +24196,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Paiguano",
                     "region": "Coquimbo"
                 },
                 "Punitaqui": {
@@ -24306,6 +24398,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Punitaqui",
                     "region": "Coquimbo"
                 },
                 "R\u00edo Hurtado": {
@@ -24507,6 +24600,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Hurtado",
                     "region": "Coquimbo"
                 },
                 "Salamanca": {
@@ -24708,6 +24802,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Salamanca",
                     "region": "Coquimbo"
                 },
                 "Vicu\u00f1a": {
@@ -24909,6 +25004,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Vicu\u00f1a",
                     "region": "Coquimbo"
                 }
             },
@@ -25910,6 +26006,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Algarrobo",
                     "region": "Valpara\u00edso"
                 },
                 "Cabildo": {
@@ -26111,6 +26208,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cabildo",
                     "region": "Valpara\u00edso"
                 },
                 "Calera": {
@@ -26312,6 +26410,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Calera",
                     "region": "Valpara\u00edso"
                 },
                 "Calle Larga": {
@@ -26513,6 +26612,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Calle Larga",
                     "region": "Valpara\u00edso"
                 },
                 "Cartagena": {
@@ -26714,6 +26814,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cartagena",
                     "region": "Valpara\u00edso"
                 },
                 "Casablanca": {
@@ -26915,6 +27016,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Casablanca",
                     "region": "Valpara\u00edso"
                 },
                 "Catemu": {
@@ -27116,6 +27218,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Catemu",
                     "region": "Valpara\u00edso"
                 },
                 "Conc\u00f3n": {
@@ -27317,6 +27420,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Conc\u00f3n",
                     "region": "Valpara\u00edso"
                 },
                 "El Quisco": {
@@ -27518,6 +27622,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "El Quisco",
                     "region": "Valpara\u00edso"
                 },
                 "El Tabo": {
@@ -27719,6 +27824,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "El Tabo",
                     "region": "Valpara\u00edso"
                 },
                 "Hijuelas": {
@@ -27920,6 +28026,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Hijuelas",
                     "region": "Valpara\u00edso"
                 },
                 "Isla de Pascua": {
@@ -28121,6 +28228,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Isla de Pascua",
                     "region": "Valpara\u00edso"
                 },
                 "Juan Fern\u00e1ndez": {
@@ -28322,6 +28430,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Juan Fern\u00e1ndez",
                     "region": "Valpara\u00edso"
                 },
                 "La Cruz": {
@@ -28523,6 +28632,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Cruz",
                     "region": "Valpara\u00edso"
                 },
                 "La Ligua": {
@@ -28724,6 +28834,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Ligua",
                     "region": "Valpara\u00edso"
                 },
                 "Limache": {
@@ -28925,6 +29036,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Limache",
                     "region": "Valpara\u00edso"
                 },
                 "Llaillay": {
@@ -29126,6 +29238,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Llaillay",
                     "region": "Valpara\u00edso"
                 },
                 "Los Andes": {
@@ -29327,6 +29440,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los Andes",
                     "region": "Valpara\u00edso"
                 },
                 "Nogales": {
@@ -29528,6 +29642,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Nogales",
                     "region": "Valpara\u00edso"
                 },
                 "Olmu\u00e9": {
@@ -29729,6 +29844,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Olmu\u00e9",
                     "region": "Valpara\u00edso"
                 },
                 "Panquehue": {
@@ -29930,6 +30046,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Panquehue",
                     "region": "Valpara\u00edso"
                 },
                 "Papudo": {
@@ -30131,6 +30248,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Papudo",
                     "region": "Valpara\u00edso"
                 },
                 "Petorca": {
@@ -30332,6 +30450,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Petorca",
                     "region": "Valpara\u00edso"
                 },
                 "Puchuncav\u00ed": {
@@ -30533,6 +30652,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puchuncav\u00ed",
                     "region": "Valpara\u00edso"
                 },
                 "Putaendo": {
@@ -30734,6 +30854,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Putaendo",
                     "region": "Valpara\u00edso"
                 },
                 "Quillota": {
@@ -30935,6 +31056,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quillota",
                     "region": "Valpara\u00edso"
                 },
                 "Quilpu\u00e9": {
@@ -31136,6 +31258,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quilpu\u00e9",
                     "region": "Valpara\u00edso"
                 },
                 "Quintero": {
@@ -31337,6 +31460,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quintero",
                     "region": "Valpara\u00edso"
                 },
                 "Rinconada": {
@@ -31538,6 +31662,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Rinconada",
                     "region": "Valpara\u00edso"
                 },
                 "San Antonio": {
@@ -31739,6 +31864,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Antonio",
                     "region": "Valpara\u00edso"
                 },
                 "San Esteban": {
@@ -31940,6 +32066,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Esteban",
                     "region": "Valpara\u00edso"
                 },
                 "San Felipe": {
@@ -32141,6 +32268,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Felipe",
                     "region": "Valpara\u00edso"
                 },
                 "Santa Mar\u00eda": {
@@ -32342,6 +32470,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Santa Mar\u00eda",
                     "region": "Valpara\u00edso"
                 },
                 "Santo Domingo": {
@@ -32543,6 +32672,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Santo Domingo",
                     "region": "Valpara\u00edso"
                 },
                 "Valpara\u00edso": {
@@ -32744,6 +32874,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Valpara\u00edso",
                     "region": "Valpara\u00edso"
                 },
                 "Villa Alemana": {
@@ -32945,6 +33076,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Villa Alemana",
                     "region": "Valpara\u00edso"
                 },
                 "Vi\u00f1a del Mar": {
@@ -33146,6 +33278,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Vi\u00f1a del Mar",
                     "region": "Valpara\u00edso"
                 },
                 "Zapallar": {
@@ -33347,6 +33480,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Zapallar",
                     "region": "Valpara\u00edso"
                 }
             },
@@ -34348,6 +34482,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ch\u00e9pica",
                     "region": "O'Higgins"
                 },
                 "Chimbarongo": {
@@ -34549,6 +34684,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chimbarongo",
                     "region": "O'Higgins"
                 },
                 "Codegua": {
@@ -34750,6 +34886,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Codegua",
                     "region": "O'Higgins"
                 },
                 "Coinco": {
@@ -34951,6 +35088,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coinco",
                     "region": "O'Higgins"
                 },
                 "Coltauco": {
@@ -35152,6 +35290,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coltauco",
                     "region": "O'Higgins"
                 },
                 "Do\u00f1ihue": {
@@ -35353,6 +35492,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Do\u00f1ihue",
                     "region": "O'Higgins"
                 },
                 "Graneros": {
@@ -35554,6 +35694,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Graneros",
                     "region": "O'Higgins"
                 },
                 "La Estrella": {
@@ -35755,6 +35896,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Estrella",
                     "region": "O'Higgins"
                 },
                 "Las Cabras": {
@@ -35956,6 +36098,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Las Cabras",
                     "region": "O'Higgins"
                 },
                 "Litueche": {
@@ -36157,6 +36300,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Litueche",
                     "region": "O'Higgins"
                 },
                 "Lolol": {
@@ -36358,6 +36502,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lolol",
                     "region": "O'Higgins"
                 },
                 "Machal\u00ed": {
@@ -36559,6 +36704,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Machal\u00ed",
                     "region": "O'Higgins"
                 },
                 "Malloa": {
@@ -36760,6 +36906,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Malloa",
                     "region": "O'Higgins"
                 },
                 "Marchihue": {
@@ -36961,6 +37108,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Marchihue",
                     "region": "O'Higgins"
                 },
                 "Mostazal": {
@@ -37162,6 +37310,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mostazal",
                     "region": "O'Higgins"
                 },
                 "Nancagua": {
@@ -37363,6 +37512,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Nancagua",
                     "region": "O'Higgins"
                 },
                 "Navidad": {
@@ -37564,6 +37714,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Navidad",
                     "region": "O'Higgins"
                 },
                 "Olivar": {
@@ -37765,6 +37916,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Olivar",
                     "region": "O'Higgins"
                 },
                 "Palmilla": {
@@ -37966,6 +38118,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Palmilla",
                     "region": "O'Higgins"
                 },
                 "Paredones": {
@@ -38167,6 +38320,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Paredones",
                     "region": "O'Higgins"
                 },
                 "Peralillo": {
@@ -38368,6 +38522,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Peralillo",
                     "region": "O'Higgins"
                 },
                 "Peumo": {
@@ -38569,6 +38724,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Peumo",
                     "region": "O'Higgins"
                 },
                 "Pichidegua": {
@@ -38770,6 +38926,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pichidegua",
                     "region": "O'Higgins"
                 },
                 "Pichilemu": {
@@ -38971,6 +39128,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pichilemu",
                     "region": "O'Higgins"
                 },
                 "Placilla": {
@@ -39172,6 +39330,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Placilla",
                     "region": "O'Higgins"
                 },
                 "Pumanque": {
@@ -39373,6 +39532,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pumanque",
                     "region": "O'Higgins"
                 },
                 "Quinta de Tilcoco": {
@@ -39574,6 +39734,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quinta de Tilcoco",
                     "region": "O'Higgins"
                 },
                 "Rancagua": {
@@ -39775,6 +39936,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Rancagua",
                     "region": "O'Higgins"
                 },
                 "Rengo": {
@@ -39976,6 +40138,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Rengo",
                     "region": "O'Higgins"
                 },
                 "Requ\u00ednoa": {
@@ -40177,6 +40340,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Requ\u00ednoa",
                     "region": "O'Higgins"
                 },
                 "San Fernando": {
@@ -40378,6 +40542,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Fernando",
                     "region": "O'Higgins"
                 },
                 "San Vicente": {
@@ -40579,6 +40744,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Vicente",
                     "region": "O'Higgins"
                 },
                 "Santa Cruz": {
@@ -40780,6 +40946,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Santa Cruz",
                     "region": "O'Higgins"
                 }
             },
@@ -41781,6 +41948,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cauquenes",
                     "region": "Maule"
                 },
                 "Chanco": {
@@ -41982,6 +42150,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chanco",
                     "region": "Maule"
                 },
                 "Colb\u00fan": {
@@ -42183,6 +42352,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Colb\u00fan",
                     "region": "Maule"
                 },
                 "Constituci\u00f3n": {
@@ -42384,6 +42554,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Constituci\u00f3n",
                     "region": "Maule"
                 },
                 "Curepto": {
@@ -42585,6 +42756,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curepto",
                     "region": "Maule"
                 },
                 "Curic\u00f3": {
@@ -42786,6 +42958,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curic\u00f3",
                     "region": "Maule"
                 },
                 "Empedrado": {
@@ -42987,6 +43160,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Empedrado",
                     "region": "Maule"
                 },
                 "Huala\u00f1\u00e9": {
@@ -43188,6 +43362,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Huala\u00f1\u00e9",
                     "region": "Maule"
                 },
                 "Licant\u00e9n": {
@@ -43389,6 +43564,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Licant\u00e9n",
                     "region": "Maule"
                 },
                 "Linares": {
@@ -43590,6 +43766,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Linares",
                     "region": "Maule"
                 },
                 "Longav\u00ed": {
@@ -43791,6 +43968,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Longav\u00ed",
                     "region": "Maule"
                 },
                 "Maule": {
@@ -43992,6 +44170,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Maule",
                     "region": "Maule"
                 },
                 "Molina": {
@@ -44193,6 +44372,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Molina",
                     "region": "Maule"
                 },
                 "Parral": {
@@ -44394,6 +44574,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Parral",
                     "region": "Maule"
                 },
                 "Pelarco": {
@@ -44595,6 +44776,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pelarco",
                     "region": "Maule"
                 },
                 "Pelluhue": {
@@ -44796,6 +44978,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pelluhue",
                     "region": "Maule"
                 },
                 "Pencahue": {
@@ -44997,6 +45180,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pencahue",
                     "region": "Maule"
                 },
                 "Rauco": {
@@ -45198,6 +45382,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Rauco",
                     "region": "Maule"
                 },
                 "Retiro": {
@@ -45399,6 +45584,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Retiro",
                     "region": "Maule"
                 },
                 "R\u00edo Claro": {
@@ -45600,6 +45786,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Claro",
                     "region": "Maule"
                 },
                 "Romeral": {
@@ -45801,6 +45988,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Romeral",
                     "region": "Maule"
                 },
                 "Sagrada Familia": {
@@ -46002,6 +46190,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Sagrada Familia",
                     "region": "Maule"
                 },
                 "San Clemente": {
@@ -46203,6 +46392,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Clemente",
                     "region": "Maule"
                 },
                 "San Javier": {
@@ -46404,6 +46594,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Javier",
                     "region": "Maule"
                 },
                 "San Rafael": {
@@ -46605,6 +46796,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Rafael",
                     "region": "Maule"
                 },
                 "Talca": {
@@ -46806,6 +46998,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Talca",
                     "region": "Maule"
                 },
                 "Teno": {
@@ -47007,6 +47200,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Teno",
                     "region": "Maule"
                 },
                 "Vichuqu\u00e9n": {
@@ -47208,6 +47402,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Vichuqu\u00e9n",
                     "region": "Maule"
                 },
                 "Villa Alegre": {
@@ -47409,6 +47604,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Villa Alegre",
                     "region": "Maule"
                 },
                 "Yerbas Buenas": {
@@ -47610,6 +47806,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Yerbas Buenas",
                     "region": "Maule"
                 }
             },
@@ -48611,6 +48808,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Bulnes",
                     "region": "\u00d1uble"
                 },
                 "Chill\u00e1n": {
@@ -48812,6 +49010,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chill\u00e1n",
                     "region": "\u00d1uble"
                 },
                 "Chill\u00e1n Viejo": {
@@ -49013,6 +49212,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chill\u00e1n Viejo",
                     "region": "\u00d1uble"
                 },
                 "Cobquecura": {
@@ -49214,6 +49414,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cobquecura",
                     "region": "\u00d1uble"
                 },
                 "Coelemu": {
@@ -49415,6 +49616,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coelemu",
                     "region": "\u00d1uble"
                 },
                 "Coihueco": {
@@ -49616,6 +49818,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coihueco",
                     "region": "\u00d1uble"
                 },
                 "El Carmen": {
@@ -49817,6 +50020,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "El Carmen",
                     "region": "\u00d1uble"
                 },
                 "Ninhue": {
@@ -50018,6 +50222,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ninhue",
                     "region": "\u00d1uble"
                 },
                 "\u00d1iqu\u00e9n": {
@@ -50219,6 +50424,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "\u00d1iqu\u00e9n",
                     "region": "\u00d1uble"
                 },
                 "Pemuco": {
@@ -50420,6 +50626,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pemuco",
                     "region": "\u00d1uble"
                 },
                 "Pinto": {
@@ -50621,6 +50828,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pinto",
                     "region": "\u00d1uble"
                 },
                 "Portezuelo": {
@@ -50822,6 +51030,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Portezuelo",
                     "region": "\u00d1uble"
                 },
                 "Quill\u00f3n": {
@@ -51023,6 +51232,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quill\u00f3n",
                     "region": "\u00d1uble"
                 },
                 "Quirihue": {
@@ -51224,6 +51434,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quirihue",
                     "region": "\u00d1uble"
                 },
                 "R\u00e1nquil": {
@@ -51425,6 +51636,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00e1nquil",
                     "region": "\u00d1uble"
                 },
                 "San Carlos": {
@@ -51626,6 +51838,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Carlos",
                     "region": "\u00d1uble"
                 },
                 "San Fabi\u00e1n": {
@@ -51827,6 +52040,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Fabi\u00e1n",
                     "region": "\u00d1uble"
                 },
                 "San Ignacio": {
@@ -52028,6 +52242,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Ignacio",
                     "region": "\u00d1uble"
                 },
                 "San Nicol\u00e1s": {
@@ -52229,6 +52444,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Nicol\u00e1s",
                     "region": "\u00d1uble"
                 },
                 "Treguaco": {
@@ -52430,6 +52646,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Treguaco",
                     "region": "\u00d1uble"
                 },
                 "Yungay": {
@@ -52631,6 +52848,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Yungay",
                     "region": "\u00d1uble"
                 }
             },
@@ -53632,6 +53850,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Alto Biob\u00edo",
                     "region": "Biob\u00edo"
                 },
                 "Antuco": {
@@ -53833,6 +54052,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Antuco",
                     "region": "Biob\u00edo"
                 },
                 "Arauco": {
@@ -54034,6 +54254,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Arauco",
                     "region": "Biob\u00edo"
                 },
                 "Cabrero": {
@@ -54235,6 +54456,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cabrero",
                     "region": "Biob\u00edo"
                 },
                 "Ca\u00f1ete": {
@@ -54436,6 +54658,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ca\u00f1ete",
                     "region": "Biob\u00edo"
                 },
                 "Chiguayante": {
@@ -54637,6 +54860,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chiguayante",
                     "region": "Biob\u00edo"
                 },
                 "Concepci\u00f3n": {
@@ -54838,6 +55062,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Concepci\u00f3n",
                     "region": "Biob\u00edo"
                 },
                 "Contulmo": {
@@ -55039,6 +55264,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Contulmo",
                     "region": "Biob\u00edo"
                 },
                 "Coronel": {
@@ -55240,6 +55466,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coronel",
                     "region": "Biob\u00edo"
                 },
                 "Curanilahue": {
@@ -55441,6 +55668,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curanilahue",
                     "region": "Biob\u00edo"
                 },
                 "Florida": {
@@ -55642,6 +55870,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Florida",
                     "region": "Biob\u00edo"
                 },
                 "Hualp\u00e9n": {
@@ -55843,6 +56072,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Hualp\u00e9n",
                     "region": "Biob\u00edo"
                 },
                 "Hualqui": {
@@ -56044,6 +56274,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Hualqui",
                     "region": "Biob\u00edo"
                 },
                 "Laja": {
@@ -56245,6 +56476,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Laja",
                     "region": "Biob\u00edo"
                 },
                 "Lebu": {
@@ -56446,6 +56678,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lebu",
                     "region": "Biob\u00edo"
                 },
                 "Los \u00c1lamos": {
@@ -56647,6 +56880,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los \u00c1lamos",
                     "region": "Biob\u00edo"
                 },
                 "Los \u00c1ngeles": {
@@ -56848,6 +57082,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los \u00c1ngeles",
                     "region": "Biob\u00edo"
                 },
                 "Lota": {
@@ -57049,6 +57284,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lota",
                     "region": "Biob\u00edo"
                 },
                 "Mulch\u00e9n": {
@@ -57250,6 +57486,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mulch\u00e9n",
                     "region": "Biob\u00edo"
                 },
                 "Nacimiento": {
@@ -57451,6 +57688,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Nacimiento",
                     "region": "Biob\u00edo"
                 },
                 "Negrete": {
@@ -57652,6 +57890,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Negrete",
                     "region": "Biob\u00edo"
                 },
                 "Penco": {
@@ -57853,6 +58092,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Penco",
                     "region": "Biob\u00edo"
                 },
                 "Quilaco": {
@@ -58054,6 +58294,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quilaco",
                     "region": "Biob\u00edo"
                 },
                 "Quilleco": {
@@ -58255,6 +58496,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quilleco",
                     "region": "Biob\u00edo"
                 },
                 "San Pedro de la Paz": {
@@ -58456,6 +58698,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Pedro de la Paz",
                     "region": "Biob\u00edo"
                 },
                 "San Rosendo": {
@@ -58657,6 +58900,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Rosendo",
                     "region": "Biob\u00edo"
                 },
                 "Santa B\u00e1rbara": {
@@ -58858,6 +59102,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Santa B\u00e1rbara",
                     "region": "Biob\u00edo"
                 },
                 "Santa Juana": {
@@ -59059,6 +59304,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Santa Juana",
                     "region": "Biob\u00edo"
                 },
                 "Talcahuano": {
@@ -59260,6 +59506,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Talcahuano",
                     "region": "Biob\u00edo"
                 },
                 "Tir\u00faa": {
@@ -59461,6 +59708,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tir\u00faa",
                     "region": "Biob\u00edo"
                 },
                 "Tom\u00e9": {
@@ -59662,6 +59910,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tom\u00e9",
                     "region": "Biob\u00edo"
                 },
                 "Tucapel": {
@@ -59863,6 +60112,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tucapel",
                     "region": "Biob\u00edo"
                 },
                 "Yumbel": {
@@ -60064,6 +60314,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Yumbel",
                     "region": "Biob\u00edo"
                 }
             },
@@ -61065,6 +61316,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Angol",
                     "region": "La Araucan\u00eda"
                 },
                 "Carahue": {
@@ -61266,6 +61518,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Carahue",
                     "region": "La Araucan\u00eda"
                 },
                 "Cholchol": {
@@ -61467,6 +61720,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cholchol",
                     "region": "La Araucan\u00eda"
                 },
                 "Collipulli": {
@@ -61668,6 +61922,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Collipulli",
                     "region": "La Araucan\u00eda"
                 },
                 "Cunco": {
@@ -61869,6 +62124,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cunco",
                     "region": "La Araucan\u00eda"
                 },
                 "Curacaut\u00edn": {
@@ -62070,6 +62326,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curacaut\u00edn",
                     "region": "La Araucan\u00eda"
                 },
                 "Curarrehue": {
@@ -62271,6 +62528,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curarrehue",
                     "region": "La Araucan\u00eda"
                 },
                 "Ercilla": {
@@ -62472,6 +62730,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ercilla",
                     "region": "La Araucan\u00eda"
                 },
                 "Freire": {
@@ -62673,6 +62932,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Freire",
                     "region": "La Araucan\u00eda"
                 },
                 "Galvarino": {
@@ -62874,6 +63134,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Galvarino",
                     "region": "La Araucan\u00eda"
                 },
                 "Gorbea": {
@@ -63075,6 +63336,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Gorbea",
                     "region": "La Araucan\u00eda"
                 },
                 "Lautaro": {
@@ -63276,6 +63538,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lautaro",
                     "region": "La Araucan\u00eda"
                 },
                 "Loncoche": {
@@ -63477,6 +63740,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Loncoche",
                     "region": "La Araucan\u00eda"
                 },
                 "Lonquimay": {
@@ -63678,6 +63942,7 @@
                         "is_active": true,
                         "text": "Lonquimay est\u00e1 en cuarentena total."
                     },
+                    "name": "Lonquimay",
                     "region": "La Araucan\u00eda"
                 },
                 "Los Sauces": {
@@ -63879,6 +64144,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los Sauces",
                     "region": "La Araucan\u00eda"
                 },
                 "Lumaco": {
@@ -64080,6 +64346,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lumaco",
                     "region": "La Araucan\u00eda"
                 },
                 "Melipeuco": {
@@ -64281,6 +64548,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Melipeuco",
                     "region": "La Araucan\u00eda"
                 },
                 "Nueva Imperial": {
@@ -64482,6 +64750,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Nueva Imperial",
                     "region": "La Araucan\u00eda"
                 },
                 "Padre Las Casas": {
@@ -64683,6 +64952,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Padre Las Casas",
                     "region": "La Araucan\u00eda"
                 },
                 "Perquenco": {
@@ -64884,6 +65154,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Perquenco",
                     "region": "La Araucan\u00eda"
                 },
                 "Pitrufqu\u00e9n": {
@@ -65085,6 +65356,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pitrufqu\u00e9n",
                     "region": "La Araucan\u00eda"
                 },
                 "Puc\u00f3n": {
@@ -65286,6 +65558,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puc\u00f3n",
                     "region": "La Araucan\u00eda"
                 },
                 "Pur\u00e9n": {
@@ -65487,6 +65760,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Pur\u00e9n",
                     "region": "La Araucan\u00eda"
                 },
                 "Renaico": {
@@ -65688,6 +65962,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Renaico",
                     "region": "La Araucan\u00eda"
                 },
                 "Saavedra": {
@@ -65889,6 +66164,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Saavedra",
                     "region": "La Araucan\u00eda"
                 },
                 "Temuco": {
@@ -66090,6 +66366,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Temuco",
                     "region": "La Araucan\u00eda"
                 },
                 "Teodoro Schmidt": {
@@ -66291,6 +66568,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Teodoro Schmidt",
                     "region": "La Araucan\u00eda"
                 },
                 "Tolt\u00e9n": {
@@ -66492,6 +66770,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tolt\u00e9n",
                     "region": "La Araucan\u00eda"
                 },
                 "Traigu\u00e9n": {
@@ -66693,6 +66972,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Traigu\u00e9n",
                     "region": "La Araucan\u00eda"
                 },
                 "Victoria": {
@@ -66894,6 +67174,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Victoria",
                     "region": "La Araucan\u00eda"
                 },
                 "Vilc\u00fan": {
@@ -67095,6 +67376,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Vilc\u00fan",
                     "region": "La Araucan\u00eda"
                 },
                 "Villarrica": {
@@ -67296,6 +67578,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Villarrica",
                     "region": "La Araucan\u00eda"
                 }
             },
@@ -68297,6 +68580,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Corral",
                     "region": "Los R\u00edos"
                 },
                 "Futrono": {
@@ -68498,6 +68782,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Futrono",
                     "region": "Los R\u00edos"
                 },
                 "La Uni\u00f3n": {
@@ -68699,6 +68984,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "La Uni\u00f3n",
                     "region": "Los R\u00edos"
                 },
                 "Lago Ranco": {
@@ -68900,6 +69186,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lago Ranco",
                     "region": "Los R\u00edos"
                 },
                 "Lanco": {
@@ -69101,6 +69388,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lanco",
                     "region": "Los R\u00edos"
                 },
                 "Los Lagos": {
@@ -69302,6 +69590,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los Lagos",
                     "region": "Los R\u00edos"
                 },
                 "M\u00e1fil": {
@@ -69503,6 +69792,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "M\u00e1fil",
                     "region": "Los R\u00edos"
                 },
                 "Mariquina": {
@@ -69704,6 +69994,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Mariquina",
                     "region": "Los R\u00edos"
                 },
                 "Paillaco": {
@@ -69905,6 +70196,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Paillaco",
                     "region": "Los R\u00edos"
                 },
                 "Panguipulli": {
@@ -70106,6 +70398,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Panguipulli",
                     "region": "Los R\u00edos"
                 },
                 "R\u00edo Bueno": {
@@ -70307,6 +70600,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Bueno",
                     "region": "Los R\u00edos"
                 },
                 "Valdivia": {
@@ -70508,6 +70802,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Valdivia",
                     "region": "Los R\u00edos"
                 }
             },
@@ -71509,6 +71804,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ancud",
                     "region": "Los Lagos"
                 },
                 "Calbuco": {
@@ -71710,6 +72006,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Calbuco",
                     "region": "Los Lagos"
                 },
                 "Castro": {
@@ -71911,6 +72208,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Castro",
                     "region": "Los Lagos"
                 },
                 "Chait\u00e9n": {
@@ -72112,6 +72410,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chait\u00e9n",
                     "region": "Los Lagos"
                 },
                 "Chonchi": {
@@ -72313,6 +72612,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chonchi",
                     "region": "Los Lagos"
                 },
                 "Cocham\u00f3": {
@@ -72514,6 +72814,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cocham\u00f3",
                     "region": "Los Lagos"
                 },
                 "Curaco de V\u00e9lez": {
@@ -72715,6 +73016,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Curaco de V\u00e9lez",
                     "region": "Los Lagos"
                 },
                 "Dalcahue": {
@@ -72916,6 +73218,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Dalcahue",
                     "region": "Los Lagos"
                 },
                 "Fresia": {
@@ -73117,6 +73420,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Fresia",
                     "region": "Los Lagos"
                 },
                 "Frutillar": {
@@ -73318,6 +73622,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Frutillar",
                     "region": "Los Lagos"
                 },
                 "Futaleuf\u00fa": {
@@ -73519,6 +73824,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Futaleuf\u00fa",
                     "region": "Los Lagos"
                 },
                 "Hualaihu\u00e9": {
@@ -73720,6 +74026,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Hualaihu\u00e9",
                     "region": "Los Lagos"
                 },
                 "Llanquihue": {
@@ -73921,6 +74228,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Llanquihue",
                     "region": "Los Lagos"
                 },
                 "Los Muermos": {
@@ -74122,6 +74430,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Los Muermos",
                     "region": "Los Lagos"
                 },
                 "Maull\u00edn": {
@@ -74323,6 +74632,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Maull\u00edn",
                     "region": "Los Lagos"
                 },
                 "Osorno": {
@@ -74524,6 +74834,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Osorno",
                     "region": "Los Lagos"
                 },
                 "Palena": {
@@ -74725,6 +75036,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Palena",
                     "region": "Los Lagos"
                 },
                 "Puerto Montt": {
@@ -74926,6 +75238,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puerto Montt",
                     "region": "Los Lagos"
                 },
                 "Puerto Octay": {
@@ -75127,6 +75440,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puerto Octay",
                     "region": "Los Lagos"
                 },
                 "Puerto Varas": {
@@ -75328,6 +75642,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puerto Varas",
                     "region": "Los Lagos"
                 },
                 "Puqueld\u00f3n": {
@@ -75529,6 +75844,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puqueld\u00f3n",
                     "region": "Los Lagos"
                 },
                 "Purranque": {
@@ -75730,6 +76046,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Purranque",
                     "region": "Los Lagos"
                 },
                 "Puyehue": {
@@ -75931,6 +76248,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Puyehue",
                     "region": "Los Lagos"
                 },
                 "Queil\u00e9n": {
@@ -76132,6 +76450,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Queil\u00e9n",
                     "region": "Los Lagos"
                 },
                 "Quell\u00f3n": {
@@ -76333,6 +76652,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quell\u00f3n",
                     "region": "Los Lagos"
                 },
                 "Quemchi": {
@@ -76534,6 +76854,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quemchi",
                     "region": "Los Lagos"
                 },
                 "Quinchao": {
@@ -76735,6 +77056,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Quinchao",
                     "region": "Los Lagos"
                 },
                 "R\u00edo Negro": {
@@ -76936,6 +77258,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Negro",
                     "region": "Los Lagos"
                 },
                 "San Juan de la Costa": {
@@ -77137,6 +77460,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Juan de la Costa",
                     "region": "Los Lagos"
                 },
                 "San Pablo": {
@@ -77338,6 +77662,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Pablo",
                     "region": "Los Lagos"
                 }
             },
@@ -78339,6 +78664,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ais\u00e9n",
                     "region": "Ays\u00e9n"
                 },
                 "Chile Chico": {
@@ -78540,6 +78866,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Chile Chico",
                     "region": "Ays\u00e9n"
                 },
                 "Cisnes": {
@@ -78741,6 +79068,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cisnes",
                     "region": "Ays\u00e9n"
                 },
                 "Cochrane": {
@@ -78942,6 +79270,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cochrane",
                     "region": "Ays\u00e9n"
                 },
                 "Coyhaique": {
@@ -79143,6 +79472,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Coyhaique",
                     "region": "Ays\u00e9n"
                 },
                 "Guaitecas": {
@@ -79344,6 +79674,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Guaitecas",
                     "region": "Ays\u00e9n"
                 },
                 "Lago Verde": {
@@ -79545,6 +79876,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Lago Verde",
                     "region": "Ays\u00e9n"
                 },
                 "O'Higgins": {
@@ -79746,6 +80078,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "O'Higgins",
                     "region": "Ays\u00e9n"
                 },
                 "R\u00edo Ib\u00e1\u00f1ez": {
@@ -79947,6 +80280,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Ib\u00e1\u00f1ez",
                     "region": "Ays\u00e9n"
                 },
                 "Tortel": {
@@ -80148,6 +80482,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Tortel",
                     "region": "Ays\u00e9n"
                 }
             },
@@ -81149,6 +81484,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Ant\u00e1rtica",
                     "region": "Magallanes"
                 },
                 "Cabo de Hornos": {
@@ -81350,6 +81686,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Cabo de Hornos",
                     "region": "Magallanes"
                 },
                 "Laguna Blanca": {
@@ -81551,6 +81888,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Laguna Blanca",
                     "region": "Magallanes"
                 },
                 "Natales": {
@@ -81752,6 +82090,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Natales",
                     "region": "Magallanes"
                 },
                 "Porvenir": {
@@ -81953,6 +82292,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Porvenir",
                     "region": "Magallanes"
                 },
                 "Primavera": {
@@ -82154,6 +82494,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Primavera",
                     "region": "Magallanes"
                 },
                 "Punta Arenas": {
@@ -82355,6 +82696,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Punta Arenas",
                     "region": "Magallanes"
                 },
                 "R\u00edo Verde": {
@@ -82556,6 +82898,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "R\u00edo Verde",
                     "region": "Magallanes"
                 },
                 "San Gregorio": {
@@ -82757,6 +83100,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "San Gregorio",
                     "region": "Magallanes"
                 },
                 "Timaukel": {
@@ -82958,6 +83302,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Timaukel",
                     "region": "Magallanes"
                 },
                 "Torres del Paine": {
@@ -83159,6 +83504,7 @@
                         "text": null,
                         "is_active": false
                     },
+                    "name": "Torres del Paine",
                     "region": "Magallanes"
                 }
             },

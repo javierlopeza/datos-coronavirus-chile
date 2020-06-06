@@ -193,6 +193,7 @@ class DataOrganizer:
     def fill_comunas_data(self):
         for comuna in self.comunas_es:
             self.chile["regiones"][self.regiones_comunas[comuna]]["comunas"][comuna] = deepcopy(BASE_PLACE)
+            self.chile["regiones"][self.regiones_comunas[comuna]]["comunas"][comuna]["name"] = comuna
 
         # Add regiones
         for region in self.chile["regiones"]:
