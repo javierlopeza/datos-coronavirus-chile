@@ -3,7 +3,7 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-05-31"
+INPUT_DATE = "2020-06-04"
 PARSE_PDF = False
 
 
@@ -132,7 +132,7 @@ class InformeParser:
         activos_por_region = {region: 0 for region in self.regiones_es}
         for comuna, activos in self.activos_por_comuna.items():
             region = self.regiones_comunas[self.fix_comuna(comuna)]
-            activos_por_region[region] += activos
+            activos_por_region[region] += parse_str_int(activos)
         add_column_to_csv("../raw_data/regiones/series_activos_regiones.csv", self.fix_region, activos_por_region)
         
         # Confirmados por region (got them from reporte diario)
