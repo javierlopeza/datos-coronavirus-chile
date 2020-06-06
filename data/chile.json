@@ -63947,8 +63947,8 @@
                         "fallecidos": []
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Lonquimay est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Lonquimay",
                     "region": "La Araucan\u00eda"
