@@ -121,12 +121,12 @@ class DataOrganizer:
         # Add tasa activos
         self.chile["tasa_activos"] = {
             "date": self.chile["activos"]["date"],
-            "value": (self.chile["activos"]["value"] / self.chile["poblacion"]) * 100000,
+            "value": round((self.chile["activos"]["value"] / self.chile["poblacion"]) * 100000, 2),
         }
         # Add previous tasa activos
         self.chile["previous"]["tasa_activos"] = {
             "date": self.chile["previous"]["activos"]["date"],
-            "value": (self.chile["previous"]["activos"]["value"] / self.chile["poblacion"]) * 100000,
+            "value": round((self.chile["previous"]["activos"]["value"] / self.chile["poblacion"]) * 100000, 2),
         }
 
     def fill_regiones_data(self):
@@ -180,14 +180,14 @@ class DataOrganizer:
             poblacion = self.chile["regiones"][region]["poblacion"]
             self.chile["regiones"][region]["tasa_activos"] = {
                 "date": current_activos["date"],
-                "value": (current_activos["value"]/ poblacion) * 100000,
+                "value": round((current_activos["value"]/ poblacion) * 100000, 2),
             }
             # Add previous tasa activos
             previous_activos = self.chile["regiones"][region]["previous"]["activos"]
             poblacion = self.chile["regiones"][region]["poblacion"]
             self.chile["regiones"][region]["previous"]["tasa_activos"] = {
                 "date": previous_activos["date"],
-                "value": (previous_activos["value"]/ poblacion) * 100000,
+                "value": round((previous_activos["value"]/ poblacion) * 100000, 2),
             }
 
     def fill_comunas_data(self):
@@ -232,14 +232,14 @@ class DataOrganizer:
             poblacion = self.chile["regiones"][region]["comunas"][comuna]["poblacion"]
             self.chile["regiones"][region]["comunas"][comuna]["tasa_activos"] = {
                 "date": current_activos["date"],
-                "value": (current_activos["value"] / poblacion) * 100000,
+                "value": round((current_activos["value"] / poblacion) * 100000, 2),
             }
             # Add previous tasa activos
             previous_activos = self.chile["regiones"][region]["comunas"][comuna]["previous"]["activos"]
             poblacion = self.chile["regiones"][region]["comunas"][comuna]["poblacion"]
             self.chile["regiones"][region]["comunas"][comuna]["previous"]["tasa_activos"] = {
                 "date": previous_activos["date"],
-                "value": (previous_activos["value"] / poblacion) * 100000,
+                "value": round((previous_activos["value"] / poblacion) * 100000, 2),
             }
 
     def add_regiones_complete_names(self):

@@ -15,7 +15,7 @@
     },
     "tasa_activos": {
         "date": "2020-06-05",
-        "value": 111.48450199426362
+        "value": 111.48
     },
     "previous": {
         "confirmados": {
@@ -33,7 +33,7 @@
         },
         "tasa_activos": {
             "date": "2020-05-31",
-            "value": 116.238255018036
+            "value": 116.24
         }
     },
     "series": {
@@ -834,7 +834,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 219.67805331448142
+                "value": 219.68
             },
             "previous": {
                 "confirmados": {
@@ -851,7 +851,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 215.64116601059044
+                    "value": 215.64
                 }
             },
             "series": {
@@ -1631,7 +1631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.504388926401079
+                        "value": 13.5
                     },
                     "previous": {
                         "confirmados": {
@@ -1648,7 +1648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.504388926401079
+                            "value": 13.5
                         }
                     },
                     "series": {
@@ -1831,7 +1831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 98.50329712425096
+                        "value": 98.5
                     },
                     "previous": {
                         "confirmados": {
@@ -1848,7 +1848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 93.03089172845925
+                            "value": 93.03
                         }
                     },
                     "series": {
@@ -2031,7 +2031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 91.14811568799298
+                        "value": 91.15
                     },
                     "previous": {
                         "confirmados": {
@@ -2048,7 +2048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 112.18229623137599
+                            "value": 112.18
                         }
                     },
                     "series": {
@@ -2231,7 +2231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 209.09213543774447
+                        "value": 209.09
                     },
                     "previous": {
                         "confirmados": {
@@ -2248,7 +2248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 201.22307657718426
+                            "value": 201.22
                         }
                     },
                     "series": {
@@ -2431,7 +2431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 155.12582037693468
+                        "value": 155.13
                     },
                     "previous": {
                         "confirmados": {
@@ -2448,7 +2448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 127.75067560453445
+                            "value": 127.75
                         }
                     },
                     "series": {
@@ -2631,7 +2631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 209.0345045549561
+                        "value": 209.03
                     },
                     "previous": {
                         "confirmados": {
@@ -2648,7 +2648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 219.01493182813707
+                            "value": 219.01
                         }
                     },
                     "series": {
@@ -2831,7 +2831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 211.2144832788534
+                        "value": 211.21
                     },
                     "previous": {
                         "confirmados": {
@@ -2848,7 +2848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 209.77765005926935
+                            "value": 209.78
                         }
                     },
                     "series": {
@@ -3031,7 +3031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 334.8888278891024
+                        "value": 334.89
                     },
                     "previous": {
                         "confirmados": {
@@ -3048,7 +3048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 225.08921218775737
+                            "value": 225.09
                         }
                     },
                     "series": {
@@ -3231,7 +3231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 180.2325581395349
+                        "value": 180.23
                     },
                     "previous": {
                         "confirmados": {
@@ -3248,7 +3248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 184.30232558139534
+                            "value": 184.3
                         }
                     },
                     "series": {
@@ -3431,7 +3431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 87.46938571499976
+                        "value": 87.47
                     },
                     "previous": {
                         "confirmados": {
@@ -3448,7 +3448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 69.9755085719998
+                            "value": 69.98
                         }
                     },
                     "series": {
@@ -3631,7 +3631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 212.29061085535224
+                        "value": 212.29
                     },
                     "previous": {
                         "confirmados": {
@@ -3648,7 +3648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 174.57155015667917
+                            "value": 174.57
                         }
                     },
                     "series": {
@@ -3831,7 +3831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 177.73354187402248
+                        "value": 177.73
                     },
                     "previous": {
                         "confirmados": {
@@ -3848,7 +3848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 154.62818143039954
+                            "value": 154.63
                         }
                     },
                     "series": {
@@ -4031,7 +4031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 339.28131489107096
+                        "value": 339.28
                     },
                     "previous": {
                         "confirmados": {
@@ -4048,7 +4048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 337.87350860521593
+                            "value": 337.87
                         }
                     },
                     "series": {
@@ -4231,7 +4231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 49.787159891463986
+                        "value": 49.79
                     },
                     "previous": {
                         "confirmados": {
@@ -4248,7 +4248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 37.34036991859799
+                            "value": 37.34
                         }
                     },
                     "series": {
@@ -4431,7 +4431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 224.02771969651712
+                        "value": 224.03
                     },
                     "previous": {
                         "confirmados": {
@@ -4448,7 +4448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 164.28699444411254
+                            "value": 164.29
                         }
                     },
                     "series": {
@@ -4631,7 +4631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 268.86463088265623
+                        "value": 268.86
                     },
                     "previous": {
                         "confirmados": {
@@ -4648,7 +4648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 276.5677764994421
+                            "value": 276.57
                         }
                     },
                     "series": {
@@ -4831,7 +4831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 572.7946996091615
+                        "value": 572.79
                     },
                     "previous": {
                         "confirmados": {
@@ -4848,7 +4848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 627.4631396003492
+                            "value": 627.46
                         }
                     },
                     "series": {
@@ -5031,7 +5031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 397.17960229223337
+                        "value": 397.18
                     },
                     "previous": {
                         "confirmados": {
@@ -5048,7 +5048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 360.7362611244619
+                            "value": 360.74
                         }
                     },
                     "series": {
@@ -5231,7 +5231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 187.52743087419702
+                        "value": 187.53
                     },
                     "previous": {
                         "confirmados": {
@@ -5248,7 +5248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 220.44447991062523
+                            "value": 220.44
                         }
                     },
                     "series": {
@@ -5431,7 +5431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 156.0308279090293
+                        "value": 156.03
                     },
                     "previous": {
                         "confirmados": {
@@ -5448,7 +5448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 182.0359658938675
+                            "value": 182.04
                         }
                     },
                     "series": {
@@ -5631,7 +5631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 194.40136171653683
+                        "value": 194.4
                     },
                     "previous": {
                         "confirmados": {
@@ -5648,7 +5648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 196.21537131264756
+                            "value": 196.22
                         }
                     },
                     "series": {
@@ -5831,7 +5831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 210.3549437441568
+                        "value": 210.35
                     },
                     "previous": {
                         "confirmados": {
@@ -5848,7 +5848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 208.7430284664238
+                            "value": 208.74
                         }
                     },
                     "series": {
@@ -6031,7 +6031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 235.88311750830405
+                        "value": 235.88
                     },
                     "previous": {
                         "confirmados": {
@@ -6048,7 +6048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 160.78563519953786
+                            "value": 160.79
                         }
                     },
                     "series": {
@@ -6231,7 +6231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 141.7583785906535
+                        "value": 141.76
                     },
                     "previous": {
                         "confirmados": {
@@ -6248,7 +6248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 134.09576353169928
+                            "value": 134.1
                         }
                     },
                     "series": {
@@ -6431,7 +6431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 299.3278122330746
+                        "value": 299.33
                     },
                     "previous": {
                         "confirmados": {
@@ -6448,7 +6448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 250.3063839269135
+                            "value": 250.31
                         }
                     },
                     "series": {
@@ -6631,7 +6631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 160.5585848722358
+                        "value": 160.56
                     },
                     "previous": {
                         "confirmados": {
@@ -6648,7 +6648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 150.88013411567476
+                            "value": 150.88
                         }
                     },
                     "series": {
@@ -6831,7 +6831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 73.69690473000134
+                        "value": 73.7
                     },
                     "previous": {
                         "confirmados": {
@@ -6848,7 +6848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 46.89803028272812
+                            "value": 46.9
                         }
                     },
                     "series": {
@@ -7031,7 +7031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 189.95565347569416
+                        "value": 189.96
                     },
                     "previous": {
                         "confirmados": {
@@ -7048,7 +7048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 145.46789820071746
+                            "value": 145.47
                         }
                     },
                     "series": {
@@ -7231,7 +7231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 222.2293278761911
+                        "value": 222.23
                     },
                     "previous": {
                         "confirmados": {
@@ -7248,7 +7248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 211.03792287523183
+                            "value": 211.04
                         }
                     },
                     "series": {
@@ -7431,7 +7431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 90.31110152585323
+                        "value": 90.31
                     },
                     "previous": {
                         "confirmados": {
@@ -7448,7 +7448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 93.00695530274437
+                            "value": 93.01
                         }
                     },
                     "series": {
@@ -7631,7 +7631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 77.32643839257666
+                        "value": 77.33
                     },
                     "previous": {
                         "confirmados": {
@@ -7648,7 +7648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 94.24159679095281
+                            "value": 94.24
                         }
                     },
                     "series": {
@@ -7831,7 +7831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 194.79977366121537
+                        "value": 194.8
                     },
                     "previous": {
                         "confirmados": {
@@ -7848,7 +7848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 185.52359396306224
+                            "value": 185.52
                         }
                     },
                     "series": {
@@ -8031,7 +8031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 88.0682380415207
+                        "value": 88.07
                     },
                     "previous": {
                         "confirmados": {
@@ -8048,7 +8048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 82.1310534544519
+                            "value": 82.13
                         }
                     },
                     "series": {
@@ -8231,7 +8231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 448.65403788634103
+                        "value": 448.65
                     },
                     "previous": {
                         "confirmados": {
@@ -8248,7 +8248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 419.41843642006313
+                            "value": 419.42
                         }
                     },
                     "series": {
@@ -8431,7 +8431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 348.30611507245425
+                        "value": 348.31
                     },
                     "previous": {
                         "confirmados": {
@@ -8448,7 +8448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 279.30207340715674
+                            "value": 279.3
                         }
                     },
                     "series": {
@@ -8631,7 +8631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 212.9965958579769
+                        "value": 213.0
                     },
                     "previous": {
                         "confirmados": {
@@ -8648,7 +8648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 228.210638419261
+                            "value": 228.21
                         }
                     },
                     "series": {
@@ -8831,7 +8831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 146.16475533205076
+                        "value": 146.16
                     },
                     "previous": {
                         "confirmados": {
@@ -8848,7 +8848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 139.44907738436197
+                            "value": 139.45
                         }
                     },
                     "series": {
@@ -9031,7 +9031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 224.64464808510178
+                        "value": 224.64
                     },
                     "previous": {
                         "confirmados": {
@@ -9048,7 +9048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 226.19285379209762
+                            "value": 226.19
                         }
                     },
                     "series": {
@@ -9231,7 +9231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 208.48547668967467
+                        "value": 208.49
                     },
                     "previous": {
                         "confirmados": {
@@ -9248,7 +9248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 226.93899345881727
+                            "value": 226.94
                         }
                     },
                     "series": {
@@ -9431,7 +9431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 146.6619734835152
+                        "value": 146.66
                     },
                     "previous": {
                         "confirmados": {
@@ -9448,7 +9448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 137.86225507450428
+                            "value": 137.86
                         }
                     },
                     "series": {
@@ -9631,7 +9631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 252.5318953044851
+                        "value": 252.53
                     },
                     "previous": {
                         "confirmados": {
@@ -9648,7 +9648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 266.7368144153624
+                            "value": 266.74
                         }
                     },
                     "series": {
@@ -9831,7 +9831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 156.04891605065683
+                        "value": 156.05
                     },
                     "previous": {
                         "confirmados": {
@@ -9848,7 +9848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 149.21011893289895
+                            "value": 149.21
                         }
                     },
                     "series": {
@@ -10031,7 +10031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 182.77604558649608
+                        "value": 182.78
                     },
                     "previous": {
                         "confirmados": {
@@ -10048,7 +10048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 193.82623134907834
+                            "value": 193.83
                         }
                     },
                     "series": {
@@ -10231,7 +10231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 285.0654684253757
+                        "value": 285.07
                     },
                     "previous": {
                         "confirmados": {
@@ -10248,7 +10248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 274.4359085857854
+                            "value": 274.44
                         }
                     },
                     "series": {
@@ -10431,7 +10431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 461.2744046341987
+                        "value": 461.27
                     },
                     "previous": {
                         "confirmados": {
@@ -10448,7 +10448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 434.45612529500113
+                            "value": 434.46
                         }
                     },
                     "series": {
@@ -10631,7 +10631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 278.823679721026
+                        "value": 278.82
                     },
                     "previous": {
                         "confirmados": {
@@ -10648,7 +10648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 251.76801268610166
+                            "value": 251.77
                         }
                     },
                     "series": {
@@ -10831,7 +10831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.732201121057475
+                        "value": 16.73
                     },
                     "previous": {
                         "confirmados": {
@@ -10848,7 +10848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.366100560528738
+                            "value": 8.37
                         }
                     },
                     "series": {
@@ -11031,7 +11031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 343.31291180210377
+                        "value": 343.31
                     },
                     "previous": {
                         "confirmados": {
@@ -11048,7 +11048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 405.7334412206681
+                            "value": 405.73
                         }
                     },
                     "series": {
@@ -11231,7 +11231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 228.16393618564751
+                        "value": 228.16
                     },
                     "previous": {
                         "confirmados": {
@@ -11248,7 +11248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 244.46136019890807
+                            "value": 244.46
                         }
                     },
                     "series": {
@@ -11431,7 +11431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 78.20327965004033
+                        "value": 78.2
                     },
                     "previous": {
                         "confirmados": {
@@ -11448,7 +11448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 72.09364842738093
+                            "value": 72.09
                         }
                     },
                     "series": {
@@ -11631,7 +11631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 158.3088885784793
+                        "value": 158.31
                     },
                     "previous": {
                         "confirmados": {
@@ -11648,7 +11648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 190.90189505051916
+                            "value": 190.9
                         }
                     },
                     "series": {
@@ -11831,7 +11831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 160.1669870006407
+                        "value": 160.17
                     },
                     "previous": {
                         "confirmados": {
@@ -11848,7 +11848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 187.0337074007481
+                            "value": 187.03
                         }
                     },
                     "series": {
@@ -12034,7 +12034,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 70.2074491293483
+                "value": 70.21
             },
             "previous": {
                 "confirmados": {
@@ -12051,7 +12051,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 64.65431755979533
+                    "value": 64.65
                 }
             },
             "series": {
@@ -12831,7 +12831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 71.50012926577043
+                        "value": 71.5
                     },
                     "previous": {
                         "confirmados": {
@@ -12848,7 +12848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 65.84475180972079
+                            "value": 65.84
                         }
                     },
                     "series": {
@@ -13634,7 +13634,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 235.1263020118974
+                "value": 235.13
             },
             "previous": {
                 "confirmados": {
@@ -13651,7 +13651,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 213.44243193746684
+                    "value": 213.44
                 }
             },
             "series": {
@@ -14431,7 +14431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 228.4632958715067
+                        "value": 228.46
                     },
                     "previous": {
                         "confirmados": {
@@ -14448,7 +14448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 193.84764498188446
+                            "value": 193.85
                         }
                     },
                     "series": {
@@ -14631,7 +14631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 218.1818181818182
+                        "value": 218.18
                     },
                     "previous": {
                         "confirmados": {
@@ -14648,7 +14648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 145.45454545454544
+                            "value": 145.45
                         }
                     },
                     "series": {
@@ -14831,7 +14831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 63.17119393556538
+                        "value": 63.17
                     },
                     "previous": {
                         "confirmados": {
@@ -14848,7 +14848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 63.17119393556538
+                            "value": 63.17
                         }
                     },
                     "series": {
@@ -15048,7 +15048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 366.6666666666667
+                            "value": 366.67
                         }
                     },
                     "series": {
@@ -15231,7 +15231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 238.0707320675011
+                        "value": 238.07
                     },
                     "previous": {
                         "confirmados": {
@@ -15248,7 +15248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 230.01570729829996
+                            "value": 230.02
                         }
                     },
                     "series": {
@@ -15431,7 +15431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 201.4098690835851
+                        "value": 201.41
                     },
                     "previous": {
                         "confirmados": {
@@ -15448,7 +15448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 117.48909029875797
+                            "value": 117.49
                         }
                     },
                     "series": {
@@ -15631,7 +15631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 264.4438056912906
+                        "value": 264.44
                     },
                     "previous": {
                         "confirmados": {
@@ -15648,7 +15648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 172.46335153779822
+                            "value": 172.46
                         }
                     },
                     "series": {
@@ -15834,7 +15834,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 52.467717177323536
+                "value": 52.47
             },
             "previous": {
                 "confirmados": {
@@ -15851,7 +15851,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 55.503039658656306
+                    "value": 55.5
                 }
             },
             "series": {
@@ -16631,7 +16631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 63.656116037348056
+                        "value": 63.66
                     },
                     "previous": {
                         "confirmados": {
@@ -16648,7 +16648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 56.139526689764516
+                            "value": 56.14
                         }
                     },
                     "series": {
@@ -16831,7 +16831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.896267652992602
+                        "value": 28.9
                     },
                     "previous": {
                         "confirmados": {
@@ -16848,7 +16848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 51.487895090786814
+                            "value": 51.49
                         }
                     },
                     "series": {
@@ -17031,7 +17031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 161.4323451717053
+                        "value": 161.43
                     },
                     "previous": {
                         "confirmados": {
@@ -17048,7 +17048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 249.48635162899913
+                            "value": 249.49
                         }
                     },
                     "series": {
@@ -17231,7 +17231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 81.21277747698971
+                        "value": 81.21
                     },
                     "previous": {
                         "confirmados": {
@@ -17248,7 +17248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 115.05143475906875
+                            "value": 115.05
                         }
                     },
                     "series": {
@@ -17631,7 +17631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.75215641173088
+                        "value": 28.75
                     },
                     "previous": {
                         "confirmados": {
@@ -17648,7 +17648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 38.336208548974504
+                            "value": 38.34
                         }
                     },
                     "series": {
@@ -17831,7 +17831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 57.2737686139748
+                        "value": 57.27
                     },
                     "previous": {
                         "confirmados": {
@@ -18031,7 +18031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 58.578018598520906
+                        "value": 58.58
                     },
                     "previous": {
                         "confirmados": {
@@ -18048,7 +18048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 29.289009299260453
+                            "value": 29.29
                         }
                     },
                     "series": {
@@ -18231,7 +18231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.122760782079134
+                        "value": 7.12
                     },
                     "previous": {
                         "confirmados": {
@@ -18248,7 +18248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 17.806901955197837
+                            "value": 17.81
                         }
                     },
                     "series": {
@@ -18434,7 +18434,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 20.654000997747126
+                "value": 20.65
             },
             "previous": {
                 "confirmados": {
@@ -18451,7 +18451,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 15.569939213686293
+                    "value": 15.57
                 }
             },
             "series": {
@@ -19431,7 +19431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.295480284155255
+                        "value": 10.3
                     },
                     "previous": {
                         "confirmados": {
@@ -19448,7 +19448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 10.295480284155255
+                            "value": 10.3
                         }
                     },
                     "series": {
@@ -19631,7 +19631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.596475235490732
+                        "value": 7.6
                     },
                     "previous": {
                         "confirmados": {
@@ -19648,7 +19648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.596475235490732
+                            "value": 7.6
                         }
                     },
                     "series": {
@@ -19831,7 +19831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 26.7806201460126
+                        "value": 26.78
                     },
                     "previous": {
                         "confirmados": {
@@ -19848,7 +19848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.62999662331311
+                            "value": 18.63
                         }
                     },
                     "series": {
@@ -20031,7 +20031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 34.823791614430974
+                        "value": 34.82
                     },
                     "previous": {
                         "confirmados": {
@@ -20048,7 +20048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 55.718066583089566
+                            "value": 55.72
                         }
                     },
                     "series": {
@@ -20631,7 +20631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.98714365567356
+                        "value": 6.99
                     },
                     "previous": {
                         "confirmados": {
@@ -20648,7 +20648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.98714365567356
+                            "value": 6.99
                         }
                     },
                     "series": {
@@ -20831,7 +20831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 17.541090003332805
+                        "value": 17.54
                     },
                     "previous": {
                         "confirmados": {
@@ -20848,7 +20848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.770545001666402
+                            "value": 8.77
                         }
                     },
                     "series": {
@@ -21034,7 +21034,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 20.81100734843846
+                "value": 20.81
             },
             "previous": {
                 "confirmados": {
@@ -21051,7 +21051,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 12.199556031843233
+                    "value": 12.2
                 }
             },
             "series": {
@@ -21831,7 +21831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 8.481044864727334
+                        "value": 8.48
                     },
                     "previous": {
                         "confirmados": {
@@ -21848,7 +21848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.481044864727334
+                            "value": 8.48
                         }
                     },
                     "series": {
@@ -22231,7 +22231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 21.6076058772688
+                        "value": 21.61
                     },
                     "previous": {
                         "confirmados": {
@@ -22248,7 +22248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.202535292422932
+                            "value": 7.2
                         }
                     },
                     "series": {
@@ -22431,7 +22431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.232107036438351
+                        "value": 6.23
                     },
                     "previous": {
                         "confirmados": {
@@ -22448,7 +22448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.621613726215748
+                            "value": 6.62
                         }
                     },
                     "series": {
@@ -22631,7 +22631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.243437700070121
+                        "value": 15.24
                     },
                     "previous": {
                         "confirmados": {
@@ -22648,7 +22648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.097375080028048
+                            "value": 6.1
                         }
                     },
                     "series": {
@@ -22831,7 +22831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 22.471910112359552
+                        "value": 22.47
                     },
                     "previous": {
                         "confirmados": {
@@ -23031,7 +23031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.033069503637005
+                        "value": 24.03
                     },
                     "previous": {
                         "confirmados": {
@@ -23048,7 +23048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 15.220944018970103
+                            "value": 15.22
                         }
                     },
                     "series": {
@@ -23231,7 +23231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 8.556515786771627
+                        "value": 8.56
                     },
                     "previous": {
                         "confirmados": {
@@ -23431,7 +23431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 61.48737971531344
+                        "value": 61.49
                     },
                     "previous": {
                         "confirmados": {
@@ -23448,7 +23448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 27.669320871891042
+                            "value": 27.67
                         }
                     },
                     "series": {
@@ -23631,7 +23631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 41.230652516306726
+                        "value": 41.23
                     },
                     "previous": {
                         "confirmados": {
@@ -23648,7 +23648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 21.439939308479495
+                            "value": 21.44
                         }
                     },
                     "series": {
@@ -23831,7 +23831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 42.780748663101605
+                        "value": 42.78
                     },
                     "previous": {
                         "confirmados": {
@@ -24031,7 +24031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.660912453760787
+                        "value": 24.66
                     },
                     "previous": {
                         "confirmados": {
@@ -24048,7 +24048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 16.440608302507194
+                            "value": 16.44
                         }
                     },
                     "series": {
@@ -24231,7 +24231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 68.6184812442818
+                        "value": 68.62
                     },
                     "previous": {
                         "confirmados": {
@@ -24431,7 +24431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 20.61147372037101
+                        "value": 20.61
                     },
                     "previous": {
                         "confirmados": {
@@ -24448,7 +24448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.870491240123669
+                            "value": 6.87
                         }
                     },
                     "series": {
@@ -24631,7 +24631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.724723445748293
+                        "value": 6.72
                     },
                     "previous": {
                         "confirmados": {
@@ -24648,7 +24648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.449446891496587
+                            "value": 13.45
                         }
                     },
                     "series": {
@@ -24834,7 +24834,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 41.11888254590163
+                "value": 41.12
             },
             "previous": {
                 "confirmados": {
@@ -24851,7 +24851,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 36.68049199814302
+                    "value": 36.68
                 }
             },
             "series": {
@@ -25631,7 +25631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 52.72176090681429
+                        "value": 52.72
                     },
                     "previous": {
                         "confirmados": {
@@ -25648,7 +25648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 32.951100566758925
+                            "value": 32.95
                         }
                     },
                     "series": {
@@ -25831,7 +25831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 14.518704931520109
+                        "value": 14.52
                     },
                     "previous": {
                         "confirmados": {
@@ -25848,7 +25848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.35827324202681
+                            "value": 19.36
                         }
                     },
                     "series": {
@@ -26031,7 +26031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 29.855759362579533
+                        "value": 29.86
                     },
                     "previous": {
                         "confirmados": {
@@ -26048,7 +26048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 22.391819521934654
+                            "value": 22.39
                         }
                     },
                     "series": {
@@ -26231,7 +26231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 103.14282247300085
+                        "value": 103.14
                     },
                     "previous": {
                         "confirmados": {
@@ -26248,7 +26248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 121.34449702705982
+                            "value": 121.34
                         }
                     },
                     "series": {
@@ -26431,7 +26431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 39.43684189770083
+                        "value": 39.44
                     },
                     "previous": {
                         "confirmados": {
@@ -26448,7 +26448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 35.49315770793075
+                            "value": 35.49
                         }
                     },
                     "series": {
@@ -26631,7 +26631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 17.14089818306479
+                        "value": 17.14
                     },
                     "previous": {
                         "confirmados": {
@@ -26648,7 +26648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 23.99725745629071
+                            "value": 24.0
                         }
                     },
                     "series": {
@@ -26831,7 +26831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.146650890685597
+                        "value": 13.15
                     },
                     "previous": {
                         "confirmados": {
@@ -26848,7 +26848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.146650890685597
+                            "value": 13.15
                         }
                     },
                     "series": {
@@ -27031,7 +27031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 32.687572185055245
+                        "value": 32.69
                     },
                     "previous": {
                         "confirmados": {
@@ -27048,7 +27048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.075028874022097
+                            "value": 13.08
                         }
                     },
                     "series": {
@@ -27231,7 +27231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 67.63611768684477
+                        "value": 67.64
                     },
                     "previous": {
                         "confirmados": {
@@ -27248,7 +27248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 73.27246082741517
+                            "value": 73.27
                         }
                     },
                     "series": {
@@ -27431,7 +27431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 62.770260845306176
+                        "value": 62.77
                     },
                     "previous": {
                         "confirmados": {
@@ -27448,7 +27448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 41.846840563537455
+                            "value": 41.85
                         }
                     },
                     "series": {
@@ -27631,7 +27631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 52.35876223886068
+                        "value": 52.36
                     },
                     "previous": {
                         "confirmados": {
@@ -27648,7 +27648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 52.35876223886068
+                            "value": 52.36
                         }
                     },
                     "series": {
@@ -28231,7 +28231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.898582204494293
+                        "value": 7.9
                     },
                     "previous": {
                         "confirmados": {
@@ -28248,7 +28248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.847873306741441
+                            "value": 11.85
                         }
                     },
                     "series": {
@@ -28431,7 +28431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.59911497389968
+                        "value": 10.6
                     },
                     "previous": {
                         "confirmados": {
@@ -28448,7 +28448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.54845120432444
+                            "value": 18.55
                         }
                     },
                     "series": {
@@ -28631,7 +28631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.033165768760888
+                        "value": 24.03
                     },
                     "previous": {
                         "confirmados": {
@@ -28648,7 +28648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 30.041457210951112
+                            "value": 30.04
                         }
                     },
                     "series": {
@@ -28831,7 +28831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 52.76448196585384
+                        "value": 52.76
                     },
                     "previous": {
                         "confirmados": {
@@ -28848,7 +28848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 94.222289224739
+                            "value": 94.22
                         }
                     },
                     "series": {
@@ -29031,7 +29031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 71.96040709030297
+                        "value": 71.96
                     },
                     "previous": {
                         "confirmados": {
@@ -29048,7 +29048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 82.24046524606054
+                            "value": 82.24
                         }
                     },
                     "series": {
@@ -29231,7 +29231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 17.028522775649215
+                        "value": 17.03
                     },
                     "previous": {
                         "confirmados": {
@@ -29248,7 +29248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 17.028522775649215
+                            "value": 17.03
                         }
                     },
                     "series": {
@@ -29431,7 +29431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 41.523928163604275
+                        "value": 41.52
                     },
                     "previous": {
                         "confirmados": {
@@ -29448,7 +29448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.333437143153745
+                            "value": 36.33
                         }
                     },
                     "series": {
@@ -29631,7 +29631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.101008777675883
+                        "value": 13.1
                     },
                     "previous": {
                         "confirmados": {
@@ -29648,7 +29648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 52.40403511070353
+                            "value": 52.4
                         }
                     },
                     "series": {
@@ -29831,7 +29831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 32.25286244154169
+                        "value": 32.25
                     },
                     "previous": {
                         "confirmados": {
@@ -29848,7 +29848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 48.37929366231253
+                            "value": 48.38
                         }
                     },
                     "series": {
@@ -30031,7 +30031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 18.942981625307823
+                        "value": 18.94
                     },
                     "previous": {
                         "confirmados": {
@@ -30048,7 +30048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 37.885963250615646
+                            "value": 37.89
                         }
                     },
                     "series": {
@@ -30231,7 +30231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 14.946938368790791
+                        "value": 14.95
                     },
                     "previous": {
                         "confirmados": {
@@ -30248,7 +30248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 4.982312789596931
+                            "value": 4.98
                         }
                     },
                     "series": {
@@ -30431,7 +30431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 22.66931141966563
+                        "value": 22.67
                     },
                     "previous": {
                         "confirmados": {
@@ -30448,7 +30448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.334655709832814
+                            "value": 11.33
                         }
                     },
                     "series": {
@@ -30631,7 +30631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.373262821301193
+                        "value": 15.37
                     },
                     "previous": {
                         "confirmados": {
@@ -30648,7 +30648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.174189316607223
+                            "value": 7.17
                         }
                     },
                     "series": {
@@ -30831,7 +30831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.129395218002813
+                        "value": 28.13
                     },
                     "previous": {
                         "confirmados": {
@@ -30848,7 +30848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 22.144417512044768
+                            "value": 22.14
                         }
                     },
                     "series": {
@@ -31031,7 +31031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 55.34800055348
+                        "value": 55.35
                     },
                     "previous": {
                         "confirmados": {
@@ -31048,7 +31048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 30.441400304414007
+                            "value": 30.44
                         }
                     },
                     "series": {
@@ -31231,7 +31231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 142.05806623457337
+                        "value": 142.06
                     },
                     "previous": {
                         "confirmados": {
@@ -31248,7 +31248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 133.17943709491254
+                            "value": 133.18
                         }
                     },
                     "series": {
@@ -31431,7 +31431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 76.47709304368496
+                        "value": 76.48
                     },
                     "previous": {
                         "confirmados": {
@@ -31448,7 +31448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 84.7448868862455
+                            "value": 84.74
                         }
                     },
                     "series": {
@@ -31631,7 +31631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 19.377028532674515
+                        "value": 19.38
                     },
                     "previous": {
                         "confirmados": {
@@ -31648,7 +31648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.377028532674515
+                            "value": 19.38
                         }
                     },
                     "series": {
@@ -31831,7 +31831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 47.90763408149088
+                        "value": 47.91
                     },
                     "previous": {
                         "confirmados": {
@@ -31848,7 +31848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 62.279924305938145
+                            "value": 62.28
                         }
                     },
                     "series": {
@@ -32031,7 +32031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.439420785727375
+                        "value": 24.44
                     },
                     "previous": {
                         "confirmados": {
@@ -32048,7 +32048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.65913117859107
+                            "value": 36.66
                         }
                     },
                     "series": {
@@ -32231,7 +32231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.758840288252053
+                        "value": 16.76
                     },
                     "previous": {
                         "confirmados": {
@@ -32431,7 +32431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 48.45881950514993
+                        "value": 48.46
                     },
                     "previous": {
                         "confirmados": {
@@ -32448,7 +32448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.10657139599407
+                            "value": 36.11
                         }
                     },
                     "series": {
@@ -32631,7 +32631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 23.688177445983776
+                        "value": 23.69
                     },
                     "previous": {
                         "confirmados": {
@@ -32648,7 +32648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 21.534706769076163
+                            "value": 21.53
                         }
                     },
                     "series": {
@@ -32831,7 +32831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 51.470649277335475
+                        "value": 51.47
                     },
                     "previous": {
                         "confirmados": {
@@ -32848,7 +32848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 37.634453235041
+                            "value": 37.63
                         }
                     },
                     "series": {
@@ -33234,7 +33234,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 15.034362094034384
+                "value": 15.03
             },
             "previous": {
                 "confirmados": {
@@ -33251,7 +33251,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 18.465021900726796
+                    "value": 18.47
                 }
             },
             "series": {
@@ -34031,7 +34031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.279434850863422
+                        "value": 6.28
                     },
                     "previous": {
                         "confirmados": {
@@ -34231,7 +34231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.305602716468591
+                        "value": 5.31
                     },
                     "previous": {
                         "confirmados": {
@@ -34248,7 +34248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.958404074702887
+                            "value": 7.96
                         }
                     },
                     "series": {
@@ -34431,7 +34431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 21.282633371169126
+                        "value": 21.28
                     },
                     "previous": {
                         "confirmados": {
@@ -34448,7 +34448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 14.188422247446084
+                            "value": 14.19
                         }
                     },
                     "series": {
@@ -34631,7 +34631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 12.769761205465457
+                        "value": 12.77
                     },
                     "previous": {
                         "confirmados": {
@@ -34648,7 +34648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 51.07904482186183
+                            "value": 51.08
                         }
                     },
                     "series": {
@@ -34831,7 +34831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 4.703005220335794
+                        "value": 4.7
                     },
                     "previous": {
                         "confirmados": {
@@ -34848,7 +34848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.812020881343177
+                            "value": 18.81
                         }
                     },
                     "series": {
@@ -35031,7 +35031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 22.026431718061676
+                        "value": 22.03
                     },
                     "previous": {
                         "confirmados": {
@@ -35048,7 +35048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 26.431718061674008
+                            "value": 26.43
                         }
                     },
                     "series": {
@@ -35231,7 +35231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.697129081744468
+                        "value": 13.7
                     },
                     "previous": {
                         "confirmados": {
@@ -35248,7 +35248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 27.394258163488935
+                            "value": 27.39
                         }
                     },
                     "series": {
@@ -35631,7 +35631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.476915024860742
+                        "value": 7.48
                     },
                     "previous": {
                         "confirmados": {
@@ -35648,7 +35648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.476915024860742
+                            "value": 7.48
                         }
                     },
                     "series": {
@@ -36231,7 +36231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.021781583295779
+                        "value": 15.02
                     },
                     "previous": {
                         "confirmados": {
@@ -36248,7 +36248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.359955268472618
+                            "value": 18.36
                         }
                     },
                     "series": {
@@ -36431,7 +36431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.060650992021465
+                        "value": 7.06
                     },
                     "previous": {
                         "confirmados": {
@@ -36448,7 +36448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.060650992021465
+                            "value": 7.06
                         }
                     },
                     "series": {
@@ -36831,7 +36831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 14.56558153084262
+                        "value": 14.57
                     },
                     "previous": {
                         "confirmados": {
@@ -36848,7 +36848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 10.924186148131964
+                            "value": 10.92
                         }
                     },
                     "series": {
@@ -37031,7 +37031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.224387440572593
+                        "value": 5.22
                     },
                     "previous": {
                         "confirmados": {
@@ -37048,7 +37048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 15.673162321717777
+                            "value": 15.67
                         }
                     },
                     "series": {
@@ -37431,7 +37431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 27.35229759299781
+                        "value": 27.35
                     },
                     "previous": {
                         "confirmados": {
@@ -37448,7 +37448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 20.514223194748357
+                            "value": 20.51
                         }
                     },
                     "series": {
@@ -37631,7 +37631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.519362358072035
+                        "value": 7.52
                     },
                     "previous": {
                         "confirmados": {
@@ -37648,7 +37648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 15.03872471614407
+                            "value": 15.04
                         }
                     },
                     "series": {
@@ -38031,7 +38031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 8.440243079000675
+                        "value": 8.44
                     },
                     "previous": {
                         "confirmados": {
@@ -38448,7 +38448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.641806874608301
+                            "value": 9.64
                         }
                     },
                     "series": {
@@ -38631,7 +38631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.5922156358349175
+                        "value": 5.59
                     },
                     "previous": {
                         "confirmados": {
@@ -38648,7 +38648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.184431271669835
+                            "value": 11.18
                         }
                     },
                     "series": {
@@ -38831,7 +38831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.912265386294195
+                        "value": 10.91
                     },
                     "previous": {
                         "confirmados": {
@@ -39031,7 +39031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.32058906825262
+                        "value": 28.32
                     },
                     "previous": {
                         "confirmados": {
@@ -39431,7 +39431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 27.525253477419863
+                        "value": 27.53
                     },
                     "previous": {
                         "confirmados": {
@@ -39448,7 +39448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 38.082884948211046
+                            "value": 38.08
                         }
                     },
                     "series": {
@@ -39631,7 +39631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 12.556898446083817
+                        "value": 12.56
                     },
                     "previous": {
                         "confirmados": {
@@ -39648,7 +39648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 12.556898446083817
+                            "value": 12.56
                         }
                     },
                     "series": {
@@ -39831,7 +39831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 23.048302657140034
+                        "value": 23.05
                     },
                     "previous": {
                         "confirmados": {
@@ -39848,7 +39848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 23.048302657140034
+                            "value": 23.05
                         }
                     },
                     "series": {
@@ -40031,7 +40031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.53060705475446
+                        "value": 16.53
                     },
                     "previous": {
                         "confirmados": {
@@ -40048,7 +40048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.901096106406246
+                            "value": 8.9
                         }
                     },
                     "series": {
@@ -40231,7 +40231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 1.9756208388486083
+                        "value": 1.98
                     },
                     "previous": {
                         "confirmados": {
@@ -40431,7 +40431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 7.299980533385244
+                        "value": 7.3
                     },
                     "previous": {
                         "confirmados": {
@@ -40448,7 +40448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 4.866653688923496
+                            "value": 4.87
                         }
                     },
                     "series": {
@@ -40634,7 +40634,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 46.02721524746475
+                "value": 46.03
             },
             "previous": {
                 "confirmados": {
@@ -40651,7 +40651,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 42.05173600344188
+                    "value": 42.05
                 }
             },
             "series": {
@@ -41431,7 +41431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 74.757039621231
+                        "value": 74.76
                     },
                     "previous": {
                         "confirmados": {
@@ -41448,7 +41448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 49.838026414154
+                            "value": 49.84
                         }
                     },
                     "series": {
@@ -41631,7 +41631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.716964955524595
+                        "value": 10.72
                     },
                     "previous": {
                         "confirmados": {
@@ -41831,7 +41831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 48.74806115665854
+                        "value": 48.75
                     },
                     "previous": {
                         "confirmados": {
@@ -41848,7 +41848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 70.90627077332151
+                            "value": 70.91
                         }
                     },
                     "series": {
@@ -42031,7 +42031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 11.917057281321998
+                        "value": 11.92
                     },
                     "previous": {
                         "confirmados": {
@@ -42048,7 +42048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.930881067768333
+                            "value": 9.93
                         }
                     },
                     "series": {
@@ -42231,7 +42231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.608953957139825
+                        "value": 10.61
                     },
                     "previous": {
                         "confirmados": {
@@ -42431,7 +42431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 95.33937149352792
+                        "value": 95.34
                     },
                     "previous": {
                         "confirmados": {
@@ -42448,7 +42448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 80.0606260618728
+                            "value": 80.06
                         }
                     },
                     "series": {
@@ -42831,7 +42831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 156.5251418509098
+                        "value": 156.53
                     },
                     "previous": {
                         "confirmados": {
@@ -42848,7 +42848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 156.5251418509098
+                            "value": 156.53
                         }
                     },
                     "series": {
@@ -43231,7 +43231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 21.766446034054592
+                        "value": 21.77
                     },
                     "previous": {
                         "confirmados": {
@@ -43248,7 +43248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.798294302138057
+                            "value": 18.8
                         }
                     },
                     "series": {
@@ -43431,7 +43431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 33.526363913441024
+                        "value": 33.53
                     },
                     "previous": {
                         "confirmados": {
@@ -43448,7 +43448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 30.478512648582747
+                            "value": 30.48
                         }
                     },
                     "series": {
@@ -43648,7 +43648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 21.666666666666664
+                            "value": 21.67
                         }
                     },
                     "series": {
@@ -43831,7 +43831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 20.080321285140563
+                        "value": 20.08
                     },
                     "previous": {
                         "confirmados": {
@@ -43848,7 +43848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.072289156626507
+                            "value": 18.07
                         }
                     },
                     "series": {
@@ -44031,7 +44031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 107.75862068965517
+                        "value": 107.76
                     },
                     "previous": {
                         "confirmados": {
@@ -44048,7 +44048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 85.30890804597702
+                            "value": 85.31
                         }
                     },
                     "series": {
@@ -44231,7 +44231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 44.03831333259936
+                        "value": 44.04
                     },
                     "previous": {
                         "confirmados": {
@@ -44248,7 +44248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 55.047891665749205
+                            "value": 55.05
                         }
                     },
                     "series": {
@@ -44448,7 +44448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 24.715768660405335
+                            "value": 24.72
                         }
                     },
                     "series": {
@@ -44631,7 +44631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 104.63899546564353
+                        "value": 104.64
                     },
                     "previous": {
                         "confirmados": {
@@ -44648,7 +44648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 104.63899546564353
+                            "value": 104.64
                         }
                     },
                     "series": {
@@ -44831,7 +44831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 62.233285917496445
+                        "value": 62.23
                     },
                     "previous": {
                         "confirmados": {
@@ -44848,7 +44848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 53.342816500711244
+                            "value": 53.34
                         }
                     },
                     "series": {
@@ -45031,7 +45031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 66.44202932941009
+                        "value": 66.44
                     },
                     "previous": {
                         "confirmados": {
@@ -45048,7 +45048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 52.20445161596506
+                            "value": 52.2
                         }
                     },
                     "series": {
@@ -45231,7 +45231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.556564766488172
+                        "value": 13.56
                     },
                     "previous": {
                         "confirmados": {
@@ -45248,7 +45248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.778282383244086
+                            "value": 6.78
                         }
                     },
                     "series": {
@@ -45431,7 +45431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 86.58008658008659
+                        "value": 86.58
                     },
                     "previous": {
                         "confirmados": {
@@ -45448,7 +45448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 30.921459492888065
+                            "value": 30.92
                         }
                     },
                     "series": {
@@ -45631,7 +45631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.409111921516256
+                        "value": 15.41
                     },
                     "previous": {
                         "confirmados": {
@@ -45648,7 +45648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 15.409111921516256
+                            "value": 15.41
                         }
                     },
                     "series": {
@@ -45831,7 +45831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 41.043808865462715
+                        "value": 41.04
                     },
                     "previous": {
                         "confirmados": {
@@ -45848,7 +45848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 47.524410265272614
+                            "value": 47.52
                         }
                     },
                     "series": {
@@ -46031,7 +46031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.266445572384782
+                        "value": 24.27
                     },
                     "previous": {
                         "confirmados": {
@@ -46048,7 +46048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 16.177630381589857
+                            "value": 16.18
                         }
                     },
                     "series": {
@@ -46231,7 +46231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 210.86454463299526
+                        "value": 210.86
                     },
                     "previous": {
                         "confirmados": {
@@ -46248,7 +46248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 301.2350637614218
+                            "value": 301.24
                         }
                     },
                     "series": {
@@ -46431,7 +46431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 32.10489853162333
+                        "value": 32.1
                     },
                     "previous": {
                         "confirmados": {
@@ -46448,7 +46448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 33.37219715787161
+                            "value": 33.37
                         }
                     },
                     "series": {
@@ -46631,7 +46631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.482982171799028
+                        "value": 6.48
                     },
                     "previous": {
                         "confirmados": {
@@ -46648,7 +46648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.724473257698541
+                            "value": 9.72
                         }
                     },
                     "series": {
@@ -47031,7 +47031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.710370031978072
+                        "value": 5.71
                     },
                     "previous": {
                         "confirmados": {
@@ -47048,7 +47048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.420740063956144
+                            "value": 11.42
                         }
                     },
                     "series": {
@@ -47231,7 +47231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 52.083333333333336
+                        "value": 52.08
                     },
                     "previous": {
                         "confirmados": {
@@ -47248,7 +47248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 57.291666666666664
+                            "value": 57.29
                         }
                     },
                     "series": {
@@ -47434,7 +47434,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 43.397432514060185
+                "value": 43.4
             },
             "previous": {
                 "confirmados": {
@@ -47451,7 +47451,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 49.06646649112209
+                    "value": 49.07
                 }
             },
             "series": {
@@ -48231,7 +48231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 145.9724863980183
+                        "value": 145.97
                     },
                     "previous": {
                         "confirmados": {
@@ -48248,7 +48248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 163.66612111292963
+                            "value": 163.67
                         }
                     },
                     "series": {
@@ -48431,7 +48431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 41.78749798614467
+                        "value": 41.79
                     },
                     "previous": {
                         "confirmados": {
@@ -48448,7 +48448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 46.31867246657001
+                            "value": 46.32
                         }
                     },
                     "series": {
@@ -48631,7 +48631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 56.16814970290005
+                        "value": 56.17
                     },
                     "previous": {
                         "confirmados": {
@@ -48648,7 +48648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 79.8178969462264
+                            "value": 79.82
                         }
                     },
                     "series": {
@@ -49031,7 +49031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 83.11071534579995
+                        "value": 83.11
                     },
                     "previous": {
                         "confirmados": {
@@ -49048,7 +49048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 77.1742356782428
+                            "value": 77.17
                         }
                     },
                     "series": {
@@ -49231,7 +49231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 3.5242290748898677
+                        "value": 3.52
                     },
                     "previous": {
                         "confirmados": {
@@ -49248,7 +49248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 17.62114537444934
+                            "value": 17.62
                         }
                     },
                     "series": {
@@ -49431,7 +49431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 81.07669855683476
+                        "value": 81.08
                     },
                     "previous": {
                         "confirmados": {
@@ -49448,7 +49448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 72.96902870115129
+                            "value": 72.97
                         }
                     },
                     "series": {
@@ -49631,7 +49631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 36.941263391207976
+                        "value": 36.94
                     },
                     "previous": {
                         "confirmados": {
@@ -49831,7 +49831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 34.58113599031728
+                        "value": 34.58
                     },
                     "previous": {
                         "confirmados": {
@@ -49848,7 +49848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 34.58113599031728
+                            "value": 34.58
                         }
                     },
                     "series": {
@@ -50031,7 +50031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 11.575413821044101
+                        "value": 11.58
                     },
                     "previous": {
                         "confirmados": {
@@ -50048,7 +50048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.575413821044101
+                            "value": 11.58
                         }
                     },
                     "series": {
@@ -50248,7 +50248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 16.835016835016837
+                            "value": 16.84
                         }
                     },
                     "series": {
@@ -50431,7 +50431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 40.48582995951417
+                        "value": 40.49
                     },
                     "previous": {
                         "confirmados": {
@@ -50448,7 +50448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 40.48582995951417
+                            "value": 40.49
                         }
                     },
                     "series": {
@@ -50631,7 +50631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 69.2336368962028
+                        "value": 69.23
                     },
                     "previous": {
                         "confirmados": {
@@ -50648,7 +50648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 85.21063002609576
+                            "value": 85.21
                         }
                     },
                     "series": {
@@ -50831,7 +50831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 32.808398950131235
+                        "value": 32.81
                     },
                     "previous": {
                         "confirmados": {
@@ -50848,7 +50848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.202099737532809
+                            "value": 8.2
                         }
                     },
                     "series": {
@@ -51231,7 +51231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 31.998862262675104
+                        "value": 32.0
                     },
                     "previous": {
                         "confirmados": {
@@ -51248,7 +51248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 35.55429140297234
+                            "value": 35.55
                         }
                     },
                     "series": {
@@ -51631,7 +51631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 66.1693936477382
+                        "value": 66.17
                     },
                     "previous": {
                         "confirmados": {
@@ -51648,7 +51648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 66.1693936477382
+                            "value": 66.17
                         }
                     },
                     "series": {
@@ -51831,7 +51831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 32.86230693394676
+                        "value": 32.86
                     },
                     "previous": {
                         "confirmados": {
@@ -51848,7 +51848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 49.29346040092015
+                            "value": 49.29
                         }
                     },
                     "series": {
@@ -52048,7 +52048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 17.5561797752809
+                            "value": 17.56
                         }
                     },
                     "series": {
@@ -52231,7 +52231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.132501613250163
+                        "value": 16.13
                     },
                     "previous": {
                         "confirmados": {
@@ -52248,7 +52248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 21.510002151000215
+                            "value": 21.51
                         }
                     },
                     "series": {
@@ -52434,7 +52434,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 45.02024408305363
+                "value": 45.02
             },
             "previous": {
                 "confirmados": {
@@ -52451,7 +52451,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 35.763745299622045
+                    "value": 35.76
                 }
             },
             "series": {
@@ -53231,7 +53231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 1166.0516605166051
+                        "value": 1166.05
                     },
                     "previous": {
                         "confirmados": {
@@ -53248,7 +53248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 605.1660516605166
+                            "value": 605.17
                         }
                     },
                     "series": {
@@ -53431,7 +53431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 278.6809103576405
+                        "value": 278.68
                     },
                     "previous": {
                         "confirmados": {
@@ -53448,7 +53448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 255.45750116117046
+                            "value": 255.46
                         }
                     },
                     "series": {
@@ -53631,7 +53631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 85.31761420926084
+                        "value": 85.32
                     },
                     "previous": {
                         "confirmados": {
@@ -53648,7 +53648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 59.46379172160604
+                            "value": 59.46
                         }
                     },
                     "series": {
@@ -53831,7 +53831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.018714401952808
+                        "value": 13.02
                     },
                     "previous": {
                         "confirmados": {
@@ -53848,7 +53848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.764035801464605
+                            "value": 9.76
                         }
                     },
                     "series": {
@@ -54031,7 +54031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 35.13228657135908
+                        "value": 35.13
                     },
                     "previous": {
                         "confirmados": {
@@ -54048,7 +54048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 27.02483582412237
+                            "value": 27.02
                         }
                     },
                     "series": {
@@ -54231,7 +54231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 20.837903048914235
+                        "value": 20.84
                     },
                     "previous": {
                         "confirmados": {
@@ -54248,7 +54248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.160780872998465
+                            "value": 13.16
                         }
                     },
                     "series": {
@@ -54431,7 +54431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 49.98067973724442
+                        "value": 49.98
                     },
                     "previous": {
                         "confirmados": {
@@ -54448,7 +54448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 39.90054264738
+                            "value": 39.9
                         }
                     },
                     "series": {
@@ -54831,7 +54831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 81.06239420165463
+                        "value": 81.06
                     },
                     "previous": {
                         "confirmados": {
@@ -54848,7 +54848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 49.273220004927325
+                            "value": 49.27
                         }
                     },
                     "series": {
@@ -55031,7 +55031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.901097604154373
+                        "value": 5.9
                     },
                     "previous": {
                         "confirmados": {
@@ -55048,7 +55048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 2.9505488020771864
+                            "value": 2.95
                         }
                     },
                     "series": {
@@ -55231,7 +55231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 8.445232666159953
+                        "value": 8.45
                     },
                     "previous": {
                         "confirmados": {
@@ -55248,7 +55248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.445232666159953
+                            "value": 8.45
                         }
                     },
                     "series": {
@@ -55431,7 +55431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 18.504621015081266
+                        "value": 18.5
                     },
                     "previous": {
                         "confirmados": {
@@ -55448,7 +55448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 16.448552013405568
+                            "value": 16.45
                         }
                     },
                     "series": {
@@ -55631,7 +55631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 61.066371512537685
+                        "value": 61.07
                     },
                     "previous": {
                         "confirmados": {
@@ -55648,7 +55648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 68.69966795160491
+                            "value": 68.7
                         }
                     },
                     "series": {
@@ -55831,7 +55831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 41.88832572362083
+                        "value": 41.89
                     },
                     "previous": {
                         "confirmados": {
@@ -55848,7 +55848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 62.83248858543124
+                            "value": 62.83
                         }
                     },
                     "series": {
@@ -56031,7 +56031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 3.690036900369004
+                        "value": 3.69
                     },
                     "previous": {
                         "confirmados": {
@@ -56248,7 +56248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 4.439708755105665
+                            "value": 4.44
                         }
                     },
                     "series": {
@@ -56431,7 +56431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 38.44129693613711
+                        "value": 38.44
                     },
                     "previous": {
                         "confirmados": {
@@ -56448,7 +56448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 42.10237283481683
+                            "value": 42.1
                         }
                     },
                     "series": {
@@ -56631,7 +56631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 54.6448087431694
+                        "value": 54.64
                     },
                     "previous": {
                         "confirmados": {
@@ -56648,7 +56648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 43.71584699453552
+                            "value": 43.72
                         }
                     },
                     "series": {
@@ -56831,7 +56831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.993911278631487
+                        "value": 28.99
                     },
                     "previous": {
                         "confirmados": {
@@ -56848,7 +56848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.664637092877163
+                            "value": 9.66
                         }
                     },
                     "series": {
@@ -57031,7 +57031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 39.36444317205841
+                        "value": 39.36
                     },
                     "previous": {
                         "confirmados": {
@@ -57048,7 +57048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 39.36444317205841
+                            "value": 39.36
                         }
                     },
                     "series": {
@@ -57231,7 +57231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 143.8297056285358
+                        "value": 143.83
                     },
                     "previous": {
                         "confirmados": {
@@ -57248,7 +57248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 134.24105858663341
+                            "value": 134.24
                         }
                     },
                     "series": {
@@ -57431,7 +57431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 28.075804672616062
+                        "value": 28.08
                     },
                     "previous": {
                         "confirmados": {
@@ -57448,7 +57448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 20.05414619472576
+                            "value": 20.05
                         }
                     },
                     "series": {
@@ -57831,7 +57831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 19.936204146730464
+                        "value": 19.94
                     },
                     "previous": {
                         "confirmados": {
@@ -57848,7 +57848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.968102073365232
+                            "value": 9.97
                         }
                     },
                     "series": {
@@ -58031,7 +58031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 44.54923032637451
+                        "value": 44.55
                     },
                     "previous": {
                         "confirmados": {
@@ -58048,7 +58048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 43.178484777870686
+                            "value": 43.18
                         }
                     },
                     "series": {
@@ -58431,7 +58431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 130.20833333333331
+                        "value": 130.21
                     },
                     "previous": {
                         "confirmados": {
@@ -58448,7 +58448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 75.38377192982456
+                            "value": 75.38
                         }
                     },
                     "series": {
@@ -58631,7 +58631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 6.7663576696664185
+                        "value": 6.77
                     },
                     "previous": {
                         "confirmados": {
@@ -58831,7 +58831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 30.313555843253653
+                        "value": 30.31
                     },
                     "previous": {
                         "confirmados": {
@@ -58848,7 +58848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 27.155893776248064
+                            "value": 27.16
                         }
                     },
                     "series": {
@@ -59231,7 +59231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.324626675066833
+                        "value": 15.32
                     },
                     "previous": {
                         "confirmados": {
@@ -59248,7 +59248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 10.216417783377889
+                            "value": 10.22
                         }
                     },
                     "series": {
@@ -59431,7 +59431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 46.03748766853009
+                        "value": 46.04
                     },
                     "previous": {
                         "confirmados": {
@@ -59448,7 +59448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 26.307135810588623
+                            "value": 26.31
                         }
                     },
                     "series": {
@@ -59631,7 +59631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 49.70178926441351
+                        "value": 49.7
                     },
                     "previous": {
                         "confirmados": {
@@ -59648,7 +59648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.146755828664375
+                            "value": 36.15
                         }
                     },
                     "series": {
@@ -59834,7 +59834,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 32.53337381930964
+                "value": 32.53
             },
             "previous": {
                 "confirmados": {
@@ -59851,7 +59851,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 29.970138306273125
+                    "value": 29.97
                 }
             },
             "series": {
@@ -60631,7 +60631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 46.380534446466164
+                        "value": 46.38
                     },
                     "previous": {
                         "confirmados": {
@@ -60648,7 +60648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 37.46120089906882
+                            "value": 37.46
                         }
                     },
                     "series": {
@@ -60831,7 +60831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 39.237228282194145
+                        "value": 39.24
                     },
                     "previous": {
                         "confirmados": {
@@ -60848,7 +60848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 51.00839676685239
+                            "value": 51.01
                         }
                     },
                     "series": {
@@ -61031,7 +61031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.20614212786646
+                        "value": 16.21
                     },
                     "previous": {
                         "confirmados": {
@@ -61048,7 +61048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.10307106393323
+                            "value": 8.1
                         }
                     },
                     "series": {
@@ -61231,7 +61231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 38.243842741318645
+                        "value": 38.24
                     },
                     "previous": {
                         "confirmados": {
@@ -61248,7 +61248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 49.71699556371424
+                            "value": 49.72
                         }
                     },
                     "series": {
@@ -61431,7 +61431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 72.00221545278316
+                        "value": 72.0
                     },
                     "previous": {
                         "confirmados": {
@@ -61448,7 +61448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 110.77263915812794
+                            "value": 110.77
                         }
                     },
                     "series": {
@@ -61631,7 +61631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.501155242600946
+                        "value": 5.5
                     },
                     "previous": {
                         "confirmados": {
@@ -62031,7 +62031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 59.11563017261764
+                        "value": 59.12
                     },
                     "previous": {
                         "confirmados": {
@@ -62231,7 +62231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 125.75650396918967
+                        "value": 125.76
                     },
                     "previous": {
                         "confirmados": {
@@ -62248,7 +62248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 117.89672247111531
+                            "value": 117.9
                         }
                     },
                     "series": {
@@ -62431,7 +62431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 110.82086598590993
+                        "value": 110.82
                     },
                     "previous": {
                         "confirmados": {
@@ -62448,7 +62448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 39.578880709253546
+                            "value": 39.58
                         }
                     },
                     "series": {
@@ -62631,7 +62631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 26.406126221283337
+                        "value": 26.41
                     },
                     "previous": {
                         "confirmados": {
@@ -62648,7 +62648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 26.406126221283337
+                            "value": 26.41
                         }
                     },
                     "series": {
@@ -62831,7 +62831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 49.08457271879448
+                        "value": 49.08
                     },
                     "previous": {
                         "confirmados": {
@@ -62848,7 +62848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 22.088057723457517
+                            "value": 22.09
                         }
                     },
                     "series": {
@@ -63031,7 +63031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 68.71740975787218
+                        "value": 68.72
                     },
                     "previous": {
                         "confirmados": {
@@ -63048,7 +63048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 56.59080803589474
+                            "value": 56.59
                         }
                     },
                     "series": {
@@ -63231,7 +63231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 45.25296406914653
+                        "value": 45.25
                     },
                     "previous": {
                         "confirmados": {
@@ -63248,7 +63248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 199.11304190424474
+                            "value": 199.11
                         }
                     },
                     "series": {
@@ -63431,7 +63431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.303179459890915
+                        "value": 13.3
                     },
                     "previous": {
                         "confirmados": {
@@ -63448,7 +63448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.303179459890915
+                            "value": 13.3
                         }
                     },
                     "series": {
@@ -63631,7 +63631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 29.850746268656717
+                        "value": 29.85
                     },
                     "previous": {
                         "confirmados": {
@@ -63831,7 +63831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 79.80845969672785
+                        "value": 79.81
                     },
                     "previous": {
                         "confirmados": {
@@ -63848,7 +63848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 79.80845969672785
+                            "value": 79.81
                         }
                     },
                     "series": {
@@ -64031,7 +64031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.921188974746129
+                        "value": 5.92
                     },
                     "previous": {
                         "confirmados": {
@@ -64048,7 +64048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.881783462119193
+                            "value": 8.88
                         }
                     },
                     "series": {
@@ -64231,7 +64231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 20.70393374741201
+                        "value": 20.7
                     },
                     "previous": {
                         "confirmados": {
@@ -64248,7 +64248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.48605529168189
+                            "value": 19.49
                         }
                     },
                     "series": {
@@ -64631,7 +64631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 88.1361128142244
+                        "value": 88.14
                     },
                     "previous": {
                         "confirmados": {
@@ -64648,7 +64648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 76.64009809932557
+                            "value": 76.64
                         }
                     },
                     "series": {
@@ -64831,7 +64831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 53.7237257403801
+                        "value": 53.72
                     },
                     "previous": {
                         "confirmados": {
@@ -64848,7 +64848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 33.577328587737554
+                            "value": 33.58
                         }
                     },
                     "series": {
@@ -65031,7 +65031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.409583196586805
+                        "value": 16.41
                     },
                     "previous": {
                         "confirmados": {
@@ -65048,7 +65048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.204791598293403
+                            "value": 8.2
                         }
                     },
                     "series": {
@@ -65231,7 +65231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 55.38631957906397
+                        "value": 55.39
                     },
                     "previous": {
                         "confirmados": {
@@ -65248,7 +65248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.92421305270931
+                            "value": 36.92
                         }
                     },
                     "series": {
@@ -65431,7 +65431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 78.16774798718049
+                        "value": 78.17
                     },
                     "previous": {
                         "confirmados": {
@@ -65448,7 +65448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 101.61807238333463
+                            "value": 101.62
                         }
                     },
                     "series": {
@@ -65631,7 +65631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.56346164638152
+                        "value": 10.56
                     },
                     "previous": {
                         "confirmados": {
@@ -65648,7 +65648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.883894352179208
+                            "value": 11.88
                         }
                     },
                     "series": {
@@ -65831,7 +65831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 25.33890789306981
+                        "value": 25.34
                     },
                     "previous": {
                         "confirmados": {
@@ -65848,7 +65848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.004180919802355
+                            "value": 19.0
                         }
                     },
                     "series": {
@@ -66031,7 +66031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 49.72650422675286
+                        "value": 49.73
                     },
                     "previous": {
                         "confirmados": {
@@ -66048,7 +66048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 59.67180507210343
+                            "value": 59.67
                         }
                     },
                     "series": {
@@ -66231,7 +66231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.177591384487936
+                        "value": 5.18
                     },
                     "previous": {
                         "confirmados": {
@@ -66248,7 +66248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 10.355182768975872
+                            "value": 10.36
                         }
                     },
                     "series": {
@@ -66431,7 +66431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 33.83426847492034
+                        "value": 33.83
                     },
                     "previous": {
                         "confirmados": {
@@ -66448,7 +66448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 28.19522372910029
+                            "value": 28.2
                         }
                     },
                     "series": {
@@ -66631,7 +66631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 74.7578495742053
+                        "value": 74.76
                     },
                     "previous": {
                         "confirmados": {
@@ -66648,7 +66648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 61.75648443086524
+                            "value": 61.76
                         }
                     },
                     "series": {
@@ -66831,7 +66831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 15.227653418608192
+                        "value": 15.23
                     },
                     "previous": {
                         "confirmados": {
@@ -66848,7 +66848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 5.075884472869397
+                            "value": 5.08
                         }
                     },
                     "series": {
@@ -67034,7 +67034,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 23.408528096393855
+                "value": 23.41
             },
             "previous": {
                 "confirmados": {
@@ -67051,7 +67051,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 26.36539480330676
+                    "value": 26.37
                 }
             },
             "series": {
@@ -67831,7 +67831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 36.717459151826695
+                        "value": 36.72
                     },
                     "previous": {
                         "confirmados": {
@@ -67848,7 +67848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 36.717459151826695
+                            "value": 36.72
                         }
                     },
                     "series": {
@@ -68031,7 +68031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 131.05301094292642
+                        "value": 131.05
                     },
                     "previous": {
                         "confirmados": {
@@ -68048,7 +68048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 137.60566149007275
+                            "value": 137.61
                         }
                     },
                     "series": {
@@ -68231,7 +68231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 5.0584248065152515
+                        "value": 5.06
                     },
                     "previous": {
                         "confirmados": {
@@ -68248,7 +68248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 2.5292124032576258
+                            "value": 2.53
                         }
                     },
                     "series": {
@@ -68831,7 +68831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 102.34915683789843
+                        "value": 102.35
                     },
                     "previous": {
                         "confirmados": {
@@ -68848,7 +68848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 87.72784871819866
+                            "value": 87.73
                         }
                     },
                     "series": {
@@ -69231,7 +69231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 12.903225806451614
+                        "value": 12.9
                     },
                     "previous": {
                         "confirmados": {
@@ -69248,7 +69248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 12.903225806451614
+                            "value": 12.9
                         }
                     },
                     "series": {
@@ -69431,7 +69431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 62.506010193287814
+                        "value": 62.51
                     },
                     "previous": {
                         "confirmados": {
@@ -69448,7 +69448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 96.16309260505818
+                            "value": 96.16
                         }
                     },
                     "series": {
@@ -69631,7 +69631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.67083437526048
+                        "value": 16.67
                     },
                     "previous": {
                         "confirmados": {
@@ -69648,7 +69648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 16.67083437526048
+                            "value": 16.67
                         }
                     },
                     "series": {
@@ -69831,7 +69831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 9.111617312072893
+                        "value": 9.11
                     },
                     "previous": {
                         "confirmados": {
@@ -69848,7 +69848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.074411541381929
+                            "value": 6.07
                         }
                     },
                     "series": {
@@ -70031,7 +70031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 14.142351250749545
+                        "value": 14.14
                     },
                     "previous": {
                         "confirmados": {
@@ -70048,7 +70048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.23359770101938
+                            "value": 19.23
                         }
                     },
                     "series": {
@@ -70234,7 +70234,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 17.499775643902
+                "value": 17.5
             },
             "previous": {
                 "confirmados": {
@@ -70251,7 +70251,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 15.256214663914564
+                    "value": 15.26
                 }
             },
             "series": {
@@ -71031,7 +71031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 23.55268736162796
+                        "value": 23.55
                     },
                     "previous": {
                         "confirmados": {
@@ -71048,7 +71048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 28.263224833953558
+                            "value": 28.26
                         }
                     },
                     "series": {
@@ -72431,7 +72431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 13.272280841462607
+                        "value": 13.27
                     },
                     "previous": {
                         "confirmados": {
@@ -72448,7 +72448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 13.272280841462607
+                            "value": 13.27
                         }
                     },
                     "series": {
@@ -72831,7 +72831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 24.72432378974435
+                        "value": 24.72
                     },
                     "previous": {
                         "confirmados": {
@@ -72848,7 +72848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 19.77945903179548
+                            "value": 19.78
                         }
                     },
                     "series": {
@@ -73048,7 +73048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 35.637918745545264
+                            "value": 35.64
                         }
                     },
                     "series": {
@@ -73831,7 +73831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 53.712904525312204
+                        "value": 53.71
                     },
                     "previous": {
                         "confirmados": {
@@ -73848,7 +73848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 67.14113065664026
+                            "value": 67.14
                         }
                     },
                     "series": {
@@ -74031,7 +74031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 14.416700305634048
+                        "value": 14.42
                     },
                     "previous": {
                         "confirmados": {
@@ -74048,7 +74048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 7.496684158929704
+                            "value": 7.5
                         }
                     },
                     "series": {
@@ -74431,7 +74431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 19.302296230855465
+                        "value": 19.3
                     },
                     "previous": {
                         "confirmados": {
@@ -74448,7 +74448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 18.559900221976406
+                            "value": 18.56
                         }
                     },
                     "series": {
@@ -74831,7 +74831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 10.283833813245579
+                        "value": 10.28
                     },
                     "previous": {
                         "confirmados": {
@@ -74848,7 +74848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 14.397367338543807
+                            "value": 14.4
                         }
                     },
                     "series": {
@@ -75231,7 +75231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 137.57115749525616
+                        "value": 137.57
                     },
                     "previous": {
                         "confirmados": {
@@ -75248,7 +75248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 123.33965844402276
+                            "value": 123.34
                         }
                     },
                     "series": {
@@ -75431,7 +75431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 16.967845931958937
+                        "value": 16.97
                     },
                     "previous": {
                         "confirmados": {
@@ -76031,7 +76031,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 125.24194466583171
+                        "value": 125.24
                     },
                     "previous": {
                         "confirmados": {
@@ -76048,7 +76048,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 45.542525333029715
+                            "value": 45.54
                         }
                     },
                     "series": {
@@ -76431,7 +76431,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 42.03152364273205
+                        "value": 42.03
                     },
                     "previous": {
                         "confirmados": {
@@ -76448,7 +76448,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 42.03152364273205
+                            "value": 42.03
                         }
                     },
                     "series": {
@@ -76831,7 +76831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 9.47597839476926
+                        "value": 9.48
                     },
                     "previous": {
                         "confirmados": {
@@ -76848,7 +76848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 9.47597839476926
+                            "value": 9.48
                         }
                     },
                     "series": {
@@ -77034,7 +77034,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 7.455940054241964
+                "value": 7.46
             },
             "previous": {
                 "confirmados": {
@@ -77051,7 +77051,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 6.523947547461719
+                    "value": 6.52
                 }
             },
             "series": {
@@ -77831,7 +77831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 11.999040076793856
+                        "value": 12.0
                     },
                     "previous": {
                         "confirmados": {
@@ -77848,7 +77848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 11.999040076793856
+                            "value": 12.0
                         }
                     },
                     "series": {
@@ -78631,7 +78631,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 8.168599901976801
+                        "value": 8.17
                     },
                     "previous": {
                         "confirmados": {
@@ -78648,7 +78648,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 6.534879921581441
+                            "value": 6.53
                         }
                     },
                     "series": {
@@ -79834,7 +79834,7 @@
             },
             "tasa_activos": {
                 "date": "2020-05-31",
-                "value": 30.275507114744173
+                "value": 30.28
             },
             "previous": {
                 "confirmados": {
@@ -79851,7 +79851,7 @@
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
-                    "value": 39.24602774133504
+                    "value": 39.25
                 }
             },
             "series": {
@@ -80831,7 +80831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 50.42864346949067
+                        "value": 50.43
                     },
                     "previous": {
                         "confirmados": {
@@ -80848,7 +80848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 50.42864346949067
+                            "value": 50.43
                         }
                     },
                     "series": {
@@ -81231,7 +81231,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 4.204860819106888
+                        "value": 4.2
                     },
                     "previous": {
                         "confirmados": {
@@ -81248,7 +81248,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 8.409721638213776
+                            "value": 8.41
                         }
                     },
                     "series": {
@@ -81831,7 +81831,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-05-31",
-                        "value": 36.623844940274964
+                        "value": 36.62
                     },
                     "previous": {
                         "confirmados": {
@@ -81848,7 +81848,7 @@
                         },
                         "tasa_activos": {
                             "date": "2020-05-28",
-                            "value": 47.188415596123505
+                            "value": 47.19
                         }
                     },
                     "series": {
