@@ -193,6 +193,11 @@ class DataOrganizer:
     def fill_comunas_data(self):
         for comuna in self.comunas_es:
             self.chile["regiones"][self.regiones_comunas[comuna]]["comunas"][comuna] = deepcopy(BASE_PLACE)
+
+        # Add regiones
+        for region in self.chile["regiones"]:
+            for comuna in self.chile["regiones"][region]["comunas"]:
+                self.chile["regiones"][region]["comunas"][comuna]["region"] = region
         
         # Add poblaciones
         poblaciones_csv = csv.DictReader(open("./raw_data/comunas/poblaciones_comunas.csv"))
