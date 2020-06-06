@@ -829,16 +829,16 @@
         "Metropolitana": {
             "poblacion": 8125072,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 99066
+                "date": "2020-06-06",
+                "value": 103194
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 17849
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 1105
+                "date": "2020-06-06",
+                "value": 1184
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -846,16 +846,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 95890
+                    "date": "2020-06-05",
+                    "value": 99066
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 17521
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 1034
+                    "date": "2020-06-05",
+                    "value": 1105
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -1243,6 +1243,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 99066
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 103194
                     }
                 ],
                 "activos": [
@@ -1615,6 +1619,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 1105
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 1184
                     }
                 ]
             },
@@ -12133,15 +12141,15 @@
         "Arica y Parinacota": {
             "poblacion": 252110,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 782
+                "date": "2020-06-06",
+                "value": 819
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 177
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 9
             },
             "tasa_activos": {
@@ -12150,16 +12158,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 736
+                    "date": "2020-06-05",
+                    "value": 782
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 163
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 8
+                    "date": "2020-06-05",
+                    "value": 9
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -12547,6 +12555,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 782
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 819
                     }
                 ],
                 "activos": [
@@ -12918,6 +12930,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 9
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 9
                     }
                 ]
@@ -13741,16 +13757,16 @@
         "Tarapac\u00e1": {
             "poblacion": 382773,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 2965
+                "date": "2020-06-06",
+                "value": 3094
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 900
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 28
+                "date": "2020-06-06",
+                "value": 30
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -13758,15 +13774,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 2810
+                    "date": "2020-06-05",
+                    "value": 2965
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 817
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 28
                 },
                 "tasa_activos": {
@@ -14155,6 +14171,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 2965
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 3094
                     }
                 ],
                 "activos": [
@@ -14527,6 +14547,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 28
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 30
                     }
                 ]
             },
@@ -15955,16 +15979,16 @@
         "Antofagasta": {
             "poblacion": 691854,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 2924
+                "date": "2020-06-06",
+                "value": 3033
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 363
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 42
+                "date": "2020-06-06",
+                "value": 47
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -15972,16 +15996,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 2862
+                    "date": "2020-06-05",
+                    "value": 2924
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 384
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 38
+                    "date": "2020-06-05",
+                    "value": 42
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -16369,6 +16393,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 2924
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 3033
                     }
                 ],
                 "activos": [
@@ -16741,6 +16769,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 42
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 47
                     }
                 ]
             },
@@ -18573,15 +18605,15 @@
         "Atacama": {
             "poblacion": 314709,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 269
+                "date": "2020-06-06",
+                "value": 281
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 65
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 0
             },
             "tasa_activos": {
@@ -18590,15 +18622,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 258
+                    "date": "2020-06-05",
+                    "value": 269
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 49
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 0
                 },
                 "tasa_activos": {
@@ -18987,6 +19019,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 269
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 281
                     }
                 ],
                 "activos": [
@@ -19358,6 +19394,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 0
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 0
                     }
                 ]
@@ -21191,15 +21231,15 @@
         "Coquimbo": {
             "poblacion": 836096,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 832
+                "date": "2020-06-06",
+                "value": 898
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 174
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 5
             },
             "tasa_activos": {
@@ -21208,16 +21248,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 772
+                    "date": "2020-06-05",
+                    "value": 832
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 102
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 4
+                    "date": "2020-06-05",
+                    "value": 5
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -21605,6 +21645,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 832
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 898
                     }
                 ],
                 "activos": [
@@ -21976,6 +22020,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 5
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 5
                     }
                 ]
@@ -25021,16 +25069,16 @@
         "Valpara\u00edso": {
             "poblacion": 1960170,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 4266
+                "date": "2020-06-06",
+                "value": 4580
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 806
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 88
+                "date": "2020-06-06",
+                "value": 91
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -25038,16 +25086,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 4017
+                    "date": "2020-06-05",
+                    "value": 4266
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 719
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 78
+                    "date": "2020-06-05",
+                    "value": 88
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -25435,6 +25483,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 4266
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 4580
                     }
                 ],
                 "activos": [
@@ -25807,6 +25859,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 88
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 91
                     }
                 ]
             },
@@ -33497,16 +33553,16 @@
         "O'Higgins": {
             "poblacion": 991063,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 1016
+                "date": "2020-06-06",
+                "value": 1111
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 149
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 22
+                "date": "2020-06-06",
+                "value": 25
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -33514,16 +33570,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 967
+                    "date": "2020-06-05",
+                    "value": 1016
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 183
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 21
+                    "date": "2020-06-05",
+                    "value": 22
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -33911,6 +33967,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 1016
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 1111
                     }
                 ],
                 "activos": [
@@ -34283,6 +34343,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 22
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 25
                     }
                 ]
             },
@@ -40963,15 +41027,15 @@
         "Maule": {
             "poblacion": 1131939,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 1834
+                "date": "2020-06-06",
+                "value": 1969
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 521
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 24
             },
             "tasa_activos": {
@@ -40980,16 +41044,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 1732
+                    "date": "2020-06-05",
+                    "value": 1834
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 476
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 21
+                    "date": "2020-06-05",
+                    "value": 24
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -41377,6 +41441,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 1834
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 1969
                     }
                 ],
                 "activos": [
@@ -41748,6 +41816,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 24
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 24
                     }
                 ]
@@ -47823,15 +47895,15 @@
         "\u00d1uble": {
             "poblacion": 511551,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 1429
+                "date": "2020-06-06",
+                "value": 1470
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 222
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 24
             },
             "tasa_activos": {
@@ -47840,15 +47912,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 1372
+                    "date": "2020-06-05",
+                    "value": 1429
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 251
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 24
                 },
                 "tasa_activos": {
@@ -48237,6 +48309,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 1429
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 1470
                     }
                 ],
                 "activos": [
@@ -48608,6 +48684,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 24
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 24
                     }
                 ]
@@ -52865,15 +52945,15 @@
         "Biob\u00edo": {
             "poblacion": 1663696,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 2379
+                "date": "2020-06-06",
+                "value": 2490
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 749
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 13
             },
             "tasa_activos": {
@@ -52882,15 +52962,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 2301
+                    "date": "2020-06-05",
+                    "value": 2379
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 595
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 13
                 },
                 "tasa_activos": {
@@ -53279,6 +53359,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 2379
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 2490
                     }
                 ],
                 "activos": [
@@ -53650,6 +53734,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 13
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 13
                     }
                 ]
@@ -60331,16 +60419,16 @@
         "La Araucan\u00eda": {
             "poblacion": 1014343,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 2288
+                "date": "2020-06-06",
+                "value": 2321
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 330
             },
             "fallecidos": {
-                "date": "2020-06-05",
-                "value": 48
+                "date": "2020-06-06",
+                "value": 49
             },
             "tasa_activos": {
                 "date": "2020-05-31",
@@ -60348,16 +60436,16 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 2182
+                    "date": "2020-06-05",
+                    "value": 2288
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 304
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
-                    "value": 47
+                    "date": "2020-06-05",
+                    "value": 48
                 },
                 "tasa_activos": {
                     "date": "2020-05-28",
@@ -60745,6 +60833,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 2288
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 2321
                     }
                 ],
                 "activos": [
@@ -61117,6 +61209,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 48
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 49
                     }
                 ]
             },
@@ -67595,15 +67691,15 @@
         "Los R\u00edos": {
             "poblacion": 405835,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 390
+                "date": "2020-06-06",
+                "value": 400
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 95
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 8
             },
             "tasa_activos": {
@@ -67612,15 +67708,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 379
+                    "date": "2020-06-05",
+                    "value": 390
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 107
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 8
                 },
                 "tasa_activos": {
@@ -68009,6 +68105,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 390
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 400
                     }
                 ],
                 "activos": [
@@ -68380,6 +68480,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 8
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 8
                     }
                 ]
@@ -70819,15 +70923,15 @@
         "Los Lagos": {
             "poblacion": 891440,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 968
+                "date": "2020-06-06",
+                "value": 985
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 156
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 13
             },
             "tasa_activos": {
@@ -70836,15 +70940,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 926
+                    "date": "2020-06-05",
+                    "value": 968
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 136
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 13
                 },
                 "tasa_activos": {
@@ -71233,6 +71337,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 968
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 985
                     }
                 ],
                 "activos": [
@@ -71604,6 +71712,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 13
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 13
                     }
                 ]
@@ -77679,7 +77791,7 @@
         "Ays\u00e9n": {
             "poblacion": 107297,
             "confirmados": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 19
             },
             "activos": {
@@ -77687,7 +77799,7 @@
                 "value": 8
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 0
             },
             "tasa_activos": {
@@ -77696,7 +77808,7 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 19
                 },
                 "activos": {
@@ -77704,7 +77816,7 @@
                     "value": 7
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 0
                 },
                 "tasa_activos": {
@@ -78093,6 +78205,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 19
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 19
                     }
                 ],
                 "activos": [
@@ -78464,6 +78580,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 0
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 0
                     }
                 ]
@@ -80499,15 +80619,15 @@
         "Magallanes": {
             "poblacion": 178362,
             "confirmados": {
-                "date": "2020-06-05",
-                "value": 1072
+                "date": "2020-06-06",
+                "value": 1081
             },
             "activos": {
                 "date": "2020-05-31",
                 "value": 54
             },
             "fallecidos": {
-                "date": "2020-06-05",
+                "date": "2020-06-06",
                 "value": 19
             },
             "tasa_activos": {
@@ -80516,15 +80636,15 @@
             },
             "previous": {
                 "confirmados": {
-                    "date": "2020-06-04",
-                    "value": 1069
+                    "date": "2020-06-05",
+                    "value": 1072
                 },
                 "activos": {
                     "date": "2020-05-28",
                     "value": 70
                 },
                 "fallecidos": {
-                    "date": "2020-06-04",
+                    "date": "2020-06-05",
                     "value": 19
                 },
                 "tasa_activos": {
@@ -80913,6 +81033,10 @@
                     {
                         "date": "2020-06-05",
                         "value": 1072
+                    },
+                    {
+                        "date": "2020-06-06",
+                        "value": 1081
                     }
                 ],
                 "activos": [
@@ -81284,6 +81408,10 @@
                     },
                     {
                         "date": "2020-06-05",
+                        "value": 19
+                    },
+                    {
+                        "date": "2020-06-06",
                         "value": 19
                     }
                 ]
