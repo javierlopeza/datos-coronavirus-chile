@@ -279,6 +279,53 @@ class DataOrganizer:
                 "text": row["text"],
             }
 
+    def remove_unused_data(self):
+        """
+        Chile
+        - tasa_activos
+        - previous
+        - series.confirmados
+        - series.fallecidos
+        """
+        del self.chile["tasa_activos"]
+        del self.chile["previous"]
+        del self.chile["series"]["confirmados"]
+        del self.chile["series"]["fallecidos"]
+
+        """
+        Regiones
+        - tasa_activos
+        - previous
+        - series.confirmados
+        - series.fallecidos
+        """
+        for region in self.chile["regiones"]:
+            del self.chile["regiones"][region]["tasa_activos"]
+            del self.chile["regiones"][region]["previous"]
+            del self.chile["regiones"][region]["series"]["confirmados"]
+            del self.chile["regiones"][region]["series"]["fallecidos"]
+
+        """
+        Comunas
+        - confirmados
+        - fallecidos
+        - previous.confirmados
+        - previous.fallecidos
+        - series.confirmados
+        - series.fallecidos
+        """
+
+        # All previous data in regiones
+        for region in self.chile["regiones"]:
+            for comuna in self.chile["regiones"][region]["comunas"]:
+                comuna_obj = self.chile["regiones"][region]["comunas"][comuna]
+                del comuna_obj["confirmados"]
+                del comuna_obj["fallecidos"]
+                del comuna_obj["previous"]["confirmados"]
+                del comuna_obj["previous"]["fallecidos"]
+                del comuna_obj["series"]["confirmados"]
+                del comuna_obj["series"]["fallecidos"]
+
     def save_data(self):
         with open("./data/chile.json", "w") as outfile:
             json.dump(self.chile, outfile, indent=4)
@@ -293,4 +340,5 @@ organizer.fill_regiones_data()
 organizer.fill_comunas_data()
 organizer.add_regiones_complete_names()
 organizer.add_quarantines_to_communes()
+organizer.remove_unused_data()
 organizer.save_data()
