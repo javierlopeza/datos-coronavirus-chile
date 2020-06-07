@@ -92,7 +92,12 @@
             },
             {
                 "date": "2020-05-31",
-                "value": 22618,
+                "value": 22620,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-06-04",
+                "value": 21693,
                 "is_from_informe_epi": "TRUE"
             },
             {
