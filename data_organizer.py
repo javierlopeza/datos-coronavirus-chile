@@ -247,6 +247,21 @@ class DataOrganizer:
                 "date": previous_activos["date"],
                 "value": round((previous_activos["value"] / poblacion) * 100000, 2),
             }
+            # Add delta activos
+            self.chile["regiones"][region]["comunas"][comuna]["delta"] = {
+                "activos": {
+                    "from_date": previous_activos["date"],
+                    "to_date": current_activos["date"],
+                    "value": current_activos["value"] - previous_activos["value"],
+                },
+                "tasa_activos": {
+                    "from_date": previous_activos["date"],
+                    "to_date": current_activos["date"],
+                    "value": round(((current_activos["value"] - previous_activos["value"]) / poblacion) * 100000, 2),
+                },
+            }
+            # Add delta activos per 100k
+
 
     def add_regiones_complete_names(self):
         for region in self.chile["regiones"]:
