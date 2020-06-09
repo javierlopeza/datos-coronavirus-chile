@@ -3,8 +3,8 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-06-04"
-PARSE_PDF = False
+INPUT_DATE = "2020-06-07"
+PARSE_PDF = True
 
 
 def load_json(file_name):
