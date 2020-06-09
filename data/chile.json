@@ -1,17 +1,17 @@
 {
     "poblacion": 19458310,
     "confirmados": {
-        "date": "2020-06-08",
-        "value": 138846
+        "date": "2020-06-09",
+        "value": 142759
     },
     "activos": {
-        "date": "2020-06-08",
-        "value": 24334,
+        "date": "2020-06-09",
+        "value": 23115,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-06-08",
-        "value": 2264
+        "date": "2020-06-09",
+        "value": 2283
     },
     "series": {
         "activos": [
@@ -101,8 +101,8 @@
                 "is_from_informe_epi": "TRUE"
             },
             {
-                "date": "2020-06-08",
-                "value": 24334,
+                "date": "2020-06-09",
+                "value": 23115,
                 "is_from_informe_epi": "FALSE"
             }
         ]
