@@ -7963,8 +7963,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Calama est\u00e1 en cuarentena total."
                     },
                     "name": "Calama",
                     "region": "Antofagasta",
@@ -15272,8 +15272,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "San Antonio est\u00e1 en cuarentena total."
                     },
                     "name": "San Antonio",
                     "region": "Valpara\u00edso",
