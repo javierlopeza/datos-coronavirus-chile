@@ -1,15 +1,16 @@
-import camelot
-import json
-from copy import deepcopy
 import csv
-import pendulum
-
-import bs4 as bs
-import dateparser
-import sys
+import json
 import os
 import os.path
+from copy import deepcopy
+from glob import glob
+
+import bs4 as bs
+import camelot
+import dateparser
 import requests
+import pandas as pd
+
 
 BASE_PLACE = {
     "confirmados": None,
@@ -21,7 +22,8 @@ BASE_PLACE = {
 def load_json(file_name):
     with open(file_name) as json_file:
         return json.load(json_file)
-    
+
+
 def parse_number(number):
     if number is not None:
         return int(number.replace(".", ""))
@@ -61,9 +63,11 @@ class ReporteParser:
     def parse_tables(self):
         tables = camelot.read_pdf(
             "./input/tablas_reporte_{}.pdf".format(self.last_reporte_date),
-            pages="2,3",
+            pages='1-end',
             flavor="stream",
         )
+
+        self.all_tables = tables
         self.table_regiones, self.table_nacional = tables[:2]
 
     def fix_region(self, region):
@@ -141,12 +145,122 @@ class ReporteParser:
         self.save_new_chile_metrics("../raw_data/chile/serie_fallecidos_chile.csv", "fallecidos")
         self.save_new_chile_metrics("../raw_data/chile/serie_activos_chile.csv", "activos")
 
-    
-parser = ReporteParser()
-parser.download_reporte()
-parser.load_input()
-parser.parse_tables()
-parser.scrap_table_regiones()
-parser.scrap_table_nacional()
-parser.parse_numbers()
-parser.save_new_values()
+    def parse_all_reportes(self):
+        parser.load_input()
+        #parser.download_reporte()
+        for each_pdf in glob('./input/*.pdf'):
+            # files are identified by date
+            date = each_pdf.replace('./input/tablas_reporte_', '').replace('.pdf', '')
+            print('parsing ' + each_pdf)
+            self.last_reporte_date = date
+            parser.parse_tables()
+            parser.table_identifier()
+
+    def table_identifier(self):
+        '''
+        We need to be able to identify each column from reporte diario.
+        as of 2020-06-09, there are (in parenthesis their map to MinCiencia's repo, on input/ReporteDiario/):
+        1.- Casos confirmados de Coronavirus a nivel nacional (maps to CasosConfirmados.csv )
+        2.- Casos confirmados totales, casos recuperados, casos activos y fallecidos (maps to CasosConfirmadosTotales.csv)
+        3.- Pacientes fallecidos por grupos etarios (maps to FallecidosEtario.csv)
+        4.- Sistema Integrado Covid 19, camas de unidades de cuidados intensivos (maps to NumeroVentiladores.csv)
+        5.- Hospitalización en unidades de cuidados intensivos (UCI) de pacientes Covid 19 (tabla regional) (maps to UCI.csv)
+        6.- Hospitalización en unidades de cuidados intensivos (UCI) de pacientes Covid 19 (tramos de edad) (maps to HospitalizadosUCIEtario.csv)
+        7.- Hospitalización en unidades de cuidados intensivos (UCI) de pacientes Covid 19 (tipo ventilacion) (maps to PacientesVMI .csv)
+        8.- Hospitalización de pacientes Covid19 en sistema integrado (maps to CamasHospital_Diario.csv)
+        9.- Exámenes PCR (maps to PCREstablecimiento.csv)
+        10.- PCR por region deprecated: No longer informed by Minsal (maps to PCR.csv)
+        11.- Residencias sanitarias informadas por región(maps to ResidenciasSanitarias.csv)
+        12.- NOT A TABLE Pacientes criticos, extracted from a graph (maps to PacientesCriticos.csv)
+        :return:
+        '''
+        print('On ' + self.last_reporte_date + ' got ' + str(len(self.all_tables)) + ' tables')
+        # Quik dirty, awful and embarrasing solution: identify the df based on strings :(
+        for each_table in self.all_tables:
+            my_df = each_table.df
+            # df[df['model'].str.match('Mac')]
+            for each_column in my_df.columns:
+                if my_df[each_column].str.contains(TABLA_IDS['tabla1_id']).any():
+                    self.table_1_composer(my_df)
+                    return
+
+    def table_1_composer(self, df1):
+        '''
+        table_identifier encuentra bien la tabla 1, pero el formato es cuestionable
+        aca lo ordenamos: La primera columna es fija: regiones, y desde ahi en adelante,
+        agregamos todas las columnas.
+        La ultima columna ha sido porcentajes. La fila con el 100% la podemos usar para validar,
+        y no es necesario guardarla
+        :return:
+        '''
+        if os.path.isfile(OUTPUT_PATH + self.last_reporte_date + '_table1.csv'):
+            print(OUTPUT_PATH + self.last_reporte_date + '_table1.csv was processed, won\'t do anything.'
+                                                         ' If you wnat to reprocess, rename/remove the csv')
+            return
+
+        # 1.- drop row con 'Casos confirmados de Coronavirus a nivel nacional'
+        for each_column in df1.columns:
+            df1 = df1[~df1[each_column].str.contains(TABLA_IDS['tabla1_id'])]
+            # also, drop row with explanation (footer)
+            df1 = df1[~df1[each_column].str.contains('Epivigila')]
+            # in the column titles, there's a \n which sometimes spans empty cells, and always splits some titles
+            #
+
+        # we can identify data based on Region name and 100% (both corners)
+        # everything before that is a header
+        # BOTH these lists must have a single element
+        data_start_index = df1.index[df1[0] == 'Arica - Parinacota'].tolist()[0]
+        data_end_index = df1.index[df1[6] == '100%'].tolist()[0]
+        print('data starts at index ' + str(data_start_index) + ' and ends at ' + str(data_end_index))
+        #print(df1.to_string())
+
+        header = df1.iloc[0:data_start_index - 1, ]
+        header = header.replace(r'\\n', '', regex=True)
+
+        proper_data = df1.iloc[data_start_index-1:, ]
+        proper_data.reset_index(drop=True, inplace=True)
+        proper_data.iat[len(proper_data.index) - 1, 0] = 'Total'
+
+        #print(proper_data)
+
+        # concat per column, ignore empty. The goal is to have a proper title in the third row
+        for i in range(0, len(header.index) - 1):
+            for j in range(0, len(header.columns)):
+                if header.iloc[i+1, j] != '':
+                    header.iloc[i+1, j] = str(header.iloc[i, j]) + ' ' + str(header.iloc[i+1, j])
+                else:
+                    header.iloc[i + 1, j] = header.iloc[i, j]
+
+        header = header.replace(r'  ', ' ', regex=True)
+        #header.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+        #header.iloc[len(header.index), :] = header.iloc[len(header.index), :].str.strip()
+
+        proper_header = header.iloc[len(header.index)-1:len(header.index), :]
+        proper_header[0] = 'Region'
+
+        df_table = pd.concat([proper_header, proper_data])
+        df_table.to_csv(OUTPUT_PATH + self.last_reporte_date + '_table1.csv', index=False, header=False)
+
+
+TABLA_IDS = {
+    'tabla1_id': 'Casos confirmados de Coronavirus a nivel nacional'
+
+}
+
+OUTPUT_PATH = './ReporteDiario/csv/'
+
+# parser = ReporteParser()
+# parser.download_reporte()
+# parser.load_input()
+# parser.parse_tables()
+# parser.scrap_table_regiones()
+# parser.scrap_table_nacional()
+# parser.parse_numbers()
+# parser.save_new_values()
+
+
+if __name__ == '__main__':
+
+    parser = ReporteParser()
+    parser.parse_all_reportes()
+
