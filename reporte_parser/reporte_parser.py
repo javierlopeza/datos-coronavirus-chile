@@ -64,7 +64,7 @@ class ReporteParser:
     def parse_tables(self):
         tables = camelot.read_pdf(
             "./input/tablas_reporte_{}.pdf".format(self.last_reporte_date),
-            pages='2,3',
+            pages="2,3",
             flavor="stream",
         )
 
@@ -85,7 +85,7 @@ class ReporteParser:
             if row[1] in self.all_regiones:
                 region_name = self.fix_region(row[1])
                 for metric, index in self.regiones_metrics_columns_indexes.items():
-                    self.regiones[region_name][metric] = \
+                    self.regiones[region_name][metric] =\
                         row[index]
 
     def scrap_table_nacional(self):
