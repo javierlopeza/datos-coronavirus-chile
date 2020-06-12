@@ -11,7 +11,6 @@ import dateparser
 import requests
 import pandas as pd
 
-
 BASE_PLACE = {
     "confirmados": None,
     "fallecidos": None,
@@ -43,8 +42,11 @@ class ReporteParser:
 
     def download_reporte(self):
         GOV_URL = "https://www.gob.cl/coronavirus/cifrasoficiales/"
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36', "Upgrade-Insecure-Requests": "1",
-                "DNT": "1", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate"}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
+            "Upgrade-Insecure-Requests": "1",
+            "DNT": "1", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5", "Accept-Encoding": "gzip, deflate"}
 
         source = requests.get(GOV_URL, timeout=10, headers=headers)
         soup = bs.BeautifulSoup(source.content, features="html.parser")
@@ -84,7 +86,7 @@ class ReporteParser:
             if row[1] in self.all_regiones:
                 region_name = self.fix_region(row[1])
                 for metric, index in self.regiones_metrics_columns_indexes.items():
-                    self.regiones[region_name][metric] =\
+                    self.regiones[region_name][metric] = \
                         row[index]
 
     def scrap_table_nacional(self):
@@ -146,8 +148,8 @@ class ReporteParser:
         self.save_new_chile_metrics("../raw_data/chile/serie_activos_chile.csv", "activos")
 
     def parse_all_reportes(self):
-        #parser.load_input()
-        #parser.download_reporte()
+        # parser.load_input()
+        # parser.download_reporte()
         for each_pdf in glob('./input/*.pdf'):
             # files are identified by date
             date = each_pdf.replace('./input/tablas_reporte_', '').replace('.pdf', '')
@@ -182,15 +184,24 @@ class ReporteParser:
             # check how to identify each table
             # print(my_df.to_string())
 
+            table_identified = False
             for each_column in my_df.columns:
                 if my_df[each_column].str.contains(TABLA_IDS['tabla1_id']).any():
                     print('found table1')
+                    table_identified = True
                     self.table_1_composer(my_df)
                 elif my_df[each_column].str.contains(TABLA_IDS['tabla2_id']).any():
                     print('found table2')
+                    table_identified = True
                     self.table_2_composer(my_df)
-                    #return
+                elif my_df[each_column].str.contains(TABLA_IDS['tabla3_id']).any():
+                    print('found table3')
+                    table_identified = True
+                    self.table_3_composer(my_df)
 
+            if not table_identified:
+                print('Table not identified')
+                #print(my_df.to_string())
 
     def table_1_composer(self, df1):
         '''
@@ -201,9 +212,9 @@ class ReporteParser:
         y no es necesario guardarla
         :return:
         '''
-        if os.path.isfile(OUTPUT_PATH + self.last_reporte_date + '_table1.csv'):
-            print(OUTPUT_PATH + self.last_reporte_date + '_table1.csv was processed, won\'t do anything.'
-                                                         ' If you want to reprocess, rename/remove the csv')
+        output_file = OUTPUT_PATH + self.last_reporte_date + '_table1.csv'
+        if os.path.isfile(output_file):
+            print(output_file + ' was processed, won\'t do anything. If you want to reprocess, rename/remove the csv')
             return
 
         # 1.- drop row con 'Casos confirmados de Coronavirus a nivel nacional'
@@ -220,34 +231,34 @@ class ReporteParser:
         data_start_index = df1.index[df1[0] == 'Arica - Parinacota'].tolist()[0]
         data_end_index = df1.index[df1[6] == '100%'].tolist()[0]
         print('Table 1 data starts at index ' + str(data_start_index) + ' and ends at ' + str(data_end_index))
-        #print(df1.to_string())
+        # print(df1.to_string())
 
         header = df1.iloc[0:data_start_index - 1, ]
         header = header.replace(r'\\n', '', regex=True)
 
-        proper_data = df1.iloc[data_start_index-1:, ]
+        proper_data = df1.iloc[data_start_index - 1:, ]
         proper_data.reset_index(drop=True, inplace=True)
         proper_data.iat[len(proper_data.index) - 1, 0] = 'Total'
 
-        #print(proper_data)
+        # print(proper_data)
 
         # concat per column, ignore empty. The goal is to have a proper title in the third row
         for i in range(0, len(header.index) - 1):
             for j in range(0, len(header.columns)):
-                if header.iloc[i+1, j] != '':
-                    header.iloc[i+1, j] = str(header.iloc[i, j]) + ' ' + str(header.iloc[i+1, j])
+                if header.iloc[i + 1, j] != '':
+                    header.iloc[i + 1, j] = str(header.iloc[i, j]) + ' ' + str(header.iloc[i + 1, j])
                 else:
                     header.iloc[i + 1, j] = header.iloc[i, j]
 
         header = header.replace(r'  ', ' ', regex=True)
-        #header.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
-        #header.iloc[len(header.index), :] = header.iloc[len(header.index), :].str.strip()
+        # header.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+        # header.iloc[len(header.index), :] = header.iloc[len(header.index), :].str.strip()
 
-        proper_header = header.iloc[len(header.index)-1:len(header.index), :]
+        proper_header = header.iloc[len(header.index) - 1:len(header.index), :]
         proper_header[0] = 'Region'
 
         df_table = pd.concat([proper_header, proper_data])
-        df_table.to_csv(OUTPUT_PATH + self.last_reporte_date + '_table1.csv', index=False, header=False)
+        df_table.to_csv(output_file, index=False, header=False)
 
     def table_2_composer(self, df2):
         '''
@@ -257,10 +268,9 @@ class ReporteParser:
         y no es necesario guardarla
         :return:
         '''
-
-        if os.path.isfile(OUTPUT_PATH + self.last_reporte_date + '_table2.csv'):
-            print(OUTPUT_PATH + self.last_reporte_date + '_table2.csv was processed, won\'t do anything.'
-                                                         ' If you want to reprocess, rename/remove the csv')
+        output_file = OUTPUT_PATH + self.last_reporte_date + '_table2.csv'
+        if os.path.isfile(output_file):
+            print(output_file + ' was processed, won\'t do anything. If you want to reprocess, rename/remove the csv')
             return
 
         # 1.- drop row con 'Casos confirmados totales'
@@ -278,15 +288,16 @@ class ReporteParser:
         # right-down corner: last number or percentage
         dates_idx = df2.apply(lambda x: x.str.match(r'\d{2}-\d{2}-\d{4}')).values.nonzero()
         dates_idx = dates_idx[0]
-        #dates are the indexes of those files with dates
+        # dates are the indexes of those files with dates
         data_start_index = dates_idx[0]
-        data_end_index = dates_idx[len(dates_idx)-1]
+        data_end_index = dates_idx[len(dates_idx) - 1]
         print('Table 2 data starts at index ' + str(data_start_index) + ' and ends at ' + str(data_end_index))
-        #print(df2.to_string())
+        # print(df2.to_string())
 
         header = df2.iloc[0:data_start_index, ]
         header = header.replace(r'\\n', '', regex=True)
-        #print(header.to_string())
+        header = header.replace(r'\*', '', regex=True)
+        # print(header.to_string())
 
         proper_data = df2.iloc[data_start_index:, ]
         proper_data.reset_index(drop=True, inplace=True)
@@ -298,24 +309,59 @@ class ReporteParser:
             for j in range(0, len(header.columns)):
                 header.iloc[i + 1, j] = str(header.iloc[i, j]) + ' ' + str(header.iloc[i + 1, j])
 
-
-        #print(header.to_string())
-
         header = header.replace(r'  ', ' ', regex=True)
         # header.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
-        header.iloc[len(header.index)-1, :] = header.iloc[len(header.index)-1, :].str.strip()
+        header.iloc[len(header.index) - 1, :] = header.iloc[len(header.index) - 1, :].str.strip()
 
-        #print(header.to_string())
+        # headers are messi: there are too many spaces, but it looks deterministic
+        header = header.replace({'Ca s os total es a cumul a dos': 'Casos totales acumulados',
+                                 'Ca s os tota l es a cumul a dos': 'Casos totales acumulados',
+                                 'Ca s os a ctivos': 'Casos activos',
+                                 'Ca s os a cti vos': 'Casos activos',
+                                 'Ca s os recupera dos': 'Casos recuperados',
+                                 'Fa l l eci dos': 'Fallecidos',
+                                 'Ca s os nuevos total es': 'Casos nuevos totales',
+                                 'Ca s os nuevos tota l es': 'Casos nuevos totales',
+                                 'Ca s os nuevos con s íntoma s': 'Casos nuevos con síntomas',
+                                 'Ca s os nuevos s i n s íntoma s *': 'Casos nuevos sin síntomas',
+                                 '% Aumento di a ri o': '% Aumento diario',
+                                 'Nuevos recupera dos': 'Nuevos recuperados'
+                                 }, regex=True)
+
+
+        # print(header.to_string())
         proper_header = header.iloc[len(header.index) - 1:len(header.index), :]
 
-        #print(proper_data)
+        #print(proper_header.to_string())
 
         df_table = pd.concat([proper_header, proper_data])
-        print(df_table.to_string())
+        df_table.to_csv(output_file, index=False, header=False)
+
+    def table_3_composer(self, df3):
+        '''
+        table_identifier encuentra bien la tabla 3, el formato es aceptable
+        Limites de datos:
+        'Tramos de edad': esquina superior izquierda
+        Ultimo 100%: Esquina inferior derecha
+
+        :return:
+        '''
+        output_file = OUTPUT_PATH + self.last_reporte_date + '_table3.csv'
+        if os.path.isfile(output_file):
+            print(output_file + ' was processed, won\'t do anything. If you want to reprocess, rename/remove the csv')
+            return
+
+        # 1.- drop row con 'Casos confirmados de Coronavirus a nivel nacional'
+        for each_column in df3.columns:
+            df3 = df3[~df3[each_column].str.contains(TABLA_IDS['tabla3_id'])]
+
+        print(df3.to_csv(output_file, index=False, header=False))
+
 
 TABLA_IDS = {
     'tabla1_id': 'Casos confirmados de Coronavirus a nivel nacional',
     'tabla2_id': 'PCR \(\+\), sintomáticos o asintomáticos',
+    'tabla3_id': 'Pacientes fallecidos por grupos etarios'
 
 }
 
@@ -332,7 +378,5 @@ OUTPUT_PATH = './ReporteDiario/csv/'
 
 
 if __name__ == '__main__':
-
     parser = ReporteParser()
     parser.parse_all_reportes()
-
