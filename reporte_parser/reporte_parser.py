@@ -355,7 +355,7 @@ class ReporteParser:
         for each_column in df3.columns:
             df3 = df3[~df3[each_column].str.contains(TABLA_IDS['tabla3_id'])]
 
-        print(df3.to_csv(output_file, index=False, header=False))
+        df3.to_csv(output_file, index=False, header=False)
 
 
 TABLA_IDS = {
