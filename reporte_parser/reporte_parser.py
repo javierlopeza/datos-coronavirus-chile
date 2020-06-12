@@ -198,10 +198,15 @@ class ReporteParser:
                     print('found table3')
                     table_identified = True
                     self.table_3_composer(my_df)
+                elif my_df[each_column].str.contains(TABLA_IDS['tabla4_id']).any():
+                    print('found table4')
+                    table_identified = True
+                    self.table_4_composer(my_df)
+                    return
 
             if not table_identified:
                 print('Table not identified')
-                #print(my_df.to_string())
+                print(my_df.head(10).to_string())
 
     def table_1_composer(self, df1):
         '''
@@ -357,11 +362,31 @@ class ReporteParser:
 
         df3.to_csv(output_file, index=False, header=False)
 
+    def table_4_composer(self, df4):
+        '''
+        table_identifier encuentra la tabla 4, pero es un desastre: tabla 4 a 7 estan mezcladas
+        Limites de datos:
+        Tabla 4 es una fila, que comienza con 'Total de ventiladores'
+
+        :return:
+        '''
+        output_file = OUTPUT_PATH + self.last_reporte_date + '_table4.csv'
+        if os.path.isfile(output_file):
+            print(output_file + ' was processed, won\'t do anything. If you want to reprocess, rename/remove the csv')
+            return
+        print(df4.to_string())
+        # 1.-Get only row con 'Total de ventiladores
+        for each_column in df4.columns:
+            df4 = df4[df4[each_column].str.contains(TABLA_IDS['tabla4_id'])]
+
+        #print(df4.to_string())
+
 
 TABLA_IDS = {
     'tabla1_id': 'Casos confirmados de Coronavirus a nivel nacional',
     'tabla2_id': 'PCR \(\+\), sintomáticos o asintomáticos',
-    'tabla3_id': 'Pacientes fallecidos por grupos etarios'
+    'tabla3_id': 'Pacientes fallecidos por grupos etarios',
+    'tabla4_id': 'otal de ventiladores'
 
 }
 
