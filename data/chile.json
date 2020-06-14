@@ -1114,8 +1114,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Curacav\u00ed est\u00e1 en cuarentena total."
                     },
                     "name": "Curacav\u00ed",
                     "region": "Metropolitana",
@@ -3414,8 +3414,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Melipilla est\u00e1 en cuarentena total."
                     },
                     "name": "Melipilla",
                     "region": "Metropolitana",
@@ -3989,8 +3989,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Pe\u00f1aflor est\u00e1 en cuarentena total."
                     },
                     "name": "Pe\u00f1aflor",
                     "region": "Metropolitana",
@@ -5369,8 +5369,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "San Jos\u00e9 de Maipo est\u00e1 en cuarentena total."
                     },
                     "name": "San Jos\u00e9 de Maipo",
                     "region": "Metropolitana",
@@ -6059,8 +6059,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Tiltil est\u00e1 en cuarentena total."
                     },
                     "name": "Tiltil",
                     "region": "Metropolitana",
@@ -7635,8 +7635,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Pozo Almonte est\u00e1 en cuarentena total."
                     },
                     "name": "Pozo Almonte",
                     "region": "Tarapac\u00e1",
@@ -15847,8 +15847,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Valpara\u00edso est\u00e1 en cuarentena total."
                     },
                     "name": "Valpara\u00edso",
                     "region": "Valpara\u00edso",
@@ -16077,8 +16077,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Vi\u00f1a del Mar est\u00e1 en cuarentena total."
                     },
                     "name": "Vi\u00f1a del Mar",
                     "region": "Valpara\u00edso",
