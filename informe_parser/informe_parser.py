@@ -3,8 +3,8 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-06-07"
-PARSE_PDF = True
+INPUT_DATE = "2020-06-11"
+PARSE_PDF = False
 
 
 def load_json(file_name):
@@ -79,6 +79,7 @@ class InformeParser:
 
     def scrap_comunas(self):
         self.confirmados_por_comuna = OrderedDict({comuna: None for comuna in self.comunas_es})
+        self.fallecidos_por_comuna = OrderedDict({comuna: None for comuna in self.comunas_es})
         self.activos_por_comuna = OrderedDict({comuna: None for comuna in self.comunas_es})
         for table in self.tables:
             for row in table.df.itertuples(index=True, name="Pandas"):
@@ -86,7 +87,9 @@ class InformeParser:
                     nombre_comuna = self.fix_comuna(row[1])
                     confirmados_comuna = row[3]
                     self.confirmados_por_comuna[nombre_comuna] = confirmados_comuna
-                    activos_comuna = row[7]
+                    fallecidos_comuna = row[5]
+                    self.fallecidos_por_comuna[nombre_comuna] = fallecidos_comuna
+                    activos_comuna = row[9]
                     self.activos_por_comuna[nombre_comuna] = activos_comuna
 
     def save_outputs(self):
@@ -112,12 +115,28 @@ class InformeParser:
             for data in confirmados_por_comuna_data:
                 writer.writerow(data)
 
+        # Fallecidos por comuna (output)
+        fallecidos_por_comuna_data = [
+            {"comuna": comuna, "fallecidos": fallecidos}
+            for comuna, fallecidos in self.fallecidos_por_comuna.items()
+        ]
+        with open("./output/fallecidos_por_comuna_{}.csv".format(INPUT_DATE), "w") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=["comuna", "fallecidos"])
+            writer.writeheader()
+            for data in fallecidos_por_comuna_data:
+                writer.writerow(data)
+
     def load_outputs(self):
         # Activos por comuna (output)
         with open("./output/activos_por_comuna_{}.csv".format(INPUT_DATE), "r") as f:
             rows = list(csv.DictReader(f, fieldnames=["comuna", "activos"]))[1:]
             self.activos_por_comuna = {row["comuna"]: parse_str_int(row["activos"]) for row in rows}
         
+        # Fallecidos por comuna (output)
+        with open("./output/fallecidos_por_comuna_{}.csv".format(INPUT_DATE), "r") as f:
+            rows = list(csv.DictReader(f, fieldnames=["comuna", "fallecidos"]))[1:]
+            self.fallecidos_por_comuna = {row["comuna"]: parse_str_int(row["fallecidos"]) for row in rows}
+
         # Confirmados por comuna (output)
         with open("./output/confirmados_por_comuna_{}.csv".format(INPUT_DATE), "r") as f:
             rows = list(csv.DictReader(f, fieldnames=["comuna", "confirmados"]))[1:]
@@ -125,6 +144,7 @@ class InformeParser:
 
     def merge_outputs(self):
         add_column_to_csv("../raw_data/comunas/series_activos_comunas.csv", self.fix_comuna, self.activos_por_comuna)
+        add_column_to_csv("../raw_data/comunas/series_fallecidos_comunas.csv", self.fix_comuna, self.fallecidos_por_comuna)
         add_column_to_csv("../raw_data/comunas/series_confirmados_comunas.csv", self.fix_comuna, self.confirmados_por_comuna)
 
     def calculate_data_regiones(self):

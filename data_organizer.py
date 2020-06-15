@@ -221,6 +221,18 @@ class DataOrganizer:
             self.chile["regiones"][region]["comunas"][comuna]["series"]["confirmados"] = serie_confirmados
             self.chile["regiones"][region]["comunas"][comuna]["confirmados"] = serie_confirmados[-1]
             self.chile["regiones"][region]["comunas"][comuna]["previous"]["confirmados"] = serie_confirmados[-2]
+
+        # Add fallecidos
+        series_fallecidos_csv = csv.DictReader(open("./raw_data/comunas/series_fallecidos_comunas.csv"))
+        for row in series_fallecidos_csv:
+            comuna = self.fix_comuna(row["comuna"])
+            region = self.fix_region(self.regiones_comunas[comuna])
+            serie_fallecidos = [
+                {"date": date, "value": parse_string_int(value)}
+                for date, value in row.items() if date != "comuna"
+            ]
+            self.chile["regiones"][region]["comunas"][comuna]["fallecidos"] = serie_fallecidos[-1]
+
         # Add activos
         series_activos_csv = csv.DictReader(open("./raw_data/comunas/series_activos_comunas.csv"))
         for row in series_activos_csv:
@@ -260,7 +272,6 @@ class DataOrganizer:
                     "value": round(((current_activos["value"] - previous_activos["value"]) / poblacion) * 100000, 2),
                 },
             }
-            # Add delta activos per 100k
 
 
     def add_regiones_complete_names(self):
@@ -307,8 +318,6 @@ class DataOrganizer:
 
         """
         Comunas
-        - confirmados
-        - fallecidos
         - previous.confirmados
         - previous.fallecidos
         - series.confirmados
@@ -319,8 +328,6 @@ class DataOrganizer:
         for region in self.chile["regiones"]:
             for comuna in self.chile["regiones"][region]["comunas"]:
                 comuna_obj = self.chile["regiones"][region]["comunas"][comuna]
-                del comuna_obj["confirmados"]
-                del comuna_obj["fallecidos"]
                 del comuna_obj["previous"]["confirmados"]
                 del comuna_obj["previous"]["fallecidos"]
                 del comuna_obj["series"]["confirmados"]

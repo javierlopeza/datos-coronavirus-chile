@@ -1,8 +1,11 @@
 region,commune,text,is_active
 Antofagasta,Calama,Calama está en cuarentena total.,TRUE
-Valparaíso,San Antonio,San Antonio está en cuarentena total.,TRUE
 Tarapacá,Alto Hospicio,Alto Hospicio está en cuarentena total.,TRUE
 Tarapacá,Iquique,Iquique está en cuarentena total.,TRUE
+Tarapacá,Pozo Almonte,Pozo Almonte está en cuarentena total.,TRUE
+Valparaíso,San Antonio,San Antonio está en cuarentena total.,TRUE
+Valparaíso,Valparaíso,Valparaíso está en cuarentena total.,TRUE
+Valparaíso,Viña del Mar,Viña del Mar está en cuarentena total.,TRUE
 Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
 Metropolitana,Cerro Navia,Cerro Navia está en cuarentena total.,TRUE
 Metropolitana,Conchalí,Conchalí está en cuarentena total.,TRUE
@@ -41,3 +44,8 @@ Metropolitana,Padre Hurtado,Padre Hurtado está en cuarentena total.,TRUE
 Metropolitana,Buin,Buin está en cuarentena total.,TRUE
 Metropolitana,Colina,Colina está en cuarentena total.,TRUE
 Metropolitana,Lampa,Lampa está en cuarentena total.,TRUE
+Metropolitana,Curacaví,Curacaví está en cuarentena total.,TRUE
+Metropolitana,Melipilla,Melipilla está en cuarentena total.,TRUE
+Metropolitana,Peñaflor,Peñaflor está en cuarentena total.,TRUE
+Metropolitana,San José de Maipo,San José de Maipo está en cuarentena total.,TRUE
+Metropolitana,Tiltil,Tiltil está en cuarentena total.,TRUE
