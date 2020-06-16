@@ -1,17 +1,17 @@
 {
     "poblacion": 19458310,
     "confirmados": {
-        "date": "2020-06-15",
-        "value": 179436
+        "date": "2020-06-16",
+        "value": 184449
     },
     "activos": {
-        "date": "2020-06-15",
-        "value": 27282,
+        "date": "2020-06-16",
+        "value": 24834,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-06-15",
-        "value": 3362
+        "date": "2020-06-16",
+        "value": 3383
     },
     "series": {
         "activos": [
@@ -111,8 +111,8 @@
                 "is_from_informe_epi": "TRUE"
             },
             {
-                "date": "2020-06-15",
-                "value": 27282,
+                "date": "2020-06-16",
+                "value": 24834,
                 "is_from_informe_epi": "FALSE"
             }
         ]
@@ -125,16 +125,16 @@
         "Metropolitana": {
             "poblacion": 8125072,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 144280
+                "date": "2020-06-16",
+                "value": 148302
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 19728
             },
             "fallecidos": {
-                "date": "2020-06-15",
-                "value": 2913
+                "date": "2020-06-16",
+                "value": 2934
             },
             "series": {
                 "activos": [
@@ -6831,15 +6831,15 @@
         "Arica y Parinacota": {
             "poblacion": 252110,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 1139
+                "date": "2020-06-16",
+                "value": 1156
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 330
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 11
             },
             "series": {
@@ -7441,15 +7441,15 @@
         "Tarapac\u00e1": {
             "poblacion": 382773,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 4258
+                "date": "2020-06-16",
+                "value": 4365
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 831
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 58
             },
             "series": {
@@ -8432,15 +8432,15 @@
         "Antofagasta": {
             "poblacion": 691854,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 4556
+                "date": "2020-06-16",
+                "value": 4643
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 597
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 72
             },
             "series": {
@@ -9677,15 +9677,15 @@
         "Atacama": {
             "poblacion": 314709,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 484
+                "date": "2020-06-16",
+                "value": 502
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 162
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 0
             },
             "series": {
@@ -10922,15 +10922,15 @@
         "Coquimbo": {
             "poblacion": 836096,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 1676
+                "date": "2020-06-16",
+                "value": 1720
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 390
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 10
             },
             "series": {
@@ -12929,15 +12929,15 @@
         "Valpara\u00edso": {
             "poblacion": 1960170,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 7012
+                "date": "2020-06-16",
+                "value": 7262
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 1576
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 126
             },
             "series": {
@@ -17857,15 +17857,15 @@
         "O'Higgins": {
             "poblacion": 991063,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 2012
+                "date": "2020-06-16",
+                "value": 2221
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 294
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 35
             },
             "series": {
@@ -22150,15 +22150,15 @@
         "Maule": {
             "poblacion": 1131939,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 3091
+                "date": "2020-06-16",
+                "value": 3189
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 917
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 23
             },
             "series": {
@@ -26062,15 +26062,15 @@
         "\u00d1uble": {
             "poblacion": 511551,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 1832
+                "date": "2020-06-16",
+                "value": 1852
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 348
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 22
             },
             "series": {
@@ -28831,15 +28831,15 @@
         "Biob\u00edo": {
             "poblacion": 1663696,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 3460
+                "date": "2020-06-16",
+                "value": 3515
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 818
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 19
             },
             "series": {
@@ -33124,15 +33124,15 @@
         "La Araucan\u00eda": {
             "poblacion": 1014343,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 2728
+                "date": "2020-06-16",
+                "value": 2775
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 341
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 36
             },
             "series": {
@@ -37290,15 +37290,15 @@
         "Los R\u00edos": {
             "poblacion": 405835,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 529
+                "date": "2020-06-16",
+                "value": 533
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 93
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 9
             },
             "series": {
@@ -38916,15 +38916,15 @@
         "Los Lagos": {
             "poblacion": 891440,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 1168
+                "date": "2020-06-16",
+                "value": 1178
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 146
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 13
             },
             "series": {
@@ -42828,7 +42828,7 @@
         "Ays\u00e9n": {
             "poblacion": 107297,
             "confirmados": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 26
             },
             "activos": {
@@ -42836,7 +42836,7 @@
                 "value": 2
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 0
             },
             "series": {
@@ -44200,15 +44200,15 @@
         "Magallanes": {
             "poblacion": 178362,
             "confirmados": {
-                "date": "2020-06-15",
-                "value": 1185
+                "date": "2020-06-16",
+                "value": 1210
             },
             "activos": {
                 "date": "2020-06-11",
                 "value": 43
             },
             "fallecidos": {
-                "date": "2020-06-15",
+                "date": "2020-06-16",
                 "value": 15
             },
             "series": {
