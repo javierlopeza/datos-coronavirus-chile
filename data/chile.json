@@ -7,7 +7,7 @@
     "activos": {
         "date": "2020-06-17",
         "value": 35082,
-        "is_from_informe_epi": "FALSE"
+        "is_from_informe_epi": null
     },
     "fallecidos": {
         "date": "2020-06-17",
@@ -119,6 +119,11 @@
                 "date": "2020-06-17",
                 "value": 35082,
                 "is_from_informe_epi": "FALSE"
+            },
+            {
+                "date": "2020-06-17",
+                "value": 35082,
+                "is_from_informe_epi": null
             }
         ]
     },
