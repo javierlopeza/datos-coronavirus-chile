@@ -7,7 +7,7 @@
     "activos": {
         "date": "2020-06-18",
         "value": 34821,
-        "is_from_informe_epi": "FALSE"
+        "is_from_informe_epi": null
     },
     "fallecidos": {
         "date": "2020-06-18",
@@ -123,7 +123,7 @@
             {
                 "date": "2020-06-18",
                 "value": 34821,
-                "is_from_informe_epi": "FALSE"
+                "is_from_informe_epi": null
             }
         ]
     },
@@ -144,7 +144,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 3319
+                "value": 26
             },
             "series": {
                 "activos": [
@@ -7054,7 +7054,7 @@
             "poblacion": 252110,
             "confirmados": {
                 "date": "2020-06-18",
-                "value": 1239
+                "value": null
             },
             "activos": {
                 "date": "2020-06-14",
@@ -7062,7 +7062,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 12
+                "value": null
             },
             "series": {
                 "activos": [
@@ -7692,7 +7692,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 68
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -8715,7 +8715,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 87
+                "value": 1
             },
             "series": {
                 "activos": [
@@ -11285,7 +11285,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 15
+                "value": 1
             },
             "series": {
                 "activos": [
@@ -13356,7 +13356,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 143
+                "value": 2
             },
             "series": {
                 "activos": [
@@ -18440,7 +18440,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 44
+                "value": 1
             },
             "series": {
                 "activos": [
@@ -22869,7 +22869,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 25
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -26905,7 +26905,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 24
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -29762,7 +29762,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 28
+                "value": 1
             },
             "series": {
                 "activos": [
@@ -34191,7 +34191,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 37
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -38489,7 +38489,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 10
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -40167,7 +40167,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 14
+                "value": 0
             },
             "series": {
                 "activos": [
@@ -45619,7 +45619,7 @@
             },
             "fallecidos": {
                 "date": "2020-06-18",
-                "value": 15
+                "value": 0
             },
             "series": {
                 "activos": [
