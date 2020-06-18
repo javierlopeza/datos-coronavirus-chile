@@ -135,7 +135,7 @@
             },
             "activos": {
                 "date": "2020-06-14",
-                "value": 19090
+                "value": 19190
             },
             "fallecidos": {
                 "date": "2020-06-17",
@@ -221,7 +221,7 @@
                     },
                     {
                         "date": "2020-06-14",
-                        "value": 19090
+                        "value": 19190
                     }
                 ]
             },
@@ -631,7 +631,7 @@
                     },
                     "activos": {
                         "date": "2020-06-14",
-                        "value": 111
+                        "value": 211
                     },
                     "fallecidos": {
                         "date": "2020-06-14",
@@ -639,7 +639,7 @@
                     },
                     "tasa_activos": {
                         "date": "2020-06-14",
-                        "value": 124.78
+                        "value": 237.2
                     },
                     "previous": {
                         "activos": {
@@ -731,7 +731,7 @@
                             },
                             {
                                 "date": "2020-06-14",
-                                "value": 111
+                                "value": 211
                             }
                         ]
                     },
@@ -745,12 +745,12 @@
                         "activos": {
                             "from_date": "2020-06-11",
                             "to_date": "2020-06-14",
-                            "value": -60
+                            "value": 40
                         },
                         "tasa_activos": {
                             "from_date": "2020-06-11",
                             "to_date": "2020-06-14",
-                            "value": -67.45
+                            "value": 44.97
                         }
                     }
                 },
