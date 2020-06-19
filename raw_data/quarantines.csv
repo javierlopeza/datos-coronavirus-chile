@@ -1,26 +1,43 @@
 region,commune,text,is_active
-Antofagasta,Calama,Calama está en cuarentena total.,TRUE
 Tarapacá,Alto Hospicio,Alto Hospicio está en cuarentena total.,TRUE
 Tarapacá,Iquique,Iquique está en cuarentena total.,TRUE
 Tarapacá,Pozo Almonte,Pozo Almonte está en cuarentena total.,TRUE
+Antofagasta,Calama,Calama está en cuarentena total.,TRUE
+Valparaíso,Los Andes,Los Andes está en cuarentena total.,TRUE
 Valparaíso,San Antonio,San Antonio está en cuarentena total.,TRUE
+Valparaíso,San Felipe,San Felipe está en cuarentena total.,TRUE
 Valparaíso,Valparaíso,Valparaíso está en cuarentena total.,TRUE
 Valparaíso,Viña del Mar,Viña del Mar está en cuarentena total.,TRUE
+Metropolitana,Buin,Buin está en cuarentena total.,TRUE
 Metropolitana,Cerrillos,Cerrillos está en cuarentena total.,TRUE
 Metropolitana,Cerro Navia,Cerro Navia está en cuarentena total.,TRUE
+Metropolitana,Colina,Colina está en cuarentena total.,TRUE
 Metropolitana,Conchalí,Conchalí está en cuarentena total.,TRUE
+Metropolitana,Curacaví,Curacaví está en cuarentena total.,TRUE
 Metropolitana,El Bosque,El Bosque está en cuarentena total.,TRUE
 Metropolitana,Estación Central,Estación Central está en cuarentena total.,TRUE
+Metropolitana,Huechuraba,Huechuraba está en cuarentena total.,TRUE
 Metropolitana,Independencia,Independencia está en cuarentena total.,TRUE
 Metropolitana,La Cisterna,La Cisterna está en cuarentena total.,TRUE
 Metropolitana,La Florida,La Florida está en cuarentena total.,TRUE
 Metropolitana,La Granja,La Granja está en cuarentena total.,TRUE
 Metropolitana,La Pintana,La Pintana está en cuarentena total.,TRUE
+Metropolitana,La Reina,La Reina está en cuarentena total.,TRUE
+Metropolitana,Lampa,Lampa está en cuarentena total.,TRUE
+Metropolitana,Las Condes,Las Condes está en cuarentena total.,TRUE
+Metropolitana,Lo Barnechea,Lo Barnechea está en cuarentena total.,TRUE
 Metropolitana,Lo Espejo,Lo Espejo está en cuarentena total.,TRUE
 Metropolitana,Lo Prado,Lo Prado está en cuarentena total.,TRUE
 Metropolitana,Macul,Macul está en cuarentena total.,TRUE
+Metropolitana,Maipú,Maipú está en cuarentena total.,TRUE
+Metropolitana,Melipilla,Melipilla está en cuarentena total.,TRUE
+Metropolitana,Ñuñoa,Ñuñoa está en cuarentena total.,TRUE
+Metropolitana,Padre Hurtado,Padre Hurtado está en cuarentena total.,TRUE
 Metropolitana,Pedro Aguirre Cerda,Pedro Aguirre Cerda está en cuarentena total.,TRUE
+Metropolitana,Peñaflor,Peñaflor está en cuarentena total.,TRUE
 Metropolitana,Peñalolén,Peñalolén está en cuarentena total.,TRUE
+Metropolitana,Providencia,Providencia está en cuarentena total.,TRUE
+Metropolitana,Pudahuel,Pudahuel está en cuarentena total.,TRUE
 Metropolitana,Puente Alto,Puente Alto está en cuarentena total.,TRUE
 Metropolitana,Quilicura,Quilicura está en cuarentena total.,TRUE
 Metropolitana,Quinta Normal,Quinta Normal está en cuarentena total.,TRUE
@@ -28,24 +45,12 @@ Metropolitana,Recoleta,Recoleta está en cuarentena total.,TRUE
 Metropolitana,Renca,Renca está en cuarentena total.,TRUE
 Metropolitana,San Bernardo,San Bernardo está en cuarentena total.,TRUE
 Metropolitana,San Joaquín,San Joaquín está en cuarentena total.,TRUE
+Metropolitana,San José de Maipo,San José de Maipo está en cuarentena total.,TRUE
 Metropolitana,San Miguel,San Miguel está en cuarentena total.,TRUE
 Metropolitana,San Ramón,San Ramón está en cuarentena total.,TRUE
 Metropolitana,Santiago,Santiago está en cuarentena total.,TRUE
-Metropolitana,Vitacura,Vitacura está en cuarentena total.,TRUE
-Metropolitana,Pudahuel,Pudahuel está en cuarentena total.,TRUE
-Metropolitana,Providencia,Providencia está en cuarentena total.,TRUE
-Metropolitana,Ñuñoa,Ñuñoa está en cuarentena total.,TRUE
-Metropolitana,Maipú,Maipú está en cuarentena total.,TRUE
-Metropolitana,Lo Barnechea,Lo Barnechea está en cuarentena total.,TRUE
-Metropolitana,Las Condes,Las Condes está en cuarentena total.,TRUE
-Metropolitana,La Reina,La Reina está en cuarentena total.,TRUE
-Metropolitana,Huechuraba,Huechuraba está en cuarentena total.,TRUE
-Metropolitana,Padre Hurtado,Padre Hurtado está en cuarentena total.,TRUE
-Metropolitana,Buin,Buin está en cuarentena total.,TRUE
-Metropolitana,Colina,Colina está en cuarentena total.,TRUE
-Metropolitana,Lampa,Lampa está en cuarentena total.,TRUE
-Metropolitana,Curacaví,Curacaví está en cuarentena total.,TRUE
-Metropolitana,Melipilla,Melipilla está en cuarentena total.,TRUE
-Metropolitana,Peñaflor,Peñaflor está en cuarentena total.,TRUE
-Metropolitana,San José de Maipo,San José de Maipo está en cuarentena total.,TRUE
 Metropolitana,Tiltil,Tiltil está en cuarentena total.,TRUE
+Metropolitana,Vitacura,Vitacura está en cuarentena total.,TRUE
+O'Higgins,Machalí,Machalí está en cuarentena total.,TRUE
+O'Higgins,Rancagua,Rancagua está en cuarentena total.,TRUE
+Maule,Curicó,Curicó está en cuarentena total.,TRUE

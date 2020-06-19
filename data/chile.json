@@ -15792,8 +15792,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Los Andes est\u00e1 en cuarentena total."
                     },
                     "name": "Los Andes",
                     "region": "Valpara\u00edso",
@@ -17626,8 +17626,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "San Felipe est\u00e1 en cuarentena total."
                     },
                     "name": "San Felipe",
                     "region": "Valpara\u00edso",
@@ -20090,8 +20090,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Machal\u00ed est\u00e1 en cuarentena total."
                     },
                     "name": "Machal\u00ed",
                     "region": "O'Higgins",
@@ -22186,8 +22186,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Rancagua est\u00e1 en cuarentena total."
                     },
                     "name": "Rancagua",
                     "region": "O'Higgins",
@@ -23733,8 +23733,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Curic\u00f3 est\u00e1 en cuarentena total."
                     },
                     "name": "Curic\u00f3",
                     "region": "Maule",
