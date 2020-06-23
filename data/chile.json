@@ -9191,8 +9191,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Antofagasta est\u00e1 en cuarentena total."
                     },
                     "name": "Antofagasta",
                     "region": "Antofagasta",
@@ -9596,8 +9596,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Mejillones est\u00e1 en cuarentena total."
                     },
                     "name": "Mejillones",
                     "region": "Antofagasta",
@@ -10271,8 +10271,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Tocopilla est\u00e1 en cuarentena total."
                     },
                     "name": "Tocopilla",
                     "region": "Antofagasta",
