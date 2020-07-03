@@ -1,347 +1,347 @@
-comuna,2020-06-11,2020-06-14,2020-06-18,2020-06-22,2020-06-27
-Arica,10,11,12,12,22
-Camarones,0,0,0,0,0
-General Lagos,0,0,0,0,0
-Putre,0,0,0,0,0
-Alto Hospicio,11,15,18,22,25
-Camina,1,2,2,2,2
-Colchane,1,1,2,2,2
-Huara,2,2,2,2,3
-Iquique,32,36,45,50,64
-Pica,0,0,0,0,0
-Pozo Almonte,1,2,2,2,3
-Antofagasta,27,28,31,32,49
-Calama,29,34,50,56,94
-Maria Elena,3,3,4,4,4
-Mejillones,4,4,4,4,4
-Ollague,0,0,0,0,0
-San Pedro de Atacama,0,0,1,1,1
-Sierra Gorda,0,0,0,0,0
-Taltal,0,0,0,0,2
-Tocopilla,1,2,2,2,4
-Alto del Carmen,0,0,0,0,0
-Caldera,0,0,0,0,0
-Chanaral,0,0,0,0,0
-Copiapo,0,0,0,0,1
-Diego de Almagro,0,0,0,1,1
-Freirina,0,0,0,0,0
-Huasco,0,0,0,0,0
-Tierra Amarilla,0,0,0,0,0
-Vallenar,0,0,0,0,0
-Andacollo,1,1,1,1,1
-Canela,0,0,0,0,1
-Combarbala,0,0,0,0,0
-Coquimbo,3,4,4,4,6
-Illapel,0,0,0,0,0
-La Higuera,0,0,0,0,0
-La Serena,2,2,2,3,8
-Los Vilos,0,0,0,0,1
-Monte Patria,1,1,1,1,1
-Ovalle,1,2,6,6,8
-Paiguano,0,0,0,0,0
-Punitaqui,1,1,2,2,2
-Rio Hurtado,0,0,0,0,0
-Salamanca,0,0,0,0,0
-Vicuna,0,0,0,0,0
-Algarrobo,5,5,5,5,6
-Cabildo,0,0,0,0,2
-Calera,0,0,2,2,5
-Calle Larga,0,0,0,0,0
-Cartagena,2,2,2,2,2
-Casablanca,0,0,0,0,0
-Catemu,0,0,0,0,1
-Concon,2,2,2,2,4
-El Quisco,2,2,2,2,3
-El Tabo,3,3,4,4,4
-Hijuelas,1,1,1,1,3
-Isla de Pascua,0,0,0,0,0
-Juan Fernandez,0,0,0,0,0
-La Cruz,1,1,1,1,1
-La Ligua,2,2,3,4,4
-Limache,4,4,5,6,7
-Llaillay,3,3,3,4,4
-Los Andes,4,6,10,12,19
-Nogales,0,0,0,0,0
-Olmue,2,2,2,2,2
-Panquehue,0,0,0,0,0
-Papudo,0,0,0,0,0
-Petorca,0,0,0,0,0
-Puchuncavi,1,1,2,2,4
-Putaendo,0,0,0,0,0
-Quillota,6,6,8,8,13
-Quilpue,4,3,4,4,8
-Quintero,4,4,4,5,5
-Rinconada,0,0,0,0,1
-San Antonio,16,16,18,19,25
-San Esteban,0,0,0,0,0
-San Felipe,6,7,9,10,17
-Santa Maria,0,0,0,0,1
-Santo Domingo,0,0,0,0,1
-Valparaiso,20,20,24,30,48
-Villa Alemana,3,5,5,6,11
-Vina del Mar,23,26,31,35,51
-Zapallar,0,0,0,1,2
-Alhue,0,0,1,1,1
-Buin,24,26,32,34,46
-Calera de Tango,0,0,1,2,3
-Cerrillos,19,24,31,35,42
-Cerro Navia,77,95,108,122,173
-Colina,31,37,42,50,67
-Conchali,69,77,106,118,152
-Curacavi,4,4,6,6,10
-El Bosque,47,60,80,88,129
-El Monte,6,6,13,13,23
-Estacion Central,41,46,67,72,95
-Huechuraba,52,63,72,84,102
-Independencia,111,124,144,154,165
-Isla de Maipo,6,9,12,12,13
-La Cisterna,32,42,50,59,81
-La Florida,157,71,198,218,289
-La Granja,72,88,102,111,142
-La Pintana,78,92,123,138,201
-La Reina,28,33,39,41,53
-Lampa,18,20,25,29,35
-Las Condes,94,101,114,128,189
-Lo Barnechea,19,21,31,35,45
-Lo Espejo,55,60,82,87,112
-Lo Prado,45,50,62,66,92
-Macul,48,56,65,71,103
-Maipu,113,130,155,180,229
-Maria Pinto,1,1,1,1,1
-Melipilla,24,29,41,42,58
-Nunoa,65,74,100,111,161
-Padre Hurtado,16,18,20,24,37
-Paine,5,6,8,12,19
-Pedro Aguirre Cerda,48,55,83,95,140
-Penaflor,21,25,34,37,67
-Penalolen,93,113,137,147,192
-Pirque,1,2,6,6,8
-Providencia,53,61,69,74,84
-Pudahuel,68,85,96,108,144
-Puente Alto,156,183,231,252,341
-Quilicura,47,53,62,69,91
-Quinta Normal,57,68,83,89,116
-Recoleta,106,135,165,171,227
-Renca,55,71,95,99,142
-San Bernardo,91,115,144,158,207
-San Joaquin,55,62,73,77,100
-San Jose de Maipo,14,14,13,13,15
-San Miguel,47,50,61,70,85
-San Pedro,2,2,3,3,3
-San Ramon,71,76,87,97,102
-Santiago,105,117,141,150,180
-Talagante,9,13,15,20,32
-Tiltil,3,4,5,6,9
-Vitacura,14,18,24,25,37
-Chepica,0,0,0,0,1
-Chimbarongo,1,1,1,1,1
-Codegua,0,0,1,1,2
-Coinco,1,1,1,1,2
-Coltauco,1,2,2,3,3
-Donihue,2,2,2,2,2
-Graneros,1,1,1,1,2
-La Estrella,0,0,0,0,0
-Las Cabras,0,0,0,0,1
-Litueche,1,1,1,1,1
-Lolol,0,0,0,0,0
-Machali,2,2,3,3,6
-Malloa,0,0,0,0,2
-Marchihue,0,0,0,0,0
-Mostazal,2,2,3,3,3
-Nancagua,0,0,0,0,0
-Navidad,0,0,0,0,0
-Olivar,1,1,1,1,1
-Palmilla,0,0,1,1,2
-Paredones,0,0,0,0,0
-Peralillo,0,0,0,0,1
-Peumo,0,0,0,1,3
-Pichidegua,0,0,0,0,1
-Pichilemu,0,0,0,0,0
-Placilla,0,0,0,0,0
-Pumanque,0,0,0,0,0
-Quinta de Tilcoco,0,0,0,0,1
-Rancagua,11,12,19,21,29
-Rengo,0,0,0,1,3
-Requinoa,0,0,1,1,2
-San Fernando,2,2,2,3,5
-San Vicente,1,2,2,2,4
-Santa Cruz,1,1,1,1,1
-Cauquenes,2,2,2,3,4
-Chanco,0,0,0,0,0
-Colbun,0,0,0,0,0
-Constitucion,0,0,0,1,2
-Curepto,1,1,1,1,2
-Curico,4,6,6,7,10
-Empedrado,0,0,0,0,0
-Hualane,1,1,1,1,1
-Licanten,0,0,0,0,0
-Linares,1,1,1,2,2
-Longavi,0,1,1,1,1
-Maule,0,0,0,0,0
-Molina,1,1,2,2,2
-Parral,0,0,0,0,0
-Pelarco,0,0,0,0,0
-Pelluhue,0,0,0,0,1
-Pencahue,0,0,0,0,0
-Rauco,0,0,0,0,0
-Retiro,0,0,0,0,0
-Rio Claro,2,2,2,2,2
-Romeral,0,0,0,0,2
-Sagrada Familia,0,0,0,0,0
-San Clemente,1,1,2,2,4
-San Javier,0,0,0,0,1
-San Rafael,0,0,0,0,0
-Talca,3,3,3,4,9
-Teno,1,1,1,1,3
-Vichuquen,0,0,0,0,0
-Villa Alegre,0,0,0,0,1
-Yerbas Buenas,1,2,2,2,3
-Bulnes,3,3,3,4,5
-Chillan,6,7,9,10,13
-Chillan Viejo,1,1,1,1,1
-Cobquecura,0,0,0,0,0
-Coelemu,0,0,0,0,1
-Coihueco,3,3,3,3,4
-El Carmen,0,0,1,1,1
-Ninhue,0,1,1,1,2
-Niquen,1,1,1,1,2
-Pemuco,0,0,0,0,0
-Pinto,0,0,0,0,0
-Portezuelo,0,0,0,0,0
-Quillon,2,2,2,2,3
-Quirihue,0,0,0,0,1
-Ranquil,0,0,0,0,0
-San Carlos,2,2,2,2,2
-San Fabian,0,0,0,0,0
-San Ignacio,1,1,1,2,2
-San Nicolas,1,1,1,1,1
-Treguaco,0,0,0,0,0
-Yungay,0,0,0,0,0
-Alto Biobio,0,0,0,0,0
-Antuco,0,0,0,0,0
-Arauco,1,1,1,1,1
-Cabrero,0,0,0,0,0
-Canete,0,0,0,0,0
-Chiguayante,2,3,3,4,7
-Concepcion,4,4,9,9,17
-Contulmo,0,0,0,0,0
-Coronel,0,1,2,2,2
-Curanilahue,0,1,1,1,1
-Florida,0,0,0,0,2
-Hualpen,2,2,2,2,3
-Hualqui,0,0,2,2,3
-Laja,0,0,0,0,0
-Lebu,0,0,0,0,0
-Los Alamos,0,0,0,0,0
-Los Angeles,1,1,1,1,2
-Lota,0,0,0,0,0
-Mulchen,0,0,0,0,0
-Nacimiento,0,0,1,1,3
-Negrete,0,0,0,0,1
-Penco,0,0,0,1,1
-Quilaco,0,0,0,0,0
-Quilleco,0,0,0,0,1
-San Pedro de la Paz,0,1,3,4,7
-San Rosendo,0,0,0,1,1
-Santa Barbara,0,0,0,0,0
-Santa Juana,0,0,0,0,2
-Talcahuano,1,1,1,1,2
-Tirua,0,0,0,0,0
-Tome,0,0,0,0,1
-Tucapel,0,0,0,0,0
-Yumbel,0,0,0,0,0
-Angol,4,4,4,4,7
-Carahue,0,0,0,0,0
-Cholchol,0,0,0,0,0
-Collipulli,2,2,2,2,3
-Cunco,1,1,1,1,2
-Curacautin,0,0,0,0,1
-Curarrehue,0,0,0,0,1
-Ercilla,0,0,0,0,0
-Freire,1,1,1,1,1
-Galvarino,0,0,0,0,0
-Gorbea,1,1,1,1,1
-Lautaro,0,0,0,0,2
-Loncoche,0,0,0,0,1
-Lonquimay,1,1,1,1,2
-Los Sauces,0,0,0,0,0
-Lumaco,0,0,0,0,0
-Melipeuco,0,0,0,0,0
-Nueva Imperial,1,1,1,1,2
-Padre Las Casas,4,4,4,4,5
-Perquenco,0,0,0,0,0
-Pitrufquen,0,0,0,0,0
-Pucon,0,0,0,0,0
-Puren,1,1,1,1,1
-Renaico,1,1,1,1,1
-Saavedra,0,0,0,0,0
-Temuco,19,19,19,19,23
-Teodoro Schmidt,0,0,0,0,0
-Tolten,0,0,0,0,0
-Traiguen,0,0,0,0,0
-Victoria,3,3,3,3,4
-Vilcun,0,1,1,1,1
-Villarrica,0,0,0,1,0
-Corral,0,0,0,0,0
-Futrono,0,0,0,0,0
-La Union,1,1,2,2,2
-Lago Ranco,0,0,0,0,0
-Lanco,0,0,0,0,0
-Los Lagos,1,1,1,1,1
-Mafil,0,0,0,0,0
-Mariquina,0,0,0,0,0
-Paillaco,0,0,0,0,0
-Panguipulli,1,1,1,1,1
-Rio Bueno,0,0,0,0,0
-Valdivia,6,6,6,6,6
-Ancud,0,0,1,1,1
-Calbuco,0,0,0,0,1
-Castro,0,0,0,0,0
-Chaiten,0,0,0,0,0
-Chonchi,0,0,0,0,0
-Cochamo,0,0,0,0,0
-Curaco de Velez,0,0,0,0,0
-Dalcahue,0,0,0,0,0
-Fresia,0,0,0,0,0
-Frutillar,0,0,0,0,0
-Futaleufu,0,0,0,0,0
-Hualaihue,0,0,0,0,0
-Llanquihue,0,0,0,0,1
-Los Muermos,0,0,0,0,0
-Maullin,0,0,0,0,0
-Osorno,10,10,10,11,12
-Palena,0,0,0,0,0
-Puerto Montt,0,1,1,2,3
-Puerto Octay,0,0,0,0,0
-Puerto Varas,0,0,0,1,1
-Puqueldon,0,0,0,0,0
-Purranque,0,0,0,0,0
-Puyehue,0,0,0,0,0
-Queilen,0,0,0,0,0
-Quellon,0,0,0,0,0
-Quemchi,0,0,0,0,0
-Quinchao,0,0,0,0,0
-Rio Negro,0,0,0,0,0
-San Juan de la Costa,1,1,1,1,2
-San Pablo,1,1,1,1,1
-Aysen,0,0,0,0,0
-Chile Chico,0,0,0,0,0
-Cisnes,0,0,0,0,0
-Cochrane,0,0,0,0,0
-Coyhaique,0,0,0,0,0
-Guaitecas,0,0,0,0,0
-Lago Verde,0,0,0,0,0
-OHiggins,0,0,0,0,0
-Rio Ibanez,0,0,0,0,0
-Tortel,0,0,0,0,0
-Antartica,0,0,0,0,0
-Cabo de Hornos,0,0,0,0,0
-Laguna Blanca,0,0,0,0,0
-Natales,0,0,0,0,0
-Porvenir,0,0,0,0,0
-Primavera,0,0,0,0,0
-Punta Arenas,16,16,16,16,22
-Rio Verde,0,0,0,0,0
-San Gregorio,0,0,0,0,0
-Timaukel,0,0,0,0,0
-Torres del Paine,0,0,0,0,0
+comuna,2020-06-11,2020-06-14,2020-06-18,2020-06-22,2020-06-27,2020-06-30
+Arica,10,11,12,12,22,22
+Camarones,0,0,0,0,0,0
+General Lagos,0,0,0,0,0,0
+Putre,0,0,0,0,0,0
+Alto Hospicio,11,15,18,22,25,25
+Camina,1,2,2,2,2,2
+Colchane,1,1,2,2,2,2
+Huara,2,2,2,2,3,3
+Iquique,32,36,45,50,64,65
+Pica,0,0,0,0,0,0
+Pozo Almonte,1,2,2,2,3,5
+Antofagasta,27,28,31,32,49,50
+Calama,29,34,50,56,94,99
+Maria Elena,3,3,4,4,4,5
+Mejillones,4,4,4,4,4,4
+Ollague,0,0,0,0,0,0
+San Pedro de Atacama,0,0,1,1,1,1
+Sierra Gorda,0,0,0,0,0,0
+Taltal,0,0,0,0,2,2
+Tocopilla,1,2,2,2,4,4
+Alto del Carmen,0,0,0,0,0,0
+Caldera,0,0,0,0,0,0
+Chanaral,0,0,0,0,0,0
+Copiapo,0,0,0,0,1,1
+Diego de Almagro,0,0,0,1,1,1
+Freirina,0,0,0,0,0,0
+Huasco,0,0,0,0,0,0
+Tierra Amarilla,0,0,0,0,0,0
+Vallenar,0,0,0,0,0,0
+Andacollo,1,1,1,1,1,1
+Canela,0,0,0,0,1,1
+Combarbala,0,0,0,0,0,0
+Coquimbo,3,4,4,4,6,6
+Illapel,0,0,0,0,0,0
+La Higuera,0,0,0,0,0,0
+La Serena,2,2,2,3,8,8
+Los Vilos,0,0,0,0,1,1
+Monte Patria,1,1,1,1,1,1
+Ovalle,1,2,6,6,8,8
+Paiguano,0,0,0,0,0,0
+Punitaqui,1,1,2,2,2,2
+Rio Hurtado,0,0,0,0,0,0
+Salamanca,0,0,0,0,0,0
+Vicuna,0,0,0,0,0,0
+Algarrobo,5,5,5,5,6,6
+Cabildo,0,0,0,0,2,6
+Calera,0,0,2,2,5,6
+Calle Larga,0,0,0,0,0,0
+Cartagena,2,2,2,2,2,2
+Casablanca,0,0,0,0,0,0
+Catemu,0,0,0,0,1,1
+Concon,2,2,2,2,4,4
+El Quisco,2,2,2,2,3,3
+El Tabo,3,3,4,4,4,4
+Hijuelas,1,1,1,1,3,3
+Isla de Pascua,0,0,0,0,0,0
+Juan Fernandez,0,0,0,0,0,0
+La Cruz,1,1,1,1,1,1
+La Ligua,2,2,3,4,4,4
+Limache,4,4,5,6,7,7
+Llaillay,3,3,3,4,4,5
+Los Andes,4,6,10,12,19,21
+Nogales,0,0,0,0,0,0
+Olmue,2,2,2,2,2,2
+Panquehue,0,0,0,0,0,0
+Papudo,0,0,0,0,0,0
+Petorca,0,0,0,0,0,0
+Puchuncavi,1,1,2,2,4,4
+Putaendo,0,0,0,0,0,0
+Quillota,6,6,8,8,13,15
+Quilpue,4,3,4,4,8,9
+Quintero,4,4,4,5,5,5
+Rinconada,0,0,0,0,1,2
+San Antonio,16,16,18,19,25,25
+San Esteban,0,0,0,0,0,0
+San Felipe,6,7,9,10,17,18
+Santa Maria,0,0,0,0,1,2
+Santo Domingo,0,0,0,0,1,1
+Valparaiso,20,20,24,30,48,49
+Villa Alemana,3,5,5,6,11,12
+Vina del Mar,23,26,31,35,51,53
+Zapallar,0,0,0,1,2,2
+Alhue,0,0,1,1,1,1
+Buin,24,26,32,34,46,49
+Calera de Tango,0,0,1,2,3,3
+Cerrillos,19,24,31,35,42,51
+Cerro Navia,77,95,108,122,173,183
+Colina,31,37,42,50,67,75
+Conchali,69,77,106,118,152,164
+Curacavi,4,4,6,6,10,10
+El Bosque,47,60,80,88,129,143
+El Monte,6,6,13,13,23,26
+Estacion Central,41,46,67,72,95,99
+Huechuraba,52,63,72,84,102,106
+Independencia,111,124,144,154,165,176
+Isla de Maipo,6,9,12,12,13,13
+La Cisterna,32,42,50,59,81,86
+La Florida,157,71,198,218,289,310
+La Granja,72,88,102,111,142,151
+La Pintana,78,92,123,138,201,212
+La Reina,28,33,39,41,53,58
+Lampa,18,20,25,29,35,39
+Las Condes,94,101,114,128,189,209
+Lo Barnechea,19,21,31,35,45,47
+Lo Espejo,55,60,82,87,112,125
+Lo Prado,45,50,62,66,92,105
+Macul,48,56,65,71,103,111
+Maipu,113,130,155,180,229,246
+Maria Pinto,1,1,1,1,1,3
+Melipilla,24,29,41,42,58,61
+Nunoa,65,74,100,111,161,174
+Padre Hurtado,16,18,20,24,37,39
+Paine,5,6,8,12,19,23
+Pedro Aguirre Cerda,48,55,83,95,140,146
+Penaflor,21,25,34,37,67,71
+Penalolen,93,113,137,147,192,202
+Pirque,1,2,6,6,8,10
+Providencia,53,61,69,74,84,96
+Pudahuel,68,85,96,108,144,156
+Puente Alto,156,183,231,252,341,368
+Quilicura,47,53,62,69,91,99
+Quinta Normal,57,68,83,89,116,128
+Recoleta,106,135,165,171,227,239
+Renca,55,71,95,99,142,160
+San Bernardo,91,115,144,158,207,225
+San Joaquin,55,62,73,77,100,104
+San Jose de Maipo,14,14,13,13,15,15
+San Miguel,47,50,61,70,85,93
+San Pedro,2,2,3,3,3,3
+San Ramon,71,76,87,97,102,112
+Santiago,105,117,141,150,180,198
+Talagante,9,13,15,20,32,39
+Tiltil,3,4,5,6,9,9
+Vitacura,14,18,24,25,37,40
+Chepica,0,0,0,0,1,1
+Chimbarongo,1,1,1,1,1,3
+Codegua,0,0,1,1,2,2
+Coinco,1,1,1,1,2,2
+Coltauco,1,2,2,3,3,3
+Donihue,2,2,2,2,2,2
+Graneros,1,1,1,1,2,2
+La Estrella,0,0,0,0,0,0
+Las Cabras,0,0,0,0,1,2
+Litueche,1,1,1,1,1,1
+Lolol,0,0,0,0,0,0
+Machali,2,2,3,3,6,6
+Malloa,0,0,0,0,2,2
+Marchihue,0,0,0,0,0,0
+Mostazal,2,2,3,3,3,3
+Nancagua,0,0,0,0,0,0
+Navidad,0,0,0,0,0,0
+Olivar,1,1,1,1,1,1
+Palmilla,0,0,1,1,2,2
+Paredones,0,0,0,0,0,0
+Peralillo,0,0,0,0,1,1
+Peumo,0,0,0,1,3,3
+Pichidegua,0,0,0,0,1,1
+Pichilemu,0,0,0,0,0,0
+Placilla,0,0,0,0,0,0
+Pumanque,0,0,0,0,0,0
+Quinta de Tilcoco,0,0,0,0,1,1
+Rancagua,11,12,19,21,29,29
+Rengo,0,0,0,1,3,2
+Requinoa,0,0,1,1,2,2
+San Fernando,2,2,2,3,5,5
+San Vicente,1,2,2,2,4,4
+Santa Cruz,1,1,1,1,1,1
+Cauquenes,2,2,2,3,4,4
+Chanco,0,0,0,0,0,0
+Colbun,0,0,0,0,0,0
+Constitucion,0,0,0,1,2,2
+Curepto,1,1,1,1,2,2
+Curico,4,6,6,7,10,11
+Empedrado,0,0,0,0,0,0
+Hualane,1,1,1,1,1,1
+Licanten,0,0,0,0,0,0
+Linares,1,1,1,2,2,6
+Longavi,0,1,1,1,1,1
+Maule,0,0,0,0,0,0
+Molina,1,1,2,2,2,2
+Parral,0,0,0,0,0,0
+Pelarco,0,0,0,0,0,1
+Pelluhue,0,0,0,0,1,1
+Pencahue,0,0,0,0,0,0
+Rauco,0,0,0,0,0,0
+Retiro,0,0,0,0,0,0
+Rio Claro,2,2,2,2,2,2
+Romeral,0,0,0,0,2,2
+Sagrada Familia,0,0,0,0,0,0
+San Clemente,1,1,2,2,4,4
+San Javier,0,0,0,0,1,1
+San Rafael,0,0,0,0,0,0
+Talca,3,3,3,4,9,9
+Teno,1,1,1,1,3,3
+Vichuquen,0,0,0,0,0,0
+Villa Alegre,0,0,0,0,1,1
+Yerbas Buenas,1,2,2,2,3,3
+Bulnes,3,3,3,4,5,5
+Chillan,6,7,9,10,13,13
+Chillan Viejo,1,1,1,1,1,1
+Cobquecura,0,0,0,0,0,0
+Coelemu,0,0,0,0,1,1
+Coihueco,3,3,3,3,4,4
+El Carmen,0,0,1,1,1,1
+Ninhue,0,1,1,1,2,2
+Niquen,1,1,1,1,2,2
+Pemuco,0,0,0,0,0,0
+Pinto,0,0,0,0,0,0
+Portezuelo,0,0,0,0,0,0
+Quillon,2,2,2,2,3,3
+Quirihue,0,0,0,0,1,1
+Ranquil,0,0,0,0,0,0
+San Carlos,2,2,2,2,2,3
+San Fabian,0,0,0,0,0,0
+San Ignacio,1,1,1,2,2,2
+San Nicolas,1,1,1,1,1,1
+Treguaco,0,0,0,0,0,0
+Yungay,0,0,0,0,0,0
+Alto Biobio,0,0,0,0,0,0
+Antuco,0,0,0,0,0,0
+Arauco,1,1,1,1,1,1
+Cabrero,0,0,0,0,0,0
+Canete,0,0,0,0,0,0
+Chiguayante,2,3,3,4,7,7
+Concepcion,4,4,9,9,17,18
+Contulmo,0,0,0,0,0,0
+Coronel,0,1,2,2,2,3
+Curanilahue,0,1,1,1,1,1
+Florida,0,0,0,0,2,2
+Hualpen,2,2,2,2,3,3
+Hualqui,0,0,2,2,3,3
+Laja,0,0,0,0,0,0
+Lebu,0,0,0,0,0,0
+Los Alamos,0,0,0,0,0,0
+Los Angeles,1,1,1,1,2,3
+Lota,0,0,0,0,0,1
+Mulchen,0,0,0,0,0,0
+Nacimiento,0,0,1,1,3,3
+Negrete,0,0,0,0,1,1
+Penco,0,0,0,1,1,1
+Quilaco,0,0,0,0,0,0
+Quilleco,0,0,0,0,1,1
+San Pedro de la Paz,0,1,3,4,7,7
+San Rosendo,0,0,0,1,1,1
+Santa Barbara,0,0,0,0,0,0
+Santa Juana,0,0,0,0,2,2
+Talcahuano,1,1,1,1,2,2
+Tirua,0,0,0,0,0,0
+Tome,0,0,0,0,1,1
+Tucapel,0,0,0,0,0,0
+Yumbel,0,0,0,0,0,1
+Angol,4,4,4,4,7,7
+Carahue,0,0,0,0,0,0
+Cholchol,0,0,0,0,0,0
+Collipulli,2,2,2,2,3,3
+Cunco,1,1,1,1,2,2
+Curacautin,0,0,0,0,1,1
+Curarrehue,0,0,0,0,1,1
+Ercilla,0,0,0,0,0,0
+Freire,1,1,1,1,1,1
+Galvarino,0,0,0,0,0,0
+Gorbea,1,1,1,1,1,1
+Lautaro,0,0,0,0,2,2
+Loncoche,0,0,0,0,1,1
+Lonquimay,1,1,1,1,2,2
+Los Sauces,0,0,0,0,0,0
+Lumaco,0,0,0,0,0,0
+Melipeuco,0,0,0,0,0,0
+Nueva Imperial,1,1,1,1,2,2
+Padre Las Casas,4,4,4,4,5,5
+Perquenco,0,0,0,0,0,0
+Pitrufquen,0,0,0,0,0,0
+Pucon,0,0,0,0,0,0
+Puren,1,1,1,1,1,1
+Renaico,1,1,1,1,1,1
+Saavedra,0,0,0,0,0,0
+Temuco,19,19,19,19,23,23
+Teodoro Schmidt,0,0,0,0,0,0
+Tolten,0,0,0,0,0,0
+Traiguen,0,0,0,0,0,0
+Victoria,3,3,3,3,4,5
+Vilcun,0,1,1,1,1,1
+Villarrica,0,0,0,1,0,0
+Corral,0,0,0,0,0,0
+Futrono,0,0,0,0,0,0
+La Union,1,1,2,2,2,2
+Lago Ranco,0,0,0,0,0,0
+Lanco,0,0,0,0,0,0
+Los Lagos,1,1,1,1,1,1
+Mafil,0,0,0,0,0,0
+Mariquina,0,0,0,0,0,0
+Paillaco,0,0,0,0,0,0
+Panguipulli,1,1,1,1,1,1
+Rio Bueno,0,0,0,0,0,0
+Valdivia,6,6,6,6,6,6
+Ancud,0,0,1,1,1,1
+Calbuco,0,0,0,0,1,1
+Castro,0,0,0,0,0,0
+Chaiten,0,0,0,0,0,0
+Chonchi,0,0,0,0,0,0
+Cochamo,0,0,0,0,0,0
+Curaco de Velez,0,0,0,0,0,0
+Dalcahue,0,0,0,0,0,0
+Fresia,0,0,0,0,0,0
+Frutillar,0,0,0,0,0,0
+Futaleufu,0,0,0,0,0,0
+Hualaihue,0,0,0,0,0,0
+Llanquihue,0,0,0,0,1,1
+Los Muermos,0,0,0,0,0,0
+Maullin,0,0,0,0,0,0
+Osorno,10,10,10,11,12,12
+Palena,0,0,0,0,0,0
+Puerto Montt,0,1,1,2,3,4
+Puerto Octay,0,0,0,0,0,0
+Puerto Varas,0,0,0,1,1,1
+Puqueldon,0,0,0,0,0,0
+Purranque,0,0,0,0,0,0
+Puyehue,0,0,0,0,0,0
+Queilen,0,0,0,0,0,0
+Quellon,0,0,0,0,0,0
+Quemchi,0,0,0,0,0,0
+Quinchao,0,0,0,0,0,0
+Rio Negro,0,0,0,0,0,0
+San Juan de la Costa,1,1,1,1,2,2
+San Pablo,1,1,1,1,1,1
+Aysen,0,0,0,0,0,0
+Chile Chico,0,0,0,0,0,0
+Cisnes,0,0,0,0,0,0
+Cochrane,0,0,0,0,0,0
+Coyhaique,0,0,0,0,0,0
+Guaitecas,0,0,0,0,0,0
+Lago Verde,0,0,0,0,0,0
+OHiggins,0,0,0,0,0,0
+Rio Ibanez,0,0,0,0,0,0
+Tortel,0,0,0,0,0,0
+Antartica,0,0,0,0,0,0
+Cabo de Hornos,0,0,0,0,0,0
+Laguna Blanca,0,0,0,0,0,0
+Natales,0,0,0,0,0,0
+Porvenir,0,0,0,0,0,0
+Primavera,0,0,0,0,0,0
+Punta Arenas,16,16,16,16,22,22
+Rio Verde,0,0,0,0,0,0
+San Gregorio,0,0,0,0,0,0
+Timaukel,0,0,0,0,0,0
+Torres del Paine,0,0,0,0,0,0
