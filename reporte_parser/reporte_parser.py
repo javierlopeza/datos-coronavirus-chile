@@ -131,7 +131,10 @@ class ReporteParser:
         # Write new metric value
         with open(path, 'a', newline='') as csv_file:
             writer = csv.writer(csv_file)
-            writer.writerow([self.last_reporte_date, self.chile[metric]])
+            if metric == "activos":
+                writer.writerow([self.last_reporte_date, self.chile[metric], 'FALSE'])
+            else:
+                writer.writerow([self.last_reporte_date, self.chile[metric]])
 
     def save_new_values(self):
         self.save_new_regions_metrics("../raw_data/regiones/series_confirmados_regiones.csv", "confirmados")
