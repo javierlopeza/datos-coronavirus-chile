@@ -710,8 +710,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Calera de Tango est\u00e1 en cuarentena total."
                     },
                     "name": "Calera de Tango",
                     "region": "Metropolitana",
@@ -1767,8 +1767,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "El Monte est\u00e1 en cuarentena total."
                     },
                     "name": "El Monte",
                     "region": "Metropolitana",
@@ -7807,8 +7807,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Talagante est\u00e1 en cuarentena total."
                     },
                     "name": "Talagante",
                     "region": "Metropolitana",
@@ -19435,8 +19435,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Quillota est\u00e1 en cuarentena total."
                     },
                     "name": "Quillota",
                     "region": "Valpara\u00edso",
@@ -22430,8 +22430,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Graneros est\u00e1 en cuarentena total."
                     },
                     "name": "Graneros",
                     "region": "O'Higgins",
