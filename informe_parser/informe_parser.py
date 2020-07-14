@@ -3,8 +3,8 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-07-09"
-PARSE_PDF = True
+INPUT_DATE = "2020-07-12"
+PARSE_PDF = False
 
 
 def load_json(file_name):
@@ -85,12 +85,15 @@ class InformeParser:
             for row in table.df.itertuples(index=True, name="Pandas"):
                 if row[1] in self.all_comunas:
                     nombre_comuna = self.fix_comuna(row[1])
-                    confirmados_comuna = row[3]
-                    self.confirmados_por_comuna[nombre_comuna] = confirmados_comuna
-                    fallecidos_comuna = row[5]
-                    self.fallecidos_por_comuna[nombre_comuna] = fallecidos_comuna
-                    activos_comuna = row[9]
-                    self.activos_por_comuna[nombre_comuna] = activos_comuna
+                    if self.confirmados_por_comuna[nombre_comuna] is None:
+                        confirmados_comuna = row[4]
+                        self.confirmados_por_comuna[nombre_comuna] = confirmados_comuna
+                    if self.fallecidos_por_comuna[nombre_comuna] is None:
+                        fallecidos_comuna = row[6]
+                        self.fallecidos_por_comuna[nombre_comuna] = fallecidos_comuna
+                    if self.activos_por_comuna[nombre_comuna] is None:
+                        activos_comuna = row[10]
+                        self.activos_por_comuna[nombre_comuna] = activos_comuna
 
     def save_outputs(self):
         # Activos por comuna (output)
