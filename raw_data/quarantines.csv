@@ -1,4 +1,5 @@
 region,commune,text,is_active
+Arica y Parinacota,Arica,Arica está en cuarentena total.,TRUE
 Tarapacá,Alto Hospicio,Alto Hospicio está en cuarentena total.,TRUE
 Tarapacá,Iquique,Iquique está en cuarentena total.,TRUE
 Tarapacá,Pozo Almonte,Pozo Almonte está en cuarentena total.,TRUE
@@ -61,4 +62,5 @@ Metropolitana,Vitacura,Vitacura está en cuarentena total.,TRUE
 O'Higgins,Graneros,Graneros está en cuarentena total.,TRUE
 O'Higgins,Machalí,Machalí está en cuarentena total.,TRUE
 O'Higgins,Rancagua,Rancagua está en cuarentena total.,TRUE
+O'Higgins,Rengo,Rengo está en cuarentena total.,TRUE
 Maule,Curicó,Curicó está en cuarentena total.,TRUE

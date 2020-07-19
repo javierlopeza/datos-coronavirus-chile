@@ -9631,8 +9631,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Arica est\u00e1 en cuarentena total."
                     },
                     "name": "Arica",
                     "region": "Arica y Parinacota",
@@ -28389,8 +28389,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Rengo est\u00e1 en cuarentena total."
                     },
                     "name": "Rengo",
                     "region": "O'Higgins",
