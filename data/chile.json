@@ -1953,8 +1953,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Colina est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Colina",
                     "region": "Metropolitana",
@@ -3321,8 +3321,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Isla de Maipo est\u00e1 en cuarentena total."
                     },
                     "name": "Isla de Maipo",
                     "region": "Metropolitana",
@@ -4176,8 +4176,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "La Reina est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "La Reina",
                     "region": "Metropolitana",
@@ -4518,8 +4518,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Las Condes est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Las Condes",
                     "region": "Metropolitana",
@@ -4689,8 +4689,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Lo Barnechea est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Lo Barnechea",
                     "region": "Metropolitana",
@@ -5886,8 +5886,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "\u00d1u\u00f1oa est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "\u00d1u\u00f1oa",
                     "region": "Metropolitana",
@@ -9648,8 +9648,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Tiltil est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Tiltil",
                     "region": "Metropolitana",
@@ -9819,8 +9819,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Vitacura est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Vitacura",
                     "region": "Metropolitana",
@@ -14507,8 +14507,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Copiap\u00f3 est\u00e1 en cuarentena total."
                     },
                     "name": "Copiap\u00f3",
                     "region": "Atacama",
@@ -18732,8 +18732,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Calera est\u00e1 en cuarentena total."
                     },
                     "name": "Calera",
                     "region": "Valpara\u00edso",
@@ -20613,8 +20613,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "La Cruz est\u00e1 en cuarentena total."
                     },
                     "name": "La Cruz",
                     "region": "Valpara\u00edso",
@@ -23349,8 +23349,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "San Antonio est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "San Antonio",
                     "region": "Valpara\u00edso",
@@ -23691,8 +23691,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "San Felipe est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "San Felipe",
                     "region": "Valpara\u00edso",
