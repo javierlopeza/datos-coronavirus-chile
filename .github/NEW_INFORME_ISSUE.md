@@ -1,4 +1,4 @@
 ---
-title: New Informe EPI published
+title: New Informe EPI
 ---
 A new Informe EPI was just published.
