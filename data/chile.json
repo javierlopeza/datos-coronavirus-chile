@@ -2504,8 +2504,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Curacav\u00ed est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Curacav\u00ed",
                     "region": "Metropolitana",
@@ -4748,8 +4748,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Lampa est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Lampa",
                     "region": "Metropolitana",
@@ -6244,8 +6244,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Melipilla est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Melipilla",
                     "region": "Metropolitana",
@@ -7740,8 +7740,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Providencia est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Providencia",
                     "region": "Metropolitana",
@@ -14958,8 +14958,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Tocopilla est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Tocopilla",
                     "region": "Antofagasta",
@@ -16616,8 +16616,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Tierra Amarilla est\u00e1 en cuarentena total."
                     },
                     "name": "Tierra Amarilla",
                     "region": "Atacama",
@@ -17713,8 +17713,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Coquimbo est\u00e1 en cuarentena total."
                     },
                     "name": "Coquimbo",
                     "region": "Coquimbo",
@@ -18274,8 +18274,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "La Serena est\u00e1 en cuarentena total."
                     },
                     "name": "La Serena",
                     "region": "Coquimbo",
@@ -28509,8 +28509,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Graneros est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Graneros",
                     "region": "O'Higgins",
@@ -29444,8 +29444,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Machal\u00ed est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Machal\u00ed",
                     "region": "O'Higgins",
@@ -32436,8 +32436,8 @@
                         ]
                     },
                     "quarantine": {
-                        "is_active": true,
-                        "text": "Rancagua est\u00e1 en cuarentena total."
+                        "text": null,
+                        "is_active": false
                     },
                     "name": "Rancagua",
                     "region": "O'Higgins",
@@ -61645,8 +61645,8 @@
                         ]
                     },
                     "quarantine": {
-                        "text": null,
-                        "is_active": false
+                        "is_active": true,
+                        "text": "Puerto Montt est\u00e1 en cuarentena total."
                     },
                     "name": "Puerto Montt",
                     "region": "Los Lagos",
