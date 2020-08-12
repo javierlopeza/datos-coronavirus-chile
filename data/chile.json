@@ -1,17 +1,17 @@
 {
     "poblacion": 19458310,
     "confirmados": {
-        "date": "2020-08-09",
-        "value": 373056
+        "date": "2020-08-11",
+        "value": 376616
     },
     "activos": {
-        "date": "2020-08-09",
-        "value": 17153,
+        "date": "2020-08-11",
+        "value": 16897,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-08-09",
-        "value": 10077
+        "date": "2020-08-11",
+        "value": 10178
     },
     "series": {
         "activos": [
@@ -92,72 +92,72 @@
             },
             {
                 "date": "2020-03-08",
-                "value": 124,
+                "value": 125,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-09",
-                "value": 158,
+                "value": 159,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-10",
-                "value": 214,
+                "value": 215,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-11",
-                "value": 263,
+                "value": 264,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-12",
-                "value": 328,
+                "value": 330,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-13",
-                "value": 439,
+                "value": 441,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-14",
-                "value": 589,
+                "value": 591,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-15",
-                "value": 755,
+                "value": 758,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-16",
-                "value": 1023,
+                "value": 1026,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-17",
-                "value": 1270,
+                "value": 1273,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-18",
-                "value": 1525,
+                "value": 1528,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-19",
-                "value": 1794,
+                "value": 1795,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-20",
-                "value": 2136,
+                "value": 2137,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-21",
-                "value": 2427,
+                "value": 2428,
                 "is_from_informe_epi": "TRUE"
             },
             {
@@ -167,17 +167,17 @@
             },
             {
                 "date": "2020-03-23",
-                "value": 3049,
+                "value": 3050,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-24",
-                "value": 3308,
+                "value": 3309,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-25",
-                "value": 3587,
+                "value": 3588,
                 "is_from_informe_epi": "TRUE"
             },
             {
@@ -197,147 +197,147 @@
             },
             {
                 "date": "2020-03-29",
-                "value": 4357,
+                "value": 4356,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-30",
-                "value": 4465,
+                "value": 4464,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-31",
-                "value": 4537,
+                "value": 4536,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-01",
-                "value": 4728,
+                "value": 4724,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-02",
-                "value": 4821,
+                "value": 4819,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-03",
-                "value": 4847,
+                "value": 4845,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-04",
-                "value": 4922,
+                "value": 4920,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-05",
-                "value": 4964,
+                "value": 4962,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-06",
-                "value": 5045,
+                "value": 5043,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-07",
-                "value": 5137,
+                "value": 5135,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-08",
-                "value": 5214,
+                "value": 5211,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-09",
-                "value": 5334,
+                "value": 5331,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-10",
-                "value": 5443,
+                "value": 5440,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-11",
-                "value": 5475,
+                "value": 5472,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-12",
-                "value": 5590,
+                "value": 5587,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-13",
-                "value": 5808,
+                "value": 5806,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-14",
-                "value": 6011,
+                "value": 6009,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-15",
-                "value": 6211,
+                "value": 6212,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-16",
-                "value": 6432,
+                "value": 6433,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-17",
-                "value": 6664,
+                "value": 6665,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-18",
-                "value": 6835,
+                "value": 6836,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-19",
-                "value": 7026,
+                "value": 7027,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-20",
-                "value": 7615,
+                "value": 7616,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-21",
-                "value": 7971,
+                "value": 7972,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-22",
-                "value": 8396,
+                "value": 8397,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-23",
-                "value": 8820,
+                "value": 8821,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-24",
-                "value": 9468,
+                "value": 9469,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-25",
-                "value": 10185,
+                "value": 10186,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-26",
-                "value": 10883,
+                "value": 10884,
                 "is_from_informe_epi": "TRUE"
             },
             {
@@ -357,507 +357,517 @@
             },
             {
                 "date": "2020-04-30",
-                "value": 15712,
+                "value": 15713,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-01",
-                "value": 17905,
+                "value": 17909,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-02",
-                "value": 19943,
+                "value": 19950,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-03",
-                "value": 22160,
+                "value": 22168,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-04",
-                "value": 24904,
+                "value": 24912,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-05",
-                "value": 27692,
+                "value": 27700,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-06",
-                "value": 30378,
+                "value": 30393,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-07",
-                "value": 33224,
+                "value": 33240,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-08",
-                "value": 36403,
+                "value": 36421,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-09",
-                "value": 39217,
+                "value": 39236,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-10",
-                "value": 42329,
+                "value": 42348,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-11",
-                "value": 46075,
+                "value": 46096,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-12",
-                "value": 49192,
+                "value": 49211,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-13",
-                "value": 51709,
+                "value": 51728,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-14",
-                "value": 53896,
+                "value": 53909,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-15",
-                "value": 56540,
+                "value": 56551,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-16",
-                "value": 58809,
+                "value": 58816,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-17",
-                "value": 60623,
+                "value": 60628,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-18",
-                "value": 62687,
+                "value": 62691,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-19",
-                "value": 64393,
+                "value": 64398,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-20",
-                "value": 67128,
+                "value": 67129,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-21",
-                "value": 68031,
+                "value": 68033,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-22",
-                "value": 69463,
+                "value": 69462,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-23",
-                "value": 70584,
+                "value": 70580,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-24",
-                "value": 70909,
+                "value": 70905,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-25",
-                "value": 71737,
+                "value": 71731,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-26",
-                "value": 71750,
+                "value": 71746,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-27",
-                "value": 72499,
+                "value": 72495,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-28",
-                "value": 73372,
+                "value": 73374,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-29",
-                "value": 73175,
+                "value": 73180,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-30",
-                "value": 73178,
+                "value": 73184,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-31",
-                "value": 72971,
+                "value": 72978,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-01",
-                "value": 74133,
+                "value": 74141,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-02",
-                "value": 73673,
+                "value": 73682,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-03",
-                "value": 72022,
+                "value": 72034,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-04",
-                "value": 72015,
+                "value": 72031,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-05",
-                "value": 71470,
+                "value": 71483,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-06",
-                "value": 70880,
+                "value": 70891,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-07",
-                "value": 70260,
+                "value": 70272,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-08",
-                "value": 69402,
+                "value": 69418,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-09",
-                "value": 68739,
+                "value": 68748,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-10",
-                "value": 68189,
+                "value": 68188,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-11",
-                "value": 67098,
+                "value": 67094,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-12",
-                "value": 66464,
+                "value": 66457,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-13",
-                "value": 65735,
+                "value": 65728,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-14",
-                "value": 64986,
+                "value": 64982,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-15",
-                "value": 62789,
+                "value": 62785,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-16",
-                "value": 62155,
+                "value": 62142,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-17",
-                "value": 61447,
+                "value": 61427,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-18",
-                "value": 60849,
+                "value": 60821,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-19",
-                "value": 59716,
+                "value": 59688,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-20",
-                "value": 58990,
+                "value": 58967,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-21",
-                "value": 58111,
+                "value": 58084,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-22",
-                "value": 56471,
+                "value": 56441,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-23",
-                "value": 55722,
+                "value": 55699,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-24",
-                "value": 54476,
+                "value": 54460,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-25",
-                "value": 53590,
+                "value": 53572,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-26",
-                "value": 52166,
+                "value": 52147,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-27",
-                "value": 50729,
+                "value": 50710,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-28",
-                "value": 49622,
+                "value": 49600,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-29",
-                "value": 47442,
+                "value": 47419,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-30",
-                "value": 46249,
+                "value": 46228,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-01",
-                "value": 45644,
+                "value": 45621,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-02",
-                "value": 44047,
+                "value": 44032,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-03",
-                "value": 42646,
+                "value": 42639,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-04",
-                "value": 41279,
+                "value": 41269,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-05",
-                "value": 40478,
+                "value": 40470,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-06",
-                "value": 39503,
+                "value": 39494,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-07",
-                "value": 38514,
+                "value": 38505,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-08",
-                "value": 37553,
+                "value": 37545,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-09",
-                "value": 36683,
+                "value": 36672,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-10",
-                "value": 35979,
+                "value": 35966,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-11",
-                "value": 35249,
+                "value": 35236,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-12",
-                "value": 34615,
+                "value": 34604,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-13",
-                "value": 34367,
+                "value": 34355,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-14",
-                "value": 33614,
+                "value": 33604,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-15",
-                "value": 32436,
+                "value": 32429,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-16",
-                "value": 31693,
+                "value": 31686,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-17",
-                "value": 31289,
+                "value": 31284,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-18",
-                "value": 30859,
+                "value": 30857,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-19",
-                "value": 30239,
+                "value": 30236,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-20",
-                "value": 29805,
+                "value": 29814,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-21",
-                "value": 29295,
+                "value": 29312,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-22",
-                "value": 28932,
+                "value": 28955,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-23",
-                "value": 28727,
+                "value": 28774,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-24",
-                "value": 28167,
+                "value": 28233,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-25",
-                "value": 27892,
+                "value": 27987,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-26",
-                "value": 27478,
+                "value": 27596,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-27",
-                "value": 27190,
+                "value": 27366,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-28",
-                "value": 26745,
+                "value": 26970,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-29",
-                "value": 26254,
+                "value": 26585,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-30",
-                "value": 26227,
+                "value": 26725,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-31",
-                "value": 25635,
+                "value": 26316,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-01",
-                "value": 25134,
+                "value": 26147,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-02",
-                "value": 24505,
+                "value": 25920,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-03",
-                "value": 23262,
+                "value": 25260,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-04",
-                "value": 22145,
+                "value": 24801,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-05",
-                "value": 20671,
+                "value": 24150,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-06",
-                "value": 18810,
+                "value": 23197,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-07",
-                "value": 16880,
+                "value": 21993,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-08",
+                "value": 20490,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-09",
-                "value": 17153,
+                "value": 19062,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-11",
+                "value": 16897,
                 "is_from_informe_epi": "FALSE"
             }
         ]
@@ -870,16 +880,16 @@
         "Metropolitana": {
             "poblacion": 8125072,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 262056
+                "date": "2020-08-11",
+                "value": 263095
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 6714
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 7909
+                "date": "2020-08-11",
+                "value": 7972
             },
             "series": {
                 "activos": [
@@ -10756,16 +10766,16 @@
         "Arica y Parinacota": {
             "poblacion": 252110,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 5138
+                "date": "2020-08-11",
+                "value": 5334
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 731
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 77
+                "date": "2020-08-11",
+                "value": 78
             },
             "series": {
                 "activos": [
@@ -11666,16 +11676,16 @@
         "Tarapac\u00e1": {
             "poblacion": 382773,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 9367
+                "date": "2020-08-11",
+                "value": 9543
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 834
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 181
+                "date": "2020-08-11",
+                "value": 182
             },
             "series": {
                 "activos": [
@@ -13137,16 +13147,16 @@
         "Antofagasta": {
             "poblacion": 691854,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 16005
+                "date": "2020-08-11",
+                "value": 16239
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 1187
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 378
+                "date": "2020-08-11",
+                "value": 387
             },
             "series": {
                 "activos": [
@@ -14982,16 +14992,16 @@
         "Atacama": {
             "poblacion": 314709,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 3564
+                "date": "2020-08-11",
+                "value": 3998
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 834
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 19
+                "date": "2020-08-11",
+                "value": 21
             },
             "series": {
                 "activos": [
@@ -16827,16 +16837,16 @@
         "Coquimbo": {
             "poblacion": 836096,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 7312
+                "date": "2020-08-11",
+                "value": 7549
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 1091
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 84
+                "date": "2020-08-11",
+                "value": 89
             },
             "series": {
                 "activos": [
@@ -19794,16 +19804,16 @@
         "Valpara\u00edso": {
             "poblacion": 1960170,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 19090
+                "date": "2020-08-11",
+                "value": 19371
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 1919
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 564
+                "date": "2020-08-11",
+                "value": 569
             },
             "series": {
                 "activos": [
@@ -27062,16 +27072,16 @@
         "O'Higgins": {
             "poblacion": 991063,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 11540
+                "date": "2020-08-11",
+                "value": 11728
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 946
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 270
+                "date": "2020-08-11",
+                "value": 281
             },
             "series": {
                 "activos": [
@@ -33395,15 +33405,15 @@
         "Maule": {
             "poblacion": 1131939,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 9852
+                "date": "2020-08-11",
+                "value": 9983
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 860
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 203
             },
             "series": {
@@ -39167,15 +39177,15 @@
         "\u00d1uble": {
             "poblacion": 511551,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 3784
+                "date": "2020-08-11",
+                "value": 3843
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 313
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 69
             },
             "series": {
@@ -43256,16 +43266,16 @@
         "Biob\u00edo": {
             "poblacion": 1663696,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 12891
+                "date": "2020-08-11",
+                "value": 13174
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 1599
             },
             "fallecidos": {
-                "date": "2020-08-09",
-                "value": 139
+                "date": "2020-08-11",
+                "value": 143
             },
             "series": {
                 "activos": [
@@ -49589,15 +49599,15 @@
         "La Araucan\u00eda": {
             "poblacion": 1014343,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 4397
+                "date": "2020-08-11",
+                "value": 4455
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 292
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 83
             },
             "series": {
@@ -55735,15 +55745,15 @@
         "Los R\u00edos": {
             "poblacion": 405835,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 955
+                "date": "2020-08-11",
+                "value": 981
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 66
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 15
             },
             "series": {
@@ -58141,15 +58151,15 @@
         "Los Lagos": {
             "poblacion": 891440,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 4932
+                "date": "2020-08-11",
+                "value": 5053
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 1081
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 54
             },
             "series": {
@@ -63913,15 +63923,15 @@
         "Ays\u00e9n": {
             "poblacion": 107297,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 94
+                "date": "2020-08-11",
+                "value": 95
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 14
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 1
             },
             "series": {
@@ -65945,15 +65955,15 @@
         "Magallanes": {
             "poblacion": 178362,
             "confirmados": {
-                "date": "2020-08-09",
-                "value": 2018
+                "date": "2020-08-11",
+                "value": 2109
             },
             "activos": {
                 "date": "2020-08-06",
                 "value": 240
             },
             "fallecidos": {
-                "date": "2020-08-09",
+                "date": "2020-08-11",
                 "value": 30
             },
             "series": {
