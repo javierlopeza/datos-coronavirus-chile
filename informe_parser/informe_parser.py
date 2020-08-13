@@ -3,7 +3,7 @@ import json
 import csv
 from collections import OrderedDict
 
-INPUT_DATE = "2020-08-06"
+INPUT_DATE = "2020-08-09"
 PARSE_PDF = False
 
 
