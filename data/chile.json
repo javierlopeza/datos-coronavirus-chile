@@ -5,8 +5,8 @@
         "value": 388855
     },
     "activos": {
-        "date": "2020-08-18",
-        "value": 15869,
+        "date": "2020-08-24",
+        "value": 16188,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
@@ -47,92 +47,92 @@
             },
             {
                 "date": "2020-02-28",
-                "value": 21,
+                "value": 20,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-02-29",
-                "value": 22,
+                "value": 21,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-01",
-                "value": 31,
+                "value": 30,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-02",
-                "value": 38,
+                "value": 37,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-03",
-                "value": 46,
+                "value": 45,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-04",
-                "value": 55,
+                "value": 54,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-05",
-                "value": 77,
+                "value": 75,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-06",
-                "value": 90,
+                "value": 88,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-07",
-                "value": 103,
+                "value": 101,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-08",
-                "value": 126,
+                "value": 124,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-09",
-                "value": 160,
+                "value": 158,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-10",
-                "value": 216,
+                "value": 214,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-11",
-                "value": 266,
+                "value": 264,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-12",
-                "value": 333,
+                "value": 330,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-13",
-                "value": 444,
+                "value": 442,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-14",
-                "value": 594,
+                "value": 592,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-15",
-                "value": 760,
+                "value": 759,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-16",
-                "value": 1029,
+                "value": 1030,
                 "is_from_informe_epi": "TRUE"
             },
             {
@@ -142,367 +142,367 @@
             },
             {
                 "date": "2020-03-18",
-                "value": 1529,
+                "value": 1530,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-19",
-                "value": 1796,
+                "value": 1798,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-20",
-                "value": 2138,
+                "value": 2139,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-21",
-                "value": 2429,
+                "value": 2431,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-22",
-                "value": 2705,
+                "value": 2706,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-23",
-                "value": 3052,
+                "value": 3055,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-24",
-                "value": 3312,
+                "value": 3315,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-25",
-                "value": 3590,
+                "value": 3594,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-26",
-                "value": 3856,
+                "value": 3861,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-27",
-                "value": 4081,
+                "value": 4086,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-28",
-                "value": 4254,
+                "value": 4261,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-29",
-                "value": 4356,
+                "value": 4362,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-30",
-                "value": 4463,
+                "value": 4466,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-03-31",
-                "value": 4539,
+                "value": 4545,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-01",
-                "value": 4726,
+                "value": 4731,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-02",
-                "value": 4819,
+                "value": 4825,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-03",
-                "value": 4846,
+                "value": 4854,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-04",
-                "value": 4925,
+                "value": 4932,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-05",
-                "value": 4965,
+                "value": 4970,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-06",
-                "value": 5045,
+                "value": 5025,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-07",
-                "value": 5135,
+                "value": 5104,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-08",
-                "value": 5212,
+                "value": 5179,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-09",
-                "value": 5330,
+                "value": 5297,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-10",
-                "value": 5440,
+                "value": 5405,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-11",
-                "value": 5471,
+                "value": 5433,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-12",
-                "value": 5588,
+                "value": 5551,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-13",
-                "value": 5807,
+                "value": 5766,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-14",
-                "value": 6008,
+                "value": 5964,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-15",
-                "value": 6212,
+                "value": 6166,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-16",
-                "value": 6435,
+                "value": 6385,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-17",
-                "value": 6666,
+                "value": 6615,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-18",
-                "value": 6832,
+                "value": 6781,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-19",
-                "value": 7024,
+                "value": 6976,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-20",
-                "value": 7608,
+                "value": 7581,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-21",
-                "value": 7962,
+                "value": 7943,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-22",
-                "value": 8385,
+                "value": 8365,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-23",
-                "value": 8811,
+                "value": 8790,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-24",
-                "value": 9457,
+                "value": 9439,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-25",
-                "value": 10173,
+                "value": 10153,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-26",
-                "value": 10872,
+                "value": 10851,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-27",
-                "value": 11983,
+                "value": 11965,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-28",
-                "value": 13187,
+                "value": 13166,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-29",
-                "value": 14284,
+                "value": 14261,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-04-30",
-                "value": 15707,
+                "value": 15674,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-01",
-                "value": 17902,
+                "value": 17868,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-02",
-                "value": 19946,
+                "value": 19915,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-03",
-                "value": 22165,
+                "value": 22135,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-04",
-                "value": 24916,
+                "value": 24897,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-05",
-                "value": 27709,
+                "value": 27691,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-06",
-                "value": 30399,
+                "value": 30380,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-07",
-                "value": 33246,
+                "value": 33231,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-08",
-                "value": 36431,
+                "value": 36419,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-09",
-                "value": 39245,
+                "value": 39234,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-10",
-                "value": 42353,
+                "value": 42340,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-11",
-                "value": 46093,
+                "value": 46074,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-12",
-                "value": 49209,
+                "value": 49195,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-13",
-                "value": 51726,
+                "value": 51716,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-14",
-                "value": 53908,
+                "value": 53909,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-15",
-                "value": 56556,
+                "value": 56550,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-16",
-                "value": 58821,
+                "value": 58818,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-17",
-                "value": 60632,
+                "value": 60630,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-18",
-                "value": 62695,
+                "value": 62680,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-19",
-                "value": 64395,
+                "value": 64377,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-20",
-                "value": 67127,
+                "value": 67104,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-21",
-                "value": 68028,
+                "value": 68001,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-22",
-                "value": 69448,
+                "value": 69421,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-23",
-                "value": 70568,
+                "value": 70545,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-24",
-                "value": 70895,
+                "value": 70874,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-25",
-                "value": 71730,
+                "value": 71715,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-26",
-                "value": 71745,
+                "value": 71727,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-27",
-                "value": 72491,
+                "value": 72474,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-28",
-                "value": 73371,
+                "value": 73358,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-05-29",
-                "value": 73171,
+                "value": 73170,
                 "is_from_informe_epi": "TRUE"
             },
             {
@@ -512,382 +512,427 @@
             },
             {
                 "date": "2020-05-31",
-                "value": 72969,
+                "value": 72964,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-01",
-                "value": 74133,
+                "value": 74148,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-02",
-                "value": 73681,
+                "value": 73699,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-03",
-                "value": 72046,
+                "value": 72068,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-04",
-                "value": 72032,
+                "value": 72047,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-05",
-                "value": 71490,
+                "value": 71501,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-06",
-                "value": 70893,
+                "value": 70905,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-07",
-                "value": 70277,
+                "value": 70288,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-08",
-                "value": 69413,
+                "value": 69417,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-09",
-                "value": 68745,
+                "value": 68742,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-10",
-                "value": 68182,
+                "value": 68173,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-11",
-                "value": 67087,
+                "value": 67073,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-12",
-                "value": 66449,
+                "value": 66423,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-13",
-                "value": 65715,
+                "value": 65688,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-14",
-                "value": 64973,
+                "value": 64952,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-15",
-                "value": 62777,
+                "value": 62745,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-16",
-                "value": 62132,
+                "value": 62098,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-17",
-                "value": 61407,
+                "value": 61372,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-18",
-                "value": 60815,
+                "value": 60788,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-19",
-                "value": 59680,
+                "value": 59650,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-20",
-                "value": 58967,
+                "value": 58934,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-21",
-                "value": 58080,
+                "value": 58049,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-22",
-                "value": 56440,
+                "value": 56422,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-23",
-                "value": 55696,
+                "value": 55685,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-24",
-                "value": 54458,
+                "value": 54456,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-25",
-                "value": 53564,
+                "value": 53561,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-26",
-                "value": 52133,
+                "value": 52128,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-27",
-                "value": 50694,
+                "value": 50678,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-28",
-                "value": 49582,
+                "value": 49567,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-29",
-                "value": 47397,
+                "value": 47377,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-06-30",
-                "value": 46200,
+                "value": 46186,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-01",
-                "value": 45590,
+                "value": 45571,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-02",
-                "value": 44002,
+                "value": 43985,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-03",
-                "value": 42608,
+                "value": 42591,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-04",
-                "value": 41237,
+                "value": 41221,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-05",
-                "value": 40442,
+                "value": 40420,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-06",
-                "value": 39462,
+                "value": 39432,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-07",
-                "value": 38478,
+                "value": 38449,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-08",
-                "value": 37516,
+                "value": 37486,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-09",
-                "value": 36648,
+                "value": 36615,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-10",
-                "value": 35954,
+                "value": 35928,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-11",
-                "value": 35227,
+                "value": 35208,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-12",
-                "value": 34601,
+                "value": 34580,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-13",
-                "value": 34350,
+                "value": 34323,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-14",
-                "value": 33609,
+                "value": 33585,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-15",
-                "value": 32438,
+                "value": 32422,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-16",
-                "value": 31695,
+                "value": 31681,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-17",
-                "value": 31301,
+                "value": 31282,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-18",
-                "value": 30875,
+                "value": 30861,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-19",
-                "value": 30246,
+                "value": 30232,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-20",
-                "value": 29821,
+                "value": 29807,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-21",
-                "value": 29309,
+                "value": 29289,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-22",
-                "value": 28966,
+                "value": 28940,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-23",
-                "value": 28785,
+                "value": 28754,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-24",
-                "value": 28243,
+                "value": 28209,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-25",
-                "value": 28009,
+                "value": 27975,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-26",
-                "value": 27623,
+                "value": 27586,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-27",
-                "value": 27436,
+                "value": 27411,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-28",
-                "value": 27066,
+                "value": 27035,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-29",
-                "value": 26707,
+                "value": 26691,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-30",
-                "value": 26893,
+                "value": 26877,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-07-31",
-                "value": 26549,
+                "value": 26558,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-01",
-                "value": 26520,
+                "value": 26553,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-02",
-                "value": 26441,
+                "value": 26520,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-03",
-                "value": 26045,
+                "value": 26209,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-04",
-                "value": 25924,
+                "value": 26175,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-05",
-                "value": 25703,
+                "value": 26061,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-06",
-                "value": 25332,
+                "value": 25867,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-07",
-                "value": 24991,
+                "value": 25746,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-08",
-                "value": 24410,
+                "value": 25490,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-09",
-                "value": 23783,
+                "value": 25271,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-10",
-                "value": 22659,
+                "value": 25034,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-11",
-                "value": 21629,
+                "value": 24940,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-12",
-                "value": 20266,
+                "value": 24818,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-13",
-                "value": 18448,
+                "value": 24413,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-14",
+                "value": 24128,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-15",
+                "value": 23504,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-16",
+                "value": 23051,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-17",
+                "value": 22519,
                 "is_from_informe_epi": "TRUE"
             },
             {
                 "date": "2020-08-18",
-                "value": 15869,
+                "value": 22012,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-19",
+                "value": 21306,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-20",
+                "value": 20288,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-21",
+                "value": 18856,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-22",
+                "value": 17456,
+                "is_from_informe_epi": "TRUE"
+            },
+            {
+                "date": "2020-08-24",
+                "value": 16188,
                 "is_from_informe_epi": "FALSE"
             }
         ]
