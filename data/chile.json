@@ -1,17 +1,17 @@
 {
     "poblacion": 19458310,
     "confirmados": {
-        "date": "2020-09-11",
-        "value": 430535
+        "date": "2020-09-19",
+        "value": 444674
     },
     "activos": {
-        "date": "2020-09-11",
-        "value": 15621,
+        "date": "2020-09-19",
+        "value": 14319,
         "is_from_informe_epi": "FALSE"
     },
     "fallecidos": {
-        "date": "2020-09-11",
-        "value": 11850
+        "date": "2020-09-19",
+        "value": 12254
     },
     "series": {
         "activos": [
@@ -1024,6 +1024,11 @@
                 "date": "2020-09-11",
                 "value": 15621,
                 "is_from_informe_epi": "FALSE"
+            },
+            {
+                "date": "2020-09-19",
+                "value": 14319,
+                "is_from_informe_epi": "FALSE"
             }
         ]
     },
@@ -1035,16 +1040,16 @@
         "Metropolitana": {
             "poblacion": 8125072,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 279129
+                "date": "2020-09-19",
+                "value": 282535
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 5965
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 8818
+                "date": "2020-09-19",
+                "value": 8998
             },
             "series": {
                 "activos": [
@@ -12829,16 +12834,16 @@
         "Arica y Parinacota": {
             "poblacion": 252110,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 7187
+                "date": "2020-09-19",
+                "value": 7561
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 576
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 126
+                "date": "2020-09-19",
+                "value": 138
             },
             "series": {
                 "activos": [
@@ -13919,16 +13924,16 @@
         "Tarapac\u00e1": {
             "poblacion": 382773,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 11091
+                "date": "2020-09-19",
+                "value": 11401
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 525
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 213
+                "date": "2020-09-19",
+                "value": 218
             },
             "series": {
                 "activos": [
@@ -15678,16 +15683,16 @@
         "Antofagasta": {
             "poblacion": 691854,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 18934
+                "date": "2020-09-19",
+                "value": 19391
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 772
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 470
+                "date": "2020-09-19",
+                "value": 489
             },
             "series": {
                 "activos": [
@@ -17883,16 +17888,16 @@
         "Atacama": {
             "poblacion": 314709,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 6163
+                "date": "2020-09-19",
+                "value": 6552
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 414
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 52
+                "date": "2020-09-19",
+                "value": 56
             },
             "series": {
                 "activos": [
@@ -20088,16 +20093,16 @@
         "Coquimbo": {
             "poblacion": 836096,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 10885
+                "date": "2020-09-19",
+                "value": 11497
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 996
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 172
+                "date": "2020-09-19",
+                "value": 192
             },
             "series": {
                 "activos": [
@@ -23631,16 +23636,16 @@
         "Valpara\u00edso": {
             "poblacion": 1960170,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 24788
+                "date": "2020-09-19",
+                "value": 26095
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 2266
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 770
+                "date": "2020-09-19",
+                "value": 823
             },
             "series": {
                 "activos": [
@@ -32303,16 +32308,16 @@
         "O'Higgins": {
             "poblacion": 991063,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 14449
+                "date": "2020-09-19",
+                "value": 15386
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 1197
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 359
+                "date": "2020-09-19",
+                "value": 383
             },
             "series": {
                 "activos": [
@@ -39860,16 +39865,16 @@
         "Maule": {
             "poblacion": 1131939,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 13139
+                "date": "2020-09-19",
+                "value": 14317
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 1152
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 283
+                "date": "2020-09-19",
+                "value": 297
             },
             "series": {
                 "activos": [
@@ -46748,16 +46753,16 @@
         "\u00d1uble": {
             "poblacion": 511551,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 5362
+                "date": "2020-09-19",
+                "value": 5881
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 927
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 92
+                "date": "2020-09-19",
+                "value": 105
             },
             "series": {
                 "activos": [
@@ -51629,16 +51634,16 @@
         "Biob\u00edo": {
             "poblacion": 1663696,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 19866
+                "date": "2020-09-19",
+                "value": 21564
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 2990
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 255
+                "date": "2020-09-19",
+                "value": 286
             },
             "series": {
                 "activos": [
@@ -59186,16 +59191,16 @@
         "La Araucan\u00eda": {
             "poblacion": 1014343,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 5758
+                "date": "2020-09-19",
+                "value": 6358
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 403
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 97
+                "date": "2020-09-19",
+                "value": 103
             },
             "series": {
                 "activos": [
@@ -66520,15 +66525,15 @@
         "Los R\u00edos": {
             "poblacion": 405835,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 1305
+                "date": "2020-09-19",
+                "value": 1500
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 145
             },
             "fallecidos": {
-                "date": "2020-09-11",
+                "date": "2020-09-19",
                 "value": 15
             },
             "series": {
@@ -69394,16 +69399,16 @@
         "Los Lagos": {
             "poblacion": 891440,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 7372
+                "date": "2020-09-19",
+                "value": 8086
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 832
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 76
+                "date": "2020-09-19",
+                "value": 85
             },
             "series": {
                 "activos": [
@@ -76282,15 +76287,15 @@
         "Ays\u00e9n": {
             "poblacion": 107297,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 143
+                "date": "2020-09-19",
+                "value": 223
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 24
             },
             "fallecidos": {
-                "date": "2020-09-11",
+                "date": "2020-09-19",
                 "value": 1
             },
             "series": {
@@ -78710,16 +78715,16 @@
         "Magallanes": {
             "poblacion": 178362,
             "confirmados": {
-                "date": "2020-09-11",
-                "value": 4910
+                "date": "2020-09-19",
+                "value": 6273
             },
             "activos": {
                 "date": "2020-09-07",
                 "value": 1452
             },
             "fallecidos": {
-                "date": "2020-09-11",
-                "value": 50
+                "date": "2020-09-19",
+                "value": 64
             },
             "series": {
                 "activos": [
