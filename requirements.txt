@@ -22,7 +22,7 @@ kombu==4.6.8
 numpy==1.18.3
 openpyxl==3.0.3
 packaging==20.3
-pandas==1.0.3
+pandas==1.2.1
 pdfminer.six==20200402
 pendulum==2.1.2
 pycryptodome==3.9.7
