@@ -8,7 +8,7 @@ bleach==3.1.5
 bs4==0.0.1
 camelot-py==0.7.3
 celery==4.4.2
-certifi==2020.4.5.1
+certifi==2022.12.7
 chardet==3.0.4
 click==7.1.2
 compress-json==1.0.3
